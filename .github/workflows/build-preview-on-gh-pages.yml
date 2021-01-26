@@ -9,12 +9,12 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v2
-      - 
+      -
         name: Set up JDK 1.8
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - 
+      -
         name: Build with Ant
         run: ant deploy
       -
@@ -23,6 +23,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
-          build_dir: ${{ GITHUB_WORKSPACE }}
+          build_dir: preview
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
