@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This is a build file for Apache ant (http://ant.apache.org/). This has been tested with Ant 1.7. -->
 <project name="wcag" basedir="." default="usage">
-
+	
 	<description>Generate WCAG 2.1 and related documents</description>
-
+	
 	<!-- Load overriding properties -->
 	<xmlproperty file="build.properties" keeproot="false" semanticattributes="true"/>
-
+	
 	<!-- The following properties need to be set appropriately before doing a build - they should all be overridden by the above property file, but are kept here to serve as defaults -->
-	<property name="outputdir" location="preview" description="Directory within which the output folders are created, normally &quot;../YYYY&quot; unless doing TR in which case it is &quot;../../../TR/&lt;YYYY&gt;&quot;"/>
+	<property name="outputdir" location="." description="Directory within which the output folders are created, normally &quot;../YYYY&quot; unless doing TR in which case it is &quot;../../../TR/&lt;YYYY&gt;&quot;"/>
 	<property name="uri.prefix" value="file:///" description="Prefix if any that must be prepended to URIs to make it resolve on the platform"/>
 	<property name="guidelines.version" value="21" description="Which version of WCAG is being built"/>
 	<property name="w3ccvs.location" location="../../../w3ccvs"/>
-
+	
 	<property name="xslt.factory" value="net.sf.saxon.TransformerFactoryImpl" description="Class name of the XSLT transformer factory, which sets which XSLT engine to use; must be an XSLT 2.0 processor"/>
 	<property name="classpath.saxon" value="lib/saxon9he.jar" description="Path to Saxon jar in order to run XSLT 2.0"/>
-
+	
 	<!-- The following properties usually do not need to be adjusted -->
 	<property name="inputdir.guidelines" location="guidelines"/>
 	<property name="inputdir.understanding" location="understanding"/>
 	<property name="inputdir.techniques" location="techniques"/>
-
+	
 	<property name="outputdir.guidelines" location="${outputdir}/guidelines"/>
 	<property name="outputdir.understanding" location="${outputdir}/understanding"/>
 	<property name="outputdir.techniques" location="${outputdir}/techniques"/>
-
+	
 	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
 		<classpath>
 			<pathelement location="lib/ant-contrib-0.6.jar" />
 		</classpath>
 	</taskdef>
-
+	
 	<target name="usage">
 		<echo level="info">Usage: &quot;ant &lt;target&gt;&quot; to execute a build task
 			Enter &quot;ant -projecthelp&quot; to get list of available build tasks</echo>
 	</target>
-
+	
 	<target name="init"></target>
-
+	
 	<target name="clean" description="Clean up any temp files">
 		<delete file="${inputdir.guidelines}/index-flat.html" failonerror="false"/>
 		<delete file="${inputdir.techniques}/index-flat.html" failonerror="false"/>
@@ -51,7 +51,7 @@
 		<delete dir="output" failonerror="false"/>
 		<delete dir="input" failonerror="false"/>
 	</target>
-
+	
 	<target name="flatten" depends="init" description="Build a copy of guidelines with all data-include files incorporated">
 		<makeurl file="${basedir}/guidelines/" property="base.guidelines"/>
 		<xslt in="${inputdir.guidelines}/index.html" out="${inputdir.guidelines}/index-flat.html" style="xslt/flatten-document.xslt">
@@ -60,14 +60,14 @@
 			<param name="base.dir" expression="${base.guidelines}"/>
 		</xslt>
 	</target>
-
+	
 	<target name="guidelines-xml" depends="flatten" description="Build an XML representation of the guidelines">
 		<xslt in="${inputdir.guidelines}/index-flat.html" out="${inputdir.guidelines}/wcag.xml" style="xslt/generate-structure-xml.xslt">
 			<classpath path="${classpath.saxon}"/>
 			<factory name="${xslt.factory}"/>
 		</xslt>
 	</target>
-
+	
 	<target name="guidelines-versions" description="Create XML list of which WCAG version introduces which guidelines">
 		<local name="output.file"/>
 		<property name="output.file" value="${inputdir.guidelines}/versions.xml"/>
@@ -96,7 +96,7 @@
 		<echo file="${output.file}" append="yes"><![CDATA[</versions>
 ]]></echo>
 	</target>
-
+	
 	<target name="guidelines" depends="init">
 		<mkdir dir="output/guidelines/${guidelines.version}"/>
 		<copy file="css/base.css" todir="output/guidelines/${guidelines.version}"/>
@@ -111,7 +111,7 @@
 			<arg value="3"/>
 		</exec>
 	</target>
-
+	
 	<!-- Techniques -->
 	<target name="techniques-list" description="Create XML list of all the technique files">
 		<local name="output.file"/>
@@ -156,7 +156,7 @@
 		<echo file="${output.file}" append="yes"><![CDATA[</techniques>
 ]]></echo>
 	</target>
-
+	
 	<target name="techniques-association" depends="flatten, guidelines-xml, guidelines-versions" description="Build an XML structure of all techniques">
 		<makeurl file="${basedir}/techniques" property="techniques.dir"/>
 		<makeurl file="${basedir}/understanding" property="understanding.dir"/>
@@ -167,7 +167,7 @@
 			<param name="understanding.dir" expression="${understanding.dir}"/>
 		</xslt>
 	</target>
-
+	
 	<target name="techniques" depends="techniques-list, techniques-association, techniques-index">
 		<makeurl file="${basedir}/techniques/" property="base.techniques"/>
 		<makeurl file="${basedir}/techniques/technique-associations.xml" property="associations.file"/>
@@ -196,14 +196,14 @@
 			<fileset dir="techniques" includes="**/img/*"/>
 		</copy>
 	</target>
-
+	
 	<target name="techniques-toc" depends="techniques-list" description="Generate the TOC for Techniques">
 		<xslt in="${inputdir.techniques}/techniques.xml" out="techniques/toc.html" style="xslt/generate-techniques-toc.xslt" force="true">
 			<classpath path="${classpath.saxon}"/>
 			<factory name="${xslt.factory}"/>
 		</xslt>
 	</target>
-
+	
 	<target name="techniques-index" depends="techniques-toc" description="Flatten the techniques index file">
 		<makeurl file="${basedir}/techniques/" property="base.techniques"/>
 		<mkdir dir="${basedir}/output/techniques/"/>
@@ -225,7 +225,7 @@
 			<param name="loc.techniques" expression="https://w3c.github.io/wcag/techniques/" if="editors"/>
 		</xslt>
 	</target>
-
+	
 	<!-- Understanding -->
 	<target name="understanding" depends="guidelines-xml, guidelines-versions, techniques-list, understanding-index" description="Generate formatted Understanding docs">
 		<makeurl file="${basedir}/understanding/" property="base.understanding"/>
@@ -255,14 +255,14 @@
 			</fileset>
 		</copy>
 	</target>
-
+	
 	<target name="understanding-toc" depends="guidelines-xml" description="Generate the TOC for Understanding">
 		<xslt in="${inputdir.guidelines}/wcag.xml" out="understanding/toc.html" style="xslt/generate-understanding-toc.xslt" force="true">
 			<classpath path="${classpath.saxon}"/>
 			<factory name="${xslt.factory}"/>
 		</xslt>
 	</target>
-
+	
 	<target name="understanding-index" depends="understanding-toc" description="Flatten the understanding index file">
 		<makeurl file="${basedir}/understanding/" property="base.understanding"/>
 		<mkdir dir="${basedir}/output/understanding/"/>
@@ -284,7 +284,7 @@
 			<param name="loc.techniques" expression="https://w3c.github.io/wcag/techniques/" if="editors"/>
 		</xslt>
 	</target>
-
+	
 	<!-- Requirements -->
 	<target name="requirements" depends="init">
 		<mkdir dir="output/requirements/${guidelines.version}"/>
@@ -297,7 +297,7 @@
 			<arg value="3"/>
 		</exec>
 	</target>
-
+	
 	<!-- Conformance Challenges -->
 	<target name="conformance-challenges" depends="init">
 		<mkdir dir="output/conformance-challenges"/>
@@ -310,7 +310,7 @@
 			<arg value="3"/>
 		</exec>
 	</target>
-
+	
 	<!-- Publish -->
 	<target name="deploy" depends="init, understanding-toc, techniques-toc" description="Generate content ready to deploy to gh-pages">
 		<property name="editors" value="true"/>
@@ -323,7 +323,7 @@
 			<fileset dir="working-examples/"/>
 		</copy>
 	</target>
-
+	
 	<target name="publish-w3c" depends="init, understanding-toc, techniques-toc" description="Publish resources to w3c">
 		<property name="publication" value="true"/>
 		<antcall target="techniques"/>
@@ -343,7 +343,7 @@
 			<fileset dir="working-examples/" excludes="index.html **/index.html"/>
 		</copy>
 	</target>
-
+	
 	<!-- JSON -->
 	<target name="json" depends="init, guidelines-xml, techniques-list, techniques-association">
 		<xslt in="${inputdir.guidelines}/wcag.xml" out="${inputdir.guidelines}/wcag.json" style="xslt/xml-to-json.xslt" force="true">
@@ -351,11 +351,11 @@
 			<factory name="${xslt.factory}"/>
 		</xslt>
 	</target>
-
+	
 	<!-- Everything -->
 	<target name="all" depends="init, understanding, techniques" description="Generate entire suite"/>
-
+	
 	<!-- === Sanity check === -->
 	<target name="sanity" depends="init" description="Identifies inconsistencies in documents"></target>
-
+	
 </project>
