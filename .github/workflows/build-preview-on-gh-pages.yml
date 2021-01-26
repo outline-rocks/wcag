@@ -18,7 +18,7 @@ jobs:
           java-version: 1.8
       -
         name: Build with Ant
-        run: cd preview && ant deploy
+        run: cd preview && ant deploy && cd ..
       -
         name: Deploy to GitHub Pages
         if: success()
