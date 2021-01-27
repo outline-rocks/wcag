@@ -9,8 +9,6 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v2
-        with:
-          path: 'preview'
       -
         name: Set up JDK 1.8
         uses: actions/setup-java@v1
@@ -20,11 +18,9 @@ jobs:
         name: Build with Ant
         run: ant deploy
       -
-        name: Deploy to GitHub Pages
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v2
+        name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: gh-pages
-          build_dir: preview
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          allow_empty_commit: true
