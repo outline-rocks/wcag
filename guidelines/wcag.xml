@@ -239,15 +239,14 @@
             </p>
          </content>
          <file href="adaptable"/>
-         <success-criterion id="info-and-relationships">
+         <success-criterion id="info-und-beziehungen">
             <num>1.3.1</num>
-            <name>Info and Relationships</name>
+            <name>Info und Beziehungen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Information, <a>structure</a>, and <a>relationships</a> conveyed through <a>presentation</a> can be <a>programmatically determined</a> or are available in text.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Informationen, <a>Struktur</a> und <a>Beziehungen</a>, die über die <a>Darstellung</a> vermittelt werden, können <a>durch Software bestimmt</a> werden oder stehen in Textform zur Verfügung.</p>
             </content>
             <level>A</level>
-            <file href="info-and-relationships"/>
+            <file href="info-und-beziehungen"/>
          </success-criterion>
          <success-criterion id="meaningful-sequence">
             <num>1.3.2</num>
@@ -383,37 +382,34 @@
             <level>AA</level>
             <file href="resize-text"/>
          </success-criterion>
-         <success-criterion id="images-of-text">
+         <success-criterion id="bilder-eines-textes">
             <num>1.4.5</num>
-            <name>Images of Text</name>
+            <name>Bilder eines Textes</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">If the technologies being used can achieve the visual presentation, <a>text</a> is used to convey information rather than <a>images of text</a> except for the following:
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn die benutzten Techniken die visuelle Präsentation bewirken können, dann wird <a>Text</a> statt <a>Bilder eines Textes</a> dazu benutzt, Informationen zu vermitteln mit den folgenden Ausnahmen:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
       
-                  <dt>Customizable</dt>
+                  <dt>Anpassbar</dt>
       
                   <dd>
          
-                     <p>The image of text can be <a>visually customized</a> to the user's requirements;
-         </p>
+                     <p>Das Bild eines Textes kann <a>visuell</a> an die Anforderungen des Benutzers angepasst werden;</p>
          
                   </dd>
       
-                  <dt>Essential</dt>
+                  <dt>Unentbehrlich</dt>
       
                   <dd>
          
-                     <p>A particular presentation of text is <a>essential</a> to the information being conveyed.
-         </p>
+                     <p>Eine bestimmte Präsentation von Text ist für die vermittelten Informationen <a>unentbehrlich</a>.</p>
          
                   </dd>
       
                </dl>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Logotypes (text that is part of a logo or brand name) are considered essential.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wortbildmarken (Text, der Teil eines Logos oder Markennamens ist) werden als unentbehrlich betrachtet.</p>
             </content>
             <level>AA</level>
-            <file href="images-of-text"/>
+            <file href="bilder-eines-textes"/>
          </success-criterion>
          <success-criterion id="kontrast-erhöht">
             <num>1.4.6</num>
@@ -515,17 +511,17 @@
             <level>AAA</level>
             <file href="visual-presentation"/>
          </success-criterion>
-         <success-criterion id="images-of-text-no-exception">
+         <success-criterion id="bilder-eines-textes-keine-ausnahme">
             <num>1.4.9</num>
-            <name>Images of Text (No Exception)</name>
+            <name>Bilder eines Textes (keine Ausnahme)</name>
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Images of text</a> are only used for <a>pure decoration</a> or where a particular presentation of <a>text</a> is <a>essential</a> to the information being conveyed.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Logotypes (text that is part of a logo or brand name) are considered essential.</p>
+                  <a>Bilder eines Textes</a> werden nur <a>rein dekorativ</a> benutzt oder dann, wenn eine bestimmte Präsentation von <a>Text</a> 
+                  <a>unentbehrlich</a> für die zu vermittelnden Informationen ist.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wortbildmarken (Text, der Teil eines Logos oder Markennamens ist) werden als unentbehrlich betrachtet.</p>
             </content>
             <level>AAA</level>
-            <file href="images-of-text-no-exception"/>
+            <file href="bilder-eines-textes-keine-ausnahme"/>
          </success-criterion>
          <success-criterion id="reflow">
             <num>1.4.10</num>
@@ -830,16 +826,14 @@
             <level>AAA</level>
             <file href="no-timing"/>
          </success-criterion>
-         <success-criterion id="interruptions">
+         <success-criterion id="unterbrechungen">
             <num>2.2.4</num>
-            <name>Interruptions</name>
+            <name>Unterbrechungen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Interruptions can be postponed or suppressed by the user, except interruptions involving
-      an <a>emergency</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Unterbrechungen können vom Benutzer aufgeschoben oder unterdrückt werden mit Ausnahme von Unterbrechungen, bei denen es sich um einen <a>Notfall</a> handelt.</p>
             </content>
             <level>AAA</level>
-            <file href="interruptions"/>
+            <file href="unterbrechungen"/>
          </success-criterion>
          <success-criterion id="re-authenticating">
             <num>2.2.5</num>

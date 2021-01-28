@@ -361,168 +361,7 @@
       <success-criterion id="reiner-audioinhalt-live"/>
    </guideline>
    <guideline id="adaptable">
-      <success-criterion id="info-and-relationships">
-         <sufficient>
-            <situation>
-               <title>Situation A: The technology provides semantic structure to make information and relationships
-               conveyed through presentation programmatically determinable:
-            </title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="ARIA11"/>
-               
-                  <technique xmlns="" id="ARIA12"/>
-               
-                  <technique xmlns="" id="ARIA13"/>
-               
-                  <technique xmlns="" id="ARIA16"/>
-               
-                  <technique xmlns="" id="ARIA17"/>
-               
-                  <technique xmlns="" id="ARIA20"/>
-               
-                  <and xmlns="">
-                     <technique id="G115"/>
-                     <technique id="H49"/>
-                  </and>
-               
-                  <technique xmlns="" id="G117"/>
-               
-                  <technique xmlns="" id="G140"/>
-                  <technique xmlns="" id="ARIA24"/>
-               
-                  <technique xmlns="">
-                     <title>Making information and relationships conveyed through presentation programmatically
-                     determinable using the following techniques:
-                  </title>
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="G138"/>
-                     
-                           <technique xmlns="" id="H51"/>
-                     
-                           <technique xmlns="" id="PDF6"/>
-                     
-                           <technique xmlns="" id="PDF20"/>
-                     
-                           <technique xmlns="" id="H39"/>
-                     
-                           <technique xmlns="" id="H73"/>
-                     
-                           <technique xmlns="" id="H63"/>
-                     
-                           <technique xmlns="" id="H43"/>
-                     
-                           <technique xmlns="" id="H44"/>
-                     
-                           <technique xmlns="" id="H65"/>
-                     
-                           <technique xmlns="" id="PDF10"/>
-                     
-                           <technique xmlns="" id="PDF12"/>
-                     
-                           <technique xmlns="" id="H71"/>
-                     
-                           <technique xmlns="" id="SL20"/>
-                     
-                           <technique xmlns="" id="SL26"/>
-                     
-                           <technique xmlns="" id="H85"/>
-                     
-                           <technique xmlns="" id="H48"/>
-                     
-                           <technique xmlns="" id="H42"/>
-                     
-                           <technique xmlns="" id="PDF9"/>
-                     
-                           <technique xmlns="" id="SCR21"/>
-                     
-                           <technique xmlns="" id="PDF11"/>
-                     
-                           <technique xmlns="" id="PDF17"/>
-                     
-                           <technique xmlns="" id="PDF21"/>
-                     
-                           <technique xmlns="" id="H97"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title> Situation B: The technology in use does NOT provide the semantic structure to make
-               the information and relationships conveyed through presentation programmatically determinable:
-            </title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G117"/>
-               
-                  <technique xmlns="">
-                     <title>Making information and relationships conveyed through presentation programmatically
-                     determinable or available in text using the following techniques:
-                  </title>
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="T1"/>
-                     
-                           <technique xmlns="" id="T2"/>
-                     
-                           <technique xmlns="" id="T3"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="C22"/>
-            
-               <technique xmlns="" id="G162"/>
-            
-               <technique xmlns="" id="ARIA1"/>
-            
-               <technique xmlns="" id="ARIA2"/>
-            
-               <technique xmlns="" id="G141"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F2"/>
-            
-               <technique xmlns="" id="F33"/>
-            
-               <technique xmlns="" id="F34"/>
-            
-               <technique xmlns="" id="F42"/>
-            
-               <technique xmlns="" id="F43"/>
-            
-               <technique xmlns="" id="F46"/>
-            
-               <technique xmlns="" id="F48"/>
-            
-               <technique xmlns="" id="F87"/>
-            
-               <technique xmlns="" id="F90"/>
-            
-               <technique xmlns="" id="F91"/>
-            
-               <technique xmlns="" id="F92"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="info-und-beziehungen"/>
       <success-criterion id="meaningful-sequence">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -778,45 +617,7 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="images-of-text">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="C22"/>
-            
-               <technique xmlns="" id="SL31"/>
-            
-               <technique xmlns="" id="C30"/>
-            
-               <technique xmlns="" id="G140"/>
-            
-               <technique xmlns="" id="PDF7"/>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <section xmlns="http://www.w3.org/1999/xhtml">
-            
-               <h4>CSS Techniques</h4>
-            
-               <ol>
-               
-                  <technique xmlns="" id="C12"/>
-               
-                  <technique xmlns="" id="C13"/>
-               
-                  <technique xmlns="" id="C14"/>
-               
-                  <technique xmlns="" id="C8"/>
-               
-                  <technique xmlns="" id="C6"/>
-               
-               </ol>
-            
-            </section>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="bilder-eines-textes"/>
       <success-criterion id="kontrast-erhöht"/>
       <success-criterion id="low-or-no-background-audio">
          <sufficient>
@@ -929,39 +730,7 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="images-of-text-no-exception">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="C22"/>
-            
-               <technique xmlns="" id="SL31"/>
-            
-               <technique xmlns="" id="C30"/>
-            
-               <technique xmlns="" id="G140"/>
-            
-               <technique xmlns="" id="PDF7"/>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-               
-               <technique xmlns="" id="C12"/>
-               
-               <technique xmlns="" id="C13"/>
-               
-               <technique xmlns="" id="C14"/>
-               
-               <technique xmlns="" id="C8"/>
-               
-               <technique xmlns="" id="C6"/>
-               
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="bilder-eines-textes-keine-ausnahme"/>
       <success-criterion id="reflow">
          <sufficient>
             <ul xmlns="http://www.w3.org/1999/xhtml">
@@ -1275,29 +1044,7 @@
          <advisory/>
          <failure/>
       </success-criterion>
-      <success-criterion id="interruptions">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G75"/>
-            
-               <technique xmlns="" id="G76"/>
-            
-               <technique xmlns="" id="SCR14"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F40"/>
-            
-               <technique xmlns="" id="F41"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="unterbrechungen"/>
       <success-criterion id="re-authenticating">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
