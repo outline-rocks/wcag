@@ -165,8 +165,8 @@
             <num>1.2.3</num>
             <name>Audiodeskription oder Medienalternative (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Alternative für zeitbasierte Medien</a> oder eine <a>Audiodeskription</a>  des <a>aufgezeichneten</a> 
-                  <a>Video</a>inhalts wird für <a>synchronisierte Medien</a>bereitgestellt, außer die Medien sind eine <a>Medienalternative für Text</a> und als solche deutlich gekennzeichnet.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Alternative für zeitbasierte Medien</a> oder eine <a>Audiodeskription</a> des <a>aufgezeichneten</a> 
+                  <a>Video</a>inhalts wird für <a>synchronisierte Medien</a> bereitgestellt, außer die Medien sind eine <a>Medienalternative für Text</a> und als solche deutlich gekennzeichnet.</p>
             </content>
             <level>A</level>
             <file href="audiodeskription-oder-medienalternative-aufgezeichnet"/>
