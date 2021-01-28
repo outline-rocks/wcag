@@ -300,37 +300,7 @@
          <advisory/>
          <failure/>
       </success-criterion>
-      <success-criterion id="extended-audio-description-prerecorded">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G8">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="SM1"/>
-                  
-                        <technique xmlns="" id="SM2"/>
-                  
-                        <technique xmlns="">
-                           <title>Using any player that supports audio and video</title>
-                        </technique>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H96"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="erweiterte-audiodeskription-aufgezeichnet"/>
       <success-criterion id="media-alternative-prerecorded">
          <sufficient>
             <situation>
@@ -1451,57 +1421,7 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="focus-order">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G59"/>
-            
-               <technique xmlns="">
-                  <title>Giving focus to elements in an order that follows sequences and relationships within
-                  the content using one of the following techniques:
-               </title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="C27"/>
-                  
-                        <technique xmlns="" id="PDF3"/>
-                  
-                        <technique xmlns="" id="SL34"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="">
-                  <title>Changing a Web page dynamically using one of the following techniques:</title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="SCR26"/>
-                  
-                        <technique xmlns="" id="SCR37"/>
-                  
-                        <technique xmlns="" id="SCR27"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F44"/>
-            
-               <technique xmlns="" id="F85"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="fokus-reihenfolge"/>
       <success-criterion id="link-purpose-in-context">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -1645,52 +1565,8 @@
          </advisory>
          <failure/>
       </success-criterion>
-      <success-criterion id="headings-and-labels">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G130"/>
-            
-               <technique xmlns="" id="G131"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
-      <success-criterion id="focus-visible">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G149"/>
-            
-               <technique xmlns="" id="C15"/>
-            
-               <technique xmlns="" id="G165"/>
-            
-               <technique xmlns="" id="G195"/>
-
-               <technique xmlns="" id="C40"/>
-            
-               <technique xmlns="" id="SCR31"/>
-            
-               <technique xmlns="" id="SL2"/>
-            
-               <technique xmlns="" id="SL7"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F55"/>
-            
-               <technique xmlns="" id="F78"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="überschriften-und-beschriftungen-labels"/>
+      <success-criterion id="fokus-sichtbar"/>
       <success-criterion id="location">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -2264,121 +2140,9 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="error-suggestion">
-         <sufficient>
-            <situation>
-               <title>Situation A: If a mandatory field contains no information:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G83"/>
-               
-                  <technique xmlns="" id="ARIA2"/>
-               
-                  <technique xmlns="" id="PDF5"/>
-               
-                  <technique xmlns="" id="SL35"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If information for a field is required to be in a specific data format:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="ARIA18"/>
-               
-                  <technique xmlns="" id="G85"/>
-               
-                  <technique xmlns="" id="G177"/>
-               
-                  <technique xmlns="" id="SCR18"/>
-               
-                  <technique xmlns="" id="SCR32"/>
-                              
-                  <technique xmlns="" id="PDF22"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation C: Information provided by the user is required to be one of a limited set
-               of values:
-            </title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="ARIA18"/>
-               
-                  <technique xmlns="" id="G84"/>
-               
-                  <technique xmlns="" id="G177"/>
-               
-                  <technique xmlns="" id="SCR18"/>
-               
-                  <technique xmlns="" id="SCR32"/>
-               
-                  <technique xmlns="" id="PDF22"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G139"/>
-            
-               <technique xmlns="" id="G199"/>
-            
-            </ul>
-            <section xmlns="http://www.w3.org/1999/xhtml">
-            
-               <h4>Client-Side Scripting Techniques (Advisory)</h4>
-            
-               <ul>
-               
-                  <technique xmlns="" id="SCR18"/>
-               
-               </ul>
-            
-            </section>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="fehlerempfehlung"/>
       <success-criterion id="fehlervermeidung-rechtliche-finanzielle-daten"/>
-      <success-criterion id="help">
-         <sufficient>
-            <situation>
-               <title>Situation A: If a form requires text input:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G71"/>
-               
-               
-                  <technique xmlns="" id="G193"/>
-               
-                  <technique xmlns="" id="G194"/>
-               
-                  <technique xmlns="" id="G184"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If a form requires text input in an expected data format:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G89"/>
-               
-                  <technique xmlns="" id="G184"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H89"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="hilfe"/>
       <success-criterion id="fehlervermeidung-alle"/>
    </guideline>
    <guideline id="compatible">

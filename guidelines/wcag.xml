@@ -198,16 +198,16 @@
             <level>AAA</level>
             <file href="sign-language-prerecorded"/>
          </success-criterion>
-         <success-criterion id="extended-audio-description-prerecorded">
+         <success-criterion id="erweiterte-audiodeskription-aufgezeichnet">
             <num>1.2.7</num>
-            <name>Extended Audio Description (Prerecorded)</name>
+            <name>Erweiterte Audiodeskription (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Where pauses in foreground audio are insufficient to allow <a>audio descriptions</a> to convey the sense of the video, <a>extended audio description</a> is provided for all <a>prerecorded</a>
-                  <a>video</a> content in <a>synchronized media</a>.
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn die Pausen im Vordergrund-Audio nicht ausreichend sind, um <a>Audiodeskriptionen</a> zu ermöglichen, die den Sinn des Videos vermitteln, dann wird eine <a>erweiterte Audiodeskription</a> für alle <a>aufgezeichneten</a> 
+                  <a>Video</a>inhalte in <a>synchronisierten Medien</a> bereitgestellt.
    </p>
             </content>
             <level>AAA</level>
-            <file href="extended-audio-description-prerecorded"/>
+            <file href="erweiterte-audiodeskription-aufgezeichnet"/>
          </success-criterion>
          <success-criterion id="media-alternative-prerecorded">
             <num>1.2.8</num>
@@ -935,16 +935,15 @@
             <level>A</level>
             <file href="page-titled"/>
          </success-criterion>
-         <success-criterion id="focus-order">
+         <success-criterion id="fokus-reihenfolge">
             <num>2.4.3</num>
-            <name>Focus Order</name>
+            <name>Fokus-Reihenfolge</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">If a <a>Web page</a> can be <a>navigated sequentially</a> and the navigation sequences affect meaning or operation, focusable components receive
-      focus in an order that preserves meaning and operability.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn eine <a>Webseite</a> 
+                  <a>der Reihe nach navigiert</a> werden kann und die Reihenfolge der Navigation die Bedeutung oder Bedienung beeinflusst, erhalten fokussierbare Komponenten den Fokus in einer Reihenfolge, der Bedeutung und Bedienbarkeit aufrecht erhält.</p>
             </content>
             <level>A</level>
-            <file href="focus-order"/>
+            <file href="fokus-reihenfolge"/>
          </success-criterion>
          <success-criterion id="link-purpose-in-context">
             <num>2.4.4</num>
@@ -967,26 +966,23 @@
             <level>AA</level>
             <file href="multiple-ways"/>
          </success-criterion>
-         <success-criterion id="headings-and-labels">
+         <success-criterion id="überschriften-und-beschriftungen-labels">
             <num>2.4.6</num>
-            <name>Headings and Labels</name>
+            <name>Überschriften und Beschriftungen (Labels)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Headings and <a>labels</a> describe topic or purpose.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Überschriften und <a>Labels</a> beschreiben ein Thema oder einen Zweck.</p>
             </content>
             <level>AA</level>
-            <file href="headings-and-labels"/>
+            <file href="überschriften-und-beschriftungen-labels"/>
          </success-criterion>
-         <success-criterion id="focus-visible">
+         <success-criterion id="fokus-sichtbar">
             <num>2.4.7</num>
-            <name>Focus Visible</name>
+            <name>Fokus sichtbar</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Any keyboard operable user interface has a mode of operation where the keyboard focus
-      indicator is visible.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Jede durch Tastatur bedienbare Benutzerschnittstelle hat einen Bedienmodus, bei dem der Tastaturfokus sichtbar ist.</p>
             </content>
             <level>AA</level>
-            <file href="focus-visible"/>
+            <file href="fokus-sichtbar"/>
          </success-criterion>
          <success-criterion id="location">
             <num>2.4.8</num>
@@ -1290,17 +1286,14 @@
             <level>A</level>
             <file href="labels-or-instructions"/>
          </success-criterion>
-         <success-criterion id="error-suggestion">
+         <success-criterion id="fehlerempfehlung">
             <num>3.3.3</num>
-            <name>Error Suggestion</name>
+            <name>Fehlerempfehlung</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">If an <a>input error</a> is automatically detected and suggestions for correction are known, then the suggestions
-      are provided to the user, unless it would jeopardize the security or purpose of the
-      content.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn ein <a>Eingabefehler</a> automatisch erkannt wird und Korrekturempfehlungen bekannt sind, dann werden diese Empfehlungen dem Benutzer bereitgestellt, außer dies würde die Sicherheit oder den Zweck des Inhalts gefährden.</p>
             </content>
             <level>AA</level>
-            <file href="error-suggestion"/>
+            <file href="fehlerempfehlung"/>
          </success-criterion>
          <success-criterion id="fehlervermeidung-rechtliche-finanzielle-daten">
             <num>3.3.4</num>
@@ -1319,16 +1312,14 @@
             <level>AA</level>
             <file href="fehlervermeidung-rechtliche-finanzielle-daten"/>
          </success-criterion>
-         <success-criterion id="help">
+         <success-criterion id="hilfe">
             <num>3.3.5</num>
-            <name>Help</name>
+            <name>Hilfe</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Context-sensitive help</a> is available.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Es gibt eine <a>kontextsensitive Hilfe</a>.</p>
             </content>
             <level>AAA</level>
-            <file href="help"/>
+            <file href="hilfe"/>
          </success-criterion>
          <success-criterion id="fehlervermeidung-alle">
             <num>3.3.6</num>
