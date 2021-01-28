@@ -116,38 +116,34 @@
             <p xmlns="http://www.w3.org/1999/xhtml">Provide alternatives for time-based media.</p>
          </content>
          <file href="time-based-media"/>
-         <success-criterion id="audio-only-and-video-only-prerecorded">
+         <success-criterion id="reine-audio--und-videoinhalte-aufgezeichnet">
             <num>1.2.1</num>
-            <name>Audio-only and Video-only (Prerecorded)</name>
+            <name>Reine Audio- und Videoinhalte (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For <a>prerecorded</a>
-                  <a>audio-only</a> and prerecorded <a>video-only</a> media, the following are true, except when the audio or video is a <a>media alternative for text</a> and is clearly labeled as such:
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Für <a>aufgezeichnete</a> 
+                  <a>reine Audio</a>- und aufgezeichnete <a>reine Video</a>-Medien gilt das Folgende, außer die Audio- oder Videomedien sind eine <a>Medienalternative für Text</a> und als solche klar gekennzeichnet:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
       
-                  <dt>Prerecorded Audio-only</dt>
+                  <dt>Aufgezeichneter reiner Audioinhalt</dt>
       
                   <dd>
          
-                     <p>An <a>alternative for time-based media</a> is provided that presents equivalent information for prerecorded audio-only content.
-         </p>
+                     <p> Es wird eine <a>Alternative für zeitbasierte Medien</a> bereitgestellt, die äquivalente Informationen für aufgezeichneten reinen Audioinhalt bietet.</p>
          
                   </dd>
       
-                  <dt>Prerecorded Video-only</dt>
+                  <dt>Aufgezeichneter reiner Videoinhalt</dt>
       
                   <dd>
          
-                     <p>Either an alternative for time-based media or an audio track is provided that presents
-            equivalent information for prerecorded video-only content.
-         </p>
+                     <p>Es wird entweder eine Alternative für zeitbasierte Medien oder eine Audiospur zur Verfügung gestellt, die äquivalente Informationen für aufgezeichneten reinen Videoinhalt bietet.</p>
          
                   </dd>
       
                </dl>
             </content>
             <level>A</level>
-            <file href="audio-only-and-video-only-prerecorded"/>
+            <file href="reine-audio--und-videoinhalte-aufgezeichnet"/>
          </success-criterion>
          <success-criterion id="captions-prerecorded">
             <num>1.2.2</num>
@@ -171,29 +167,25 @@
             <level>A</level>
             <file href="audiodeskription-oder-medienalternative-aufgezeichnet"/>
          </success-criterion>
-         <success-criterion id="captions-live">
+         <success-criterion id="untertitel-live">
             <num>1.2.4</num>
-            <name>Captions (Live)</name>
+            <name>Untertitel (Live)</name>
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Captions</a> are provided for all <a>live</a>
-                  <a>audio</a> content in <a>synchronized media</a>.
-   </p>
+                  <a>Untertitel</a> werden für alle <a>Live</a>-<a>Audio</a>inhalte in <a>synchronisierten Medien</a> bereitgestellt.</p>
             </content>
             <level>AA</level>
-            <file href="captions-live"/>
+            <file href="untertitel-live"/>
          </success-criterion>
-         <success-criterion id="audio-description-prerecorded">
+         <success-criterion id="audiodeskription-aufgezeichnet">
             <num>1.2.5</num>
-            <name>Audio Description (Prerecorded)</name>
+            <name>Audiodeskription (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Audio description</a> is provided for all <a>prerecorded</a>
-                  <a>video</a> content in <a>synchronized media</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Audiodeskription</a> wird für alle <a>aufgezeichneten</a> 
+                  <a>Video</a>inhalte in <a>synchronisierten Medien</a> zur Verfügung gestellt.</p>
             </content>
             <level>AA</level>
-            <file href="audio-description-prerecorded"/>
+            <file href="audiodeskription-aufgezeichnet"/>
          </success-criterion>
          <success-criterion id="sign-language-prerecorded">
             <num>1.2.6</num>
@@ -229,16 +221,14 @@
             <level>AAA</level>
             <file href="media-alternative-prerecorded"/>
          </success-criterion>
-         <success-criterion id="audio-only-live">
+         <success-criterion id="reiner-audioinhalt-live">
             <num>1.2.9</num>
-            <name>Audio-only (Live)</name>
+            <name>Reiner Audioinhalt (Live)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">An <a>alternative for time-based media</a> that presents equivalent information for <a>live</a>
-                  <a>audio-only</a> content is provided.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Alternative für zeitbasierte Medien</a>, die äquivalente Informationen für <a>live</a> übertragene <a>reine Audio</a>inhalte bietet, wird bereitgestellt.</p>
             </content>
             <level>AAA</level>
-            <file href="audio-only-live"/>
+            <file href="reiner-audioinhalt-live"/>
          </success-criterion>
       </guideline>
       <guideline id="adaptable">
@@ -934,15 +924,14 @@
             <p xmlns="http://www.w3.org/1999/xhtml">Provide ways to help users navigate, find content, and determine where they are.</p>
          </content>
          <file href="navigable"/>
-         <success-criterion id="bypass-blocks">
+         <success-criterion id="blöcke-umgehen">
             <num>2.4.1</num>
-            <name>Bypass Blocks</name>
+            <name>Blöcke umgehen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">A <a>mechanism</a> is available to bypass blocks of content that are repeated on multiple <a>Web pages</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Es gibt einen <a>Mechanismus</a>, um Inhaltsblöcke zu umgehen, die auf verschiedenen <a>Webseiten</a> wiederholt werden.</p>
             </content>
             <level>A</level>
-            <file href="bypass-blocks"/>
+            <file href="blöcke-umgehen"/>
          </success-criterion>
          <success-criterion id="page-titled">
             <num>2.4.2</num>

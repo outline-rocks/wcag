@@ -271,48 +271,7 @@
       </success-criterion>
    </guideline>
    <guideline id="time-based-media">
-      <success-criterion id="audio-only-and-video-only-prerecorded">
-         <sufficient>
-            <situation>
-               <title>Situation A: If the content is prerecorded audio-only:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G158"/>
-               
-                  <technique xmlns="" id="SL17"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If the content is prerecorded video-only:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G159"/>
-               
-                  <technique xmlns="" id="G166"/>
-               
-                  <technique xmlns="" id="SL17"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H96"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F30"/>
-            
-               <technique xmlns="" id="F67"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="reine-audio--und-videoinhalte-aufgezeichnet"/>
       <success-criterion id="captions-prerecorded">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -355,115 +314,8 @@
          </failure>
       </success-criterion>
       <success-criterion id="audiodeskription-oder-medienalternative-aufgezeichnet"/>
-      <success-criterion id="captions-live">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <and xmlns="">
-                  <technique id="G9"/>
-                  <technique id="G93"/>
-               </and>
-            
-               <and xmlns="">
-                  <technique id="G9"/>
-                  <technique id="G87"/>
-               </and>
-            
-               <and xmlns="">
-                  <technique id="G9">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                           <technique xmlns="" id="SM11"/>
-                  
-                           <technique xmlns="" id="SM12"/>
-                  
-                        </ul>
-                     </using>
-                  </technique>
-                  <technique id="G87">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                           <technique xmlns="" id="SM11"/>
-                  
-                           <technique xmlns="" id="SM12"/>
-                  
-                        </ul>
-                     </using>
-                  </technique>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="SM11"/>
-                  
-                        <technique xmlns="" id="SM12"/>
-                  
-                     </ul>
-                  </using>
-               </and>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
-      <success-criterion id="audio-description-prerecorded">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G78"/>
-            
-               <and xmlns="">
-                  <technique id="G78"/>
-                  <technique id="SL1"/>
-               </and>
-            
-               <technique xmlns="" id="G173">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="SM6"/>
-                  
-                        <technique xmlns="" id="SM7"/>
-                  
-                        <technique xmlns="">
-                           <title>Using any player that supports audio and video</title>
-                        </technique>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="G8">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="SM1"/>
-                  
-                        <technique xmlns="" id="SM2"/>
-                  
-                        <technique xmlns="">
-                           <title>Using any player that supports audio and video</title>
-                        </technique>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="G203"/>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H96"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="untertitel-live"/>
+      <success-criterion id="audiodeskription-aufgezeichnet"/>
       <success-criterion id="sign-language-prerecorded">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -576,21 +428,7 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="audio-only-live">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G151"/>
-            
-               <technique xmlns="" id="G150"/>
-            
-               <technique xmlns="" id="G157"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="reiner-audioinhalt-live"/>
    </guideline>
    <guideline id="adaptable">
       <success-criterion id="info-and-relationships">
@@ -1713,64 +1551,7 @@
       </success-criterion>
    </guideline>
    <guideline id="navigable">
-      <success-criterion id="bypass-blocks">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="">
-                  <title>Creating links to skip blocks of repeated material using one of the following techniques:</title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="G1"/>
-                  
-                        <technique xmlns="" id="G123"/>
-                  
-                        <technique xmlns="" id="G124"/>
-                  
-                        <technique xmlns="" id="SL25"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="">
-                  <title>Grouping blocks of repeated material in a way that can be skipped, using one of the
-                  following techniques:
-               </title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="ARIA11"/>
-                  
-                        <technique xmlns="" id="H69"/>
-                  
-                        <technique xmlns="" id="PDF9"/>
-                  
-                        <and xmlns="">
-                           <technique id="H70"/>
-                           <technique id="H64"/>
-                        </and>
-                  
-                        <technique xmlns="" id="SCR28"/>
-                  
-                        <technique xmlns="" id="SL29"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="C6"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="blöcke-umgehen"/>
       <success-criterion id="page-titled">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
