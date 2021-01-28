@@ -161,16 +161,15 @@
             <level>A</level>
             <file href="captions-prerecorded"/>
          </success-criterion>
-         <success-criterion id="audio-description-or-media-alternative-prerecorded">
+         <success-criterion id="audiodeskription-oder-medienalternative-aufgezeichnet">
             <num>1.2.3</num>
-            <name>Audio Description or Media Alternative (Prerecorded)</name>
+            <name>Audiodeskription oder Medienalternative (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">An <a>alternative for time-based media</a> or <a>audio description</a> of the <a>prerecorded</a>
-                  <a>video</a> content is provided for <a>synchronized media</a>, except when the media is a <a>media alternative for text</a> and is clearly labeled as such.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Alternative für zeitbasierte Medien</a> oder eine <a>Audiodeskription</a>  des <a>aufgezeichneten</a> 
+                  <a>Video</a>inhalts wird für <a>synchronisierte Medien</a>bereitgestellt, außer die Medien sind eine <a>Medienalternative für Text</a> und als solche deutlich gekennzeichnet.</p>
             </content>
             <level>A</level>
-            <file href="audio-description-or-media-alternative-prerecorded"/>
+            <file href="audiodeskription-oder-medienalternative-aufgezeichnet"/>
          </success-criterion>
          <success-criterion id="captions-live">
             <num>1.2.4</num>
