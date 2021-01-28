@@ -272,47 +272,7 @@
    </guideline>
    <guideline id="time-based-media">
       <success-criterion id="reine-audio--und-videoinhalte-aufgezeichnet"/>
-      <success-criterion id="captions-prerecorded">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G93"/>
-            
-               <technique xmlns="" id="G87"/>
-            
-               <technique xmlns="" id="G87">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="SM11"/>
-                  
-                        <technique xmlns="" id="SM12"/>
-                  
-                        <technique xmlns="" id="H95"/>
-                  
-                        <technique xmlns="" id="SL16"/>
-                  
-                        <technique xmlns="" id="SL28"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F8"/>
-            
-               <technique xmlns="" id="F75"/>
-            
-               <technique xmlns="" id="F74"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="untertitel-aufgezeichnet"/>
       <success-criterion id="audiodeskription-oder-medienalternative-aufgezeichnet"/>
       <success-criterion id="untertitel-live"/>
       <success-criterion id="audiodeskription-aufgezeichnet"/>
@@ -934,54 +894,7 @@
          </advisory>
          <failure/>
       </success-criterion>
-      <success-criterion id="contrast-enhanced">
-         <sufficient>
-            <situation>
-               <title>Situation A: text is less than 18 point if not bold and less than 14 point if bold</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G17"/>
-               
-                  <technique xmlns="" id="G148"/>
-               
-                  <technique xmlns="" id="G174"/>
-               
-                  <technique xmlns="" id="SL13"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: text is as least 18 point if not bold and at least 14 point if bold</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G18"/>
-               
-                  <technique xmlns="" id="G148"/>
-               
-                  <technique xmlns="" id="G174"/>
-               
-                  <technique xmlns="" id="SL13"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G156"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F24"/>
-            
-               <technique xmlns="" id="F83"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="kontrast-erhöht"/>
       <success-criterion id="low-or-no-background-audio">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -2330,132 +2243,9 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="consistent-navigation">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G61"/>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="PDF14"/>
-            
-               <technique xmlns="" id="PDF17"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F66"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
-      <success-criterion id="consistent-identification">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <and xmlns="">
-                  <technique id="G197"/>
-               </and>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F31"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
-      <success-criterion id="change-on-request">
-         <sufficient>
-            <situation>
-               <title>Situation A: If the Web page allows automatic updates:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G76"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If automatic redirects are possible:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="SVR1"/>
-               
-                  <technique xmlns="" id="G110">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="H76"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation C: If the Web page uses pop-up windows:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="">
-                     <title>Including pop-up windows using one of the following techniques:    </title>
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="H83"/>
-                     
-                           <technique xmlns="" id="SCR24"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation D: If using an onchange event on a select element:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="SCR19"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G200"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F60"/>
-            
-               <technique xmlns="" id="F61"/>
-            
-               <technique xmlns="" id="F9"/>
-            
-               <technique xmlns="" id="F22"/>
-            
-               <technique xmlns="" id="F52"/>
-            
-               <technique xmlns="" id="F40"/>
-               <technique xmlns="" id="F41"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="konsistente-navigation"/>
+      <success-criterion id="konsistente-erkennung"/>
+      <success-criterion id="änderung-auf-anfrage"/>
    </guideline>
    <guideline id="input-assistance">
       <success-criterion id="error-identification">
