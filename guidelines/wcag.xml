@@ -338,20 +338,15 @@
             <level>A</level>
             <file href="use-of-color"/>
          </success-criterion>
-         <success-criterion id="audio-control">
+         <success-criterion id="audio-steuerelement">
             <num>1.4.2</num>
-            <name>Audio Control</name>
+            <name>Audio-Steuerelement</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">If any audio on a Web page plays automatically for more than 3 seconds, either a <a>mechanism</a> is available to pause or stop the audio, or a mechanism is available to control audio
-      volume independently from the overall system volume level.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Since any content that does not meet this success criterion can interfere with a user's
-      ability to use the whole page, all content on the Web page (whether or not it is used
-      to meet other success criteria) must meet this success criterion. See <a href="#cc5">Conformance Requirement 5: Non-Interference</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn Audioinhalt auf einer Webseite automatisch für mehr als 3 Sekunden abgespielt wird, dann gibt es entweder einen <a>Mechanismus</a>, um die Wiedergabe zu pausieren oder zu beenden, oder es gibt einen Mechanismus, um die Lautstärke unabhängig von der allgemeinen Systemlautstärke zu regeln.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Jeglicher Inhalt, der dieses Erfolgskriterium nicht erfüllt, kann die Möglichkeit eines Benutzers beeinträchtigen, die ganze Seite zu nutzen. Daher muss jeglicher Inhalt auf einer Webseite (egal ob er dazu benutzt wird, andere Erfolgskriterien zu erfüllen oder nicht) dieses Erfolgskriterium erfüllen. <a href="#cc5">Siehe Konformitätsbedingung 5: Nicht störend</a>.</p>
             </content>
             <level>A</level>
-            <file href="audio-control"/>
+            <file href="audio-steuerelement"/>
          </success-criterion>
          <success-criterion id="contrast-minimum">
             <num>1.4.3</num>
@@ -1204,7 +1199,7 @@
             <num>3.1.4</num>
             <name>Abkürzungen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Es gibt einen <a>Mechanismus</a>, um die ausgeschriebene Form oder Bedeutung von <a>Abkürzungen</a> zu erkennen. (Stufe AAA)
+               <p xmlns="http://www.w3.org/1999/xhtml">Es gibt einen <a>Mechanismus</a>, um die ausgeschriebene Form oder Bedeutung von <a>Abkürzungen</a> zu erkennen.
    </p>
             </content>
             <level>AAA</level>

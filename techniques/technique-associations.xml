@@ -1010,33 +1010,7 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="audio-control">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G60"/>
-            
-               <technique xmlns="" id="G170"/>
-            
-               <technique xmlns="" id="G171"/>
-            
-               <technique xmlns="" id="SL24"/>
-            
-               <technique xmlns="" id="SL3"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F23"/>
-            
-               <technique xmlns="" id="F93"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="audio-steuerelement"/>
       <success-criterion id="contrast-minimum">
          <sufficient>
             <situation>
