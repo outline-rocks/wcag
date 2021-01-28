@@ -725,54 +725,7 @@
          </failure>
       </success-criterion>
       <success-criterion id="audio-steuerelement"/>
-      <success-criterion id="contrast-minimum">
-         <sufficient>
-            <situation>
-               <title>Situation A: text is less than 18 point if not bold and less than 14 point if bold</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G18"/>
-               
-                  <technique xmlns="" id="G148"/>
-               
-                  <technique xmlns="" id="G174"/>
-               
-                  <technique xmlns="" id="SL13"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: text is at least 18 point if not bold and at least 14 point if bold</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G145"/>
-               
-                  <technique xmlns="" id="G148"/>
-               
-                  <technique xmlns="" id="G174"/>
-               
-                  <technique xmlns="" id="SL13"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G156"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F24"/>
-            
-               <technique xmlns="" id="F83"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="kontrast-minimum"/>
       <success-criterion id="resize-text">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -2248,62 +2201,7 @@
       <success-criterion id="änderung-auf-anfrage"/>
    </guideline>
    <guideline id="input-assistance">
-      <success-criterion id="error-identification">
-         <sufficient>
-            <situation>
-               <title>Situation A: If a form contains fields for which information from the user is mandatory.</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G83"/>
-               
-                  <technique xmlns="" id="ARIA21"/>
-               
-                  <technique xmlns="" id="SCR18"/>
-               
-                  <technique xmlns="" id="PDF5"/>
-               
-                  <technique xmlns="" id="SL35"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If information provided by the user is required to be in a specific data
-               format or of certain values.
-            </title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="ARIA18"/>
-               
-                  <technique xmlns="" id="ARIA19"/>
-               
-                  <technique xmlns="" id="ARIA21"/>
-               
-                  <technique xmlns="" id="G84"/>
-               
-                  <technique xmlns="" id="G85"/>
-               
-                  <technique xmlns="" id="SCR18"/>
-               
-                  <technique xmlns="" id="SCR32"/>
-               
-                  <technique xmlns="" id="PDF22"/>
-               
-                  <technique xmlns="" id="SL35"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G139"/>
-            
-               <technique xmlns="" id="G199"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="fehlererkennung"/>
       <success-criterion id="labels-or-instructions">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -2443,58 +2341,7 @@
          </advisory>
          <failure/>
       </success-criterion>
-      <success-criterion id="error-prevention-legal-financial-data">
-         <sufficient>
-            <situation>
-               <title>Situation A: If an application causes a legal transaction to occur, such as making
-               a purchase or submitting an income tax return:
-            </title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G164"/>
-               
-                  <technique xmlns="" id="G98"/>
-               
-                  <technique xmlns="" id="G155"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If an action causes information to be deleted:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G99"/>
-               
-                  <technique xmlns="" id="G168"/>
-               
-                  <technique xmlns="" id="G155"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation C: If the Web page includes a testing application:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G98"/>
-               
-                  <technique xmlns="" id="G168"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="SCR18"/>
-            
-               <technique xmlns="" id="SL35"/>
-            
-               <technique xmlns="" id="G199"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="fehlervermeidung-rechtliche-finanzielle-daten"/>
       <success-criterion id="help">
          <sufficient>
             <situation>
@@ -2532,17 +2379,7 @@
          </advisory>
          <failure/>
       </success-criterion>
-      <success-criterion id="error-prevention-all">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-            
-            
-         </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="fehlervermeidung-alle"/>
    </guideline>
    <guideline id="compatible">
       <success-criterion id="parsing">

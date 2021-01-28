@@ -336,12 +336,11 @@
             <level>A</level>
             <file href="audio-steuerelement"/>
          </success-criterion>
-         <success-criterion id="contrast-minimum">
+         <success-criterion id="kontrast-minimum">
             <num>1.4.3</num>
-            <name>Contrast (Minimum)</name>
+            <name>Kontrast (Minimum)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">The visual presentation of <a>text</a> and <a>images of text</a> has a <a>contrast ratio</a> of at least 4.5:1, except for the following:
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Die visuelle Darstellung von <a>Text</a> und <a>Bildern von Text</a> hat ein <a>Kontrastverhältnis</a> von mindestens 4,5:1 mit folgenden Ausnahmen:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
       
                   <dt>Large Text</dt>
@@ -349,33 +348,30 @@
                   <dd>
          
                      <p>
-                        <a>Large-scale</a> text and images of large-scale text have a contrast ratio of at least 3:1;
-         </p>
+                        <a>Großer</a> Text und Bilder von großem Text haben ein Kontrastverhältnis von mindestens 3:1;</p>
          
                   </dd>
       
-                  <dt>Incidental</dt>
+                  <dt>Nebensächlich</dt>
       
                   <dd>
          
-                     <p>Text or images of text that are part of an inactive <a>user interface component</a>, that are <a>pure decoration</a>, that are not visible to anyone, or that are part of a picture that contains significant
-            other visual content, have no contrast requirement.
-         </p>
+                     <p>Für Text oder Bilder eines Textes, die Teil eines inaktiven <a>Bestandteils der Benutzerschnittstelle</a>, <a>rein dekorativ</a>, für niemanden sichtbar oder Teil eines Bildes sind, welches signifikanten anderen visuellen Inhalt enthält, gibt es keine Kontrastanforderung.</p>
          
                   </dd>
       
-                  <dt>Logotypes</dt>
+                  <dt>Wortbildmarken</dt>
       
                   <dd>
          
-                     <p>Text that is part of a logo or brand name has no contrast requirement.</p>
+                     <p>Text, der Teil eines Logos oder eines Markennamens ist, hat keine Kontrastanforderungen.</p>
          
                   </dd>
       
                </dl>
             </content>
             <level>AA</level>
-            <file href="contrast-minimum"/>
+            <file href="kontrast-minimum"/>
          </success-criterion>
          <success-criterion id="resize-text">
             <num>1.4.4</num>
@@ -439,7 +435,7 @@
       
                   <dd>
          
-                     <p>Für Text oder Bilder eines Textes, die Teil eines <a>inaktiven Bestandteils der Benutzerschnittstelle</a>, <a>rein dekorativ</a>, für niemanden sichtbar oder Teil eines Bildes sind, welches signifikanten anderen visuellen Inhalt enthält, gibt es keine Kontrastanforderung.</p>
+                     <p>Für Text oder Bilder eines Textes, die Teil eines inaktiven <a>Bestandteils der Benutzerschnittstelle</a>, <a>rein dekorativ</a>, für niemanden sichtbar oder Teil eines Bildes sind, welches signifikanten anderen visuellen Inhalt enthält, gibt es keine Kontrastanforderung.</p>
          
                   </dd>
       
@@ -1274,16 +1270,14 @@
             <p xmlns="http://www.w3.org/1999/xhtml">Help users avoid and correct mistakes.</p>
          </content>
          <file href="input-assistance"/>
-         <success-criterion id="error-identification">
+         <success-criterion id="fehlererkennung">
             <num>3.3.1</num>
-            <name>Error Identification</name>
+            <name>Fehlererkennung</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">If an <a>input error</a> is automatically detected, the item that is in error is identified and the error
-      is described to the user in text.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn ein <a>Eingabefehler</a> automatisch erkannt wird, dann wird das fehlerhafte Element identifiziert und der Fehler wird dem Benutzer in Textform beschrieben.</p>
             </content>
             <level>A</level>
-            <file href="error-identification"/>
+            <file href="fehlererkennung"/>
          </success-criterion>
          <success-criterion id="labels-or-instructions">
             <num>3.3.2</num>
@@ -1308,24 +1302,22 @@
             <level>AA</level>
             <file href="error-suggestion"/>
          </success-criterion>
-         <success-criterion id="error-prevention-legal-financial-data">
+         <success-criterion id="fehlervermeidung-rechtliche-finanzielle-daten">
             <num>3.3.4</num>
-            <name>Error Prevention (Legal, Financial, Data)</name>
+            <name>Fehlervermeidung (rechtliche, finanzielle, Daten)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For <a>Web pages</a> that cause <a>legal commitments</a> or financial transactions for the user to occur, that modify or delete <a>user-controllable</a> data in data storage systems, or that submit user test responses, at least one of
-      the following is true:
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Für <a>Webseiten</a>, die eine für den Benutzer auftretende <a>rechtliche Verpflichtung</a> oder finanzielle Transaktion zur Folge haben, die <a>Benutzer-gesteuerte</a> Daten in Datenspeicherungssystemen ändern oder löschen oder die Testantworten des Benutzers abschicken, gilt mindestens eines der Folgenden:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-                  <dt>Reversible</dt>
-                  <dd>Submissions are reversible.</dd>
-                  <dt>Checked</dt>
-                  <dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
-                  <dt>Confirmed</dt>
-                  <dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
+                  <dt>Reversibel</dt>
+                  <dd>Versendete Daten sind reversibel.</dd>
+                  <dt>Geprüft</dt>
+                  <dd>Vom Benutzer eingegebene Daten werden auf Eingabefehler überprüft und der Benutzer erhält die Gelegenheit, diese zu korrigieren.</dd>
+                  <dt>Bestätigt</dt>
+                  <dd>Es gibt einen Mechanismus, um Informationen zu überprüfen, zu bestätigen und zu korrigieren, bevor sie endgültig abgesendet werden.</dd>
                </dl>
             </content>
             <level>AA</level>
-            <file href="error-prevention-legal-financial-data"/>
+            <file href="fehlervermeidung-rechtliche-finanzielle-daten"/>
          </success-criterion>
          <success-criterion id="help">
             <num>3.3.5</num>
@@ -1338,23 +1330,22 @@
             <level>AAA</level>
             <file href="help"/>
          </success-criterion>
-         <success-criterion id="error-prevention-all">
+         <success-criterion id="fehlervermeidung-alle">
             <num>3.3.6</num>
-            <name>Error Prevention (All)</name>
+            <name>Fehlervermeidung (alle)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For <a>Web pages</a> that require the user to submit information, at least one of the following is true:
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Für <a>Webseiten</a>, die verlangen, dass der Benutzer Informationen absendet, gilt mindestens eines der Folgenden:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-                  <dt>Reversible</dt>
-                  <dd>Submissions are reversible.</dd>
-                  <dt>Checked</dt>
-                  <dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
-                  <dt>Confirmed</dt>
-                  <dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
+                  <dt>Reversibel</dt>
+                  <dd>Versendete Daten sind reversibel.</dd>
+                  <dt>Geprüft</dt>
+                  <dd>Vom Benutzer eingegebene Daten werden auf Eingabefehler überprüft und der Benutzer erhält die Gelegenheit, diese zu korrigieren.</dd>
+                  <dt>Bestätigt</dt>
+                  <dd>Es gibt einen Mechanismus, um Informationen zu überprüfen, zu bestätigen und zu korrigieren, bevor sie endgültig abgesendet werden.</dd>
                </dl>
             </content>
             <level>AAA</level>
-            <file href="error-prevention-all"/>
+            <file href="fehlervermeidung-alle"/>
          </success-criterion>
       </guideline>
    </principle>
