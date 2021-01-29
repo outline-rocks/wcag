@@ -171,17 +171,15 @@
             <level>AA</level>
             <file href="audiodeskription-aufgezeichnet"/>
          </success-criterion>
-         <success-criterion id="sign-language-prerecorded">
+         <success-criterion id="gebärdensprache-aufgezeichnet">
             <num>1.2.6</num>
-            <name>Sign Language (Prerecorded)</name>
+            <name>Gebärdensprache (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Sign language interpretation</a> is provided for all <a>prerecorded</a>
-                  <a>audio</a> content in <a>synchronized media</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Übersetzung in die Gebärdensprache</a> wird für alle <a>aufgezeichneten</a>
+                  <a>Audio</a>inhalte in <a>synchronisierten Medien</a> bereitgestellt.</p>
             </content>
             <level>AAA</level>
-            <file href="sign-language-prerecorded"/>
+            <file href="gebärdensprache-aufgezeichnet"/>
          </success-criterion>
          <success-criterion id="erweiterte-audiodeskription-aufgezeichnet">
             <num>1.2.7</num>
@@ -242,18 +240,15 @@
             <level>A</level>
             <file href="bedeutungstragende-reihenfolge"/>
          </success-criterion>
-         <success-criterion id="sensory-characteristics">
+         <success-criterion id="sensorische-eigenschaften">
             <num>1.3.3</num>
-            <name>Sensory Characteristics</name>
+            <name>Sensorische Eigenschaften</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Instructions provided for understanding and operating content do not rely solely on
-      sensory characteristics of components such as shape, color, size, visual location, orientation,
-      or sound.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">For requirements related to color, refer to <a href="#distinguishable">Guideline 1.4</a>.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Anweisungen, die für das Verständnis und die Bedienung von Inhalt bereitgestellt werden, stützen sich nicht nur auf sensorische Eigenschaften von Komponenten wie Form, Größe, visuelle Position, Ausrichtung oder Ton.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Für Anforderungen in Bezug auf Farbe beachten Sie <a href="#distinguishable">Richtlinie 1.4</a>.</p>
             </content>
             <level>A</level>
-            <file href="sensory-characteristics"/>
+            <file href="sensorische-eigenschaften"/>
          </success-criterion>
          <success-criterion id="orientation">
             <num>1.3.4</num>
@@ -356,15 +351,14 @@
             <level>AA</level>
             <file href="kontrast-minimum"/>
          </success-criterion>
-         <success-criterion id="resize-text">
+         <success-criterion id="textgröße-ändern">
             <num>1.4.4</num>
-            <name>Resize text</name>
+            <name>Textgröße ändern</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Except for <a>captions</a> and <a>images of text</a>, <a>text</a> can be resized without <a>assistive technology</a> up to 200 percent without loss of content or functionality.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Mit Ausnahme von <a>Untertiteln</a> und <a>Bildern eines Textes</a>, kann <a>Text</a> ohne <a>assistierende Technik</a> um bis zu 200 Prozent geändert werden, ohne dass dabei Inhalt oder Funktionalität verloren geht.</p>
             </content>
             <level>AA</level>
-            <file href="resize-text"/>
+            <file href="textgröße-ändern"/>
          </success-criterion>
          <success-criterion id="bilder-eines-textes">
             <num>1.4.5</num>
@@ -802,21 +796,16 @@
             <p xmlns="http://www.w3.org/1999/xhtml">Do not design content in a way that is known to cause seizures or physical reactions.</p>
          </content>
          <file href="seizures-and-physical-reactions"/>
-         <success-criterion id="three-flashes-or-below-threshold">
+         <success-criterion id="grenzwert-von-dreimaligem-blitzen-oder-weniger">
             <num>2.3.1</num>
-            <name>Three Flashes or Below Threshold</name>
+            <name>Grenzwert von dreimaligem Blitzen oder weniger</name>
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Web pages</a> do not contain anything that flashes more than three times in any one second period,
-      or the <a>flash</a> is below the <a>general flash and red flash thresholds</a>.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Since any content that does not meet this success criterion can interfere with a user's
-      ability to use the whole page, all content on the Web page (whether it is used to
-      meet other success criteria or not) must meet this success criterion. See <a href="#cc5">Conformance Requirement 5: Non-Interference</a>.
-   </p>
+                  <a>Webseiten</a> enthalten nichts, was öfter als dreimal in einem beliebigen, eine Sekunde dauernden Zeitraum blitzt, oder der <a>Blitz</a> ist unterhalb der allgemeinen <a>Grenzwerte zu Blitzen und roten Blitzen</a>.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Jeglicher Inhalt, der dieses Erfolgskriterium nicht erfüllt, kann die Möglichkeit eines Benutzers beeinträchtigen, die ganze Seite zu nutzen. Daher muss jeglicher Inhalt auf einer Webseite (egal ob er dazu benutzt wird, andere Erfolgskriterien zu erfüllen oder nicht) dieses Erfolgskriterium erfüllen. Siehe <a href="#cc5">Konformitätsbedingung 5: Nicht-Störend</a>.</p>
             </content>
             <level>A</level>
-            <file href="three-flashes-or-below-threshold"/>
+            <file href="grenzwert-von-dreimaligem-blitzen-oder-weniger"/>
          </success-criterion>
          <success-criterion id="three-flashes">
             <num>2.3.2</num>
@@ -930,21 +919,17 @@
             <level>AAA</level>
             <file href="linkzweck-reiner-link"/>
          </success-criterion>
-         <success-criterion id="section-headings">
+         <success-criterion id="abschnittsüberschriften">
             <num>2.4.10</num>
-            <name>Section Headings</name>
+            <name>Abschnittsüberschriften</name>
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Section</a> headings are used to organize the content.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">"Heading" is used in its general sense and includes titles and other ways to add a
-      heading to different types of content.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">This success criterion covers sections within writing, not <a>user interface components</a>. User Interface components are covered under <a href="#name-role-value">Success Criterion 4.1.2</a>.
-   </p>
+                  <a>Abschnitts</a>überschriften werden genutzt, um den Inhalt zu gliedern.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">„Überschrift“ wird in seiner allgemeinen Bedeutung benutzt und beinhaltet Titel und andere Methoden, um verschiedenen Arten von Inhalt eine Überschrift hinzuzufügen.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dieses Erfolgskriterium behandelt Abschnitte innerhalb von Geschriebenem, nicht <a>Bestandteile der Benutzerschnittstelle</a>. Bestandteile der Benutzerschnittstelle werden unter <a href="#name-role-value">Erfolgskriterium 4.1.2</a> behandelt.</p>
             </content>
             <level>AAA</level>
-            <file href="section-headings"/>
+            <file href="abschnittsüberschriften"/>
          </success-criterion>
       </guideline>
       <guideline id="input-modalities">

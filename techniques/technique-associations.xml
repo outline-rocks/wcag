@@ -9,30 +9,7 @@
       <success-criterion id="audiodeskription-oder-medienalternative-aufgezeichnet"/>
       <success-criterion id="untertitel-live"/>
       <success-criterion id="audiodeskription-aufgezeichnet"/>
-      <success-criterion id="sign-language-prerecorded">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G54"/>
-            
-            
-               <technique xmlns="" id="G81">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="SM13"/>
-                  
-                        <technique xmlns="" id="SM14"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="gebärdensprache-aufgezeichnet"/>
       <success-criterion id="erweiterte-audiodeskription-aufgezeichnet"/>
       <success-criterion id="medienalternative-aufgezeichnet"/>
       <success-criterion id="reiner-audioinhalt-live"/>
@@ -40,25 +17,7 @@
    <guideline id="adaptable">
       <success-criterion id="info-und-beziehungen"/>
       <success-criterion id="bedeutungstragende-reihenfolge"/>
-      <success-criterion id="sensory-characteristics">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G96"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F14"/>
-            
-               <technique xmlns="" id="F26"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="sensorische-eigenschaften"/>
       <success-criterion id="orientation">
          <sufficient>
             <ul xmlns="http://www.w3.org/1999/xhtml">
@@ -166,88 +125,7 @@
       </success-criterion>
       <success-criterion id="audio-steuerelement"/>
       <success-criterion id="kontrast-minimum"/>
-      <success-criterion id="resize-text">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G142"/>
-            
-               <technique xmlns="" id="SL22"/>
-            
-               <technique xmlns="" id="SL23"/>
-            
-               <technique xmlns="">
-                  <title>
-                  Ensuring that text containers resize when the text resizes 
-                  <strong xmlns="http://www.w3.org/1999/xhtml">AND</strong> using measurements that are relative to other measurements in the content  by using
-                  one or more of the following techniques:
-               </title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="C28"/>
-                  
-                        <technique xmlns="">
-                           <title>Techniques for relative measurements</title>
-                           <using>
-                              <ul xmlns="http://www.w3.org/1999/xhtml">
-                        
-                                 <technique xmlns="" id="C12"/>
-                        
-                                 <technique xmlns="" id="C13"/>
-                        
-                                 <technique xmlns="" id="C14"/>
-                        
-                              </ul>
-                           </using>
-                        </technique>
-                  
-                        <technique xmlns="">
-                           <title>Techniques for text container resizing</title>
-                           <using>
-                              <ul xmlns="http://www.w3.org/1999/xhtml">
-                        
-                                 <technique xmlns="" id="SCR34"/>
-                        
-                                 <technique xmlns="" id="G146"/>
-                        
-                              </ul>
-                           </using>
-                        </technique>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="G178"/>
-            
-               <technique xmlns="" id="G179"/>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="C17"/>
-            
-            
-               <technique xmlns="" id="C20"/>
-            
-               <technique xmlns="" id="C22"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F69"/>
-            
-               <technique xmlns="" id="F80"/>
-         	     <technique xmlns="" id="F94"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="textgröße-ändern"/>
       <success-criterion id="bilder-eines-textes"/>
       <success-criterion id="kontrast-erhöht"/>
       <success-criterion id="leiser-oder-kein-hintergrund-audioinhalt"/>
@@ -549,21 +427,7 @@
       </success-criterion>
    </guideline>
    <guideline id="seizures-and-physical-reactions">
-      <success-criterion id="three-flashes-or-below-threshold">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G19"/>
-            
-               <technique xmlns="" id="G176"/>
-            
-               <technique xmlns="" id="G15"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="grenzwert-von-dreimaligem-blitzen-oder-weniger"/>
       <success-criterion id="three-flashes">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -598,19 +462,7 @@
       <success-criterion id="fokus-sichtbar"/>
       <success-criterion id="position"/>
       <success-criterion id="linkzweck-reiner-link"/>
-      <success-criterion id="section-headings">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G141"/>
-            	
-               <technique xmlns="" id="H69"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="abschnittsüberschriften"/>
    </guideline>
    <guideline id="input-modalities">
       <success-criterion id="pointer-gestures">
