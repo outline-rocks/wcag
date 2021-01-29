@@ -526,83 +526,10 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="pause-stop-hide">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G4"/>
-            
-               <technique xmlns="" id="SL11"/>
-            
-               <technique xmlns="" id="SL12"/>
-            
-               <technique xmlns="" id="SCR33"/>
-            
-               <technique xmlns="" id="G11"/>
-            
-               <technique xmlns="" id="G187"/>
-            
-               <technique xmlns="" id="G152"/>
-            
-               <technique xmlns="" id="SCR22"/>
-            
-               <technique xmlns="" id="G186"/>
-            
-               <technique xmlns="" id="G191"/>
-            
-               <technique xmlns="" id="SL24"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F16"/>
-            
-               <technique xmlns="" id="F47"/>
-            
-               <technique xmlns="" id="F4"/>
-            
-               <technique xmlns="" id="F50"/>
-            
-               <technique xmlns="" id="F7"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="pausieren-beenden-ausblenden"/>
       <success-criterion id="keine-zeiteinteilung"/>
       <success-criterion id="unterbrechungen"/>
-      <success-criterion id="re-authenticating">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="">
-                  <title>
-                  Providing options to continue without loss of data using one of the following techniques:
-               </title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="G105"/>
-                  
-                        <technique xmlns="" id="G181"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F12"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="erneute-authentifizierung"/>
       <success-criterion id="timeouts">
          <sufficient>
             <ul xmlns="http://www.w3.org/1999/xhtml">
@@ -663,39 +590,7 @@
    </guideline>
    <guideline id="navigable">
       <success-criterion id="blöcke-umgehen"/>
-      <success-criterion id="page-titled">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G88">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  	
-                        <technique xmlns="" id="H25"/>
-                  
-                        <technique xmlns="" id="PDF18"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G127"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F25"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="seite-mit-titel-versehen"/>
       <success-criterion id="fokus-reihenfolge"/>
       <success-criterion id="linkzweck-im-kontext"/>
       <success-criterion id="verschiedene-methoden"/>
@@ -947,44 +842,8 @@
          <failure/>
       </success-criterion>
       <success-criterion id="abkürzungen"/>
-      <success-criterion id="reading-level">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G86"/>
-            
-               <technique xmlns="" id="G103"/>
-            
-               <technique xmlns="" id="G79"/>
-            
-               <technique xmlns="" id="G153"/>
-            
-               <technique xmlns="" id="G160"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
-      <success-criterion id="pronunciation">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G120"/>
-            
-               <technique xmlns="" id="G121"/>
-            
-               <technique xmlns="" id="G62"/>
-            
-               <technique xmlns="" id="G163"/>
-            
-               <technique xmlns="" id="H62"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="leseniveau"/>
+      <success-criterion id="aussprache"/>
    </guideline>
    <guideline id="predictable">
       <success-criterion id="bei-fokus"/>
@@ -1002,48 +861,7 @@
       <success-criterion id="fehlervermeidung-alle"/>
    </guideline>
    <guideline id="compatible">
-      <success-criterion id="parsing">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G134"/>
-            
-               <technique xmlns="" id="G192"/>
-            
-               <technique xmlns="" id="H88"/>
-            
-               <technique xmlns="">
-                  <title>Ensuring that Web pages can be parsed  by using one of the following techniques:</title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <and xmlns="">
-                           <technique id="H74"/>
-                           <technique id="H93"/>
-                           <technique id="H94"/>
-                        </and>
-                  
-                        <technique xmlns="" id="H75"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="SL33"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F70"/>
-            
-               <technique xmlns="" id="F77"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="syntaxanalyse"/>
       <success-criterion id="name-rolle-wert"/>
       <success-criterion id="status-messages">
          <sufficient>
