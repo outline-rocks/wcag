@@ -75,160 +75,14 @@
       </success-criterion>
    </guideline>
    <guideline id="distinguishable">
-      <success-criterion id="use-of-color">
-         <sufficient>
-            <situation>
-               <title>Situation A: If the color of particular words, backgrounds, or other content is used
-               to indicate information:
-            </title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G14"/>
-               
-                  <technique xmlns="" id="G205"/>
-               
-                  <technique xmlns="" id="G182"/>
-               
-                  <technique xmlns="" id="G183"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If color is used within an image to convey information:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G111"/>
-               
-                  <technique xmlns="" id="G14"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="C15"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F13"/>
-            
-               <technique xmlns="" id="F73"/>
-            
-               <technique xmlns="" id="F81"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="benutzung-von-farbe"/>
       <success-criterion id="audio-steuerelement"/>
       <success-criterion id="kontrast-minimum"/>
       <success-criterion id="textgröße-ändern"/>
       <success-criterion id="bilder-eines-textes"/>
       <success-criterion id="kontrast-erhöht"/>
       <success-criterion id="leiser-oder-kein-hintergrund-audioinhalt"/>
-      <success-criterion id="visual-presentation">
-         <sufficient>
-            <section xmlns="http://www.w3.org/1999/xhtml">
-            
-            
-               <ol>
-               
-                  <technique xmlns="" id="C23"/>
-               
-                  <technique xmlns="" id="C25"/>
-               
-                  <technique xmlns="" id="G156"/>
-               
-                  <technique xmlns="" id="G148"/>
-               
-                  <technique xmlns="" id="G175"/>
-               
-               </ol>
-            
-            </section>
-            <section xmlns="http://www.w3.org/1999/xhtml">
-            
-            
-               <ol>
-               
-                  <technique xmlns="" id="G204"/>
-               
-                  <technique xmlns="" id="C20"/>
-               
-               </ol>
-            
-            </section>
-            <section xmlns="http://www.w3.org/1999/xhtml">
-            
-            
-               <ol>
-               
-                  <technique xmlns="" id="C19"/>
-               
-                  <technique xmlns="" id="G172"/>
-               
-                  <technique xmlns="" id="G169"/>
-               
-               </ol>
-            
-            </section>
-            <section xmlns="http://www.w3.org/1999/xhtml">
-            
-            
-               <ol>
-               
-                  <technique xmlns="" id="G188"/>
-               
-                  <technique xmlns="" id="C21"/>
-               
-               </ol>
-            
-            </section>
-            <section xmlns="http://www.w3.org/1999/xhtml">
-            
-            
-               <ol>
-               
-                  <technique xmlns="" id="G204"/>
-               
-                  <technique xmlns="" id="G146">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="C12"/>
-                     
-                           <technique xmlns="" id="C13"/>
-                     
-                           <technique xmlns="" id="C14"/>
-                     
-                           <technique xmlns="" id="C24"/>
-                     
-                           <technique xmlns="" id="SCR34"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-                  <technique xmlns="" id="G206"/>
-               
-               </ol>
-            
-            </section>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F24"/>
-            
-               <technique xmlns="" id="F88"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="visuelle-präsentation"/>
       <success-criterion id="bilder-eines-textes-keine-ausnahme"/>
       <success-criterion id="reflow">
          <sufficient>
@@ -347,63 +201,7 @@
       </success-criterion>
    </guideline>
    <guideline id="enough-time">
-      <success-criterion id="timing-adjustable">
-         <sufficient>
-            <situation>
-               <title>Situation A: If there are session time limits:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G133"/>
-               
-                  <technique xmlns="" id="G198"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If a time limit is controlled by a script on the page:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G198"/>
-               
-                  <technique xmlns="" id="G180"/>
-               
-                  <and xmlns="">
-                     <technique id="SCR16"/>
-                     <technique id="SCR1"/>
-                  </and>
-               
-                  <technique xmlns="" id="SL21"/>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation C: If there are time limits on reading:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G4"/>
-               
-                  <technique xmlns="" id="G198"/>
-               
-                  <technique xmlns="" id="SCR33"/>
-               
-                  <technique xmlns="" id="SCR36"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F40"/>
-            
-               <technique xmlns="" id="F41"/>
-            
-               <technique xmlns="" id="F58"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="zeiteinteilung-anpassbar"/>
       <success-criterion id="pausieren-beenden-ausblenden"/>
       <success-criterion id="keine-zeiteinteilung"/>
       <success-criterion id="unterbrechungen"/>
@@ -428,17 +226,7 @@
    </guideline>
    <guideline id="seizures-and-physical-reactions">
       <success-criterion id="grenzwert-von-dreimaligem-blitzen-oder-weniger"/>
-      <success-criterion id="three-flashes">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G19"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="drei-blitze"/>
       <success-criterion id="animation-from-interactions">
          <sufficient>
             <ul xmlns="http://www.w3.org/1999/xhtml">
@@ -591,108 +379,7 @@
    <guideline id="readable">
       <success-criterion id="sprache-der-seite"/>
       <success-criterion id="sprache-von-teilen"/>
-      <success-criterion id="unusual-words">
-         <sufficient>
-            <situation>
-               <title>Situation A: If the word or phrase has a unique meaning within the Web page:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G101">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="G55">
-                              <using>
-                                 <ul xmlns="http://www.w3.org/1999/xhtml">
-                           
-                                    <technique xmlns="" id="H40"/>
-                           
-                                    <technique xmlns="" id="H60"/>
-                           
-                                 </ul>
-                              </using>
-                           </technique>
-                     
-                           <technique xmlns="" id="G112">
-                              <using>
-                                 <ul xmlns="http://www.w3.org/1999/xhtml">
-                           
-                                    <technique xmlns="" id="H54"/>
-                           
-                                 </ul>
-                              </using>
-                           </technique>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-                  <technique xmlns="" id="G101">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="G55">
-                              <using>
-                                 <ul xmlns="http://www.w3.org/1999/xhtml">
-                           
-                                    <technique xmlns="" id="H40"/>
-                           
-                                    <technique xmlns="" id="H60"/>
-                           
-                                 </ul>
-                              </using>
-                           </technique>
-                     
-                           <technique xmlns="" id="G62"/>
-                     
-                           <technique xmlns="" id="G70"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If the word or phrase means different things within the same Web page:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G101">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="G55">
-                              <using>
-                                 <ul xmlns="http://www.w3.org/1999/xhtml">
-                           
-                                    <technique xmlns="" id="H40"/>
-                           
-                                    <technique xmlns="" id="H60"/>
-                           
-                                 </ul>
-                              </using>
-                           </technique>
-                     
-                           <technique xmlns="" id="G112">
-                              <using>
-                                 <ul xmlns="http://www.w3.org/1999/xhtml">
-                           
-                                    <technique xmlns="" id="H54"/>
-                           
-                                 </ul>
-                              </using>
-                           </technique>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="ungewöhnliche-wörter"/>
       <success-criterion id="abkürzungen"/>
       <success-criterion id="leseniveau"/>
       <success-criterion id="aussprache"/>

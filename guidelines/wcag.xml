@@ -292,17 +292,15 @@
             </p>
          </content>
          <file href="distinguishable"/>
-         <success-criterion id="use-of-color">
+         <success-criterion id="benutzung-von-farbe">
             <num>1.4.1</num>
-            <name>Use of Color</name>
+            <name>Benutzung von Farbe</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Color is not used as the only visual means of conveying information, indicating an
-      action, prompting a response, or distinguishing a visual element.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">This success criterion addresses color perception specifically. Other forms of perception are covered in <a href="#adaptable">Guideline 1.3</a> including programmatic access to color and other visual presentation coding.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Farbe wird nicht als einziges visuelles Mittel benutzt, um Informationen zu vermitteln, eine Handlung zu kennzeichnen, eine Reaktion zu veranlassen oder ein visuelles Element zu unterscheiden.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dieses Erfolgskriterium spricht ausdrücklich die Farbwahrnehmung an. Andere Formen der Wahrnehmung werden in <a href="#adaptable">Richtlinie 1.3</a> behandelt einschließlich programmtechnischer Zugriff auf Farbe und andere visuelle Darstellungskodierungen.</p>
             </content>
             <level>A</level>
-            <file href="use-of-color"/>
+            <file href="benutzung-von-farbe"/>
          </success-criterion>
          <success-criterion id="audio-steuerelement">
             <num>1.4.2</num>
@@ -464,22 +462,22 @@
             <level>AAA</level>
             <file href="leiser-oder-kein-hintergrund-audioinhalt"/>
          </success-criterion>
-         <success-criterion id="visual-presentation">
+         <success-criterion id="visuelle-präsentation">
             <num>1.4.8</num>
-            <name>Visual Presentation</name>
+            <name>Visuelle Präsentation</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For the visual presentation of <a>blocks of text</a>, a <a>mechanism</a> is available to achieve the following:
+               <p xmlns="http://www.w3.org/1999/xhtml">Für die visuelle Präsentation von <a>Textblöcken</a> gibt es einen <a>Mechanismus</a>, um das Folgende zu erreichen:
    </p>
                <ul xmlns="http://www.w3.org/1999/xhtml">
-                  <li>Foreground and background colors can be selected by the user.</li>   
-                  <li>Width is no more than 80 characters or glyphs (40 if CJK).</li>   
-                  <li>Text is not justified (aligned to both the left and the right margins).</li>   
-                  <li>Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.</li>   
-                  <li>Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text <a>on a full-screen window</a>.</li>   
+                  <li>Vorder- und Hintergrundfarben können vom Benutzer ausgewählt werden.</li>   
+                  <li>Die Breite beträgt nicht mehr als 80 Zeichen oder Glyphen (40 wenn es sich um CJK handelt).</li>   
+                  <li>Text ist nicht im Blocksatz ausgerichtet (sowohl links- als auch rechtsbündig ausgerichtet).</li>   
+                  <li>Der Zeilenabstand (Durchschuss) ist mindestens 1,5-fach innerhalb von Paragraphen und der Paragraphenabstand ist mindestens 1,5-fach so groß wie der Zeilenabstand.</li>   
+                  <li>Die Textgröße kann ohne assistierende Technik bis auf 200 Prozent skaliert werden und zwar so, dass der Leser nicht horizontal scrollen muss, um eine Textzeile <a>in einem bildschirmfüllenden Fenster</a> zu lesen.</li>   
                </ul>
             </content>
             <level>AAA</level>
-            <file href="visual-presentation"/>
+            <file href="visuelle-präsentation"/>
          </success-criterion>
          <success-criterion id="bilder-eines-textes-keine-ausnahme">
             <num>1.4.9</num>
@@ -646,77 +644,67 @@
             <p xmlns="http://www.w3.org/1999/xhtml">Provide users enough time to read and use content.</p>
          </content>
          <file href="enough-time"/>
-         <success-criterion id="timing-adjustable">
+         <success-criterion id="zeiteinteilung-anpassbar">
             <num>2.2.1</num>
-            <name>Timing Adjustable</name>
+            <name>Zeiteinteilung anpassbar</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For each time limit that is set by the content, at least one of the following is true:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Für jede zeitliche Begrenzung, die vom Inhalt festgelegt wird, gilt mindestens eines der Folgenden:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
       
-                  <dt>Turn off</dt>
+                  <dt>Abschalten</dt>
       
                   <dd>
          
-                     <p>The user is allowed to turn off the time limit before encountering it; or</p>
+                     <p>Der Benutzer kann die zeitliche Begrenzung abschalten, bevor er darauf trifft oder</p>
          
                   </dd>
       
-                  <dt>Adjust</dt>
+                  <dt>Anpassen</dt>
       
                   <dd>
          
-                     <p>The user is allowed to adjust the time limit before encountering it over a wide range
-            that is at least ten times the length of the default setting; or
+                     <p>Der Benutzer darf die zeitliche Begrenzung anpassen, bevor er darauf trifft, und zwar so weitreichend, dass es sich um die mindestens zehnfache Zeit der Standardeinstellung handelt oder</p>
+         
+                  </dd>
+      
+                  <dt>Ausweiten</dt>
+      
+                  <dd>
+         
+                     <p>Der Benutzer wird gewarnt, bevor die Zeit abläuft und bekommt mindestens 20 Sekunden Zeit, um die zeitliche Begrenzung mit einer einfachen Handlung auszuweiten (zum Beispiel: „Drücken Sie die Leertaste“) und der Benutzer darf die zeitliche Begrenzung mindestens 10 mal ausweiten oder</p>
+         
+                  </dd>
+      
+                  <dt>Echtzeit-Ausnahme</dt>
+      
+                  <dd>
+         
+                     <p>Die zeitliche Begrenzung ist ein erforderlicher Bestandteil eines Echtzeit-Ereignisses (zum Beispiel einer Auktion) und es gibt keine Alternative zur zeitlichen Begrenzung oder</p>
+         
+                  </dd>
+      
+                  <dt>Unentbehrliche Ausnahme</dt>
+      
+                  <dd>
+         
+                     <p>Die zeitliche Begrenzung ist <a>unentbehrlich</a> und eine Ausweitung dieser würde die Handlung ungültig machen oder
          </p>
          
                   </dd>
       
-                  <dt>Extend</dt>
+                  <dt>20 Stunden-Ausnahme</dt>
       
                   <dd>
          
-                     <p>The user is warned before time expires and given at least 20 seconds to extend the
-            time limit with a simple action (for example, "press the space bar"), and the user
-            is allowed to extend the time limit at least ten times; or
-         </p>
-         
-                  </dd>
-      
-                  <dt>Real-time Exception</dt>
-      
-                  <dd>
-         
-                     <p>The time limit is a required part of a real-time event (for example, an auction),
-            and no alternative to the time limit is possible; or
-         </p>
-         
-                  </dd>
-      
-                  <dt>Essential Exception</dt>
-      
-                  <dd>
-         
-                     <p>The time limit is <a>essential</a> and extending it would invalidate the activity; or
-         </p>
-         
-                  </dd>
-      
-                  <dt>20 Hour Exception</dt>
-      
-                  <dd>
-         
-                     <p>The time limit is longer than 20 hours.</p>
+                     <p>Die zeitliche Begrenzung beträgt mehr als 20 Stunden.</p>
          
                   </dd>
       
                </dl>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">This success criterion helps ensure that users can complete tasks without unexpected
-      changes in content or context that are a result of a time limit. This success criterion
-      should be considered in conjunction with <a href="#on-focus">Success Criterion 3.2.1</a>, which puts limits on changes of content or context as a result of user action.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dieses Erfolgskriterium hilft dabei sicherzustellen, dass Benutzer Aufgaben beenden können ohne unerwartete Änderungen am Inhalt oder Gesamtzusammenhang, die das Ergebnis einer zeitlichen Begrenzung sind. Dieses Erfolgskriterium sollte zusammen mit <a href="#on-focus">Erfolgskriterium 3.2.1</a> betrachtet werden, welches Änderungen am Inhalt oder am Gesamtzusammenhang als Ergebnis von Benutzerhandlungen begrenzt.</p>
             </content>
             <level>A</level>
-            <file href="timing-adjustable"/>
+            <file href="zeiteinteilung-anpassbar"/>
          </success-criterion>
          <success-criterion id="pausieren-beenden-ausblenden">
             <num>2.2.2</num>
@@ -807,16 +795,15 @@
             <level>A</level>
             <file href="grenzwert-von-dreimaligem-blitzen-oder-weniger"/>
          </success-criterion>
-         <success-criterion id="three-flashes">
+         <success-criterion id="drei-blitze">
             <num>2.3.2</num>
-            <name>Three Flashes</name>
+            <name>Drei Blitze</name>
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Web pages</a> do not contain anything that <a>flashes</a> more than three times in any one second period.
-   </p>
+                  <a>Webseiten</a> enthalten nichts, das öfter als dreimal in einem beliebigen, eine Sekunde dauernden Zeitraum <a>blitzt</a>.</p>
             </content>
             <level>AAA</level>
-            <file href="three-flashes"/>
+            <file href="drei-blitze"/>
          </success-criterion>
          <success-criterion id="animation-from-interactions">
             <num>2.3.3</num>
@@ -1066,15 +1053,14 @@
             <level>AA</level>
             <file href="sprache-von-teilen"/>
          </success-criterion>
-         <success-criterion id="unusual-words">
+         <success-criterion id="ungewöhnliche-wörter">
             <num>3.1.3</num>
-            <name>Unusual Words</name>
+            <name>Ungewöhnliche Wörter</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">A <a>mechanism</a> is available for identifying specific definitions of words or phrases <a>used in an unusual or restricted way</a>, including <a>idioms</a> and <a>jargon</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Es gibt einen <a>Mechanismus</a>, um spezielle Definitionen von Wörtern oder Wendungen zu erkennen, <a>die auf ungewöhnliche oder eingeschränkte Weise benutzt werden</a>, <a>Idiome</a> und <a>Jargon</a> eingeschlossen.</p>
             </content>
             <level>AAA</level>
-            <file href="unusual-words"/>
+            <file href="ungewöhnliche-wörter"/>
          </success-criterion>
          <success-criterion id="abkürzungen">
             <num>3.1.4</num>
