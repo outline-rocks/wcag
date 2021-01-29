@@ -301,114 +301,12 @@
          <failure/>
       </success-criterion>
       <success-criterion id="erweiterte-audiodeskription-aufgezeichnet"/>
-      <success-criterion id="media-alternative-prerecorded">
-         <sufficient>
-            <situation>
-               <title>Situation A: If the content is prerecorded synchronized media:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G69">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="G58"/>
-                     
-                           <technique xmlns="" id="SL17"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-                  <technique xmlns="">
-                     <title>Linking to the alternative for time-based media using one of the following techniques
-                     									
-                  </title>
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="H53"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If the content is prerecorded video-only:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G159"/>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H46"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F74"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="medienalternative-aufgezeichnet"/>
       <success-criterion id="reiner-audioinhalt-live"/>
    </guideline>
    <guideline id="adaptable">
       <success-criterion id="info-und-beziehungen"/>
-      <success-criterion id="meaningful-sequence">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G57"/>
-            
-               <technique xmlns="" id="G57">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="H34"/>
-                  
-                        <technique xmlns="" id="H56"/>
-                  
-                        <technique xmlns="" id="C6"/>
-                  
-                        <technique xmlns="" id="C8"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="C27"/>
-            
-               <technique xmlns="" id="PDF3"/>
-            
-               <technique xmlns="" id="SL34"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F34"/>
-            
-               <technique xmlns="" id="F33"/>
-            
-               <technique xmlns="" id="F32"/>
-            
-               <technique xmlns="" id="F49"/>
-            
-               <technique xmlns="" id="F1"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="bedeutungstragende-reihenfolge"/>
       <success-criterion id="sensory-characteristics">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -619,17 +517,7 @@
       </success-criterion>
       <success-criterion id="bilder-eines-textes"/>
       <success-criterion id="kontrast-erhöht"/>
-      <success-criterion id="low-or-no-background-audio">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G56"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="leiser-oder-kein-hintergrund-audioinhalt"/>
       <success-criterion id="visual-presentation">
          <sufficient>
             <section xmlns="http://www.w3.org/1999/xhtml">
@@ -831,23 +719,7 @@
    </guideline>
    <guideline id="keyboard-accessible">
       <success-criterion id="tastatur"/>
-      <success-criterion id="no-keyboard-trap">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G21"/>
-            
-            </ol>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F10"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="keine-tastaturfalle"/>
       <success-criterion id="tastatur-keine-ausnahme"/>
       <success-criterion id="character-key-shortcuts">
          <sufficient>
@@ -1103,44 +975,7 @@
       </success-criterion>
       <success-criterion id="fokus-reihenfolge"/>
       <success-criterion id="linkzweck-im-kontext"/>
-      <success-criterion id="multiple-ways">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="">
-                  <title>Using two or more of the following techniques:</title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="G125"/>
-                  
-                        <technique xmlns="" id="G64"/>
-                  
-                        <technique xmlns="" id="PDF2"/>
-                  
-                        <technique xmlns="" id="G63"/>
-                  
-                        <technique xmlns="" id="G161"/>
-                  
-                        <technique xmlns="" id="G126"/>
-                  
-                        <technique xmlns="" id="G185"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H59"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="verschiedene-methoden"/>
       <success-criterion id="überschriften-und-beschriftungen-labels"/>
       <success-criterion id="fokus-sichtbar"/>
       <success-criterion id="position"/>
@@ -1553,131 +1388,7 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="name-role-value">
-         <sufficient>
-            <situation>
-               <title>Situation A: If using a standard user interface component in a markup language (e.g.,
-               HTML):
-            </title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="ARIA14"/>
-               
-                  <technique xmlns="" id="ARIA16"/>
-               
-                  <technique xmlns="" id="G108">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="H91"/>
-                     
-                           <technique xmlns="" id="H44"/>
-                     
-                           <technique xmlns="" id="H64"/>
-                     
-                           <technique xmlns="" id="H65"/>
-                     
-                           <technique xmlns="" id="H88"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation B: If using script or code to re-purpose a standard user interface component
-               in a markup language:
-            </title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="">
-                     <title>Exposing the names and roles, allowing user-settable properties to be directly set,
-                     and providing notification of changes using one of the following techniques:
-                  </title>
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="ARIA16"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation C: If using a standard user interface component in a programming technology:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G135">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                                        
-                           <technique xmlns="" id="PDF10"/>
-                     
-                           <technique xmlns="" id="PDF12"/>
-                     
-                           <technique xmlns="" id="SL26"/>
-                     
-                           <technique xmlns="" id="SL32"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-            <situation>
-               <title>Situation D: If creating your own user interface component in a programming language:</title>
-               <ol xmlns="http://www.w3.org/1999/xhtml">
-               
-                  <technique xmlns="" id="G10">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-                     
-                           <technique xmlns="" id="ARIA4"/>
-                     
-                           <technique xmlns="" id="ARIA5"/>
-                     
-                           <technique xmlns="" id="ARIA16"/>
-                     
-                           <technique xmlns="" id="SL6"/>
-                     
-                           <technique xmlns="" id="SL18"/>
-                     
-                           <technique xmlns="" id="SL20"/>
-                     
-                           <technique xmlns="" id="SL30"/>
-                     
-                        </ul>
-                     </using>
-                  </technique>
-               
-               </ol>
-            </situation>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F59"/>
-            
-               <technique xmlns="" id="F15"/>
-            
-               <technique xmlns="" id="F20"/>
-            
-               <technique xmlns="" id="F68"/>
-            
-               <technique xmlns="" id="F79"/>
-            
-               <technique xmlns="" id="F86"/>
-            
-               <technique xmlns="" id="F89"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="name-rolle-wert"/>
       <success-criterion id="status-messages">
          <sufficient>
             <situation>

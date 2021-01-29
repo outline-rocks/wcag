@@ -209,16 +209,15 @@
             <level>AAA</level>
             <file href="erweiterte-audiodeskription-aufgezeichnet"/>
          </success-criterion>
-         <success-criterion id="media-alternative-prerecorded">
+         <success-criterion id="medienalternative-aufgezeichnet">
             <num>1.2.8</num>
-            <name>Media Alternative (Prerecorded)</name>
+            <name>Medienalternative (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">An <a>alternative for time-based media</a> is provided for all <a>prerecorded</a>
-                  <a>synchronized media</a> and for all prerecorded <a>video-only</a> media.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Alternative für zeitbasierte Medien</a> wird für alle <a>aufgezeichneten</a> 
+                  <a>synchronisierten Medien</a> und für alle aufgezeichneten <a>reinen Video</a>medien bereitgestellt.</p>
             </content>
             <level>AAA</level>
-            <file href="media-alternative-prerecorded"/>
+            <file href="medienalternative-aufgezeichnet"/>
          </success-criterion>
          <success-criterion id="reiner-audioinhalt-live">
             <num>1.2.9</num>
@@ -248,15 +247,15 @@
             <level>A</level>
             <file href="info-und-beziehungen"/>
          </success-criterion>
-         <success-criterion id="meaningful-sequence">
+         <success-criterion id="bedeutungstragende-reihenfolge">
             <num>1.3.2</num>
-            <name>Meaningful Sequence</name>
+            <name>Bedeutungstragende Reihenfolge</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">When the sequence in which content is presented affects its meaning, a <a>correct reading sequence</a> can be <a>programmatically determined</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn die Reihenfolge, in der Inhalte präsentiert werden, sich auf deren Bedeutung auswirkt, kann die <a>korrekte Leseabfolge</a> 
+                  <a>durch Software bestimmt</a> werden.</p>
             </content>
             <level>A</level>
-            <file href="meaningful-sequence"/>
+            <file href="bedeutungstragende-reihenfolge"/>
          </success-criterion>
          <success-criterion id="sensory-characteristics">
             <num>1.3.3</num>
@@ -448,30 +447,26 @@
             <level>AAA</level>
             <file href="kontrast-erhöht"/>
          </success-criterion>
-         <success-criterion id="low-or-no-background-audio">
+         <success-criterion id="leiser-oder-kein-hintergrund-audioinhalt">
             <num>1.4.7</num>
-            <name>Low or No Background Audio</name>
+            <name>Leiser oder kein Hintergrund-Audioinhalt</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For <a>prerecorded</a>
-                  <a>audio-only</a> content that (1) contains primarily speech in the foreground, (2) is not an audio
-      <a>CAPTCHA</a> or audio logo, and (3) is not vocalization intended to be primarily musical expression
-      such as singing or rapping, at least one of the following is true:
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Für <a>prerecorded</a>, <a>reinen Audio</a>inhalt, der (1) hauptsächlich Sprache im Vordergrund enthält, (2) kein Audio-<a>CAPTCHA</a> oder ein Audio-Logo ist und (3) bei dem es sich nicht um eine Vokalisierung handelt, die hauptsächlich als musikalischer Ausdruck bestimmt ist wie beispielsweise Singen oder Rappen, gilt mindestens eines der Folgenden:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
       
-                  <dt>No Background</dt>
+                  <dt>Kein Hintergrund</dt>
       
                   <dd>
          
-                     <p>The audio does not contain background sounds.</p>
+                     <p>Der Audioinhalt enthält keine Hintergrundgeräusche.</p>
          
                   </dd>
       
-                  <dt>Turn Off</dt>
+                  <dt>Abschalten</dt>
       
                   <dd>
          
-                     <p>The background sounds can be turned off.</p>
+                     <p>Die Hintergrundgeräusche können abgeschaltet werden.</p>
          
                   </dd>
       
@@ -479,20 +474,16 @@
       
                   <dd>
          
-                     <p>The background sounds are at least 20 decibels lower than the foreground speech content,
-            with the exception of occasional sounds that last for only one or two seconds.
-         </p>
+                     <p>Die Hintergrundgeräusche sind mindestens 20 Dezibel leiser als der Sprachinhalt im Vordergrund mit der Ausnahme von gelegentlichen Geräuschen, die nur 1 oder 2 Sekunden andauern.</p>
          
-                     <p class="note">Per the definition of "decibel," background sound that meets this requirement will
-            be approximately four times quieter than the foreground speech content.
-         </p>
+                     <p class="note">Gemäß der Definition von „Dezibel“ sind Hintergrundgeräusche, die diese Anforderung erfüllen, ungefähr viermal so leise wie der Sprachinhalt im Vordergrund.</p>
          
                   </dd>
       
                </dl>
             </content>
             <level>AAA</level>
-            <file href="low-or-no-background-audio"/>
+            <file href="leiser-oder-kein-hintergrund-audioinhalt"/>
          </success-criterion>
          <success-criterion id="visual-presentation">
             <num>1.4.8</num>
@@ -628,21 +619,15 @@
             <level>A</level>
             <file href="tastatur"/>
          </success-criterion>
-         <success-criterion id="no-keyboard-trap">
+         <success-criterion id="keine-tastaturfalle">
             <num>2.1.2</num>
-            <name>No Keyboard Trap</name>
+            <name>Keine Tastaturfalle</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">If keyboard focus can be moved to a component of the page using a <a>keyboard interface</a>, then focus can be moved away from that component using only a keyboard interface,
-      and, if it requires more than unmodified arrow or tab keys or other standard exit
-      methods, the user is advised of the method for moving focus away.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Since any content that does not meet this success criterion can interfere with a user's
-      ability to use the whole page, all content on the Web page (whether it is used to
-      meet other success criteria or not) must meet this success criterion. See <a href="#cc5">Conformance Requirement 5: Non-Interference</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn der Tastaturfokus durch eine <a>Tastaturschnittstelle</a> auf einen Bestandteil der Seite bewegt werden kann, dann kann der Fokus von diesem Bestandteil weg bewegt werden, indem man nur die Tastaturschnittstelle benutzt; wenn man dazu mehr als nicht modifizierte Pfeil- oder Tabulatortasten oder andere übliche Ausstiegsmethoden benutzen muss, dann wird der Benutzer über die Methode zum Bewegen des Fokus informiert.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Jeglicher Inhalt, der dieses Erfolgskriterium nicht erfüllt, kann die Möglichkeit eines Benutzers beeinträchtigen, die ganze Seite zu nutzen. Daher muss jeglicher Inhalt auf einer Webseite (egal ob er dazu benutzt wird, andere Erfolgskriterien zu erfüllen oder nicht) dieses Erfolgskriterium erfüllen. Siehe <a href="#cc5">Konformitätsbedingung 5: Nicht-Störend</a>.</p>
             </content>
             <level>A</level>
-            <file href="no-keyboard-trap"/>
+            <file href="keine-tastaturfalle"/>
          </success-criterion>
          <success-criterion id="tastatur-keine-ausnahme">
             <num>2.1.3</num>
@@ -939,15 +924,14 @@
             <level>A</level>
             <file href="linkzweck-im-kontext"/>
          </success-criterion>
-         <success-criterion id="multiple-ways">
+         <success-criterion id="verschiedene-methoden">
             <num>2.4.5</num>
-            <name>Multiple Ways</name>
+            <name>Verschiedene Methoden</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">More than one way is available to locate a <a>Web page</a> within a <a>set of Web pages</a> except where the Web Page is the result of, or a step in, a <a>process</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Es gibt mehr als eine Methode, um eine <a>Webseite</a> innerhalb eines <a>Satzes von Webseiten</a> zu finden, außer die Webseite ist das Ergebnis oder ein Schritt innerhalb eines <a>Prozesses</a>.</p>
             </content>
             <level>AA</level>
-            <file href="multiple-ways"/>
+            <file href="verschiedene-methoden"/>
          </success-criterion>
          <success-criterion id="überschriften-und-beschriftungen-labels">
             <num>2.4.6</num>
@@ -1347,20 +1331,16 @@
             <level>A</level>
             <file href="parsing"/>
          </success-criterion>
-         <success-criterion id="name-role-value">
+         <success-criterion id="name-rolle-wert">
             <num>4.1.2</num>
-            <name>Name, Role, Value</name>
+            <name>Name, Rolle, Wert</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For all <a>user interface components</a> (including but not limited to: form elements, links and components generated by scripts),
-      the <a>name</a> and <a>role</a> can be <a>programmatically determined</a>; states, properties, and values that can be set by the user can be <a>programmatically set</a>; and notification of changes to these items is available to <a>user agents</a>, including <a>assistive technologies</a>.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">This success criterion is primarily for Web authors who develop or script their own
-      user interface components. For example, standard HTML controls already meet this success
-      criterion when used according to specification.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Für alle <a>Bestandteile der Benutzerschnittstelle</a> (einschließlich, aber nicht beschränkt auf: Formularelemente, Links und durch Skripte generierte Komponenten) können <a>Name</a> und <a>Rolle</a> 
+                  <a>durch Software bestimmt</a> werden; Zustände, Eigenschaften und Werte, die vom Benutzer festgelegt werden können, können <a>durch Software festgelegt</a> sein; und die Benachrichtigung über Änderungen an diesen Elementen steht den <a>Benutzeragenten</a> zur Verfügung, einschließlich <a>assistierender Techniken</a>.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dieses Erfolgskriterium ist hauptsächlich für Webautoren gedacht, die ihre eigenen Bestandteile der Benutzerschnittstelle entwickeln oder skripten. Standard-HTML-Steuerelemente erfüllen zum Beispiel bereits dieses Erfolgskriterium, wenn sie entsprechend der Spezifikation benutzt werden.</p>
             </content>
             <level>A</level>
-            <file href="name-role-value"/>
+            <file href="name-rolle-wert"/>
          </success-criterion>
          <success-criterion id="status-messages">
             <num>4.1.3</num>
