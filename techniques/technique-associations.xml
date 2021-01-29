@@ -830,70 +830,7 @@
       </success-criterion>
    </guideline>
    <guideline id="keyboard-accessible">
-      <success-criterion id="keyboard">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G202"/>
-            
-               <technique xmlns="">
-                  <title>Ensuring keyboard control by using one of the following techniques.</title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="H91"/>
-                  
-                        <technique xmlns="" id="PDF3"/>
-                  
-                        <technique xmlns="" id="PDF11"/>
-                  
-                        <technique xmlns="" id="PDF23"/>
-                  
-                        <technique xmlns="" id="SL15"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="G90">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="SCR20"/>
-                  
-                        <technique xmlns="" id="SCR35"/>
-                  
-                        <technique xmlns="" id="SCR2"/>
-                  
-                        <technique xmlns="" id="SL9"/>
-                  
-                        <technique xmlns="" id="SL14"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="SCR29"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F54"/>
-            
-               <technique xmlns="" id="F55"/>
-            
-               <technique xmlns="" id="F42"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="tastatur"/>
       <success-criterion id="no-keyboard-trap">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -911,11 +848,7 @@
             </ul>
          </failure>
       </success-criterion>
-      <success-criterion id="keyboard-no-exception">
-         <sufficient/>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="tastatur-keine-ausnahme"/>
       <success-criterion id="character-key-shortcuts">
          <sufficient>
             <ul xmlns="http://www.w3.org/1999/xhtml">
@@ -1169,111 +1102,7 @@
          </failure>
       </success-criterion>
       <success-criterion id="fokus-reihenfolge"/>
-      <success-criterion id="link-purpose-in-context">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G91"/>
-            
-               <technique xmlns="" id="H30"/>
-            
-               <technique xmlns="" id="H24"/>
-
-            
-               <technique xmlns="">
-                  <title>Allowing the user to choose short or long link text using one of the techniques below:</title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="G189"/>
-                  
-                        <technique xmlns="" id="SCR30"/>
-                  
-                        <technique xmlns="" id="FLASH7"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="G53"/>
-            
-               <technique xmlns="">
-                  <title>Providing a supplemental description of the purpose of a link using one of the following
-                  techniques:
-               </title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="H33"/>
-                  
-                        <technique xmlns="" id="C7"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="">
-                  <title>
-                  Identifying the purpose of a link using link text combined with programmatically determined
-                  link context using one of the following techniques:
-                  
-               </title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="ARIA7"/>
-                  
-                        <technique xmlns="" id="ARIA8"/>
-                  
-                        <technique xmlns="" id="H77"/>
-                  
-                        <technique xmlns="" id="H78"/>
-                  
-                        <technique xmlns="" id="H79"/>
-                  
-                        <technique xmlns="" id="H81"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="G91">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="PDF11"/>
-                  
-                        <technique xmlns="" id="PDF13"/>
-                  
-                        <technique xmlns="" id="SL18"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H2"/>
-            
-               <technique xmlns="" id="FLASH5"/>
-            
-               <technique xmlns="" id="H80"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F63"/>
-            
-               <technique xmlns="" id="F89"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="linkzweck-im-kontext"/>
       <success-criterion id="multiple-ways">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -1314,118 +1143,8 @@
       </success-criterion>
       <success-criterion id="überschriften-und-beschriftungen-labels"/>
       <success-criterion id="fokus-sichtbar"/>
-      <success-criterion id="location">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G65"/>
-            
-               <technique xmlns="" id="G63"/>
-            
-               <technique xmlns="" id="G128"/>
-            
-               <technique xmlns="" id="G127">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="H59"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="PDF14"/>
-            
-               <technique xmlns="" id="PDF17"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
-      <success-criterion id="link-purpose-link-only">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="ARIA8"/>
-            
-               <technique xmlns="" id="G91"/>
-            
-               <technique xmlns="" id="H30"/>
-            
-               <technique xmlns="" id="H24"/>
-
-            
-               <technique xmlns="">
-                  <title>Allowing the user to choose short or long link text using one of the techniques below:</title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="G189"/>
-                  
-                        <technique xmlns="" id="SCR30"/>
-                  
-                        <technique xmlns="" id="FLASH7"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="">
-                  <title>Providing a supplemental description of the purpose of a link using one of the following
-                  techniques:    
-               </title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="C7"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="">
-                  <title>Semantically indicating links using one of the following techniques:</title>
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="PDF11"/>
-                  
-                        <technique xmlns="" id="PDF13"/>
-                  
-                        <technique xmlns="" id="SL18"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H2"/>
-            
-               <technique xmlns="" id="FLASH5"/>
-            
-               <technique xmlns="" id="H33"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F84"/>
-            
-               <technique xmlns="" id="F89"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="position"/>
+      <success-criterion id="linkzweck-reiner-link"/>
       <success-criterion id="section-headings">
          <sufficient>
             <ol xmlns="http://www.w3.org/1999/xhtml">
@@ -1565,48 +1284,8 @@
       </success-criterion>
    </guideline>
    <guideline id="readable">
-      <success-criterion id="language-of-page">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H57"/>
-            
-               <technique xmlns="" id="PDF16"/>
-            
-               <technique xmlns="" id="PDF19"/>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="SVR5"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
-      <success-criterion id="language-of-parts">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="H58"/>
-            
-               <technique xmlns="" id="PDF19"/>
-            
-               <technique xmlns="" id="SL4"/>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="SL27"/>
-            
-            </ul>
-         </advisory>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="sprache-der-seite"/>
+      <success-criterion id="sprache-von-teilen"/>
       <success-criterion id="unusual-words">
          <sufficient>
             <situation>
@@ -1825,68 +1504,7 @@
    </guideline>
    <guideline id="input-assistance">
       <success-criterion id="fehlererkennung"/>
-      <success-criterion id="labels-or-instructions">
-         <sufficient>
-            <ol xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G131">
-                  <using>
-                     <ul xmlns="http://www.w3.org/1999/xhtml">
-                  
-                        <technique xmlns="" id="ARIA1"/>
-                  
-                        <technique xmlns="" id="ARIA9"/>
-                  
-                        <technique xmlns="" id="ARIA17"/>
-                  
-                        <technique xmlns="" id="G89"/>
-                  
-                        <technique xmlns="" id="G184"/>
-                  
-                        <technique xmlns="" id="G162"/>
-                  
-                        <technique xmlns="" id="G83"/>
-                  
-                        <technique xmlns="" id="H90"/>
-                  
-                  
-                        <technique xmlns="" id="PDF5"/>
-                  
-                     </ul>
-                  </using>
-               </technique>
-            
-               <technique xmlns="" id="H44"/>
-            
-               <technique xmlns="" id="PDF10"/>
-            
-               <technique xmlns="" id="SL26"/>
-            
-               <technique xmlns="" id="H71"/>
-            
-               <technique xmlns="" id="SL8"/>
-            
-               <technique xmlns="" id="G167"/>
-            
-            </ol>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="G13"/>
-            
-               <technique xmlns="" id="SL19"/>
-            
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            
-               <technique xmlns="" id="F82"/>
-            
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="beschriftungen-labels-oder-anweisungen"/>
       <success-criterion id="fehlerempfehlung"/>
       <success-criterion id="fehlervermeidung-rechtliche-finanzielle-daten"/>
       <success-criterion id="hilfe"/>

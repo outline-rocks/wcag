@@ -617,24 +617,16 @@
             <p xmlns="http://www.w3.org/1999/xhtml">Make all functionality available from a keyboard.</p>
          </content>
          <file href="keyboard-accessible"/>
-         <success-criterion id="keyboard">
+         <success-criterion id="tastatur">
             <num>2.1.1</num>
-            <name>Keyboard</name>
+            <name>Tastatur</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">All <a>functionality</a> of the content is operable through a <a>keyboard interface</a> without requiring specific timings for individual keystrokes, except where the underlying
-      function requires input that depends on the path of the user's movement and not just
-      the endpoints.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">This exception relates to the underlying function, not the input technique. For example,
-      if using handwriting to enter text, the input technique (handwriting) requires path-dependent
-      input but the underlying function (text input) does not.
-   </p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">This does not forbid and should not discourage providing mouse input or other input
-      methods in addition to keyboard operation.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Alle <a>Funktionalitäten</a> des Inhalts sind durch eine <a>Tastaturschnittstelle</a> bedienbar, ohne dass eine bestimmte Zeiteinteilung für einzelne Tastenanschläge erforderlich ist, außer wenn die zugrunde liegende Funktion Eingaben verlangt, die vom Pfad der Bewegung des Benutzers und nicht nur von den Endpunkten abhängig sind.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Ausnahme bezieht sich auf die zugrunde liegende Funktion und nicht auf die Eingabetechnik. Zum Beispiel: Wenn man Handschrift benutzt, um Text einzugeben, dann verlangt die Eingabetechnik (Handschrift) Pfad-abhängige Eingaben, die zugrunde liegende Funktion (Texteingabe) verlangt dies aber nicht.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Es ist nicht verboten noch sollte es Sie davon abhalten, eine Maus-Eingabe oder andere Eingabemethoden zusätzlich zur Tastaturbedienung zur Verfügung zu stellen.</p>
             </content>
             <level>A</level>
-            <file href="keyboard"/>
+            <file href="tastatur"/>
          </success-criterion>
          <success-criterion id="no-keyboard-trap">
             <num>2.1.2</num>
@@ -652,15 +644,14 @@
             <level>A</level>
             <file href="no-keyboard-trap"/>
          </success-criterion>
-         <success-criterion id="keyboard-no-exception">
+         <success-criterion id="tastatur-keine-ausnahme">
             <num>2.1.3</num>
-            <name>Keyboard (No Exception)</name>
+            <name>Tastatur (keine Ausnahme)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">All <a>functionality</a> of the content is operable through a <a>keyboard interface</a> without requiring specific timings for individual keystrokes.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Alle <a>Funktionalitäten</a> des Inhalts sind durch eine <a>Tastaturschnittstelle</a> bedienbar, ohne dass eine bestimmte Zeiteinteilung für einzelne Tastenanschläge erforderlich ist.</p>
             </content>
             <level>AAA</level>
-            <file href="keyboard-no-exception"/>
+            <file href="tastatur-keine-ausnahme"/>
          </success-criterion>
          <success-criterion id="character-key-shortcuts">
             <num>2.1.4</num>
@@ -939,16 +930,14 @@
             <level>A</level>
             <file href="fokus-reihenfolge"/>
          </success-criterion>
-         <success-criterion id="link-purpose-in-context">
+         <success-criterion id="linkzweck-im-kontext">
             <num>2.4.4</num>
-            <name>Link Purpose (In Context)</name>
+            <name>Linkzweck (im Kontext)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">The <a>purpose of each link</a> can be determined from the link text alone or from the link text together with its
-      <a>programmatically determined link context</a>, except where the purpose of the link would be <a>ambiguous to users in general</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Der <a>Zweck jedes Links</a> kann durch den Linktext allein oder durch den Linktext zusammen mit seinem <a>durch Software bestimmten Link-Kontext</a> bestimmt werden außer in Fällen, in denen der Zweck des Links <a>mehrdeutig für Benutzer im Allgemeinen</a> wäre.</p>
             </content>
             <level>A</level>
-            <file href="link-purpose-in-context"/>
+            <file href="linkzweck-im-kontext"/>
          </success-criterion>
          <success-criterion id="multiple-ways">
             <num>2.4.5</num>
@@ -978,26 +967,23 @@
             <level>AA</level>
             <file href="fokus-sichtbar"/>
          </success-criterion>
-         <success-criterion id="location">
+         <success-criterion id="position">
             <num>2.4.8</num>
-            <name>Location</name>
+            <name>Position</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Information about the user's location within a <a>set of Web pages</a> is available.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Es gibt Informationen zu der Position des Benutzers innerhalb eines <a>Satzes von Webseiten</a>.</p>
             </content>
             <level>AAA</level>
-            <file href="location"/>
+            <file href="position"/>
          </success-criterion>
-         <success-criterion id="link-purpose-link-only">
+         <success-criterion id="linkzweck-reiner-link">
             <num>2.4.9</num>
-            <name>Link Purpose (Link Only)</name>
+            <name>Linkzweck (reiner Link)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">A <a>mechanism</a> is available to allow the purpose of each link to be identified from link text alone,
-      except where the purpose of the link would be <a>ambiguous to users in general</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Es gibt einen <a>Mechanismus</a>, um den Zweck jedes Links durch den Linktext allein zu erkennen, außer der Linkzweck wäre <a>mehrdeutig für Benutzer im Allgemeinen</a>.</p>
             </content>
             <level>AAA</level>
-            <file href="link-purpose-link-only"/>
+            <file href="linkzweck-reiner-link"/>
          </success-criterion>
          <success-criterion id="section-headings">
             <num>2.4.10</num>
@@ -1132,27 +1118,23 @@
             <p xmlns="http://www.w3.org/1999/xhtml">Make text content readable and understandable.</p>
          </content>
          <file href="readable"/>
-         <success-criterion id="language-of-page">
+         <success-criterion id="sprache-der-seite">
             <num>3.1.1</num>
-            <name>Language of Page</name>
+            <name>Sprache der Seite</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">The default <a>human language</a> of each <a>Web page</a> can be <a>programmatically determined</a>.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Die voreingestellte <a>menschliche Sprache</a> jeder <a>Webseite</a> kann <a>durch Software bestimmt</a> werden.</p>
             </content>
             <level>A</level>
-            <file href="language-of-page"/>
+            <file href="sprache-der-seite"/>
          </success-criterion>
-         <success-criterion id="language-of-parts">
+         <success-criterion id="sprache-von-teilen">
             <num>3.1.2</num>
-            <name>Language of Parts</name>
+            <name>Sprache von Teilen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">The <a>human language</a> of each passage or phrase in the content can be <a>programmatically determined</a> except for proper names, technical terms, words of indeterminate language, and words
-      or phrases that have become part of the vernacular of the immediately surrounding
-      text.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Die <a>menschliche Sprache</a> jedes Abschnitts oder jedes Satzes im Inhalt kann <a>durch Software bestimmt</a> werden außer bei Eigennamen, technischen Fachbegriffen, Wörtern einer unklaren Sprache und Wörtern oder Wendungen, die Teil des Jargons des direkt umliegenden Textes geworden sind.</p>
             </content>
             <level>AA</level>
-            <file href="language-of-parts"/>
+            <file href="sprache-von-teilen"/>
          </success-criterion>
          <success-criterion id="unusual-words">
             <num>3.1.3</num>
@@ -1269,16 +1251,14 @@
             <level>A</level>
             <file href="fehlererkennung"/>
          </success-criterion>
-         <success-criterion id="labels-or-instructions">
+         <success-criterion id="beschriftungen-labels-oder-anweisungen">
             <num>3.3.2</num>
-            <name>Labels or Instructions</name>
+            <name>Beschriftungen (Labels) oder Anweisungen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Labels</a> or instructions are provided when content requires user input.
-   </p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn der Inhalt eine Eingabe durch den Benutzer verlangt werden <a>Beschriftungen (Labels)</a> oder Anweisungen bereitgestellt.</p>
             </content>
             <level>A</level>
-            <file href="labels-or-instructions"/>
+            <file href="beschriftungen-labels-oder-anweisungen"/>
          </success-criterion>
          <success-criterion id="fehlerempfehlung">
             <num>3.3.3</num>
