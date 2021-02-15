@@ -13,29 +13,29 @@ var respecConfig = {
 	//perEnd:               "2013-07-23",
 	//publishDate:          "2013-08-22",
 	diffTool:             "http://www.aptest.com/standards/htmldiff/htmldiff.pl",
-	
+
 	// the specifications short name, as in https://www.w3.org/TR/short-name/
-	shortName:            "WCAG22",
-	
-	
+	shortName:            "WCAG21",
+
+
 	// if you wish the publication date to be other than today, set this
 	//publishDate:  "2014-12-11",
 	copyrightStart:  "2020",
 	license: "document",
-	
+
 	// if there is a previously published draft, uncomment this and set its YYYY-MM-DD date
 	// and its maturity status
 	//previousPublishDate:  "2014-06-12",
 	//previousMaturity:  "WD",
 	prevRecURI: "https://www.w3.org/TR/WCAG/",
 	//previousDiffURI: "https://www.w3.org/TR/2014/REC-wai-aria-20140320/",
-	
+
 	// if there a publicly available Editors Draft, this is the link
-	edDraftURI: "https://w3c.github.io/wcag/guidelines/22/",
-	
+	edDraftURI: "https://outline-rocks.github.io/wcag/guidelines/",
+
 	// if this is a LCWD, uncomment and set the end of its review period
 	// lcEnd: "2012-02-21",
-	
+
 	// editors, add as many as you like
 	// only "name" is required
 	editors: [
@@ -78,7 +78,7 @@ var respecConfig = {
 			w3cid: 39770
 		}
 	],
-	/* 
+	/*
 	formerEditors: [
 		{
 			name: "Ben Caldwell",
@@ -117,16 +117,16 @@ var respecConfig = {
 		}
 	],
 	*/
-	
+
 	// authors, add as many as you like.
 	// This is optional, uncomment if you have authors as well as editors.
 	// only "name" is required. Same format as editors.
-	
+
 	//authors:  [
 	//    { name: "Your Name", url: "http://example.org/",
 	//      company: "Your Company", companyURI: "http://example.com/" },
 	//],
-	
+
 	/*
 	alternateFormats: [
 		{ uri: 'wcag21-diff.html', label: "Diff from Previous Recommendation" } ,
@@ -134,18 +134,18 @@ var respecConfig = {
 		{ uri: 'wcag21.pdf', label: "PDF version" }
 	],
 	*/
-	
+
 	// errata: 'https://www.w3.org/2010/02/rdfa/errata.html',
-	
+
 	// name of the WG
 	wg:           "Accessibility Guidelines Working Group",
-	
+
 	// URI of the public WG page
 	wgURI:        "https://www.w3.org/WAI/GL/",
-	
+
 	// name (with the @w3c.org) of the public mailing to which comments are due
 	wgPublicList: "public-agwg-comments",
-	
+
 	// URI of the patent status for this WG, for Rec-track documents
 	// !!!! IMPORTANT !!!!
 	// This is important for Rec-track documents, do not copy a patent URI from a random
@@ -153,7 +153,7 @@ var respecConfig = {
 	// Team Contact.
 	wgPatentURI:  "https://www.w3.org/2004/01/pp-impl/35422/status",
 	maxTocLevel: 4,
-	
+
 	postProcess: [addTextSemantics, swapInDefinitions]
-	
+
 };
