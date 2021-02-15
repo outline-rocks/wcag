@@ -1332,90 +1332,63 @@
       </definition>
    </term>
    <term>
-      <id>dfn-accessibility-supported</id>
-      <name>accessibility supported</name>
+      <id>dfn-barrierefreiheit-unterstützend</id>
+      <name>barrierefreiheit unterstützend</name>
       <name>accessibility-supported</name>
       <name>accessibility support</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">supported by users' <a>assistive technologies</a> as well as the accessibility features in browsers and other <a>user agents</a>
-         </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Sowohl von den <a>assistierenden Techniken</a> der Benutzer als auch von den Barrierefreiheitsfunktionen in <a>Benutzeragenten</a> unterstützt</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">To qualify as an accessibility-supported use of a Web content technology (or feature
-      of a technology), both 1 and 2 must be satisfied for a Web content technology (or
-      feature):
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Sowohl 1. als auch 2. müssen für eine <span lang="en">Web</span>inhalts-Technik (oder einen Bestandteil einer Technik) erfüllt werden, damit sich die Anwendung einer <span lang="en">Web</span>inhalts-Technik oder eines Bestandteils einer Technik als die Barrierefreiheit unterstützend qualifiziert:</p>
    
          <ol xmlns="http://www.w3.org/1999/xhtml">
       
-            <li>
-         
+            <li> 
                <p>
-                  <strong>The way that the <a>Web content technology</a> is used must be supported by users' assistive technology (AT). </strong> This means that the way that the technology is used has been tested for interoperability
-            with users' assistive technology in the <a>human language(s)</a> of the content,
-         </p>
-         
+                  <strong>Die Art und Weise, in der die <a>
+                        <span lang="en">Web</span>inhalts-Technik</a> benutzt wird, muss von der assistierenden Technik (AT) der Benutzer unterstützt werden.</strong> Dies bedeutet, dass die Art und Weise, wie die Technik benutzt wird, auf Interoperabilität mit der assistierenden Technik der Benutzer in der <a>menschlichen Sprache</a> des Inhalts getestet wurde</p>
                <p>
-                  <strong>AND</strong>
+                  <strong>UND</strong>
                </p>
-         
             </li>
       
             <li>
-         
                <p>
-                  <strong>The Web content technology must have accessibility-supported user agents that are
-               available to users. </strong> This means that at least one of the following four statements is true:
-         </p>
+                  <strong>Dass Benutzeragenten existieren, die diese <span lang="en">Web</span>inhalts-Technik unterstützen und den Benutzern zur Verfügung stehen.</strong> Dies bedeutet, dass mindestens eine der folgenden vier Aussagen zutrifft:</p>
          
                <ol>
             
                   <li>
-               
-                     <p>The technology is supported natively in widely-distributed user agents that are also
-                  accessibility supported (such as HTML and CSS);
-               </p>
-               
+                     <p>Die Technik wird nativ in weit verbreiteten Benutzeragenten unterstützt, die außerdem Barrierefreiheit unterstützend sind (wie <abbr>HTML</abbr> und <abbr>CSS</abbr>);</p>
                      <p>
-                        <strong>OR</strong>
+                        <strong>ODER</strong>
                      </p>
                   </li>
             
                   <li>
-                     <p>The technology is supported in a widely-distributed plug-in that is also accessibility
-                  supported;
-               </p>
-               
+                     <p>Die Technik wird in einem weit verbreiteten Plug-In unterstützt, das außerdem Barrierefreiheit unterstützend ist;</p>
                      <p>
-                        <strong>OR</strong>
+                        <strong>ODER</strong>
                      </p>
                   </li>
             
                   <li>
-                     <p>The content is available in a closed environment, such as a university or corporate
-                  network, where the user agent required by the technology and used by the organization
-                  is also accessibility supported;
-               </p>
-               
+                     <p>Der Inhalt steht in einer geschlossenen Umgebung zur Verfügung, wie in einem Universitäts- oder Firmennetzwerk, in dem der von der Technik benötigte und von der Organisation benutzte Benutzeragent außerdem die Barrierefreiheit unterstützend ist;</p>
                      <p>
-                        <strong>OR</strong>
+                        <strong>ODER</strong>
                      </p>
                   </li>
             
                   <li>
-                     <p>The user agent(s) that support the technology are accessibility supported and are
-                  available for download or purchase in a way that:
-               </p>
+                     <p>Der/die Benutzeragent(en), welche die Technik unterstützen, sind Barrierefreiheit unterstützend und stehen so zum Herunterladen oder zum Kauf zur Verfügung, dass:</p>
                
                      <ul>
                   
-                        <li>does not cost a person with a disability any more than a person without a disability
-                     <strong>and</strong>
+                        <li>sie für eine Person mit einer Behinderung nicht teurer sind als für eine Person ohne Behinderung <strong>und</strong>
                         </li>
                   
-                        <li>is as easy to find and obtain for a person with a disability as it is for a person
-                     without disabilities.
-                  </li>
+                        <li>sie für eine Person mit einer Behinderung genauso einfach zu finden und zu erhalten sind, wie für eine Person ohne Behinderungen.</li>
                   
                      </ul>
                
@@ -1427,50 +1400,28 @@
       
          </ol>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The Accessibility Guidelines Working Group and the W3C do not specify which or how much support by assistive
-      technologies there must be for a particular use of a Web technology in order for it
-      to be classified as accessibility supported. (See <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#support-level">Level of Assistive Technology Support Needed for "Accessibility Support"</a>.)
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die <abbr>WCAG</abbr>-Arbeitsgruppe und das <abbr>W3C</abbr> führen nicht genau auf, welche oder wie viel Unterstützung durch assistierende Techniken für eine bestimmte Nutzung einer <span lang="en">Web</span>technik vorhanden sein muss, damit diese als Barrierefreiheit unterstützend klassifiziert wird. (Siehe dazu <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#support-level">Notwendiger Grad der Unterstützung assistierender Techniken für die Bezeichnung „Barrierefreiheit unterstützend“ (englisch)</a>.)</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Web technologies can be used in ways that are not accessibility supported as long
-      as they are not <a>relied upon</a> and the page as a whole meets the conformance requirements, including <a href="#cc4">Conformance Criterion 4</a> and <a href="#cc5">Conformance Criterion 5</a>, are met.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">
+            <span lang="en">Web</span>techniken können auf nicht die Barrierefreiheit unterstützende Arten benutzt werden, so lange man sich nicht auf sie <a>verlässt</a> und die Seite als Ganzes den Konformitätsanforderungen entspricht einschließlich <a href="#cc4">Konformitätsanforderung 4: Benutzung von Techniken auf Barrierefreiheit unterstützende Arten</a> und <a href="#cc5">Konformitätsanforderung 5: Nicht störend</a>.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">When a <a>Web Technology</a> is used in a way that is "accessibility supported," it does not imply that the entire
-      technology or all uses of the technology are supported. Most technologies, including
-      HTML, lack support for at least one feature or use. Pages conform to WCAG only if
-      the uses of the technology that are accessibility supported can be relied upon to
-      meet WCAG requirements.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wenn eine <a>
+               <span lang="en">Web</span>technik</a> auf eine die „Barrierefreiheit unterstützende“ Art benutzt wird, dann impliziert das nicht, dass die gesamte Technik oder alle Anwendungen dieser Technik unterstützt werden. Bei den meisten Techniken einschließlich <abbr>HTML</abbr> fehlt die Unterstützung für mindestens einen Bestandteil oder eine Art der Anwendung. Seiten sind nur dann <abbr>WCAG</abbr>-konform, wenn man sich darauf verlassen kann, dass die Anwendung der die Barrierefreiheit unterstützenden Technik den <abbr>WCAG</abbr>-Anforderungen entspricht.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">When citing Web content technologies that have multiple versions, the version(s) supported
-      should be specified.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wenn <span lang="en">Web</span>inhalts-Techniken aufgeführt werden, von denen es verschiedene Versionen gibt, dann sollte(n) die unterstützte(n) Version(en) spezifiziert werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">One way for authors to locate uses of a technology that are accessibility supported
-      would be to consult compilations of uses that are documented to be accessibility supported.
-      (See <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#documented-lists">Understanding Accessibility-Supported Web Technology Uses</a>.) Authors, companies, technology vendors, or others may document accessibility-supported
-      ways of using Web content technologies. However, all ways of using technologies in
-      the documentation would need to meet the definition of accessibility-supported Web
-      content technologies above.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Möglichkeit für Autoren, die Anwendung einer die Barrierefreiheit unterstützenden Technik ausfindig zu machen, wäre es, Sammlungen von Anwendungsarten zu konsultieren, bei denen dokumentiert wurde, dass sie die Barrierefreiheit unterstützen. (Siehe <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#documented-lists">die Barrierefreiheit unterstützenden <span lang="en">Web</span>technik-Anwendungsarten verstehen (englisch)</a>.) Es ist möglich, dass Autoren, Firmen, Lieferanten von Techniken oder Andere die Benutzungsweisen von Barrierefreiheit unterstützenden <span lang="en">Web</span>inhalts-Techniken dokumentieren. Allerdings müssen alle Arten der Benutzung von Techniken in der Dokumentation der oben genannten Definition von Barrierefreiheit unterstützenden <span lang="en">Web</span>inhalts-Techniken entsprechen.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-alternative-for-time-based-media</id>
-      <name>alternative for time-based media</name>
+      <id>dfn-alternative-für-zeitbasierte-medien</id>
+      <name>alternative für zeitbasierte medien</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">document including correctly sequenced text descriptions of time-based visual and
-      auditory information and providing a means for achieving the outcomes of any time-based
-      interaction
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Dokument, das korrekt aufeinanderfolgende Textbeschreibungen von zeitbasierten visuellen und auditiven Informationen beinhaltet und das es ermöglicht, sich das Ergebnis jeder zeitbasierten Interaktion zu erschließen</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">A screenplay used to create the synchronized media content would meet this definition
-      only if it was corrected to accurately represent the final synchronized media after
-      editing.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein Drehbuch, das benutzt wurde um den synchronisierten Medieninhalt zu erstellen, würde dieser Definition nur dann entsprechen, wenn es so abgeändert wurde, dass es nun dem finalen synchronisierten Medium nach der Bearbeitung (nach dem Schnitt) genau entspricht.</p>
    
       </definition>
    </term>
@@ -1497,73 +1448,41 @@
       <name>ascii art</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">picture created by a spatial arrangement of characters or glyphs (typically from the
-      95 printable characters defined by ASCII)
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Ein Bild, das durch räumliche Anordnung von Buchstaben oder Glyphen erzeugt wird (typischerweise aus den 95 druckbaren ASCII-Zeichen).</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-assistive-technology</id>
-      <name>assistive technology</name>
+      <id>dfn-assistierende-technik</id>
+      <name>assistierende technik</name>
       <name>assistive technologies</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">hardware and/or software that acts as a <a>user agent</a>, or along with a mainstream user agent, to provide functionality to meet the requirements
-      of users with disabilities that go beyond those offered by mainstream user agents
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">
+            <span lang="en">Hardware</span> und/oder <span lang="en">Software</span>, die als <a>Benutzeragent</a> fungiert oder die mit einem gängigen Benutzeragenten zusammenarbeitet, um Funktionalität zur Verfügung zu stellen, damit die Anforderungen von Benutzern mit Behinderungen erfüllt werden, die über jene hinausgehen, die von gängigen Benutzeragenten angeboten werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">functionality provided by assistive technology includes alternative presentations
-      (e.g., as synthesized speech or magnified content), alternative input methods (e.g.,
-      voice), additional navigation or orientation mechanisms, and content transformations
-      (e.g., to make tables more accessible).
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Funktionalitäten, die von assistierenden Techniken bereitgestellt werden, beinhalten alternative Präsentationen (<abbr>z.B.</abbr> als synthetische Sprachausgabe oder vergrößerte Inhalte), alternative Eingabemethoden (<abbr>z.B.</abbr> Sprache), zusätzliche Navigations- oder Orientierungsmechanismen und Inhaltstransformationen (<abbr>z.B.</abbr> um Tabellen barrierefreier zu machen).</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Assistive technologies often communicate data and messages with mainstream user agents
-      by using and monitoring APIs.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Assistierende Techniken tauschen Daten und Nachrichten mit gängigen Benutzeragenten oft durch die Benutzung und die Beobachtung von <abbr title="Anwendungsprogrammierungsschnittstellen (Application Programming Interfaces)">APIs</abbr> aus.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The distinction between mainstream user agents and assistive technologies is not absolute.
-      Many mainstream user agents provide some features to assist individuals with disabilities.
-      The basic difference is that mainstream user agents target broad and diverse audiences
-      that usually include people with and without disabilities. Assistive technologies
-      target narrowly defined populations of users with specific disabilities. The assistance
-      provided by an assistive technology is more specific and appropriate to the needs
-      of its target users. The mainstream user agent may provide important functionality
-      to assistive technologies like retrieving Web content from program objects or parsing
-      markup into identifiable bundles.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Abgrenzung zwischen gängigen Benutzeragenten und assistierenden Techniken ist nicht absolut. Viele gängige Benutzeragenten stellen einige Funktionen bereit, um Menschen mit Behinderungen zu unterstützen. Der grundlegende Unterschied besteht darin, dass gängige Benutzeragenten ein breites und verschiedenartiges Publikum als Zielgruppe haben, die normalerweise Menschen mit und ohne Behinderungen beinhaltet. Assistierende Techniken haben als Zielgruppe genau definierte Populationen von Benutzern mit bestimmten Behinderungen. Die Unterstützung, die durch assistierende Techniken bereitgestellt wird, ist spezifischer und entspricht den Bedürfnissen ihrer Zielgruppe. Der gängige Benutzeragent kann den assistierenden Techniken wichtige Funktionalitäten zur Verfügung stellen, wie das Abrufen von <span lang="en">Web</span>inhalten aus Programmobjekten oder das Aufgliedern von <span lang="en">Markup</span> in identifizierbare Datenstrukturen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Assistive technologies that are important in the context of this document include
-      the following:
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Assistierende Techniken, die im Zusammenhang mit diesem Dokument wichtig sind, beinhalten die folgenden:</p>
    
          <ul xmlns="http://www.w3.org/1999/xhtml">
       
-            <li>screen magnifiers, and other visual reading assistants, which are used by people with
-         visual, perceptual and physical print disabilities to change text font, size, spacing,
-         color, synchronization with speech, etc. in order to improve the visual readability
-         of rendered text and images;
-      </li>
+            <li>Vergrößerungssoftware und andere visuelle Leseassistenten, die von Menschen mit visuellen, wahrnehmungsbedingten und körperlichen Einschränkungen in Bezug auf die Nutzung gedruckter Medien benutzt werden, um Schriftart, Größe, Abstände, Textfarbe oder die Synchronisierung von Text mit Sprache usw. zu ändern, damit die visuelle Lesbarkeit von gerendertem Text oder Bildern verbessert wird;</li>
       
-            <li>screen readers, which are used by people who are blind to read textual information
-         through synthesized speech or braille;
-      </li>
+            <li>
+               <span lang="en">Screenreader</span>, die von blinden Menschen benutzt werden, um Informationen in Textform durch synthetische Sprachausgabe oder Braille zu lesen;</li>
       
-            <li>text-to-speech software, which is used by some people with cognitive, language, and
-         learning disabilities to convert text into synthetic speech;
-      </li>
+            <li>Sprachausgabe-<span lang="en">Software</span> (<span lang="en">Text-to-Speech-Software</span>), die von manchen Menschen mit kognitiven, Sprach- oder Lernbehinderungen benutzt wird, um Text in synthetische Sprachausgabe zu konvertieren;</li>
       
-            <li>speech recognition software, which may be used by people who have some physical disabilities;</li>
+            <li>Spracherkennungssoftware, die von Menschen mit Körperbehinderungen benutzt werden kann;</li>
       
-            <li>alternative keyboards, which are used by people with certain physical disabilities
-         to simulate the keyboard (including alternate keyboards that use head pointers, single
-         switches, sip/puff and other special input devices.);
-      </li>
+            <li>Alternative Tastaturen, die von Menschen mit bestimmten Körperbehinderungen benutzt werden, um die Tastatur zu simulieren (einschließlich alternativer Tastaturen, die über Kopfsteuerungen, Einzelschalter, Saug- und Blassteuerungen und andere besondere Eingabegeräte bedient werden);</li>
       
-            <li>alternative pointing devices, which are used by people with certain physical disabilities
-         to simulate mouse pointing and button activations.
-      </li>
+            <li>Alternative Zeigegeräte, die von Menschen mit bestimmten Körperbehinderungen benutzt werden, um das Zeigen mit der Maus und die Aktivierung von Schaltflächen zu simulieren.</li>
       
          </ul>
    
@@ -1574,36 +1493,27 @@
       <name>audio</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">the technology of sound reproduction</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Die Technik der Tonreproduktion</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Audio can be created synthetically (including speech synthesis), recorded from real
-      world sounds, or both.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Audio kann künstlich erstellt werden (einschließlich Sprachsynthese), durch die Aufzeichnung von Geräuschen aus der realen Welt entstehen oder eine Mischung aus beidem sein.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-audio-description</id>
-      <name>audio description</name>
+      <id>dfn-audiodeskription</id>
+      <name>audiodeskription</name>
       <name>audio descriptions</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">narration added to the soundtrack to describe important visual details that cannot
-      be understood from the main soundtrack alone
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Schilderung, die zur Tonspur hinzugefügt wird, um wichtige visuelle Details zu beschreiben, die durch die Haupt-Tonspur allein nicht verständlich sind.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Audio description of <a>video</a> provides information about actions, characters, scene changes, on-screen text, and
-      other visual content.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Audiodeskription eines <a>Videos</a> gibt Informationen zu Handlungen, Charakteren, Szenenwechseln, Bildschirmtexten und anderen visuellen Inhalten.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In standard audio description, narration is added during existing pauses in dialogue.
-      (See also <a>extended audio description</a>.)
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In gängigen Audiodeskriptionen wird die Schilderung während bestehender Dialogpausen hinzugefügt. (Siehe dazu auch <a>Erweiterte Audiodeskription</a>.)</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Where all of the <a>video</a> information is already provided in existing <a>audio</a>, no additional audio description is necessary.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In Fällen, in denen alle <a>Video</a>-Informationen bereits in bestehendem <a>Audio</a> bereitgestellt werden, ist keine zusätzliche Audiodeskription notwendig.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Also called "video description" and "descriptive narration."</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wird auch „Videodeskription“ und „deskriptive Erzählung“ genannt.</p>
    
       </definition>
    </term>
@@ -1618,15 +1528,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-blinking</id>
-      <name>blinking</name>
+      <id>dfn-blinkend</id>
+      <name>blinkend</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">switch back and forth between two visual states in a way that is meant to draw attention</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Das Hin- und Herwechseln zwischen zwei visuellen Zuständen mit der Absicht, Aufmerksamkeit zu erregen</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">See also <a>flash</a>. It is possible for something to be large enough and blink brightly enough at the
-      right frequency to be also classified as a flash.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe auch <a>Blitz</a>. Es ist möglich, dass etwas groß genug ist und hell genug in der richtigen Frequenz blinkt, damit es auch als Blitz klassifiziert wird.</p>
    
       </definition>
    </term>
@@ -1644,18 +1552,13 @@
       <name>captcha</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">initialism for "Completely Automated Public Turing test to tell Computers and Humans
-      Apart"
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Initialwort für „<span lang="en">Completely Automated Public Turing test to tell Computers and Humans Apart</span>“</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">CAPTCHA tests often involve asking the user to type in text that is displayed in an
-      obscured image or audio file.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">
+            <abbr lang="en">CAPTCHA</abbr>-Tests beinhalten oft die Aufforderung an den Benutzer, Text einzugeben, der in einem undeutlichen Bild angezeigt oder als verzerrte Audiodatei ausgegeben wird.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">A Turing test is any system of tests designed to differentiate a human from a computer.
-      It is named after famed computer scientist Alan Turing. The term was coined by researchers
-      at Carnegie Mellon University.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein <span lang="en">Turing</span>-Test ist jedes System von Tests, das dazu entwickelt wurde, Menschen von einem Computer zu unterscheiden. Es wurde nach dem berühmten Computer-Wissenschaftler <span lang="en">Alan Turing</span> benannt. Der Begriff wurde von Forschern an der <span lang="en">Carnegie Mellon University</span> geprägt. <a href="#CAPTCHA">[<abbr lang="en">CAPTCHA</abbr>]</a>
+         </p>
    
       </definition>
    </term>
@@ -1691,44 +1594,35 @@
       </definition>
    </term>
    <term>
-      <id>dfn-changes-of-context</id>
-      <name>changes of context</name>
+      <id>dfn-änderungen-des-kontextes</id>
+      <name>änderungen des kontextes</name>
       <name>change of context</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">major changes in the content of the <a>Web page</a> that, if made without user awareness, can disorient users who are not able to view
-      the entire page simultaneously
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Wesentliche Änderungen am Inhalt einer <a>
+               <span lang="en">Web</span>seite</a>, die, wenn sie vorgenommen werden, ohne dass dies dem Benutzer bewusst ist, zur Desorientierung derjenigen Benutzer führen können, die nicht die gesamte Seite zeitgleich sehen können.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">Changes in context include changes of:</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Änderungen des Kontextes beinhalten Änderungen:</p>
    
          <ol xmlns="http://www.w3.org/1999/xhtml">
       
             <li>
-               <a>user agent</a>;
-      </li>
+               <a>des Benutzeragenten</a>;</li>
       
             <li>
-               <a>viewport</a>;
-      </li>
+               <a>des <span lang="en">Viewports</span>
+               </a>;</li>
       
-            <li>focus;</li>
+            <li>des Fokus;</li>
       
-            <li>
-               <a>content</a> that changes the meaning of the <a>Web page</a>
-            </li>
+            <li>des <a>Inhalts</a>, der zu einer Bedeutungsänderung der <a>
+                  <span lang="en">Web</span>seite</a> führt.</li>
       
          </ol>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">A change of content is not always a change of context. Changes in content, such as
-      an expanding outline, dynamic menu, or a tab control do not necessarily change the
-      context, unless they also change one of the above (e.g., focus).
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Änderung des Inhalts ist nicht immer eine Änderung des Kontextes. Änderungen am Inhalt, wie zum Beispiel eine expandierende Gliederung (<span lang="en">expanding outline</span>), ein dynamisches Menü oder eine Steuerung über Reiter, ändern nicht zwangsläufig den Kontext, außer sie ändern auch eines der oben genannten (<abbr>z.B.</abbr> den Fokus).</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Opening a new window, moving focus to a different component, going to a new page (including
-      anything that would look to a user as if they had moved to a new page) or significantly
-      re-arranging the content of a page are examples of changes of context.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Das Öffnen eines neuen Fensters, das Bewegen des Fokus auf ein anderes Element, das Wechseln zu einer neuen Seite (einschließlich allem, was für den Benutzer so aussieht, als wäre er zu einer neuen Seite gegangen) oder eine signifikante Umordnung von Inhalten auf einer Seite sind Beispiele für Änderungen des Kontextes.</p>
    
       </definition>
    </term>
@@ -1959,19 +1853,16 @@
       </definition>
    </term>
    <term>
-      <id>dfn-flash</id>
-      <name>flash</name>
+      <id>dfn-blitz</id>
+      <name>blitz</name>
       <name>flashes</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a pair of opposing changes in <a>relative luminance</a> that can cause seizures in some people if it is large enough and in the right frequency
-      range
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Ein Paar von entgegengesetzten Änderungen in <a>relativer Luminanz</a>. Wenn die Änderungen groß genug sind und in der richtigen Frequenz auftreten, können sie bei manchen Menschen Anfälle hervorrufen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">See <a>general flash and red flash thresholds</a> for information about types of flash that are not allowed.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe <a>Allgemeine Grenzwerte zu Blitzen und roten Blitzen (general flash and red flash thresholds)</a> für Informationen über Arten von Blitzen, die nicht erlaubt sind.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">See also <a>blinking</a>.
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe auch <a>Blinkend (blinking)</a>.
    </p>
    
       </definition>
@@ -1988,69 +1879,41 @@
       </definition>
    </term>
    <term>
-      <id>dfn-general-flash-and-red-flash-thresholds</id>
-      <name>general flash and red flash thresholds</name>
+      <id>dfn-allgemeine-grenzwerte-zu-blitzen-und-roten-blitzen</id>
+      <name>allgemeine grenzwerte zu blitzen und roten blitzen</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a <a>flash</a> or rapidly changing image sequence is below the threshold (i.e., content <strong>passes</strong>) if any of the following are true:
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Ein <a>Blitz</a> oder eine schnell wechselnde Sequenz von Bildern ist unterhalb des Grenzwertes (<abbr>d.h.</abbr> Inhalt <strong>besteht die Prüfung</strong>), wenn eines der Folgenden zutrifft:</p>
    
          <ol xmlns="http://www.w3.org/1999/xhtml">
       
-            <li>there are no more than three <strong>general flashes</strong> and / or no more than three <strong>red flashes</strong> within any one-second period; or
-      </li>
+            <li>Es gibt nicht mehr als drei <strong>allgemeine Blitze</strong> und / oder nicht mehr als drei <strong>rote Blitze</strong> innerhalb von beliebigen Ein-Sekunden-Zeiträumen; oder</li>
       
-            <li>the combined area of flashes occurring concurrently occupies no more than a total
-         of .006 steradians within any 10 degree visual field on the screen (25% of any 10
-         degree visual field on the screen) at typical viewing distance
-      </li>
+            <li>Der zusammengenommene Bereich von gleichzeitig auftretenden Blitzen belegt nicht mehr als eine Summe von .006 Steradianten innerhalb jedes beliebigen 10 Grad visuellen Feldes auf dem Bildschirm (25 % jedes beliebigen 10-Grad visuellen Feldes auf dem Bildschirm) bei einer typischen Betrachtungsentfernung.</li>
       
          </ol>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">where:</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Wobei:</p>
    
          <ul xmlns="http://www.w3.org/1999/xhtml">
       
-            <li>A <strong>general flash</strong> is defined as a pair of opposing changes in <a>relative luminance</a> of 10% or more of the maximum relative luminance where the relative luminance of
-         the darker image is below 0.80; and where "a pair of opposing changes" is an increase
-         followed by a decrease, or a decrease followed by an increase, and
-      </li>
+            <li>Ein <strong>allgemeiner Blitz</strong> als ein Paar von entgegengesetzten Änderungen in <a>relativer Luminanz</a> von 10 % oder mehr der maximalen relativen Luminanz definiert wird, wobei die relative Luminanz des dunkleren Bildes unter 0.80 liegt; und wo „ein Paar von entgegengesetzten Änderungen“ eine Zunahme gefolgt von einer Abnahme ist oder eine Abnahme gefolgt von einer Zunahme. Und</li>
       
-            <li>A <strong>red flash</strong> is defined as any pair of opposing transitions involving a saturated red
-      </li>
+            <li>Ein <strong>roter Blitz</strong> als jedes Paar von entgegengesetzten Übergängen, bei denen ein gesättigtes Rot beteiligt ist, definiert wird.</li>
       
          </ul>
    
          <p xmlns="http://www.w3.org/1999/xhtml">
-            <em>Exception:</em> Flashing that is a fine, balanced, pattern such as white noise or an alternating
-      checkerboard pattern with "squares" smaller than 0.1 degree (of visual field at typical
-      viewing distance) on a side does not violate the thresholds.
-   </p>
+            <em>Ausnahme:</em> Blitzen, das ein feines, ausgeglichenes Muster wie weißes Rauschen oder ein wechselndes Schachbrettmuster mit „Quadraten“ ist, die auf einer Seite kleiner sind als 0.1 Grad (des visuellen Feldes bei typischem Betrachtungsabstand), verstößt nicht gegen die Grenzwerte.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">For general software or Web content, using a 341 x 256 pixel rectangle anywhere on
-      the displayed screen area when the content is viewed at 1024 x 768 pixels will provide
-      a good estimate of a 10 degree visual field for standard screen sizes and viewing
-      distances (e.g., 15-17 inch screen at 22-26 inches). (Higher resolutions displays
-      showing the same rendering of the content yield smaller and safer images so it is
-      lower resolutions that are used to define the thresholds.)
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Benutzung eines 341 x 256 Pixel großen Rechtecks irgendwo in dem gezeigten Bildschirmbereich, wenn der Inhalt bei 1024 x 768 Pixeln betrachtet wird, gibt bei allgemeiner <span lang="en">Software</span> oder <span lang="en">Web</span>inhalten eine gute Einschätzung eines 10 Grad visuellen Feldes für Standard-Bildschirmgrößen und Betrachtungsentfernungen (<abbr>z.B.</abbr> 15-17 Zoll Bildschirm bei 56 - 66 cm). (Bildschirme mit höheren Auflösungen, auf denen das gleiche <span lang="en">Rendering</span> des Inhalts gezeigt wird, ergeben kleinere und sicherere Bilder, daher werden die geringeren Auflösungen benutzt, um die Grenzwerte zu definieren.)</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">A transition is the change in relative luminance (or relative luminance/color for
-      red flashing) between adjacent peaks and valleys in a plot of relative luminance (or
-      relative luminance/color for red flashing) measurement against time. A flash consists
-      of two opposing transitions.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein Übergang ist der Wechsel in relativer Luminanz (oder relativer Luminanz/Farbe für rotes Blitzen) zwischen nebeneinander liegenden Spitzen und Senken in einem Graph von relativer Luminanzmessung (oder relativer Luminanz/Farbe bei rotem Blitzen) in Bezug auf die Zeit. Ein Blitz besteht aus zwei entgegengesetzten Änderungen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The current working definition in the field for <strong>"pair of opposing transitions involving a saturated red"</strong> is where, for either or both states involved in each transition, R/(R+ G + B) &gt;=
-      0.8, and the change in the value of (R-G-B)x320 is &gt; 20 (negative values of (R-G-B)x320
-      are set to zero) for both transitions. R, G, B values range from 0-1 as specified
-      in “relative luminance” definition. [[HARDING-BINNIE]]
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die derzeitige Arbeitsdefinition in diesem Fachbereich für ein <strong>„Paar von entgegengesetzten Übergängen, die ein gesättigtes Rot beinhalten“</strong> lautet: Wenn für jeden oder beide Zustände, die in jedem Übergang involviert sind, R/(R+ G + B) &gt;= 0.8 und der Wechsel des Wertes von (R-G-B)x320 &gt; 20 (negative Werte von (R-G-B)x320 werden auf Null gesetzt) für beide Übergänge ist. R, G, B Werte reichen von 0-1 wie in der “relativen Luminanz”-Definition festgelegt. <a href="#HARDING-BINNIE">[<span lang="en">HARDING-BINNIE</span>]</a>
+         </p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Tools are available that will carry out analysis from video screen capture. However,
-      no tool is necessary to evaluate for this condition if flashing is less than or equal
-      to 3 flashes in any one second. Content automatically passes (see #1 and #2 above).
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Es gibt Werkzeuge, welche die Analyse durch die Erfassung des Video-Bildschirms ausführen. Es ist allerdings kein Werkzeug nötig, um diese Bedingung zu evaluieren, wenn das Blitzen weniger oder gleich 3 Blitze pro Sekunde ist. Der Inhalt besteht automatisch die Prüfung (siehe #1 und #2 oben).</p>
    
       </definition>
    </term>
@@ -2098,19 +1961,16 @@
       </definition>
    </term>
    <term>
-      <id>dfn-image-of-text</id>
-      <name>image of text</name>
+      <id>dfn-bild-eines-textes</id>
+      <name>bild eines textes</name>
       <name>images of text</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">text that has been rendered in a non-text form (e.g., an image) in order to achieve
-      a particular visual effect
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Text, der in einer Nicht-Text-Form (<abbr>z.B.</abbr> einem Bild) gerendert wurde, um einen bestimmten visuellen Effekt zu erzielen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">This does not include <a>text</a> that is part of a picture that contains significant other visual content.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dies beinhaltet keinen <a>Text</a> , der Teil eines Bildes ist, das signifikanten anderen visuellen Inhalt enthält.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A person's name on a nametag in a photograph.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Der Name einer Person auf einem Namensschild auf einem Foto.</p>
    
       </definition>
    </term>
@@ -2196,20 +2056,17 @@
       </definition>
    </term>
    <term>
-      <id>dfn-label</id>
-      <name>label</name>
+      <id>dfn-beschriftung-/-label</id>
+      <name>beschriftung / label</name>
       <name>labels</name>
       <definition>
    
          <p xmlns="http://www.w3.org/1999/xhtml">
-            <a>text</a> or other component with a <a>text alternative</a> that is presented to a user to identify a component within Web <a>content</a>
-         </p>
+            <a>Text</a> oder andere Komponente mit einer <a>Textalternative</a> , der oder die dem Benutzer präsentiert wird, um eine Komponente innerhalb von Web<a>inhalten</a> zu identifizieren.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">A label is presented to all users whereas the <a>name</a> may be hidden and only exposed by assistive technology. In many (but not all) cases
-      the name and the label are the same.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Beschriftung (<span lang="en">Label</span>) wird allen Benutzern gezeigt, wobei der <a>Name</a> versteckt sein kann und nur von assistierenden Techniken gezeigt wird. In vielen (aber nicht allen) Fällen sind Name und Beschriftung gleich.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The term label is not limited to the label element in HTML.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der Begriff Beschriftung (<span lang="en">Label</span>) ist nicht beschränkt auf das <span lang="en">Label</span>-Element in <abbr>HTML</abbr>.</p>
    
       </definition>
    </term>
@@ -2372,13 +2229,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-navigated-sequentially</id>
-      <name>navigated sequentially</name>
+      <id>dfn-der-reihe-nach-navigiert</id>
+      <name>der reihe nach navigiert</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">navigated in the order defined for advancing focus (from one element to the next)
-      using a <a>keyboard interface</a>
-         </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">In der Reihenfolge navigiert, die festgelegt wurde, um den Fokus durch die Benutzung einer <a>Tastaturschnittstelle</a> vorrücken zu lassen (von einem Element zum nächsten).</p>
    
       </definition>
    </term>
@@ -2449,12 +2304,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-prerecorded</id>
-      <name>prerecorded</name>
+      <id>dfn-aufgezeichnet</id>
+      <name>aufgezeichnet</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">information that is not <a>live</a>
-         </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Informationen, die nicht <a>live</a> sind.</p>
    
       </definition>
    </term>
@@ -2504,42 +2358,29 @@
       </definition>
    </term>
    <term>
-      <id>dfn-programmatically-determined</id>
-      <name>programmatically determined</name>
+      <id>dfn-durch-software-bestimmt</id>
+      <name>durch software bestimmt</name>
       <name>programmatically determinable</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">determined by software from author-supplied data provided in a way that different
-      <a>user agents</a>, including <a>assistive technologies</a>, can extract and present this information to users in different modalities
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Bestimmt von <span lang="en">Software</span> durch vom Autor gelieferte Daten, bereitgestellt auf eine Art und Weise, dass verschiedene <a>Benutzeragenten</a>, einschließlich <a>assistierender Techniken</a>, diese Informationen entnehmen und dem Benutzer in verschiedenen Modalitäten präsentieren können.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Determined in a markup language from elements and attributes that are accessed directly
-      by commonly available assistive technology.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestimmt in einer <span lang="en">Markup</span>-Sprache aus Elementen und Attributen, auf die direkt durch allgemein erhältliche assistierende Techniken zugegriffen wird.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Determined from technology-specific data structures in a non-markup language and exposed
-      to assistive technology via an accessibility API that is supported by commonly available
-      assistive technology.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestimmt von Technik-spezifischen Datenstrukturen in einer Nicht-<span lang="en">Markup</span>-Sprache und gezeigt von assistierenden Techniken über ein <span lang="en">Accessibility</span>-<abbr title="Schnittstelle zur Programmierung von Anwendungen (Application Programming Interface)">API</abbr>, welches von allgemein erhältlichen, assistierenden Techniken unterstützt wird.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-programmatically-determined-link-context</id>
-      <name>programmatically determined link context</name>
+      <id>dfn-durch-software-bestimmter-link-kontext</id>
+      <name>durch software bestimmter link-kontext</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">additional information that can be <a>programmatically determined</a> from <a>relationships</a> with a link, combined with the link text, and presented to users in different modalities
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Zusätzliche Informationen, die durch <a>Beziehungen</a> mit einem Link <a>durch <span lang="en">Software</span> bestimmt</a> werden können. Diese Informationen werden mit dem Link-Text kombiniert und dem Benutzer in verschiedenen Modalitäten präsentiert.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">In HTML, information that is programmatically determinable from a link in English
-      includes text that is in the same paragraph, list, or table cell as the link or in
-      a table header cell that is associated with the table cell that contains the link.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">In <abbr>HTML</abbr> beinhalten Informationen, die von einem Link in Englisch durch <span lang="en">Software</span> bestimmbar sind, Text, der in dem gleichen Absatz, der gleichen Liste oder Tabellenzelle ist wie der Link oder in einer Zelle mit Tabellenüberschrift, die mit der Tabellenzelle verknüpft ist, die den Link enthält.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Since screen readers interpret punctuation, they can also provide the context from
-      the current sentence, when the focus is on a link in that sentence.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Da <span lang="en">Screenreader</span> die Zeichensetzung interpretieren können, können sie auch den Zusammenhang aus dem aktuellen Satz verfügbar machen, wenn der Fokus auf einem Link in diesem Satz liegt.</p>
    
       </definition>
    </term>
@@ -2601,11 +2442,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-relationships</id>
-      <name>relationships</name>
+      <id>dfn-beziehungen</id>
+      <name>beziehungen</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">meaningful associations between distinct pieces of content</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Bedeutungstragende Verbindungen zwischen eigenständigen Inhaltsteilen.</p>
    
       </definition>
    </term>
@@ -2739,17 +2580,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-section</id>
-      <name>section</name>
+      <id>dfn-abschnitt</id>
+      <name>abschnitt</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a self-contained portion of written content that deals with one or more related topics
-      or thoughts
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Ein in sich geschlossener Block von geschriebenem Inhalt, der ein oder mehrere verwandte Themen oder Gedanken behandelt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">A section may consist of one or more paragraphs and include graphics, tables, lists
-      and sub-sections.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein Abschnitt kann aus einem oder mehreren Absätzen bestehen und Grafiken, Tabellen, Listen und Unter-Abschnitte beinhalten.</p>
    
       </definition>
    </term>
@@ -2806,15 +2643,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-specific-sensory-experience</id>
-      <name>specific sensory experience</name>
+      <id>dfn-bestimmte-sinneserfahrung</id>
+      <name>bestimmte sinneserfahrung</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a sensory experience that is not purely decorative and does not primarily convey important
-      information or perform a function
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine Sinneserfahrung, die weder rein dekorativ ist, noch in erster Linie wichtige Informationen vermittelt oder eine Funktion ausführt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Examples include a performance of a flute solo, works of visual art etc.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Beispiele beinhalten die Vorführung eines Flötensolos, Arbeiten visueller Kunst usw.</p>
    
       </definition>
    </term>
@@ -2982,75 +2817,57 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-used-in-an-unusual-or-restricted-way</id>
-      <name>used in an unusual or restricted way</name>
+      <id>dfn-benutzung-auf-ungewöhnliche-oder-eingeschränkte-weise</id>
+      <name>benutzung auf ungewöhnliche oder eingeschränkte weise</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">words used in such a way that requires users to know exactly which definition to apply
-      in order to understand the content correctly
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Wörter, die so verwendet werden, dass Benutzer genau wissen müssen, welche Definition anzuwenden ist, um den Inhalt korrekt zu verstehen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">The term "gig" means something different if it occurs in a discussion of music concerts
-      than it does in article about computer hard drive space, but the appropriate definition
-      can be determined from context. By contrast, the word "text" is used in a very specific
-      way in WCAG 2.1, so a definition is supplied in the glossary.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Wenn der Begriff „gig“ in einer Diskussion über Musikkonzerte auftaucht, bedeutet er etwas anderes, als wenn er in einem Artikel über Computer-Festplattenplatz auftaucht. Die passende Definition kann aber durch den Inhalt bestimmt werden. Im Gegensatz dazu wird das Wort „Text“ in den <abbr>WCAG</abbr> 2.0 auf eine sehr spezielle Art benutzt, so dass eine Definition im Glossar zur Verfügung gestellt wird.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-user-agent</id>
-      <name>user agent</name>
+      <id>dfn-benutzeragent</id>
+      <name>benutzeragent</name>
       <name>user agents</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">any software that retrieves and presents Web content for users</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Jegliche <span lang="en">Software</span>, die <span lang="en">Web</span>inhalt für den Benutzer abruft und darstellt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Web browsers, media players, plug-ins, and other programs — including <a>assistive technologies</a> — that help in retrieving, rendering, and interacting with Web content.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">
+            <span lang="en">Webbrowser, Mediaplayer, Plug-Ins</span> und andere Programme — einschließlich <a>assistierender Techniken</a> — die dabei helfen, <span lang="en">Web</span>inhalt abzurufen, ihn zu rendern und mit ihm zu interagieren.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-user-controllable</id>
-      <name>user-controllable</name>
+      <id>dfn-benutzer-gesteuert</id>
+      <name>benutzer-gesteuert</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">data that is intended to be accessed by users</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Daten, die dazu gedacht sind, dass der Benutzer auf sie zugreift.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">This does not refer to such things as Internet logs and search engine monitoring data.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dies bezieht sich nicht auf Dinge wie Internet-Logs und Daten zur Beobachtung und Analyse von Suchmaschinen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Name and address fields for a user's account.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Namens- und Adressfelder für ein Benutzerkonto.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-user-interface-component</id>
-      <name>user interface component</name>
+      <id>dfn-bestandteil-der-benutzerschnittstelle</id>
+      <name>bestandteil der benutzerschnittstelle</name>
       <name>user interface components</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a part of the content that is perceived by users as a single control for a distinct
-      function
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Ein Teil des Inhalts, der von den Benutzern als einzelnes Steuerelement für eine bestimmte Funktion wahrgenommen wird.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Multiple user interface components may be implemented as a single programmatic element.
-      Components here is not tied to programming techniques, but rather to what the user
-      perceives as separate controls.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Mehrere Bestandteile der Benutzerschnittstelle können als einzelnes programmtechnisches Element implementiert sein. In dem Zusammenhang ist das Wort „Bestandteil“ nicht an Programmiertechniken gebunden, sondern an das, was Benutzer als unterschiedliche Steuerelemente wahrnehmen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">User interface components include form elements and links as well as components generated
-      by scripts.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestandteile der Benutzerschnittstelle beinhalten sowohl Formularelemente und Links als auch Bestandteile, die von Skripten generiert werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">What is meant by "component" or "user interface component" here is also sometimes
-      called "user interface element".
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">What is meant by "component" or "user interface component" here is also sometimes called "user interface element".</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">An applet has a "control" that can be used to move through content by line or page
-      or random access. Since each of these would need to have a name and be settable independently,
-      they would each be a "user interface component."
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Applet hat ein „Steuerelement“, das dazu benutzt werden kann, sich Zeile für Zeile, Seite für Seite oder zufällig durch Inhalt zu bewegen. Da jede dieser Möglichkeiten einen Namen hat und unabhängig voneinander einzustellen sein müsste, wäre jede einzelne Möglichkeit ein „Bestandteil der Benutzerschnittstelle.“</p>
    
       </definition>
    </term>

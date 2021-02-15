@@ -29,7 +29,7 @@
       </nav>
       <h1>Understanding Success Criterion 4.1.3: Status Messages</h1>
       <blockquote class="scquote">
-         <p>Success Criterion <a href="https://w3c.github.io/wcag/guidelines/#status-messages" style="font-weight: bold;">4.1.3 Status Messages</a> (Level AA): In content implemented using markup languages, <a href="#dfn-status-message">status messages</a> can be <a href="#dfn-programmatically-determined">programmatically determined</a> through <a href="#dfn-role">role</a> or properties such that they can be presented to the user by <a href="#dfn-assistive-technology">assistive technologies</a> without receiving focus.
+         <p>Success Criterion <a href="https://w3c.github.io/wcag/guidelines/#status-messages" style="font-weight: bold;">4.1.3 Status Messages</a> (Level AA): In content implemented using markup languages, <a href="#dfn-status-message">status messages</a> can be <a href="#">programmatically determined</a> through <a href="#dfn-role">role</a> or properties such that they can be presented to the user by <a href="#dfn-assistierende-technik">assistive technologies</a> without receiving focus.
          </p>
       </blockquote>
       <main>
@@ -64,7 +64,7 @@
                of status messages are given in the section titled <a href="#status-examples">Status Message Examples</a> below.
             </p>
             <p>This Success Criterion specifically addresses scenarios where new content is added
-               to the page without changing the user's context. <a href="#dfn-changes-of-context">Changes of context</a>, by their nature, interrupt the user by taking focus. They are already surfaced by
+               to the page without changing the user's context. <a href="#">Changes of context</a>, by their nature, interrupt the user by taking focus. They are already surfaced by
                assistive technologies, and so have already met the goal to alert the user to new
                content. As such, messages that involve changes of context do not need to be considered
                and are not within the scope of this Success Criterion. Examples of scenarios that
@@ -475,191 +475,98 @@
          </section>
          <section id="key-terms">
             <h2>Key Terms</h2>
-            <dt id="dfn-assistive-technology">assistive technology</dt>
+            <dt id="dfn-assistierende-technik">assistierende technik</dt>
             <dd>
                <definition xmlns="">
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml">hardware and/or software that acts as a <a href="#dfn-user-agent">user agent</a>, or along with a mainstream user agent, to provide functionality to meet the requirements
-                     of users with disabilities that go beyond those offered by mainstream user agents
-                     
+                  <p xmlns="http://www.w3.org/1999/xhtml">
+                     <span lang="en">Hardware</span> und/oder <span lang="en">Software</span>, die als <a href="#dfn-benutzeragent">Benutzeragent</a> fungiert oder die mit einem gängigen Benutzeragenten zusammenarbeitet, um Funktionalität
+                     zur Verfügung zu stellen, damit die Anforderungen von Benutzern mit Behinderungen
+                     erfüllt werden, die über jene hinausgehen, die von gängigen Benutzeragenten angeboten
+                     werden.
                   </p>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>functionality provided by assistive technology includes alternative presentations
-                        (e.g., as synthesized speech or magnified content), alternative input methods (e.g.,
-                        voice), additional navigation or orientation mechanisms, and content transformations
-                        (e.g., to make tables more accessible).
-                        
+                     <p>Funktionalitäten, die von assistierenden Techniken bereitgestellt werden, beinhalten
+                        alternative Präsentationen (<abbr>z.B.</abbr> als synthetische Sprachausgabe oder vergrößerte Inhalte), alternative Eingabemethoden
+                        (<abbr>z.B.</abbr> Sprache), zusätzliche Navigations- oder Orientierungsmechanismen und Inhaltstransformationen
+                        (<abbr>z.B.</abbr> um Tabellen barrierefreier zu machen).
                      </p>
                   </div>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>Assistive technologies often communicate data and messages with mainstream user agents
-                        by using and monitoring APIs.
-                        
+                     <p>Assistierende Techniken tauschen Daten und Nachrichten mit gängigen Benutzeragenten
+                        oft durch die Benutzung und die Beobachtung von <abbr title="Anwendungsprogrammierungsschnittstellen (Application Programming Interfaces)">APIs</abbr> aus.
                      </p>
                   </div>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>The distinction between mainstream user agents and assistive technologies is not absolute.
-                        Many mainstream user agents provide some features to assist individuals with disabilities.
-                        The basic difference is that mainstream user agents target broad and diverse audiences
-                        that usually include people with and without disabilities. Assistive technologies
-                        target narrowly defined populations of users with specific disabilities. The assistance
-                        provided by an assistive technology is more specific and appropriate to the needs
-                        of its target users. The mainstream user agent may provide important functionality
-                        to assistive technologies like retrieving Web content from program objects or parsing
-                        markup into identifiable bundles.
-                        
+                     <p>Die Abgrenzung zwischen gängigen Benutzeragenten und assistierenden Techniken ist
+                        nicht absolut. Viele gängige Benutzeragenten stellen einige Funktionen bereit, um
+                        Menschen mit Behinderungen zu unterstützen. Der grundlegende Unterschied besteht darin,
+                        dass gängige Benutzeragenten ein breites und verschiedenartiges Publikum als Zielgruppe
+                        haben, die normalerweise Menschen mit und ohne Behinderungen beinhaltet. Assistierende
+                        Techniken haben als Zielgruppe genau definierte Populationen von Benutzern mit bestimmten
+                        Behinderungen. Die Unterstützung, die durch assistierende Techniken bereitgestellt
+                        wird, ist spezifischer und entspricht den Bedürfnissen ihrer Zielgruppe. Der gängige
+                        Benutzeragent kann den assistierenden Techniken wichtige Funktionalitäten zur Verfügung
+                        stellen, wie das Abrufen von <span lang="en">Web</span>inhalten aus Programmobjekten oder das Aufgliedern von <span lang="en">Markup</span> in identifizierbare Datenstrukturen.
                      </p>
                   </div>
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Assistive technologies that are important in the context of this document include
-                     the following:
-                     
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Assistierende Techniken, die im Zusammenhang mit diesem Dokument wichtig sind, beinhalten
+                     die folgenden:
                   </p>
                   
                   
                   <ul xmlns="http://www.w3.org/1999/xhtml">
                      
                      
-                     <li>screen magnifiers, and other visual reading assistants, which are used by people with
-                        visual, perceptual and physical print disabilities to change text font, size, spacing,
-                        color, synchronization with speech, etc. in order to improve the visual readability
-                        of rendered text and images;
-                        
+                     <li>Vergrößerungssoftware und andere visuelle Leseassistenten, die von Menschen mit visuellen,
+                        wahrnehmungsbedingten und körperlichen Einschränkungen in Bezug auf die Nutzung gedruckter
+                        Medien benutzt werden, um Schriftart, Größe, Abstände, Textfarbe oder die Synchronisierung
+                        von Text mit Sprache usw. zu ändern, damit die visuelle Lesbarkeit von gerendertem
+                        Text oder Bildern verbessert wird;
                      </li>
                      
                      
-                     <li>screen readers, which are used by people who are blind to read textual information
-                        through synthesized speech or braille;
-                        
+                     <li>
+                        <span lang="en">Screenreader</span>, die von blinden Menschen benutzt werden, um Informationen in Textform durch synthetische
+                        Sprachausgabe oder Braille zu lesen;
                      </li>
                      
                      
-                     <li>text-to-speech software, which is used by some people with cognitive, language, and
-                        learning disabilities to convert text into synthetic speech;
-                        
+                     <li>Sprachausgabe-<span lang="en">Software</span> (<span lang="en">Text-to-Speech-Software</span>), die von manchen Menschen mit kognitiven, Sprach- oder Lernbehinderungen benutzt
+                        wird, um Text in synthetische Sprachausgabe zu konvertieren;
                      </li>
                      
                      
-                     <li>speech recognition software, which may be used by people who have some physical disabilities;</li>
-                     
-                     
-                     <li>alternative keyboards, which are used by people with certain physical disabilities
-                        to simulate the keyboard (including alternate keyboards that use head pointers, single
-                        switches, sip/puff and other special input devices.);
-                        
+                     <li>Spracherkennungssoftware, die von Menschen mit Körperbehinderungen benutzt werden
+                        kann;
                      </li>
                      
                      
-                     <li>alternative pointing devices, which are used by people with certain physical disabilities
-                        to simulate mouse pointing and button activations.
-                        
+                     <li>Alternative Tastaturen, die von Menschen mit bestimmten Körperbehinderungen benutzt
+                        werden, um die Tastatur zu simulieren (einschließlich alternativer Tastaturen, die
+                        über Kopfsteuerungen, Einzelschalter, Saug- und Blassteuerungen und andere besondere
+                        Eingabegeräte bedient werden);
+                     </li>
+                     
+                     
+                     <li>Alternative Zeigegeräte, die von Menschen mit bestimmten Körperbehinderungen benutzt
+                        werden, um das Zeigen mit der Maus und die Aktivierung von Schaltflächen zu simulieren.
                      </li>
                      
                      
                   </ul>
-                  
-                  
-               </definition>
-            </dd>
-            <dt id="dfn-changes-of-context">changes of context</dt>
-            <dd>
-               <definition xmlns="">
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml">major changes in the content of the <a href="#dfn-web-page">Web page</a> that, if made without user awareness, can disorient users who are not able to view
-                     the entire page simultaneously
-                     
-                  </p>
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml">Changes in context include changes of:</p>
-                  
-                  
-                  <ol xmlns="http://www.w3.org/1999/xhtml">
-                     
-                     
-                     <li>
-                        <a href="#dfn-user-agent">user agent</a>;
-                        
-                     </li>
-                     
-                     
-                     <li>
-                        <a href="#dfn-viewport">viewport</a>;
-                        
-                     </li>
-                     
-                     
-                     <li>focus;</li>
-                     
-                     
-                     <li>
-                        <a href="#dfn-content">content</a> that changes the meaning of the <a href="#dfn-web-page">Web page</a>
-                        
-                     </li>
-                     
-                     
-                  </ol>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>A change of content is not always a change of context. Changes in content, such as
-                        an expanding outline, dynamic menu, or a tab control do not necessarily change the
-                        context, unless they also change one of the above (e.g., focus).
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Opening a new window, moving focus to a different component, going to a new page (including
-                     anything that would look to a user as if they had moved to a new page) or significantly
-                     re-arranging the content of a page are examples of changes of context.
-                     
-                  </p>
-                  
-                  
-               </definition>
-            </dd>
-            <dt id="dfn-programmatically-determined">programmatically determined</dt>
-            <dd>
-               <definition xmlns="">
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml">determined by software from author-supplied data provided in a way that different
-                     <a href="#dfn-user-agent">user agents</a>, including <a href="#dfn-assistive-technology">assistive technologies</a>, can extract and present this information to users in different modalities
-                     
-                  </p>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>Determined in a markup language from elements and attributes that are accessed directly
-                        by commonly available assistive technology.
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>Determined from technology-specific data structures in a non-markup language and exposed
-                        to assistive technology via an accessibility API that is supported by commonly available
-                        assistive technology.
-                        
-                     </p>
-                  </div>
                   
                   
                </definition>
@@ -688,7 +595,7 @@
                <definition xmlns="">
                   					
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml">change in content that is not a <a href="#dfn-changes-of-context">change of context</a>, and that provides information to the user on the success or results of an action,
+                  <p xmlns="http://www.w3.org/1999/xhtml">change in content that is not a <a href="#dfn-%C3%A4nderungen-des-kontextes">change of context</a>, and that provides information to the user on the success or results of an action,
                      on the waiting state of an application, on the progress of a process, or on the existence
                      of errors
                   </p>

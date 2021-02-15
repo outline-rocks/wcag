@@ -30,7 +30,7 @@
       </nav>
       <h1>Understanding Success Criterion 2.5.3: Label in Name</h1>
       <blockquote class="scquote">
-         <p>Success Criterion <a href="https://w3c.github.io/wcag/guidelines/#label-in-name" style="font-weight: bold;">2.5.3 Label in Name</a> (Level A): For <a href="#dfn-user-interface-component">user interface components</a> with <a href="#dfn-label">labels</a> that include <a href="#dfn-text">text</a> or <a href="#dfn-image-of-text">images of text</a>, the <a href="#dfn-name">name</a> contains the text that is presented visually.
+         <p>Success Criterion <a href="https://w3c.github.io/wcag/guidelines/#label-in-name" style="font-weight: bold;">2.5.3 Label in Name</a> (Level A): For <a href="#dfn-bestandteil-der-benutzerschnittstelle">user interface components</a> with <a href="#dfn-beschriftung-/-label">labels</a> that include <a href="#dfn-text">text</a> or <a href="#dfn-bild-eines-textes">images of text</a>, the <a href="#dfn-name">name</a> contains the text that is presented visually.
          </p>
          <p class="note">A best practice is to have  the text of the label at the start of the name.</p>
       </blockquote>
@@ -345,54 +345,95 @@
          </section>
          <section id="key-terms">
             <h2>Key Terms</h2>
-            <dt id="dfn-image-of-text">image of text</dt>
-            <dd>
-               <definition xmlns="">
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml">text that has been rendered in a non-text form (e.g., an image) in order to achieve
-                     a particular visual effect
-                     
-                  </p>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>This does not include <a href="#dfn-text">text</a> that is part of a picture that contains significant other visual content.
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">A person's name on a nametag in a photograph.</p>
-                  
-                  
-               </definition>
-            </dd>
-            <dt id="dfn-label">label</dt>
+            <dt id="dfn-beschriftung-/-label">beschriftung / label</dt>
             <dd>
                <definition xmlns="">
                   
                   
                   <p xmlns="http://www.w3.org/1999/xhtml">
-                     <a href="#dfn-text">text</a> or other component with a <a href="#dfn-text-alternative">text alternative</a> that is presented to a user to identify a component within Web <a href="#dfn-content">content</a>
-                     
+                     <a href="#dfn-text">Text</a> oder andere Komponente mit einer <a href="#">Textalternative</a> , der oder die dem Benutzer präsentiert wird, um eine Komponente innerhalb von Web<a href="#">inhalten</a> zu identifizieren.
                   </p>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>A label is presented to all users whereas the <a href="#dfn-name">name</a> may be hidden and only exposed by assistive technology. In many (but not all) cases
-                        the name and the label are the same.
-                        
+                     <p>Eine Beschriftung (<span lang="en">Label</span>) wird allen Benutzern gezeigt, wobei der <a href="#dfn-name">Name</a> versteckt sein kann und nur von assistierenden Techniken gezeigt wird. In vielen
+                        (aber nicht allen) Fällen sind Name und Beschriftung gleich.
                      </p>
                   </div>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>The term label is not limited to the label element in HTML.</p>
+                     <p>Der Begriff Beschriftung (<span lang="en">Label</span>) ist nicht beschränkt auf das <span lang="en">Label</span>-Element in <abbr>HTML</abbr>.
+                     </p>
                   </div>
+                  
+                  
+               </definition>
+            </dd>
+            <dt id="dfn-bestandteil-der-benutzerschnittstelle">bestandteil der benutzerschnittstelle</dt>
+            <dd>
+               <definition xmlns="">
+                  
+                  
+                  <p xmlns="http://www.w3.org/1999/xhtml">Ein Teil des Inhalts, der von den Benutzern als einzelnes Steuerelement für eine bestimmte
+                     Funktion wahrgenommen wird.
+                  </p>
+                  
+                  
+                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
+                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
+                     <p>Mehrere Bestandteile der Benutzerschnittstelle können als einzelnes programmtechnisches
+                        Element implementiert sein. In dem Zusammenhang ist das Wort „Bestandteil“ nicht an
+                        Programmiertechniken gebunden, sondern an das, was Benutzer als unterschiedliche Steuerelemente
+                        wahrnehmen.
+                     </p>
+                  </div>
+                  
+                  
+                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
+                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
+                     <p>Bestandteile der Benutzerschnittstelle beinhalten sowohl Formularelemente und Links
+                        als auch Bestandteile, die von Skripten generiert werden.
+                     </p>
+                  </div>
+                  
+                  
+                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
+                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
+                     <p>What is meant by "component" or "user interface component" here is also sometimes
+                        called "user interface element".
+                     </p>
+                  </div>
+                  
+                  
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Applet hat ein „Steuerelement“, das dazu benutzt werden kann, sich Zeile für Zeile,
+                     Seite für Seite oder zufällig durch Inhalt zu bewegen. Da jede dieser Möglichkeiten
+                     einen Namen hat und unabhängig voneinander einzustellen sein müsste, wäre jede einzelne
+                     Möglichkeit ein „Bestandteil der Benutzerschnittstelle.“
+                  </p>
+                  
+                  
+               </definition>
+            </dd>
+            <dt id="dfn-bild-eines-textes">bild eines textes</dt>
+            <dd>
+               <definition xmlns="">
+                  
+                  
+                  <p xmlns="http://www.w3.org/1999/xhtml">Text, der in einer Nicht-Text-Form (<abbr>z.B.</abbr> einem Bild) gerendert wurde, um einen bestimmten visuellen Effekt zu erzielen.
+                  </p>
+                  
+                  
+                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
+                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
+                     <p>Dies beinhaltet keinen <a href="#dfn-text">Text</a> , der Teil eines Bildes ist, das signifikanten anderen visuellen Inhalt enthält.
+                     </p>
+                  </div>
+                  
+                  
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Der Name einer Person auf einem Namensschild auf einem Foto.</p>
                   
                   
                </definition>
@@ -407,7 +448,7 @@
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>The name may be hidden and only exposed by assistive technology, whereas a <a href="#dfn-label">label</a> is presented to all users. In many (but not all) cases, the label and the name are
+                     <p>The name may be hidden and only exposed by assistive technology, whereas a <a href="#">label</a> is presented to all users. In many (but not all) cases, the label and the name are
                         the same.
                         
                      </p>
@@ -427,55 +468,7 @@
                <definition xmlns="">
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml">sequence of characters that can be <a href="#dfn-programmatically-determined">programmatically determined</a>, where the sequence is expressing something in <a href="#dfn-human-language">human language</a>
-                     
-                  </p>
-                  
-                  
-               </definition>
-            </dd>
-            <dt id="dfn-user-interface-component">user interface component</dt>
-            <dd>
-               <definition xmlns="">
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml">a part of the content that is perceived by users as a single control for a distinct
-                     function
-                     
-                  </p>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>Multiple user interface components may be implemented as a single programmatic element.
-                        Components here is not tied to programming techniques, but rather to what the user
-                        perceives as separate controls.
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>User interface components include form elements and links as well as components generated
-                        by scripts.
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>What is meant by "component" or "user interface component" here is also sometimes
-                        called "user interface element".
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">An applet has a "control" that can be used to move through content by line or page
-                     or random access. Since each of these would need to have a name and be settable independently,
-                     they would each be a "user interface component."
+                  <p xmlns="http://www.w3.org/1999/xhtml">sequence of characters that can be <a href="#">programmatically determined</a>, where the sequence is expressing something in <a href="#dfn-human-language">human language</a>
                      
                   </p>
                   

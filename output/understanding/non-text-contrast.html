@@ -38,7 +38,7 @@
             <dt>User Interface Components</dt>
             						
             
-            <dd>Visual information required to identify <a href="#dfn-user-interface-component">user interface components</a> and <a href="#dfn-state">states</a>, except for inactive components or where the appearance of the component is determined
+            <dd>Visual information required to identify <a href="#dfn-bestandteil-der-benutzerschnittstelle">user interface components</a> and <a href="#dfn-state">states</a>, except for inactive components or where the appearance of the component is determined
                by the user agent and not modified by the author;
             </dd>
             						
@@ -1112,6 +1112,51 @@
          </section>
          <section id="key-terms">
             <h2>Key Terms</h2>
+            <dt id="dfn-bestandteil-der-benutzerschnittstelle">bestandteil der benutzerschnittstelle</dt>
+            <dd>
+               <definition xmlns="">
+                  
+                  
+                  <p xmlns="http://www.w3.org/1999/xhtml">Ein Teil des Inhalts, der von den Benutzern als einzelnes Steuerelement für eine bestimmte
+                     Funktion wahrgenommen wird.
+                  </p>
+                  
+                  
+                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
+                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
+                     <p>Mehrere Bestandteile der Benutzerschnittstelle können als einzelnes programmtechnisches
+                        Element implementiert sein. In dem Zusammenhang ist das Wort „Bestandteil“ nicht an
+                        Programmiertechniken gebunden, sondern an das, was Benutzer als unterschiedliche Steuerelemente
+                        wahrnehmen.
+                     </p>
+                  </div>
+                  
+                  
+                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
+                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
+                     <p>Bestandteile der Benutzerschnittstelle beinhalten sowohl Formularelemente und Links
+                        als auch Bestandteile, die von Skripten generiert werden.
+                     </p>
+                  </div>
+                  
+                  
+                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
+                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
+                     <p>What is meant by "component" or "user interface component" here is also sometimes
+                        called "user interface element".
+                     </p>
+                  </div>
+                  
+                  
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Applet hat ein „Steuerelement“, das dazu benutzt werden kann, sich Zeile für Zeile,
+                     Seite für Seite oder zufällig durch Inhalt zu bewegen. Da jede dieser Möglichkeiten
+                     einen Namen hat und unabhängig voneinander einzustellen sein müsste, wäre jede einzelne
+                     Möglichkeit ein „Bestandteil der Benutzerschnittstelle.“
+                  </p>
+                  
+                  
+               </definition>
+            </dd>
             <dt id="dfn-contrast-ratio">contrast ratio</dt>
             <dd>
                <definition xmlns="">
@@ -1236,54 +1281,6 @@
                      the component or user interaction possibilities. Examples include focus, hover, select,
                      press, check, visited/unvisited, and expand/collapse.
                   </p>
-                  
-               </definition>
-            </dd>
-            <dt id="dfn-user-interface-component">user interface component</dt>
-            <dd>
-               <definition xmlns="">
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml">a part of the content that is perceived by users as a single control for a distinct
-                     function
-                     
-                  </p>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>Multiple user interface components may be implemented as a single programmatic element.
-                        Components here is not tied to programming techniques, but rather to what the user
-                        perceives as separate controls.
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>User interface components include form elements and links as well as components generated
-                        by scripts.
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-                     <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>What is meant by "component" or "user interface component" here is also sometimes
-                        called "user interface element".
-                        
-                     </p>
-                  </div>
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">An applet has a "control" that can be used to move through content by line or page
-                     or random access. Since each of these would need to have a name and be settable independently,
-                     they would each be a "user interface component."
-                     
-                  </p>
-                  
                   
                </definition>
             </dd>
