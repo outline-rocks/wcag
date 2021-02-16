@@ -124,7 +124,7 @@
                   	
                   <ul>
                      		
-                     <li>For Level A conformance (the minimum level of conformance), the <a href="#dfn-web-page">Web page</a>
+                     <li>For Level A conformance (the minimum level of conformance), the <a href="#">Web page</a>
                         			<a href="#dfn-erf%C3%BCllt-ein-erfolgskriterium">satisfies</a> all the Level A Success Criteria, or a <a href="#">conforming alternate version</a> is provided.
                      </li>
                      		
@@ -190,7 +190,7 @@
                
                <blockquote class="scquote" id="cc2">
                   	
-                  <p><strong>Full pages</strong>: <a href="#">Conformance</a> (and conformance level) is for full <a href="#dfn-web-page">Web page(s)</a> only, and cannot be achieved if part of a Web page is excluded.
+                  <p><strong>Full pages</strong>: <a href="#">Conformance</a> (and conformance level) is for full <a href="#dfn-webseite">Web page(s)</a> only, and cannot be achieved if part of a Web page is excluded.
                   </p>
                   	
                   <div class="note">
@@ -273,7 +273,7 @@
                
                <blockquote class="scquote" id="cc3">
                   	
-                  <p><strong>Complete processes</strong>: When a <a href="#dfn-web-page">Web page</a> is one of a series of Web pages presenting a <a href="#">process</a> (i.e., a sequence of steps that need to be completed in order to accomplish an activity),
+                  <p><strong>Complete processes</strong>: When a <a href="#">Web page</a> is one of a series of Web pages presenting a <a href="#">process</a> (i.e., a sequence of steps that need to be completed in order to accomplish an activity),
                      all Web pages in the process conform at the specified level or better. (Conformance
                      is not possible at a particular level if any page in the process does not conform
                      at that level or better.)
@@ -306,7 +306,7 @@
                	
                <blockquote class="scquote" id="cc4">
                   		
-                  <p><strong>Only Accessibility-Supported Ways of Using Technologies</strong>: Only <a href="#dfn-barrierefreiheit-unterst%C3%BCtzend">accessibility-supported</a> ways of using <a href="#dfn-technology">technologies</a> are <a href="#dfn-relied-upon">relied upon</a> to satisfy the success criteria. Any information or functionality that is provided
+                  <p><strong>Only Accessibility-Supported Ways of Using Technologies</strong>: Only <a href="#dfn-barrierefreiheit-unterst%C3%BCtzend">accessibility-supported</a> ways of using <a href="#dfn-technik">technologies</a> are <a href="#">relied upon</a> to satisfy the success criteria. Any information or functionality that is provided
                      in a way that is not accessibility supported is also available in a way that is accessibility
                      supported. (See <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#accessibility-support">Understanding accessibility support</a>.)
                   </p>
@@ -331,13 +331,13 @@
                <blockquote class="scquote" id="cc5">
                   		
                   <p><strong>Non-Interference</strong>: If <a href="#"> technologies </a> are used in a way that is not <a href="#">accessibility supported</a>, or if they are used in a non-conforming way, then they do not block the ability
-                     of users to access the rest of the page. In addition, the <a href="#dfn-web-page">Web page</a> as a whole continues to meet the conformance requirements under each of the following
+                     of users to access the rest of the page. In addition, the <a href="#">Web page</a> as a whole continues to meet the conformance requirements under each of the following
                      conditions:
                   </p>
                   		
                   <ol>
                      			
-                     <li>when any technology that is not <a href="#dfn-relied-upon">relied upon</a> is turned on in a user agent,
+                     <li>when any technology that is not <a href="#">relied upon</a> is turned on in a user agent,
                      </li>
                      			
                      <li>when any technology that is not relied upon is turned off in a user agent, and</li>
@@ -1708,42 +1708,24 @@
             <p>The definition of a Web Page is:</p>
             
             	
-            <blockquote class="scquote"><dt><dfn data-lt="web page(s)|web pages">Web page</dfn></dt>
+            <blockquote class="scquote"><dt><dfn data-lt="web page(s)|web pages">Webseite</dfn></dt>
 <dd>
    
-   <p>a non-embedded resource obtained from a single URI using HTTP plus any other resources
-      that are used in the rendering or intended to be rendered together with it by a <a>user agent</a></p>
+   <p>Eine nicht-eingebettete Ressource abgerufen von einem einzelnen URI unter der Benutzung von HTTP plus jeder anderen Ressource, die beim Rendern benutzt wird oder die dazu bestimmt ist, mit der Ursprungs-Ressource zusammen durch einen <a>Benutzeragenten</a> gerendert zu werden.</p>
    
-   <p class="note">Although any "other resources" would be rendered together with the primary resource,
-      they would not necessarily be rendered simultaneously with each other.
-   </p>
+   <p class="note">Obwohl jede „andere Ressource“ zusammen mit der ursprünglichen Ressource gerendert würde, würden sie nicht zwangsläufig zeitgleich miteinander gerendert werden.</p>
    
-   <p class="note">For the purposes of conformance with these guidelines, a resource must be "non-embedded"
-      within the scope of conformance to be considered a Web page.
-   </p>
+   <p class="note">Zum Zweck der Konformität mit diesen Richtlinien muss eine Ressource „nicht eingebettet“ innerhalb des Geltungsbereichs der Konformität sein, um als Webseite zu gelten.</p>
    
-   <p class="example">A Web resource including all embedded images and media.</p>
+   <p class="example">Eine Web-Ressource, die alle eingebetteten Bilder und Medien beinhaltet.</p>
    
-   <p class="example">A Web mail program built using Asynchronous JavaScript and XML (AJAX). The program
-      lives entirely at http://example.com/mail, but includes an inbox, a contacts area
-      and a calendar. Links or buttons are provided that cause the inbox, contacts, or calendar
-      to display, but do not change the URI of the page as a whole.
-   </p>
+   <p class="example">Eine Web-Mail-Anwendung, die unter der Benutzung von Asynchronem JavaScript und XML (AJAX) entwickelt wurde. Das Programm liegt komplett unter http://example.com/mail, beinhaltet aber einen Posteingang, einen Kontaktbereich und einen Kalender. Es werden Links oder Schaltflächen bereitgestellt, die dazu führen, dass der Posteingang, die Kontakte oder der Kalender angezeigt werden, die aber nicht den URI der Seite als Ganzes verändern.</p>
    
-   <p class="example">A customizable portal site, where users can choose content to display from a set of
-      different content modules.
-   </p>
+   <p class="example">Eine anpassbare Portalseite, auf der Benutzer den anzuzeigenden Inhalt aus einer Gruppe verschiedener Inhaltsmodule auswählen können.</p>
    
-   <p class="example">When you enter "http://shopping.example.com/" in your browser, you enter a movie-like
-      interactive shopping environment where you visually move around in a store dragging
-      products off of the shelves around you and into a visual shopping cart in front of
-      you. Clicking on a product causes it to be demonstrated with a specification sheet
-      floating alongside. This might be a single-page Web site or just one page within a
-      Web site.
-   </p>
+   <p class="example">Wenn Sie in Ihrem Browser „http://shopping.example.com/“ eingeben, dann kommen Sie zu einer film-ähnlichen, interaktiven Einkaufsumgebung, in der Sie visuell in einem Geschäft herumgehen und Produkte aus den Regalen um Sie herum nehmen und in einen visuellen Einkaufswagen vor Ihnen legen können. Das Klicken auf ein Produkt führt dazu, dass es zusammen mit einem Datenblatt vorgestellt wird, das daneben schwebt. Dies kann eine einseitige Website sein oder einfach nur eine Seite innerhalb einer Website.</p>
    
-</dd>
-</blockquote>
+</dd></blockquote>
             
             
             <p>It is important to note that, in this standard, the term "Web page" includes much
@@ -1994,110 +1976,92 @@
                   
                </definition>
             </dd>
-            <dt id="dfn-relied-upon">relied upon</dt>
-            <dd>
-               <definition xmlns="">
-                  
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml">the content would not <a href="#dfn-konformit%C3%A4t">conform</a> if that <a href="#dfn-technology">technology</a> is turned off or is not supported
-                     
-                  </p>
-                  
-                  
-               </definition>
-            </dd>
-            <dt id="dfn-technology">technology</dt>
+            <dt id="dfn-technik">technik</dt>
             <dd>
                <definition xmlns="">
                   
                   
                   <p xmlns="http://www.w3.org/1999/xhtml">
-                     <a href="#">mechanism</a> for encoding instructions to be rendered, played or executed by <a href="#dfn-benutzeragent">user agents</a>
-                     
+                     <a href="#dfn-mechanismus">Mechanismus</a> zum Kodieren von Anweisungen, die von <a href="#">Benutzeragenten</a> gerendert, abgespielt oder ausgeführt werden sollen.
                   </p>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>As used in these guidelines "Web Technology" and the word "technology" (when used
-                        alone) both refer to Web Content Technologies.
-                        
+                     <p>„<span lang="en">Web</span>technik“ und das Wort „Technik“ (wenn es allein benutzt wird) beziehen sich – gemäß
+                        dem Gebrauch der Wörter in diesen Richtlinien – auf Webinhalts-Techniken.
                      </p>
                   </div>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>Web content technologies may include markup languages, data formats, or programming
-                        languages that authors may use alone or in combination to create end-user experiences
-                        that range from static Web pages to synchronized media presentations to dynamic Web
-                        applications.
-                        
+                     <p>Webinhalts-Techniken können Markup-Sprachen, Datenformate oder Programmiersprachen
+                        enthalten, die Autoren alleine oder in Kombination benutzen können, um Endbenutzer-Erlebnisse
+                        zu erstellen, die von statischen Webseiten über synchronisierte Medienpräsentationen
+                        bis hin zu dynamischen Webanwendungen reichen können.
                      </p>
                   </div>
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Some common examples of Web content technologies include HTML, CSS, SVG, PNG, PDF,
-                     Flash, and JavaScript.
-                     
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Einige geläufige Beispiele von Webinhalts-Techniken beinhalten HTML, CSS, SVG, PNG,
+                     PDF, Flash und JavaScript.
                   </p>
                   
                   
                </definition>
             </dd>
-            <dt id="dfn-web-page">web page</dt>
+            <dt id="dfn-webseite">webseite</dt>
             <dd>
                <definition xmlns="">
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml">a non-embedded resource obtained from a single URI using HTTP plus any other resources
-                     that are used in the rendering or intended to be rendered together with it by a <a href="#">user agent</a>
-                     
+                  <p xmlns="http://www.w3.org/1999/xhtml">Eine nicht-eingebettete Ressource abgerufen von einem einzelnen URI unter der Benutzung
+                     von HTTP plus jeder anderen Ressource, die beim Rendern benutzt wird oder die dazu
+                     bestimmt ist, mit der Ursprungs-Ressource zusammen durch einen <a href="#">Benutzeragenten</a> gerendert zu werden.
                   </p>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>Although any "other resources" would be rendered together with the primary resource,
-                        they would not necessarily be rendered simultaneously with each other.
-                        
+                     <p>Obwohl jede „andere Ressource“ zusammen mit der ursprünglichen Ressource gerendert
+                        würde, würden sie nicht zwangsläufig zeitgleich miteinander gerendert werden.
                      </p>
                   </div>
                   
                   
                   <div xmlns="http://www.w3.org/1999/xhtml" class="note">
                      <div role="heading" class="note-title marker" aria-level="2">Note</div>
-                     <p>For the purposes of conformance with these guidelines, a resource must be "non-embedded"
-                        within the scope of conformance to be considered a Web page.
-                        
+                     <p>Zum Zweck der Konformität mit diesen Richtlinien muss eine Ressource „nicht eingebettet“
+                        innerhalb des Geltungsbereichs der Konformität sein, um als Webseite zu gelten.
                      </p>
                   </div>
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">A Web resource including all embedded images and media.</p>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Web-Ressource, die alle eingebetteten Bilder und Medien beinhaltet.</p>
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">A Web mail program built using Asynchronous JavaScript and XML (AJAX). The program
-                     lives entirely at http://example.com/mail, but includes an inbox, a contacts area
-                     and a calendar. Links or buttons are provided that cause the inbox, contacts, or calendar
-                     to display, but do not change the URI of the page as a whole.
-                     
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Web-Mail-Anwendung, die unter der Benutzung von Asynchronem JavaScript und XML
+                     (AJAX) entwickelt wurde. Das Programm liegt komplett unter http://example.com/mail,
+                     beinhaltet aber einen Posteingang, einen Kontaktbereich und einen Kalender. Es werden
+                     Links oder Schaltflächen bereitgestellt, die dazu führen, dass der Posteingang, die
+                     Kontakte oder der Kalender angezeigt werden, die aber nicht den URI der Seite als
+                     Ganzes verändern.
                   </p>
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">A customizable portal site, where users can choose content to display from a set of
-                     different content modules.
-                     
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine anpassbare Portalseite, auf der Benutzer den anzuzeigenden Inhalt aus einer Gruppe
+                     verschiedener Inhaltsmodule auswählen können.
                   </p>
                   
                   
-                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">When you enter "http://shopping.example.com/" in your browser, you enter a movie-like
-                     interactive shopping environment where you visually move around in a store dragging
-                     products off of the shelves around you and into a visual shopping cart in front of
-                     you. Clicking on a product causes it to be demonstrated with a specification sheet
-                     floating alongside. This might be a single-page Web site or just one page within a
-                     Web site.
-                     
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="example">Wenn Sie in Ihrem Browser „http://shopping.example.com/“ eingeben, dann kommen Sie
+                     zu einer film-ähnlichen, interaktiven Einkaufsumgebung, in der Sie visuell in einem
+                     Geschäft herumgehen und Produkte aus den Regalen um Sie herum nehmen und in einen
+                     visuellen Einkaufswagen vor Ihnen legen können. Das Klicken auf ein Produkt führt
+                     dazu, dass es zusammen mit einem Datenblatt vorgestellt wird, das daneben schwebt.
+                     Dies kann eine einseitige Website sein oder einfach nur eine Seite innerhalb einer
+                     Website.
                   </p>
                   
                   

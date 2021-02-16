@@ -1528,11 +1528,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-blocks-of-text</id>
-      <name>blocks of text</name>
+      <id>dfn-textblöcke</id>
+      <name>textblöcke</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">more than one sentence of text</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Text mit mehr als einem Satz</p>
    
       </definition>
    </term>
@@ -1551,33 +1551,25 @@
       </definition>
    </term>
    <term>
-      <id>dfn-captions</id>
-      <name>captions</name>
+      <id>dfn-untertitel</id>
+      <name>untertitel</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">synchronized visual and/or <a>text alternative</a> for both speech and non-speech audio information needed to understand the media content
+         <p xmlns="http://www.w3.org/1999/xhtml">Synchronisierte visuelle Alternative und/oder <a>Textalternative</a> für sowohl sprachliche als auch nicht-sprachliche Audio-Informationen, die notwendig sind, um Medieninhalte zu verstehen.</p>
+   
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Untertitel (<span lang="en">Captions</span>) sind reinen Dialog-Untertiteln ähnlich mit der Ausnahme, dass sie nicht nur den Inhalt von gesprochenem Dialog wiedergeben, sondern auch Äquivalente für über den Dialog hinausgehende Audio-Informationen, die zum Verständnis des Programminhalts notwendig sind. Dies schließt Geräuscheffekte, Musik, Lachen, Identifizierung und Position des Sprechers ein.</p>
+   
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Geschlossene Untertitel (<span lang="en">Closed Captions</span>) sind Äquivalente, die in manchen Wiedergabeprogrammen an- und ausgeschaltet werden können.</p>
+   
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Offene Untertitel sind all jene, die nicht abgeschaltet werden können. Zum Beispiel, wenn es sich um visuell äquivalente <a>Bilder eines Textes</a> handelt, die in ein <a>Video</a> eingebettet sind.
    </p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Captions are similar to dialogue-only subtitles except captions convey not only the
-      content of spoken dialogue, but also equivalents for non-dialogue audio information
-      needed to understand the program content, including sound effects, music, laughter,
-      speaker identification and location.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Untertitel (<span lang="en">Captions</span>) sollten relevante Informationen im Video nicht undeutlich machen oder verdecken.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Closed Captions are equivalents that can be turned on and off with some players.</p>
-   
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Open Captions are any captions that cannot be turned off. For example, if the captions
-      are visual equivalent <a>images of text</a> embedded in <a>video</a>.
-   </p>
-   
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Captions should not obscure or obstruct relevant information in the video.</p>
-   
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In some countries, captions are called subtitles.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In einigen Ländern werden die hier gemeinten „<span lang="en">Captions</span>“ als Untertitel (<span lang="en">Subtitles</span>) bezeichnet.</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">
-            <a>Audio descriptions</a> can be, but do not need to be, captioned since they are descriptions of information
-      that is already presented visually.
-   </p>
+            <a>Audiodeskriptionen</a> können, müssen aber nicht untertitelt sein, da es sich hier um Beschreibungen von Informationen handelt, die bereits visuell dargestellt werden.</p>
    
       </definition>
    </term>
@@ -1767,13 +1759,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-essential</id>
-      <name>essential</name>
+      <id>dfn-unentbehrlich</id>
+      <name>unentbehrlich</name>
       <definition>
    					
-         <p xmlns="http://www.w3.org/1999/xhtml">if removed, would fundamentally change the information or functionality of the content,
-      <strong>and</strong> information and functionality cannot be achieved in another way that would conform
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Wenn dies entfernt würde, würde die Information oder Funktionalität des Inhalts grundlegend verändert, <strong>und</strong> Information und Funktionalität können nicht auf andere konforme Art und Weise erreicht werden.</p>
    				
       </definition>
    </term>
@@ -1940,28 +1930,19 @@
       </definition>
    </term>
    <term>
-      <id>dfn-keyboard-interface</id>
-      <name>keyboard interface</name>
+      <id>dfn-tastaturschnittstelle</id>
+      <name>tastaturschnittstelle</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">interface used by software to obtain keystroke input</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Schnittstelle, die von der Software benutzt wird, um Eingaben per Tastenanschlag zu erhalten.</p>
    
          <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-            <p>A keyboard interface allows users to provide keystroke input to programs even if the
-        native technology does not contain a keyboard.</p>
+            <p>Eine Tastaturschnittstelle erlaubt es Benutzern, bei Programmen Eingaben per Tastenanschlag zu machen, auch wenn die native Technik keine Tastatur enthält.</p>
 
-            <p class="example">A touchscreen PDA has a keyboard interface built into its operating system as well
-        as a connector for external keyboards. Applications on the PDA can use the interface
-        to obtain keyboard input either from an external keyboard or from other applications
-        that provide simulated keyboard output, such as handwriting interpreters or speech-to-text
-        applications with "keyboard emulation" functionality.</p>
+            <p class="example">Ein elektronischer Organizer mit berührungssensitivem Bildschirm hat sowohl eine in sein Betriebssystem eingebaute Tastaturschnittstelle, als auch einen Anschluss für externe Tastaturen. Anwendungen auf dem elektronischen Organizer können die Schnittstelle nutzen, um Tastatureingaben entweder von einer externen Tastatur oder von Anwendungen zu erhalten, die eine simulierte Tastatur-Ausgabe bereitstellen, wie zum Beispiel Schrifterkennungs- oder Spracheingabe-Anwendungen mit der Funktion, eine „Tastatur zu emulieren“.</p>
          </div>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Operation of the application (or parts of the application) through a keyboard-operated
-      mouse emulator, such as MouseKeys, does not qualify as operation through a keyboard
-      interface because operation of the program is through its pointing device interface,
-      not through its keyboard interface.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bedienung der Anwendung (oder von Teilen der Anwendung) durch einen Tastatur-gesteuerten Maus-Emulator wie zum Beispiel MouseKeys qualifiziert sie nicht als Bedienung durch eine Tastaturschnittstelle, da die Bedienung des Programms durch eine Zeigewerkzeug-Schnittstelle und nicht durch die Tastaturschnittstelle stattfindet.</p>
    
       </definition>
    </term>
@@ -2348,27 +2329,22 @@
       </definition>
    </term>
    <term>
-      <id>dfn-relied-upon</id>
-      <name>relied upon</name>
+      <id>dfn-worauf-man-sich-verlässt</id>
+      <name>worauf man sich verlässt</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">the content would not <a>conform</a> if that <a>technology</a> is turned off or is not supported
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Der Inhalt wäre nicht <a>konform</a>, wenn diese <a>Technik</a> abgeschaltet oder nicht unterstützt wird.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-role</id>
-      <name>role</name>
+      <id>dfn-rolle</id>
+      <name>rolle</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">text or number by which software can identify the function of a component within Web
-      content
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Text oder Zahl, wodurch Software die Funktion einer Komponente innerhalb von Webinhalten identifizieren kann.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A number that indicates whether an image functions as a hyperlink, command button,
-      or check box.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Zahl, die angibt, ob ein Bild als Hyperlink, Schaltfläche oder Checkbox funktioniert.</p>
    
       </definition>
    </term>
@@ -2443,16 +2419,14 @@
       </definition>
    </term>
    <term>
-      <id>dfn-sign-language-interpretation</id>
-      <name>sign language interpretation</name>
+      <id>dfn-übersetzung-in-gebärdensprache</id>
+      <name>übersetzung in gebärdensprache</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">translation of one language, generally a spoken language, into a <a>sign language</a>
+         <p xmlns="http://www.w3.org/1999/xhtml">Übersetzung einer Sprache, üblicherweise einer gesprochenen Sprache, in eine <a>Gebärdensprache</a>
          </p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">True sign languages are independent languages that are unrelated to the spoken language(s)
-      of the same country or region.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Echte Gebärdensprachen sind unabhängige Sprachen, die nicht mit der oder den gesprochenen Sprache(n) des gleichen Landes oder der Region verwandt sind.</p>
    
       </definition>
    </term>
@@ -2497,17 +2471,15 @@
       </definition>
    </term>
    <term>
-      <id>dfn-structure</id>
-      <name>structure</name>
+      <id>dfn-struktur</id>
+      <name>struktur</name>
       <definition>
    
          <ol xmlns="http://www.w3.org/1999/xhtml">
       
-            <li>The way the parts of a <a>Web page</a> are organized in relation to each other; and
-      </li>
+            <li>Die Art, wie Teile einer <a>Webseite</a> in Relation zueinander organisiert sind und</li>
       
-            <li>The way a collection of <a>Web pages</a> is organized
-      </li>
+            <li>die Art, wie eine Sammlung von <a>Webseiten</a> organisiert ist.</li>
       
          </ol>
    
@@ -2548,14 +2520,12 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-synchronized-media</id>
-      <name>synchronized media</name>
+      <id>dfn-synchronisierte-medien</id>
+      <name>synchronisierte medien</name>
       <definition>
    
          <p xmlns="http://www.w3.org/1999/xhtml">
-            <a>audio</a> or <a>video</a> synchronized with another format for presenting information and/or with time-based
-      interactive components, unless the media is a <a>media alternative for text</a> that is clearly labeled as such
-   </p>
+            <a>Audio</a> oder <a>Video</a>, synchronisiert mit einem anderen Format für die Präsentation von Informationen und/oder mit zeitbasierten interaktiven Komponenten, es sei denn, das Medium ist eine <a>Medienalternative für Text</a>, die als solche deutlich gekennzeichnet ist.</p>
    
       </definition>
    </term>
@@ -2570,8 +2540,8 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-technology</id>
-      <name>technology</name>
+      <id>dfn-technik</id>
+      <name>technik</name>
       <name>technologies</name>
       <name>web technology</name>
       <name>web content technology</name>
@@ -2579,22 +2549,13 @@ sheets);</li>
       <definition>
    
          <p xmlns="http://www.w3.org/1999/xhtml">
-            <a>mechanism</a> for encoding instructions to be rendered, played or executed by <a>user agents</a>
-         </p>
+            <a>Mechanismus</a> zum Kodieren von Anweisungen, die von <a>Benutzeragenten</a> gerendert, abgespielt oder ausgeführt werden sollen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">As used in these guidelines "Web Technology" and the word "technology" (when used
-      alone) both refer to Web Content Technologies.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">„<span lang="en">Web</span>technik“ und das Wort „Technik“ (wenn es allein benutzt wird) beziehen sich – gemäß dem Gebrauch der Wörter in diesen Richtlinien – auf Webinhalts-Techniken.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Web content technologies may include markup languages, data formats, or programming
-      languages that authors may use alone or in combination to create end-user experiences
-      that range from static Web pages to synchronized media presentations to dynamic Web
-      applications.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Webinhalts-Techniken können Markup-Sprachen, Datenformate oder Programmiersprachen enthalten, die Autoren alleine oder in Kombination benutzen können, um Endbenutzer-Erlebnisse zu erstellen, die von statischen Webseiten über synchronisierte Medienpräsentationen bis hin zu dynamischen Webanwendungen reichen können.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Some common examples of Web content technologies include HTML, CSS, SVG, PNG, PDF,
-      Flash, and JavaScript.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Einige geläufige Beispiele von Webinhalts-Techniken beinhalten HTML, CSS, SVG, PNG, PDF, Flash und JavaScript.</p>
    
       </definition>
    </term>
@@ -2603,28 +2564,21 @@ sheets);</li>
       <name>text</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">sequence of characters that can be <a>programmatically determined</a>, where the sequence is expressing something in <a>human language</a>
-         </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine Abfolge von Zeichen, die <a>durch Software bestimmt</a> werden kann, wobei die Abfolge etwas in <a>menschlicher Sprache</a> ausdrückt.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-text-alternative</id>
-      <name>text alternative</name>
+      <id>dfn-textalternative</id>
+      <name>textalternative</name>
       <definition>
    
          <p xmlns="http://www.w3.org/1999/xhtml">
-            <a>Text</a> that is programmatically associated with <a>non-text content</a> or referred to from text that is programmatically associated with non-text content.
-      Programmatically associated text is text whose location can be programmatically determined
-      from the non-text content.
-   </p>
+            <a>Text</a>, der durch Software mit <a>Nicht-Text-Inhalt</a> verknüpft ist oder Text, auf den von einem Text aus verwiesen wird, der durch Software mit Nicht-Text-Inhalt verknüpft ist. Durch Software verknüpfter Text ist Text, dessen Position über den Nicht-Text-Inhalt durch Software bestimmt werden kann.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">An image of a chart is described in text in the paragraph after the chart. The short
-      text alternative for the chart indicates that a description follows.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Bild eines Diagramms wird textlich in dem Absatz nach dem Diagramm beschrieben. Die kurze Textalternative für das Diagramm deutet an, dass eine Beschreibung folgt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Refer to <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding Text Alternatives</a> for more information.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Für weitere Informationen beachten Sie <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Textalternativen verstehen (englisch)</a>.</p>
    
       </definition>
    </term>
@@ -2703,9 +2657,9 @@ sheets);</li>
       <name>video</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">the technology of moving or sequenced pictures or images</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Die Technik von sich bewegenden oder aufeinander folgenden Fotos oder Bildern.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Video can be made up of animated or photographic images, or both.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Video kann aus animierten oder fotografischen Bilder oder beidem zusammengesetzt sein.</p>
    
       </definition>
    </term>
@@ -2719,70 +2673,47 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-viewport</id>
-      <name>viewport</name>
+      <id>dfn-viewport-ansichtsbereich</id>
+      <name>viewport, ansichtsbereich</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">object in which the user agent presents content</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Objekt, in dem der  den Inhalt darstellt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The <a>user agent</a> presents content through one or more viewports. Viewports include windows, frames,
-      loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport
-      (e.g., nested frames). Interface components created by the user agent such as prompts,
-      menus, and alerts are not viewports.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der <a>Benutzeragent</a> präsentiert Inhalt durch einen oder mehrere Viewports. Viewports beinhalten Fenster, Frames, Lautsprecher und virtuelle Lupen. Ein Viewport kann einen anderen Viewport enthalten (z.B. verschachtelte Frames). Bestandteile der Benutzerschnittstelle, die vom Benutzeragenten erstellt werden, wie z.B. Eingabeaufforderungen, Menüs und Warnmeldungen, sind keine Viewports.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">This definition is based on <a href="https://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0 Glossary</a> [[UAAG10]].
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Definition basiert auf dem <a href="https://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0-Glossar (englisch)</a> [[UAAG10]].</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-visually-customized</id>
-      <name>visually customized</name>
+      <id>dfn-visuell-angepasst</id>
+      <name>visuell angepasst</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">the font, size, color, and background can be set</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Schriftart, Größe, Farbe und Hintergrund können eingestellt werden.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-web-page</id>
-      <name>web page</name>
+      <id>dfn-webseite</id>
+      <name>webseite</name>
       <name>web page(s)</name>
       <name>web pages</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a non-embedded resource obtained from a single URI using HTTP plus any other resources
-      that are used in the rendering or intended to be rendered together with it by a <a>user agent</a>
-         </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine nicht-eingebettete Ressource abgerufen von einem einzelnen URI unter der Benutzung von HTTP plus jeder anderen Ressource, die beim Rendern benutzt wird oder die dazu bestimmt ist, mit der Ursprungs-Ressource zusammen durch einen <a>Benutzeragenten</a> gerendert zu werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Although any "other resources" would be rendered together with the primary resource,
-      they would not necessarily be rendered simultaneously with each other.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Obwohl jede „andere Ressource“ zusammen mit der ursprünglichen Ressource gerendert würde, würden sie nicht zwangsläufig zeitgleich miteinander gerendert werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">For the purposes of conformance with these guidelines, a resource must be "non-embedded"
-      within the scope of conformance to be considered a Web page.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Zum Zweck der Konformität mit diesen Richtlinien muss eine Ressource „nicht eingebettet“ innerhalb des Geltungsbereichs der Konformität sein, um als Webseite zu gelten.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A Web resource including all embedded images and media.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Web-Ressource, die alle eingebetteten Bilder und Medien beinhaltet.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A Web mail program built using Asynchronous JavaScript and XML (AJAX). The program
-      lives entirely at http://example.com/mail, but includes an inbox, a contacts area
-      and a calendar. Links or buttons are provided that cause the inbox, contacts, or calendar
-      to display, but do not change the URI of the page as a whole.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Web-Mail-Anwendung, die unter der Benutzung von Asynchronem JavaScript und XML (AJAX) entwickelt wurde. Das Programm liegt komplett unter http://example.com/mail, beinhaltet aber einen Posteingang, einen Kontaktbereich und einen Kalender. Es werden Links oder Schaltflächen bereitgestellt, die dazu führen, dass der Posteingang, die Kontakte oder der Kalender angezeigt werden, die aber nicht den URI der Seite als Ganzes verändern.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A customizable portal site, where users can choose content to display from a set of
-      different content modules.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine anpassbare Portalseite, auf der Benutzer den anzuzeigenden Inhalt aus einer Gruppe verschiedener Inhaltsmodule auswählen können.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">When you enter "http://shopping.example.com/" in your browser, you enter a movie-like
-      interactive shopping environment where you visually move around in a store dragging
-      products off of the shelves around you and into a visual shopping cart in front of
-      you. Clicking on a product causes it to be demonstrated with a specification sheet
-      floating alongside. This might be a single-page Web site or just one page within a
-      Web site.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Wenn Sie in Ihrem Browser „http://shopping.example.com/“ eingeben, dann kommen Sie zu einer film-ähnlichen, interaktiven Einkaufsumgebung, in der Sie visuell in einem Geschäft herumgehen und Produkte aus den Regalen um Sie herum nehmen und in einen visuellen Einkaufswagen vor Ihnen legen können. Das Klicken auf ein Produkt führt dazu, dass es zusammen mit einem Datenblatt vorgestellt wird, das daneben schwebt. Dies kann eine einseitige Website sein oder einfach nur eine Seite innerhalb einer Website.</p>
    
       </definition>
    </term>
