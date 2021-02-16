@@ -1833,15 +1833,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-extended-audio-description</id>
-      <name>extended audio description</name>
+      <id>dfn-erweiterte-audiodeskription</id>
+      <name>erweiterte audiodeskription</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">audio description that is added to an audiovisual presentation by pausing the <a>video</a> so that there is time to add additional description
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Audiodeskription, die zu einer audiovisuellen Präsentation hinzugefügt wird, indem das <a>Video</a> angehalten wird, so dass Zeit da ist, um eine zusätzliche Deskription hinzuzufügen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">This technique is only used when the sense of the <a>video</a> would be lost without the additional <a>audio description</a> and the pauses between dialogue/narration are too short.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Technik wird nur benutzt, wenn der Sinn des <a>Videos</a> ohne die zusätzliche <a>Audiodeskription</a> verloren gehen würde und die Pausen zwischen den Dialogen/der Schilderung zu kurz sind.</p>
    
       </definition>
    </term>
@@ -1861,13 +1859,12 @@
       </definition>
    </term>
    <term>
-      <id>dfn-functionality</id>
-      <name>functionality</name>
+      <id>dfn-funktionalität</id>
+      <name>funktionalität</name>
       <definition>
    
          <p xmlns="http://www.w3.org/1999/xhtml">
-            <a>processes</a> and outcomes achievable through user action
-   </p>
+            <a>Prozesse</a> und Ergebnisse, die durch Handlungen der Benutzer erreicht werden.</p>
    
       </definition>
    </term>
@@ -1979,23 +1976,20 @@
       </definition>
    </term>
    <term>
-      <id>dfn-input-error</id>
-      <name>input error</name>
+      <id>dfn-eingabefehler</id>
+      <name>eingabefehler</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">information provided by the user that is not accepted</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Vom Benutzer gegebene Information, die nicht angenommen wird.</p>
    
          <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-            <p>This includes:</p>
+            <p>Dies beinhaltet:</p>
    
             <ol>
       
-               <li>Information that is required by the <a>Web page</a> but omitted by the user
-      </li>
+               <li>Information, die von der <a>Webseite</a> verlangt wird, vom Benutzer aber ausgelassen wurde.</li>
       
-               <li>Information that is provided by the user but that falls outside the required data
-         format or values
-      </li>
+               <li>Vom Benutzer gegebene Information, die nicht dem erforderlichen Datenformat oder -wert entspricht.</li>
       
             </ol>
          </div>
@@ -2378,13 +2372,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-programmatically-set</id>
-      <name>programmatically set</name>
+      <id>dfn-durch-software-festgelegt</id>
+      <name>durch software festgelegt</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">set by software using methods that are supported by user agents, including assistive
-      technologies
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Festgelegt von der Software unter der Benutzung von Methoden, die von Benutzeragenten, einschließlich assistierender Techniken, unterstützt werden.</p>
    
       </definition>
    </term>
@@ -2404,24 +2396,18 @@
       </definition>
    </term>
    <term>
-      <id>dfn-real-time-event</id>
-      <name>real-time event</name>
+      <id>dfn-echtzeit-ereignis</id>
+      <name>echtzeit-ereignis</name>
       <name>real-time events</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">event that a) occurs at the same time as the viewing and b) is not completely generated
-      by the content
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Ereignis, das a) zur gleichen Zeit wie das Ansehen desselben stattfindet und b) nicht komplett vom Inhalt generiert wird.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A Webcast of a live performance (occurs at the same time as the viewing and is not
-      prerecorded).
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein „Webcast“ einer Live-Aufführung (findet zur gleichen Zeit wie das Ansehen derselben statt und ist nicht aufgezeichnet).</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">An on-line auction with people bidding (occurs at the same time as the viewing).</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Online-Auktion mit bietenden Personen (findet zur gleichen Zeit statt wie das Ansehen).</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Live humans interacting in a virtual world using avatars (is not completely generated
-      by the content and occurs at the same time as the viewing).
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Lebende Menschen, die in einer virtuellen Welt interagieren, indem sie Avatare benutzen (wird nicht komplett durch den Inhalt generiert und findet zur gleichen Zeit statt wie das Ansehen).</p>
    
       </definition>
    </term>
@@ -2533,42 +2519,34 @@
       </definition>
    </term>
    <term>
-      <id>dfn-same-functionality</id>
-      <name>same functionality</name>
+      <id>dfn-gleiche-funktionalität</id>
+      <name>gleiche funktionalität</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">same result when used</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Gleiches Ergebnis bei der Benutzung.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A submit "search" button on one Web page and a "find" button on another Web page may
-      both have a field to enter a term and list topics in the Web site related to the term
-      submitted. In this case, they would have the same functionality but would not be labeled
-      consistently.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Schaltfläche für „Suche“ absenden auf einer Webseite und eine Schaltfläche „finden“ auf einer anderen Webseite können beide ein Feld haben, um einen Begriff einzugeben und Themen auf der Website aufzulisten, die einen Bezug zum abgeschickten Begriff haben. In diesem Fall hätten sie die gleiche Funktionalität, wären aber nicht konsistent beschriftet.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-same-relative-order</id>
-      <name>same relative order</name>
+      <id>dfn-gleiche-relative-reihenfolge</id>
+      <name>gleiche relative reihenfolge</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">same position relative to other items</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Gleiche Position in Relation zu anderen Elementen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Items are considered to be in the same relative order even if other items are inserted
-      or removed from the original order. For example, expanding navigation menus may insert
-      an additional level of detail or a secondary navigation section may be inserted into
-      the reading order.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Elemente werden als in der gleichen relativen Reihenfolge betrachtet, auch wenn andere Elemente in die ursprüngliche Reihenfolge eingefügt oder daraus entfernt werden. Zum Beispiel können expandierende Navigationsmenüs eine zusätzliche Detailebene einfügen oder ein sekundärer Navigationsabschnitt kann in die Lesereihenfolge eingefügt werden.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-satisfies-a-success-criterion</id>
-      <name>satisfies a success criterion</name>
+      <id>dfn-erfüllt-ein-erfolgskriterium</id>
+      <name>erfüllt ein erfolgskriterium</name>
       <name>satisfies</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">the success criterion does not evaluate to 'false' when applied to the page</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Das Erfolgskriterium ist nicht mit 'falsch' zu bewerten, wenn es auf die Seite angewendet wird.</p>
    
       </definition>
    </term>
@@ -2602,13 +2580,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-sign-language</id>
-      <name>sign language</name>
+      <id>dfn-gebärdensprache</id>
+      <name>gebärdensprache</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a language using combinations of movements of the hands and arms, facial expressions,
-      or body positions to convey meaning
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine Sprache, bei der eine Kombination aus Bewegungen von Händen und Armen, aus Gesichtsausdrücken oder aus Körperpositionen benutzt wird, um die Bedeutung zu vermitteln.</p>
    
       </definition>
    </term>
@@ -2700,23 +2676,20 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-supplemental-content</id>
-      <name>supplemental content</name>
+      <id>dfn-ergänzender-inhalt</id>
+      <name>ergänzender inhalt</name>
       <name>supplementary content</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">additional <a>content</a> that illustrates or clarifies the primary content
+         <p xmlns="http://www.w3.org/1999/xhtml">Zusätzlicher <a>Inhalt</a>, der den primären Inhalt illustriert oder verdeutlicht.</p>
+   
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Audio-Version einer <a>Webseite</a>.
    </p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">An audio version of a <a>Web page</a>.
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Illustration eines komplexen <a>Prozesses</a>.
    </p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">An illustration of a complex <a>process</a>.
-   </p>
-   
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A paragraph summarizing the major outcomes and recommendations made in a research
-      study.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Absatz, der die wichtigsten Ergebnisse und Empfehlungen einer wissenschaftlichen Studie zusammenfasst.</p>
    
       </definition>
    </term>
