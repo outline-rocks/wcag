@@ -1327,7 +1327,7 @@
       
          </ol>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Einige Unternehmen haben ein ehemaliges Initialwort als Firmennamen übernommen. In diesen Fällen sind die Buchstaben (<abbr>z.B.</abbr> Ecma) der neue Firmenname und das Wort wird nicht länger als Abkürzung betrachtet.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Einige Unternehmen haben ein ehemaliges Initialwort als Firmennamen übernommen. In diesen Fällen sind die Buchstaben (z.B. Ecma) der neue Firmenname und das Wort wird nicht länger als Abkürzung betrachtet.</p>
    
       </definition>
    </term>
@@ -1340,14 +1340,13 @@
    
          <p xmlns="http://www.w3.org/1999/xhtml">Sowohl von den <a>assistierenden Techniken</a> der Benutzer als auch von den Barrierefreiheitsfunktionen in <a>Benutzeragenten</a> unterstützt</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">Sowohl 1. als auch 2. müssen für eine <span lang="en">Web</span>inhalts-Technik (oder einen Bestandteil einer Technik) erfüllt werden, damit sich die Anwendung einer <span lang="en">Web</span>inhalts-Technik oder eines Bestandteils einer Technik als die Barrierefreiheit unterstützend qualifiziert:</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Sowohl 1. als auch 2. müssen für eine Webinhalts-Technik (oder einen Bestandteil einer Technik) erfüllt werden, damit sich die Anwendung einer Webinhalts-Technik oder eines Bestandteils einer Technik als die Barrierefreiheit unterstützend qualifiziert:</p>
    
          <ol xmlns="http://www.w3.org/1999/xhtml">
       
             <li> 
                <p>
-                  <strong>Die Art und Weise, in der die <a>
-                        <span lang="en">Web</span>inhalts-Technik</a> benutzt wird, muss von der assistierenden Technik (AT) der Benutzer unterstützt werden.</strong> Dies bedeutet, dass die Art und Weise, wie die Technik benutzt wird, auf Interoperabilität mit der assistierenden Technik der Benutzer in der <a>menschlichen Sprache</a> des Inhalts getestet wurde</p>
+                  <strong>Die Art und Weise, in der die <a>Webinhalts-Technik</a> benutzt wird, muss von der assistierenden Technik (AT) der Benutzer unterstützt werden.</strong> Dies bedeutet, dass die Art und Weise, wie die Technik benutzt wird, auf Interoperabilität mit der assistierenden Technik der Benutzer in der <a>menschlichen Sprache</a> des Inhalts getestet wurde</p>
                <p>
                   <strong>UND</strong>
                </p>
@@ -1355,12 +1354,12 @@
       
             <li>
                <p>
-                  <strong>Dass Benutzeragenten existieren, die diese <span lang="en">Web</span>inhalts-Technik unterstützen und den Benutzern zur Verfügung stehen.</strong> Dies bedeutet, dass mindestens eine der folgenden vier Aussagen zutrifft:</p>
+                  <strong>Dass Benutzeragenten existieren, die diese Webinhalts-Technik unterstützen und den Benutzern zur Verfügung stehen.</strong> Dies bedeutet, dass mindestens eine der folgenden vier Aussagen zutrifft:</p>
          
                <ol>
             
                   <li>
-                     <p>Die Technik wird nativ in weit verbreiteten Benutzeragenten unterstützt, die außerdem Barrierefreiheit unterstützend sind (wie <abbr>HTML</abbr> und <abbr>CSS</abbr>);</p>
+                     <p>Die Technik wird nativ in weit verbreiteten Benutzeragenten unterstützt, die außerdem Barrierefreiheit unterstützend sind (wie HTML und CSS);</p>
                      <p>
                         <strong>ODER</strong>
                      </p>
@@ -1400,17 +1399,17 @@
       
          </ol>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die <abbr>WCAG</abbr>-Arbeitsgruppe und das <abbr>W3C</abbr> führen nicht genau auf, welche oder wie viel Unterstützung durch assistierende Techniken für eine bestimmte Nutzung einer <span lang="en">Web</span>technik vorhanden sein muss, damit diese als Barrierefreiheit unterstützend klassifiziert wird. (Siehe dazu <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#support-level">Notwendiger Grad der Unterstützung assistierender Techniken für die Bezeichnung „Barrierefreiheit unterstützend“ (englisch)</a>.)</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die WCAG-Arbeitsgruppe und das W3C führen nicht genau auf, welche oder wie viel Unterstützung durch assistierende Techniken für eine bestimmte Nutzung einer <span lang="en">Web</span>technik vorhanden sein muss, damit diese als Barrierefreiheit unterstützend klassifiziert wird. (Siehe dazu <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#support-level">Notwendiger Grad der Unterstützung assistierender Techniken für die Bezeichnung „Barrierefreiheit unterstützend“ (englisch)</a>.)</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">
             <span lang="en">Web</span>techniken können auf nicht die Barrierefreiheit unterstützende Arten benutzt werden, so lange man sich nicht auf sie <a>verlässt</a> und die Seite als Ganzes den Konformitätsanforderungen entspricht einschließlich <a href="#cc4">Konformitätsanforderung 4: Benutzung von Techniken auf Barrierefreiheit unterstützende Arten</a> und <a href="#cc5">Konformitätsanforderung 5: Nicht störend</a>.</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wenn eine <a>
-               <span lang="en">Web</span>technik</a> auf eine die „Barrierefreiheit unterstützende“ Art benutzt wird, dann impliziert das nicht, dass die gesamte Technik oder alle Anwendungen dieser Technik unterstützt werden. Bei den meisten Techniken einschließlich <abbr>HTML</abbr> fehlt die Unterstützung für mindestens einen Bestandteil oder eine Art der Anwendung. Seiten sind nur dann <abbr>WCAG</abbr>-konform, wenn man sich darauf verlassen kann, dass die Anwendung der die Barrierefreiheit unterstützenden Technik den <abbr>WCAG</abbr>-Anforderungen entspricht.</p>
+               <span lang="en">Web</span>technik</a> auf eine die „Barrierefreiheit unterstützende“ Art benutzt wird, dann impliziert das nicht, dass die gesamte Technik oder alle Anwendungen dieser Technik unterstützt werden. Bei den meisten Techniken einschließlich HTML fehlt die Unterstützung für mindestens einen Bestandteil oder eine Art der Anwendung. Seiten sind nur dann WCAG-konform, wenn man sich darauf verlassen kann, dass die Anwendung der die Barrierefreiheit unterstützenden Technik den WCAG-Anforderungen entspricht.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wenn <span lang="en">Web</span>inhalts-Techniken aufgeführt werden, von denen es verschiedene Versionen gibt, dann sollte(n) die unterstützte(n) Version(en) spezifiziert werden.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wenn Webinhalts-Techniken aufgeführt werden, von denen es verschiedene Versionen gibt, dann sollte(n) die unterstützte(n) Version(en) spezifiziert werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Möglichkeit für Autoren, die Anwendung einer die Barrierefreiheit unterstützenden Technik ausfindig zu machen, wäre es, Sammlungen von Anwendungsarten zu konsultieren, bei denen dokumentiert wurde, dass sie die Barrierefreiheit unterstützen. (Siehe <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#documented-lists">die Barrierefreiheit unterstützenden <span lang="en">Web</span>technik-Anwendungsarten verstehen (englisch)</a>.) Es ist möglich, dass Autoren, Firmen, Lieferanten von Techniken oder Andere die Benutzungsweisen von Barrierefreiheit unterstützenden <span lang="en">Web</span>inhalts-Techniken dokumentieren. Allerdings müssen alle Arten der Benutzung von Techniken in der Dokumentation der oben genannten Definition von Barrierefreiheit unterstützenden <span lang="en">Web</span>inhalts-Techniken entsprechen.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Möglichkeit für Autoren, die Anwendung einer die Barrierefreiheit unterstützenden Technik ausfindig zu machen, wäre es, Sammlungen von Anwendungsarten zu konsultieren, bei denen dokumentiert wurde, dass sie die Barrierefreiheit unterstützen. (Siehe <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#documented-lists">die Barrierefreiheit unterstützenden <span lang="en">Web</span>technik-Anwendungsarten verstehen (englisch)</a>.) Es ist möglich, dass Autoren, Firmen, Lieferanten von Techniken oder Andere die Benutzungsweisen von Barrierefreiheit unterstützenden Webinhalts-Techniken dokumentieren. Allerdings müssen alle Arten der Benutzung von Techniken in der Dokumentation der oben genannten Definition von Barrierefreiheit unterstützenden Webinhalts-Techniken entsprechen.</p>
    
       </definition>
    </term>
@@ -1458,14 +1457,13 @@
       <name>assistive technologies</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">
-            <span lang="en">Hardware</span> und/oder <span lang="en">Software</span>, die als <a>Benutzeragent</a> fungiert oder die mit einem gängigen Benutzeragenten zusammenarbeitet, um Funktionalität zur Verfügung zu stellen, damit die Anforderungen von Benutzern mit Behinderungen erfüllt werden, die über jene hinausgehen, die von gängigen Benutzeragenten angeboten werden.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Hardware und/oder Software, die als <a>Benutzeragent</a> fungiert oder die mit einem gängigen Benutzeragenten zusammenarbeitet, um Funktionalität zur Verfügung zu stellen, damit die Anforderungen von Benutzern mit Behinderungen erfüllt werden, die über jene hinausgehen, die von gängigen Benutzeragenten angeboten werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Funktionalitäten, die von assistierenden Techniken bereitgestellt werden, beinhalten alternative Präsentationen (<abbr>z.B.</abbr> als synthetische Sprachausgabe oder vergrößerte Inhalte), alternative Eingabemethoden (<abbr>z.B.</abbr> Sprache), zusätzliche Navigations- oder Orientierungsmechanismen und Inhaltstransformationen (<abbr>z.B.</abbr> um Tabellen barrierefreier zu machen).</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Funktionalitäten, die von assistierenden Techniken bereitgestellt werden, beinhalten alternative Präsentationen (z.B. als synthetische Sprachausgabe oder vergrößerte Inhalte), alternative Eingabemethoden (z.B. Sprache), zusätzliche Navigations- oder Orientierungsmechanismen und Inhaltstransformationen (z.B. um Tabellen barrierefreier zu machen).</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Assistierende Techniken tauschen Daten und Nachrichten mit gängigen Benutzeragenten oft durch die Benutzung und die Beobachtung von <abbr title="Anwendungsprogrammierungsschnittstellen (Application Programming Interfaces)">APIs</abbr> aus.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Abgrenzung zwischen gängigen Benutzeragenten und assistierenden Techniken ist nicht absolut. Viele gängige Benutzeragenten stellen einige Funktionen bereit, um Menschen mit Behinderungen zu unterstützen. Der grundlegende Unterschied besteht darin, dass gängige Benutzeragenten ein breites und verschiedenartiges Publikum als Zielgruppe haben, die normalerweise Menschen mit und ohne Behinderungen beinhaltet. Assistierende Techniken haben als Zielgruppe genau definierte Populationen von Benutzern mit bestimmten Behinderungen. Die Unterstützung, die durch assistierende Techniken bereitgestellt wird, ist spezifischer und entspricht den Bedürfnissen ihrer Zielgruppe. Der gängige Benutzeragent kann den assistierenden Techniken wichtige Funktionalitäten zur Verfügung stellen, wie das Abrufen von <span lang="en">Web</span>inhalten aus Programmobjekten oder das Aufgliedern von <span lang="en">Markup</span> in identifizierbare Datenstrukturen.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Abgrenzung zwischen gängigen Benutzeragenten und assistierenden Techniken ist nicht absolut. Viele gängige Benutzeragenten stellen einige Funktionen bereit, um Menschen mit Behinderungen zu unterstützen. Der grundlegende Unterschied besteht darin, dass gängige Benutzeragenten ein breites und verschiedenartiges Publikum als Zielgruppe haben, die normalerweise Menschen mit und ohne Behinderungen beinhaltet. Assistierende Techniken haben als Zielgruppe genau definierte Populationen von Benutzern mit bestimmten Behinderungen. Die Unterstützung, die durch assistierende Techniken bereitgestellt wird, ist spezifischer und entspricht den Bedürfnissen ihrer Zielgruppe. Der gängige Benutzeragent kann den assistierenden Techniken wichtige Funktionalitäten zur Verfügung stellen, wie das Abrufen von Webinhalten aus Programmobjekten oder das Aufgliedern von Markup in identifizierbare Datenstrukturen.</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Assistierende Techniken, die im Zusammenhang mit diesem Dokument wichtig sind, beinhalten die folgenden:</p>
    
@@ -1473,10 +1471,9 @@
       
             <li>Vergrößerungssoftware und andere visuelle Leseassistenten, die von Menschen mit visuellen, wahrnehmungsbedingten und körperlichen Einschränkungen in Bezug auf die Nutzung gedruckter Medien benutzt werden, um Schriftart, Größe, Abstände, Textfarbe oder die Synchronisierung von Text mit Sprache usw. zu ändern, damit die visuelle Lesbarkeit von gerendertem Text oder Bildern verbessert wird;</li>
       
-            <li>
-               <span lang="en">Screenreader</span>, die von blinden Menschen benutzt werden, um Informationen in Textform durch synthetische Sprachausgabe oder Braille zu lesen;</li>
+            <li>Screenreader, die von blinden Menschen benutzt werden, um Informationen in Textform durch synthetische Sprachausgabe oder Braille zu lesen;</li>
       
-            <li>Sprachausgabe-<span lang="en">Software</span> (<span lang="en">Text-to-Speech-Software</span>), die von manchen Menschen mit kognitiven, Sprach- oder Lernbehinderungen benutzt wird, um Text in synthetische Sprachausgabe zu konvertieren;</li>
+            <li>Sprachausgabe-Software (<span lang="en">Text-to-Speech-Software</span>), die von manchen Menschen mit kognitiven, Sprach- oder Lernbehinderungen benutzt wird, um Text in synthetische Sprachausgabe zu konvertieren;</li>
       
             <li>Spracherkennungssoftware, die von Menschen mit Körperbehinderungen benutzt werden kann;</li>
       
@@ -1554,10 +1551,9 @@
    
          <p xmlns="http://www.w3.org/1999/xhtml">Initialwort für „<span lang="en">Completely Automated Public Turing test to tell Computers and Humans Apart</span>“</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">
-            <abbr lang="en">CAPTCHA</abbr>-Tests beinhalten oft die Aufforderung an den Benutzer, Text einzugeben, der in einem undeutlichen Bild angezeigt oder als verzerrte Audiodatei ausgegeben wird.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">CAPTCHA-Tests beinhalten oft die Aufforderung an den Benutzer, Text einzugeben, der in einem undeutlichen Bild angezeigt oder als verzerrte Audiodatei ausgegeben wird.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein <span lang="en">Turing</span>-Test ist jedes System von Tests, das dazu entwickelt wurde, Menschen von einem Computer zu unterscheiden. Es wurde nach dem berühmten Computer-Wissenschaftler <span lang="en">Alan Turing</span> benannt. Der Begriff wurde von Forschern an der <span lang="en">Carnegie Mellon University</span> geprägt. <a href="#CAPTCHA">[<abbr lang="en">CAPTCHA</abbr>]</a>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein Turing-Test ist jedes System von Tests, das dazu entwickelt wurde, Menschen von einem Computer zu unterscheiden. Es wurde nach dem berühmten Computer-Wissenschaftler Alan Turing benannt. Der Begriff wurde von Forschern an der <span lang="en">Carnegie Mellon University</span> geprägt. <a href="#CAPTCHA">[<abbr lang="en">CAPTCHA</abbr>]</a>
          </p>
    
       </definition>
@@ -1599,8 +1595,7 @@
       <name>change of context</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">Wesentliche Änderungen am Inhalt einer <a>
-               <span lang="en">Web</span>seite</a>, die, wenn sie vorgenommen werden, ohne dass dies dem Benutzer bewusst ist, zur Desorientierung derjenigen Benutzer führen können, die nicht die gesamte Seite zeitgleich sehen können.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Wesentliche Änderungen am Inhalt einer <a>Webseite</a>, die, wenn sie vorgenommen werden, ohne dass dies dem Benutzer bewusst ist, zur Desorientierung derjenigen Benutzer führen können, die nicht die gesamte Seite zeitgleich sehen können.</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml">Änderungen des Kontextes beinhalten Änderungen:</p>
    
@@ -1610,17 +1605,15 @@
                <a>des Benutzeragenten</a>;</li>
       
             <li>
-               <a>des <span lang="en">Viewports</span>
-               </a>;</li>
+               <a>des Viewports</a>;</li>
       
             <li>des Fokus;</li>
       
-            <li>des <a>Inhalts</a>, der zu einer Bedeutungsänderung der <a>
-                  <span lang="en">Web</span>seite</a> führt.</li>
+            <li>des <a>Inhalts</a>, der zu einer Bedeutungsänderung der <a>Webseite</a> führt.</li>
       
          </ol>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Änderung des Inhalts ist nicht immer eine Änderung des Kontextes. Änderungen am Inhalt, wie zum Beispiel eine expandierende Gliederung (<span lang="en">expanding outline</span>), ein dynamisches Menü oder eine Steuerung über Reiter, ändern nicht zwangsläufig den Kontext, außer sie ändern auch eines der oben genannten (<abbr>z.B.</abbr> den Fokus).</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Änderung des Inhalts ist nicht immer eine Änderung des Kontextes. Änderungen am Inhalt, wie zum Beispiel eine expandierende Gliederung (<span lang="en">expanding outline</span>), ein dynamisches Menü oder eine Steuerung über Reiter, ändern nicht zwangsläufig den Kontext, außer sie ändern auch eines der oben genannten (z.B. den Fokus).</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Das Öffnen eines neuen Fensters, das Bewegen des Fokus auf ein anderes Element, das Wechseln zu einer neuen Seite (einschließlich allem, was für den Benutzer so aussieht, als wäre er zu einer neuen Seite gegangen) oder eine signifikante Umordnung von Inhalten auf einer Seite sind Beispiele für Änderungen des Kontextes.</p>
    
@@ -1860,9 +1853,9 @@
    
          <p xmlns="http://www.w3.org/1999/xhtml">Ein Paar von entgegengesetzten Änderungen in <a>relativer Luminanz</a>. Wenn die Änderungen groß genug sind und in der richtigen Frequenz auftreten, können sie bei manchen Menschen Anfälle hervorrufen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe <a>Allgemeine Grenzwerte zu Blitzen und roten Blitzen (general flash and red flash thresholds)</a> für Informationen über Arten von Blitzen, die nicht erlaubt sind.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe <a>Allgemeine Grenzwerte zu Blitzen und roten Blitzen</a> für Informationen über Arten von Blitzen, die nicht erlaubt sind.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe auch <a>Blinkend (blinking)</a>.
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe auch <a>Blinkend</a>.
    </p>
    
       </definition>
@@ -1883,7 +1876,7 @@
       <name>allgemeine grenzwerte zu blitzen und roten blitzen</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">Ein <a>Blitz</a> oder eine schnell wechselnde Sequenz von Bildern ist unterhalb des Grenzwertes (<abbr>d.h.</abbr> Inhalt <strong>besteht die Prüfung</strong>), wenn eines der Folgenden zutrifft:</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Ein <a>Blitz</a> oder eine schnell wechselnde Sequenz von Bildern ist unterhalb des Grenzwertes (d.h. Inhalt <strong>besteht die Prüfung</strong>), wenn eines der Folgenden zutrifft:</p>
    
          <ol xmlns="http://www.w3.org/1999/xhtml">
       
@@ -1906,7 +1899,7 @@
          <p xmlns="http://www.w3.org/1999/xhtml">
             <em>Ausnahme:</em> Blitzen, das ein feines, ausgeglichenes Muster wie weißes Rauschen oder ein wechselndes Schachbrettmuster mit „Quadraten“ ist, die auf einer Seite kleiner sind als 0.1 Grad (des visuellen Feldes bei typischem Betrachtungsabstand), verstößt nicht gegen die Grenzwerte.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Benutzung eines 341 x 256 Pixel großen Rechtecks irgendwo in dem gezeigten Bildschirmbereich, wenn der Inhalt bei 1024 x 768 Pixeln betrachtet wird, gibt bei allgemeiner <span lang="en">Software</span> oder <span lang="en">Web</span>inhalten eine gute Einschätzung eines 10 Grad visuellen Feldes für Standard-Bildschirmgrößen und Betrachtungsentfernungen (<abbr>z.B.</abbr> 15-17 Zoll Bildschirm bei 56 - 66 cm). (Bildschirme mit höheren Auflösungen, auf denen das gleiche <span lang="en">Rendering</span> des Inhalts gezeigt wird, ergeben kleinere und sicherere Bilder, daher werden die geringeren Auflösungen benutzt, um die Grenzwerte zu definieren.)</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Benutzung eines 341 x 256 Pixel großen Rechtecks irgendwo in dem gezeigten Bildschirmbereich, wenn der Inhalt bei 1024 x 768 Pixeln betrachtet wird, gibt bei allgemeiner Software oder Webinhalten eine gute Einschätzung eines 10 Grad visuellen Feldes für Standard-Bildschirmgrößen und Betrachtungsentfernungen (z.B. 15-17 Zoll Bildschirm bei 56 - 66 cm). (Bildschirme mit höheren Auflösungen, auf denen das gleiche Rendering des Inhalts gezeigt wird, ergeben kleinere und sicherere Bilder, daher werden die geringeren Auflösungen benutzt, um die Grenzwerte zu definieren.)</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein Übergang ist der Wechsel in relativer Luminanz (oder relativer Luminanz/Farbe für rotes Blitzen) zwischen nebeneinander liegenden Spitzen und Senken in einem Graph von relativer Luminanzmessung (oder relativer Luminanz/Farbe bei rotem Blitzen) in Bezug auf die Zeit. Ein Blitz besteht aus zwei entgegengesetzten Änderungen.</p>
    
@@ -1966,7 +1959,7 @@
       <name>images of text</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">Text, der in einer Nicht-Text-Form (<abbr>z.B.</abbr> einem Bild) gerendert wurde, um einen bestimmten visuellen Effekt zu erzielen.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Text, der in einer Nicht-Text-Form (z.B. einem Bild) gerendert wurde, um einen bestimmten visuellen Effekt zu erzielen.</p>
    
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dies beinhaltet keinen <a>Text</a> , der Teil eines Bildes ist, das signifikanten anderen visuellen Inhalt enthält.</p>
    
@@ -2064,9 +2057,9 @@
          <p xmlns="http://www.w3.org/1999/xhtml">
             <a>Text</a> oder andere Komponente mit einer <a>Textalternative</a> , der oder die dem Benutzer präsentiert wird, um eine Komponente innerhalb von Web<a>inhalten</a> zu identifizieren.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Beschriftung (<span lang="en">Label</span>) wird allen Benutzern gezeigt, wobei der <a>Name</a> versteckt sein kann und nur von assistierenden Techniken gezeigt wird. In vielen (aber nicht allen) Fällen sind Name und Beschriftung gleich.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Beschriftung (Label) wird allen Benutzern gezeigt, wobei der <a>Name</a> versteckt sein kann und nur von assistierenden Techniken gezeigt wird. In vielen (aber nicht allen) Fällen sind Name und Beschriftung gleich.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der Begriff Beschriftung (<span lang="en">Label</span>) ist nicht beschränkt auf das <span lang="en">Label</span>-Element in <abbr>HTML</abbr>.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der Begriff Beschriftung (Label) ist nicht beschränkt auf das Label-Element in HTML.</p>
    
       </definition>
    </term>
@@ -2363,11 +2356,11 @@
       <name>programmatically determinable</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">Bestimmt von <span lang="en">Software</span> durch vom Autor gelieferte Daten, bereitgestellt auf eine Art und Weise, dass verschiedene <a>Benutzeragenten</a>, einschließlich <a>assistierender Techniken</a>, diese Informationen entnehmen und dem Benutzer in verschiedenen Modalitäten präsentieren können.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Bestimmt von Software durch vom Autor gelieferte Daten, bereitgestellt auf eine Art und Weise, dass verschiedene <a>Benutzeragenten</a>, einschließlich <a>assistierender Techniken</a>, diese Informationen entnehmen und dem Benutzer in verschiedenen Modalitäten präsentieren können.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestimmt in einer <span lang="en">Markup</span>-Sprache aus Elementen und Attributen, auf die direkt durch allgemein erhältliche assistierende Techniken zugegriffen wird.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestimmt in einer Markup-Sprache aus Elementen und Attributen, auf die direkt durch allgemein erhältliche assistierende Techniken zugegriffen wird.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestimmt von Technik-spezifischen Datenstrukturen in einer Nicht-<span lang="en">Markup</span>-Sprache und gezeigt von assistierenden Techniken über ein <span lang="en">Accessibility</span>-<abbr title="Schnittstelle zur Programmierung von Anwendungen (Application Programming Interface)">API</abbr>, welches von allgemein erhältlichen, assistierenden Techniken unterstützt wird.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestimmt von Technik-spezifischen Datenstrukturen in einer Nicht-Markup-Sprache und gezeigt von assistierenden Techniken über ein Accessibility-<abbr title="Schnittstelle zur Programmierung von Anwendungen (Application Programming Interface)">API</abbr>, welches von allgemein erhältlichen, assistierenden Techniken unterstützt wird.</p>
    
       </definition>
    </term>
@@ -2376,11 +2369,11 @@
       <name>durch software bestimmter link-kontext</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">Zusätzliche Informationen, die durch <a>Beziehungen</a> mit einem Link <a>durch <span lang="en">Software</span> bestimmt</a> werden können. Diese Informationen werden mit dem Link-Text kombiniert und dem Benutzer in verschiedenen Modalitäten präsentiert.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Zusätzliche Informationen, die durch <a>Beziehungen</a> mit einem Link <a>durch Software bestimmt</a> werden können. Diese Informationen werden mit dem Link-Text kombiniert und dem Benutzer in verschiedenen Modalitäten präsentiert.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">In <abbr>HTML</abbr> beinhalten Informationen, die von einem Link in Englisch durch <span lang="en">Software</span> bestimmbar sind, Text, der in dem gleichen Absatz, der gleichen Liste oder Tabellenzelle ist wie der Link oder in einer Zelle mit Tabellenüberschrift, die mit der Tabellenzelle verknüpft ist, die den Link enthält.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">In HTML beinhalten Informationen, die von einem Link in Englisch durch Software bestimmbar sind, Text, der in dem gleichen Absatz, der gleichen Liste oder Tabellenzelle ist wie der Link oder in einer Zelle mit Tabellenüberschrift, die mit der Tabellenzelle verknüpft ist, die den Link enthält.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Da <span lang="en">Screenreader</span> die Zeichensetzung interpretieren können, können sie auch den Zusammenhang aus dem aktuellen Satz verfügbar machen, wenn der Fokus auf einem Link in diesem Satz liegt.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Da Screenreader die Zeichensetzung interpretieren können, können sie auch den Zusammenhang aus dem aktuellen Satz verfügbar machen, wenn der Fokus auf einem Link in diesem Satz liegt.</p>
    
       </definition>
    </term>
@@ -2823,7 +2816,7 @@ sheets);</li>
    
          <p xmlns="http://www.w3.org/1999/xhtml">Wörter, die so verwendet werden, dass Benutzer genau wissen müssen, welche Definition anzuwenden ist, um den Inhalt korrekt zu verstehen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Wenn der Begriff „gig“ in einer Diskussion über Musikkonzerte auftaucht, bedeutet er etwas anderes, als wenn er in einem Artikel über Computer-Festplattenplatz auftaucht. Die passende Definition kann aber durch den Inhalt bestimmt werden. Im Gegensatz dazu wird das Wort „Text“ in den <abbr>WCAG</abbr> 2.0 auf eine sehr spezielle Art benutzt, so dass eine Definition im Glossar zur Verfügung gestellt wird.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Wenn der Begriff „gig“ in einer Diskussion über Musikkonzerte auftaucht, bedeutet er etwas anderes, als wenn er in einem Artikel über Computer-Festplattenplatz auftaucht. Die passende Definition kann aber durch den Inhalt bestimmt werden. Im Gegensatz dazu wird das Wort „Text“ in den WCAG 2.0 auf eine sehr spezielle Art benutzt, so dass eine Definition im Glossar zur Verfügung gestellt wird.</p>
    
       </definition>
    </term>
@@ -2833,10 +2826,9 @@ sheets);</li>
       <name>user agents</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">Jegliche <span lang="en">Software</span>, die <span lang="en">Web</span>inhalt für den Benutzer abruft und darstellt.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Jegliche Software, die Webinhalt für den Benutzer abruft und darstellt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">
-            <span lang="en">Webbrowser, Mediaplayer, Plug-Ins</span> und andere Programme — einschließlich <a>assistierender Techniken</a> — die dabei helfen, <span lang="en">Web</span>inhalt abzurufen, ihn zu rendern und mit ihm zu interagieren.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Webbrowser, Mediaplayer, Plug-Ins und andere Programme — einschließlich <a>assistierender Techniken</a> — die dabei helfen, Webinhalt abzurufen, ihn zu rendern und mit ihm zu interagieren.</p>
    
       </definition>
    </term>
