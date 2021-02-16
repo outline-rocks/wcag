@@ -1620,46 +1620,42 @@
       </definition>
    </term>
    <term>
-      <id>dfn-conformance</id>
-      <name>conformance</name>
+      <id>dfn-konformität</id>
+      <name>konformität</name>
       <name>conform</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">satisfying all the requirements of a given standard, guideline or specification</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Die Erfüllung aller Anforderungen eines bestehenden Standards, einer bestehenden Richtlinie oder Spezifikation.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-conforming-alternate-version</id>
-      <name>conforming alternate version</name>
+      <id>dfn-konforme-alternativversion</id>
+      <name>konforme alternativversion</name>
       <name>conforming alternate versions</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">version that</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine Version, die</p>
    
          <ol xmlns="http://www.w3.org/1999/xhtml">
       
-            <li>conforms at the designated level, and</li>
+            <li>mit der angegebenen Konformitätsstufe übereinstimmt und</li>
       
-            <li>provides all of the same information and <a>functionality</a> in the same <a>human language</a>, and
-      </li>
-      
-            <li>is as up to date as the non-conforming content, and</li>
+            <li>die gleichen Informationen und <a>Funktionalitäten</a> in der gleichen <a>menschlichen Sprache</a> bereitstellt und</li>
+       
+            <li>genauso aktuell ist wie der nicht-konforme Inhalt und</li>
       
             <li>
-               <p>for which at least one of the following is true:</p>
+               <p>für die mindestens einer der folgenden Punkte zutrifft:</p>
          
                <ol>
             
-                  <li>the conforming version can be reached from the non-conforming page via an <a>accessibility-supported</a>
-                     <a>mechanism</a>, or
-            </li>
+                  <li>Die konforme Version kann von der nicht-konformen Seite aus über einen <a>die Barrierefreiheit unterstützenden</a> 
+                     <a>Mechanismus</a> erreicht werden oder</li>
+             
+                  <li>die nicht-konforme Version kann nur von der konformen Version aus erreicht werden oder</li>
             
-                  <li>the non-conforming version can only be reached from the conforming version, or</li>
-            
-                  <li>the non-conforming version can only be reached from a conforming page that also provides
-               a mechanism to reach the conforming version
-            </li>
+                  <li>die nicht-konforme Version kann nur von einer konformen Seite aus erreicht werden, die außerdem einen Mechanismus bereitstellt, um die konforme Version zu erreichen.</li>
             
                </ol>
          
@@ -1667,60 +1663,42 @@
       
          </ol>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In this definition, "can only be reached" means that there is some mechanism, such
-      as a conditional redirect, that prevents a user from "reaching" (loading) the non-conforming
-      page unless the user had just come from the conforming version.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In dieser Definition bedeutet „kann nur erreicht werden“, dass es einen Mechanismus wie eine bedingte Umleitung gibt, der verhindert, dass der Benutzer die nicht-konforme Seite „erreicht“ (lädt), außer der Benutzer kommt gerade von der konformen Version.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The alternate version does not need to be matched page for page with the original
-      (e.g., the conforming alternate version may consist of multiple pages).
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Alternativversion muss nicht Seite für Seite dem Original entsprechen (z.B. kann die konforme Alternativversion aus mehreren Seiten bestehen).</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">If multiple language versions are available, then conforming alternate versions are
-      required for each language offered.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wenn es Versionen in verschiedenen Sprachen gibt, dann muss es konforme Alternativversionen für jede angebotene Sprache geben.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Alternate versions may be provided to accommodate different technology environments
-      or user groups. Each version should be as conformant as possible. One version would
-      need to be fully conformant in order to meet <a href="#cc1">conformance requirement 1</a>.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Alternativversionen können bereitgestellt werden, um unterschiedlichen Technikumgebungen oder Benutzergruppen entgegen zu kommen. Jede Version sollte so konform wie möglich sein. Eine Version müsste vollkommen konform sein, um der <a href="#cc1">Konformitätsbedingung 1</a> zu entsprechen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The conforming alternative version does not need to reside within the scope of conformance,
-      or even on the same Web site, as long as it is as freely available as the non-conforming
-      version.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die konforme Alternativversion muss nicht innerhalb des Bereichs der Konformität liegen und sie muss nicht einmal auf der gleichen Website sein, so lange sie so frei verfügbar ist wie die nicht-konforme Version.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Alternate versions should not be confused with <a>supplementary content</a>, which support the original page and enhance comprehension.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Alternativversionen sollten nicht verwechselt werden mit <a>ergänzendem Inhalt</a>, der die Originalseite unterstützt und die Verständlichkeit verbessert.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Setting user preferences within the content to produce a conforming version is an
-      acceptable mechanism for reaching another version as long as the method used to set
-      the preferences is accessibility supported.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Einstellung von Benutzerpräferenzen innerhalb des Inhalts zur Erstellung einer konformen Alternativversion ist ein akzeptabler Mechanismus, um eine andere Version zu erreichen, solange die zur Einstellung der Präferenzen benutzte Methode Barrierefreiheit unterstützend ist.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">See <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#conforming-alt-versions">Understanding Conforming Alternate Versions</a>
+         <p xmlns="http://www.w3.org/1999/xhtml">Siehe <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#conforming-alt-versions">Konforme Alternativversionen verstehen (englisch)</a>
          </p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-content</id>
-      <name>content</name>
+      <id>dfn-inhalt</id>
+      <name>inhalt</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">information and sensory experience to be communicated to the user by means of a <a>user agent</a>, including code or markup that defines the content's <a>structure</a>, <a>presentation</a>, and interactions
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Information und Sinneserfahrung, die dem Benutzer durch einen <a>Benutzeragenten</a> vermittelt werden soll, einschließlich Code oder Markup, welches <a>Struktur</a>, <a>Präsentation</a> und Interaktion des Inhalts definiert.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-context-sensitive-help</id>
-      <name>context-sensitive help</name>
+      <id>dfn-kontextsensitive-hilfe</id>
+      <name>kontextsensitive hilfe</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">help text that provides information related to the function currently being performed</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Hilfetext, der Informationen zur aktuell ausgeführten Funktion gibt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Clear labels can act as context-sensitive help.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eindeutige Beschriftungen (Labels) können als kontextsensitive Hilfe dienen.</p>
    
       </definition>
    </term>
@@ -1928,25 +1906,15 @@
       <name>idioms</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">phrase whose meaning cannot be deduced from the meaning of the individual words and
-      the specific words cannot be changed without losing the meaning
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine Phrase, deren Bedeutung sich nicht aus den einzelnen Wörtern erschließt und bei der man bestimmte Wörter nicht ändern kann, ohne die Bedeutung zu verlieren.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">idioms cannot be translated directly, word for word, without losing their (cultural
-      or language-dependent) meaning.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Idiome können nicht direkt – wörtlich – übersetzt werden, ohne ihre (kulturelle oder sprachabhängige) Bedeutung zu verlieren.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">In English, "spilling the beans" means "revealing a secret." However, "knocking over
-      the beans" or "spilling the vegetables" does not mean the same thing.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example"> Im Englischen bedeutet „<span lang="en">spilling the beans</span>“ (wörtlich übersetzt: die Bohnen verschütten) „ein Geheimnis ausplaudern“. Dagegen bedeutet „<span lang="en">knocking over the beans</span>“ (wörtlich „die Bohnen umkippen“) oder „<span lang="en">spilling the vegetables</span>“ (wörtlich „das Gemüse verschütten“) nicht das Gleiche.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">In Japanese, the phrase "<span lang="ja">さじを投げる</span>" literally translates into "he throws a spoon," but it means that there is nothing
-      he can do and finally he gives up.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Im Japanischen lautet die Phrase „<span lang="jp">さじを投げる</span>“ wörtlich übersetzt „er wirft einen Löffel“, aber sie bedeutet, dass es nichts gibt, was er tun kann und er schließlich aufgibt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">In Dutch, "<span lang="nl">Hij ging met de kippen op stok</span>" literally translates into "He went to roost with the chickens," but it means that
-      he went to bed early.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Im Niederländischen lautet „<span lang="nl">Hij ging met de kippen op stok</span>“ wörtlich übersetzt „Er ging mit den Hühnern zum Schlafen“, aber es bedeutet, dass er zeitig zu Bett ging.</p>
    
       </definition>
    </term>
@@ -1965,13 +1933,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-informative</id>
-      <name>informative</name>
+      <id>dfn-informativ</id>
+      <name>informativ</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">for information purposes and not required for conformance</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Für Informationszwecke und nicht für die Konformität erforderlich.</p>
   
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Content required for <a>conformance</a> is referred to as "<a>normative</a>."</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Inhalt, der für die <a>Konformität</a> erforderlich ist, wird als „<a>normativ</a>“ bezeichnet.</p>
    
       </definition>
    </term>
@@ -2000,9 +1968,9 @@
       <name>jargon</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">words used in a particular way by people in a particular field</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Wörter, die auf eine bestimmte Art und Weise von Personen in einem bestimmten Bereich verwendet werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">The word StickyKeys is jargon from the field of assistive technology/accessibility.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Bei dem Wort <span lang="en">StickyKeys</span> handelt es sich um Jargon aus dem Bereich der assistierenden Technik/Barrierefreiheit.</p>
    
       </definition>
    </term>
@@ -2058,47 +2026,22 @@
       </definition>
    </term>
    <term>
-      <id>dfn-large-scale</id>
-      <name>large scale</name>
+      <id>dfn-großer-text</id>
+      <name>großer text</name>
       <name>large-scale</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">with at least 18 point or 14 point bold or font size that would yield equivalent size
-      for Chinese, Japanese and Korean (CJK) fonts
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Mit mindestens 18 Punkt oder 14 Punkt fett oder einer Schriftgröße, die eine äquivalente Größe für chinesische, japanische und koreanische (CJK) Schriftarten ergeben würde.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Fonts with extraordinarily thin strokes or unusual features and characteristics that
-      reduce the familiarity of their letter forms are harder to read, especially at lower
-      contrast levels.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Schriftarten mit außergewöhnlich dünnen Strichen oder ungewöhnlichen Merkmalen und charakteristischen Eigenschaften, welche die Vertrautheit mit ihren Buchstabenformen reduzieren, sind schwerer zu lesen, insbesondere bei geringeren Kontrasten.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Font size is the size when the content is delivered. It does not include resizing
-      that may be done by a user.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Schriftgröße ist die Größe zum Zeitpunkt der Auslieferung des Inhalts. Sie beinhaltet keine Größenänderung, die der Benutzer durchführen könnte.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The actual size of the character that a user sees is dependent both on the author-defined
-      size and the user's display or user-agent settings. For many mainstream body text
-      fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150%
-      of the default size for body text (assuming that the body font is 100%), but authors
-      would need to check this for the particular fonts in use. When fonts are defined in
-      relative units, the actual point size is calculated by the user agent for display.
-      The point size should be obtained from the user agent, or calculated based on font
-      metrics as the user agent does, when evaluating this success criterion. Users who
-      have low vision would be responsible for choosing appropriate settings.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die tatsächliche Größe eines Buchstaben, den der Benutzer sieht, hängt sowohl von der vom Autor definierten Größe als auch von dem Bildschirm des Benutzers oder den Einstellungen des Benutzeragenten ab. Für viele gängige Fließtext-Schriftarten sind 14 und 18 Punkt grob äquivalent zu 1.2 und 1.5 em oder zu 120 % oder 150 % der Standardgröße für Fließtext (unter der Annahme, dass die Fließtext-Schriftart 100 % ist). Autoren müssen dies aber für die tatsächlich genutzte Schriftart prüfen. Wenn Schriftarten in relativen Einheiten definiert sind, dann wird die tatsächliche Punktgröße vom Benutzeragenten für die Darstellung berechnet. Wenn man dieses Erfolgskriterium evaluiert, dann sollte man die Punktgröße vom Benutzeragenten erhalten oder man sollte sie, basierend auf der Metrik der Schriftart, berechnen, wie dies ein Benutzeragent macht. Benutzer mit einer Sehbehinderung sind verantwortlich für die Auswahl geeigneter Einstellungen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">When using text without specifying the font size, the smallest font size used on major
-      browsers for unspecified text would be a reasonable size to assume for the font. If
-      a level 1 heading is rendered in 14pt bold or higher on major browsers, then it would
-      be reasonable to assume it is large text. Relative scaling can be calculated from
-      the default sizes in a similar fashion.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wird Text ohne die Angabe einer Schriftgröße benutzt, dann wäre die kleinste von verbreiteten Browsern benutzte Schriftgröße für unspezifizierten Text eine vernünftigerweise anzunehmende Größe für die Schriftart. Wenn eine Überschrift erster Ebene in verbreiteten Browsern in 14 Punkt fett oder größer gerendert wird, dann wäre es vernünftig anzunehmen, dass es sich um großen Text handelt. Die relative Skalierung kann aus der Standardgröße auf eine ähnliche Art berechnet werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">The 18 and 14 point sizes for roman texts are taken from the minimum size for large
-      print (14pt) and the larger standard font size (18pt). For other fonts such as CJK
-      languages, the "equivalent" sizes would be the minimum large print size used for those
-      languages and the next larger standard large print size.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die 18- und 14-Punkt-Größen für Text im Normalschnitt werden von der minimalen Größe für Großschrift (14 Punkt) und der größeren Standardgröße (18 Punkt) abgeleitet. Für andere Schriftarten, wie zum Beispiel CJK-Sprachen, wären die „äquivalenten“ Größen die minimale Großschriftgröße, die für diese Sprachen benutzt wird, sowie die nächst größere Standard-Großschriftgröße.</p>
    
       </definition>
    </term>
@@ -2252,16 +2195,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-on-a-full-screen-window</id>
-      <name>on a full-screen window</name>
+      <id>dfn-in-einem-bildschirmfüllenden-fenster</id>
+      <name>in einem bildschirmfüllenden fenster</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">on the most common sized desktop/laptop display with the viewport maximized</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Auf dem Desktop-/Laptop-Bildschirm der gängigsten Größe mit maximiertem Viewport.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Since people generally keep their computers for several years, it is best not to rely
-      on the latest desktop/laptop display resolutions but to consider the common desktop/laptop
-      display resolutions over the course of several years when making this evaluation.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Da Menschen ihre Computer normalerweise mehrere Jahre behalten, ist es am Besten, sich nicht auf die Auflösung der neuesten Desktop/Laptop-Bildschirme zu verlassen, sondern die Auflösung der üblichen Desktop-/Laptop-Bildschirme der letzten Jahre in Betracht zu ziehen, wenn man diese Einschätzung macht.</p>
    
       </definition>
    </term>
