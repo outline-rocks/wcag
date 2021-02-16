@@ -1508,12 +1508,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-audio-only</id>
-      <name>audio-only</name>
+      <id>dfn-reiner-audioinhalt</id>
+      <name>reiner audioinhalt</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a time-based presentation that contains only <a>audio</a> (no <a>video</a> and no interaction)
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine zeitbasierte Präsentation, die nur <a>Audio</a> (kein <a>Video</a> und keine Interaktion) enthält.</p>
    
       </definition>
    </term>
@@ -1759,13 +1758,11 @@
       </definition>
    </term>
    <term>
-      <id>dfn-emergency</id>
-      <name>emergency</name>
+      <id>dfn-notfall</id>
+      <name>notfall</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a sudden, unexpected situation or occurrence that requires immediate action to preserve
-      health, safety, or property
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine plötzliche, unerwartete Situation oder ein Ereignis, das sofortiges Handeln zum Schutz von Gesundheit, Sicherheit oder Eigentum erfordert.</p>
    
       </definition>
    </term>
@@ -2014,15 +2011,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-legal-commitments</id>
-      <name>legal commitments</name>
+      <id>dfn-rechtliche-verpflichtungen</id>
+      <name>rechtliche verpflichtungen</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">transactions where the person incurs a legally binding obligation or benefit</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Transaktionen, bei denen die Person Vereinbarungen eingeht, aus denen sich gesetzlich bindende Rechte und Pflichten ergeben.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">A marriage license, a stock trade (financial and legal), a will, a loan, adoption,
-      signing up for the army, a contract of any type, etc.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Aufgebot, ein Aktienhandel (finanziell und rechtlich), ein Testament, ein Darlehen, eine Adoption, Eintritt in den Militärdienst, ein Vertrag jeglicher Art usw.</p>
    
       </definition>
    </term>
@@ -2050,17 +2045,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-lower-secondary-education-level</id>
-      <name>lower secondary education level</name>
+      <id>dfn-niedrige-sekundäre-schulbildung</id>
+      <name>niedrige sekundäre schulbildung</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">the two or three year period of education that begins after completion of six years
-      of school and ends nine years after the beginning of <a>primary education</a>
-         </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">tDie zwei- oder dreijährige Phase der Bildung, die nach der Beendigung der ersten sechs Schuljahre beginnt und neun Jahre nach Beginn der <a>Grundschule</a> endet.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">This definition is based on the International Standard Classification of Education
-      [[UNESCO]].
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Definition basiert auf der internationalen Standard-Klassifikation von Bildung (International Standard Classification of Education) [[UNESCO]].</p>
    
       </definition>
    </term>
@@ -2133,15 +2124,15 @@
       </definition>
    </term>
    <term>
-      <id>dfn-normative</id>
-      <name>normative</name>
+      <id>dfn-normativ</id>
+      <name>normativ</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">required for conformance</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Erforderlich für die Konformität</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">One may conform in a variety of well-defined ways to this document.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Man kann auf eine Vielzahl von klar definierten Arten konform zu diesem Dokument sein.</p>
   
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Content identified as "<a>informative</a>" or "non-normative" is never required for <a>conformance</a>.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Inhalt, der als "<a>informativ</a>" oder „nicht-normativ“ bezeichnet wird, ist nie für <a>Konformität</a> erforderlich.</p>
    
       </definition>
    </term>
@@ -2157,12 +2148,12 @@
       </definition>
    </term>
    <term>
-      <id>dfn-paused</id>
-      <name>paused</name>
+      <id>dfn-pausiert</id>
+      <name>pausiert</name>
       <name>pause</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">stopped by user request and not resumed until requested by user</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Durch Aufforderung des Benutzers beendet und nicht wieder gestartet, bis der Benutzer dies anfordert.</p>
    
       </definition>
    </term>
@@ -2191,47 +2182,37 @@
       </definition>
    </term>
    <term>
-      <id>dfn-presentation</id>
-      <name>presentation</name>
+      <id>dfn-präsentation</id>
+      <name>präsentation</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">rendering of the <a>content</a> in a form to be perceived by users
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Rendering des <a>Inhalts</a> auf eine Art, dass der Benutzer diesen wahrnehmen kann.</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-primary-education-level</id>
-      <name>primary education level</name>
+      <id>dfn-primäre-schulbildung</id>
+      <name>primäre schulbildung</name>
       <name>primary education</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">six year time period that begins between the ages of five and seven, possibly without
-      any previous education
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Sechsjähriger Zeitraum, der in dem Alter zwischen fünf und sieben beginnt, möglicherweise ohne jegliche vorhergehende Bildung.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">This definition is based on the International Standard Classification of Education
-      [[UNESCO]].
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Definition basiert auf der internationalen Standard-Klassifikation von Bildung (<span lang="en">International Standard Classification of Education</span>) [[UNESCO]].</p>
    
       </definition>
    </term>
    <term>
-      <id>dfn-process</id>
-      <name>process</name>
+      <id>dfn-prozess</id>
+      <name>prozess</name>
       <name>processes</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">series of user actions where each action is required in order to complete an activity</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine Serie von Benutzerhandlungen, bei der jede Handlung erforderlich ist, um eine Aktivität abzuschließen.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Successful use of a series of Web pages on a shopping site requires users to view
-      alternative products, prices and offers, select products, submit an order, provide
-      shipping information and provide payment information.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Die erfolgreiche Benutzung einer Reihe von Webseiten in einem Online-Shop verlangt von dem Benutzer, dass er alternative Produkte, Preise und Angebote ansieht, Produkte auswählt, eine Bestellung aufgibt und Versand- und Zahlungsinformationen angibt.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">An account registration page requires successful completion of a Turing test before
-      the registration form can be accessed.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Seite zur Registrierung eines Kontos verlangt die erfolgreiche Fertigstellung eines Turing-Tests, bevor auf die Registrierung zugegriffen werden kann.</p>
    
       </definition>
    </term>
@@ -2272,17 +2253,15 @@
       </definition>
    </term>
    <term>
-      <id>dfn-pure-decoration</id>
-      <name>pure decoration</name>
+      <id>dfn-reine-dekoration</id>
+      <name>reine dekoration</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">serving only an aesthetic purpose, providing no information, and having no functionality</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Dient nur einem ästhetischen Zweck, stellt keine Informationen bereit und hat keine Funktionalität.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Text is only purely decorative if the words can be rearranged or substituted without
-      changing their purpose.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Text ist nur rein dekorativ, wenn die Wörter umgestellt oder ersetzt werden können, ohne dass der Zweck verändert wird.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">The cover page of a dictionary has random words in very light text in the background.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Auf der Titelseite eines Wörterbuchs stehen beliebige Wörter in einem sehr hellen Text im Hintergrund.</p>
    
       </definition>
    </term>
@@ -2321,33 +2300,27 @@
       </definition>
    </term>
    <term>
-      <id>dfn-relative-luminance</id>
-      <name>relative luminance</name>
+      <id>dfn-relative-luminanz</id>
+      <name>relative luminanz</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">the relative brightness of any point in a colorspace, normalized to 0 for darkest
-      black and 1 for lightest white
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Die relative Helligkeit irgendeines Punktes in einem Farbraum, normalisiert zu 0 für das dunkelste Schwarz und 1 für das hellste Weiß.</p>
    
          <div xmlns="http://www.w3.org/1999/xhtml" class="note">
-            <p>For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126
-      * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> where <strong>R</strong>, <strong>G</strong> and <strong>B</strong> are defined as:
-   </p>
+            <p>ür den sRGB-Farbraum wird die relative Luminanz einer Farbe definiert als L = 0.2126
+      * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> wobei <strong>R</strong>, <strong>G</strong> und <strong>B</strong> definiert sind als:</p>
    
             <ul>
       
-               <li>if RsRGB &lt;= 0.03928 then <strong>R</strong> = RsRGB/12.92 else <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4
-      </li>
+               <li>wenn RsRGB &lt;= 0.03928 dann <strong>R</strong> = RsRGB/12.92 sonst <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4</li>
       
-               <li>if GsRGB &lt;= 0.03928 then <strong>G</strong> = GsRGB/12.92 else <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4
-      </li>
+               <li>wenn GsRGB &lt;= 0.03928 dann <strong>G</strong> = GsRGB/12.92 sonst <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4</li>
       
-               <li>if BsRGB &lt;= 0.03928 then <strong>B</strong> = BsRGB/12.92 else <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4
-      </li>
+               <li>wenn BsRGB &lt;= 0.03928 dann <strong>B</strong> = BsRGB/12.92 sonst <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4</li>
       
             </ul>
    
-            <p>and RsRGB, GsRGB, and BsRGB are defined as:</p>
+            <p>und RsRGB, GsRGB, und BsRGB definiert sind als:</p>
    
             <ul>
       
@@ -2359,28 +2332,18 @@
       
             </ul>
    
-            <p>The "^" character is the exponentiation operator. (Formula taken from [[sRGB]] and
-      [[IEC-4WD]]).
-   </p>
+            <p>Das „^“ Zeichen ist der Potenzierungs-Operator. (Formel aus [[sRGB]] und [[IEC-4WD]]).</p>
 
          </div>
   
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Almost all systems used today to view Web content assume sRGB encoding. Unless it
-      is known that another color space will be used to process and display the content,
-      authors should evaluate using sRGB colorspace. If using other color spaces, see <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Understanding Success Criterion 1.4.3</a>.
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Fast alle Systeme, die heutzutage benutzt werden, um Webinhalte anzusehen, übernehmen die sRGB-Kodierung. Autoren sollten bei der Bewertung den sRGB-Farbraum benutzen, außer es ist bekannt, dass ein anderer Farbraum benutzt werden wird, um den Inhalt zu verarbeiten und anzuzeigen. Wenn Sie andere Farbräume benutzen, sehen Sie dazu auch: <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Erfolgskriterium 1.4.3 verstehen (englisch)</a>.
    </p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">If dithering occurs after delivery, then the source color value is used. For colors
-      that are dithered at the source, the average values of the colors that are dithered
-      should be used (average R, average G, and average B).
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Falls nach der Auslieferung Fehlerdiffusion (Dithering) auftritt, dann wird der Wert der Quellfarbe benutzt. Für Farben, die am Ursprung gedithert werden, sollten die durchschnittlichen Werte der geditherten Farben benutzt werden (durchschnittlich R, durchschnittlich G und durchschnittlich B).</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Tools are available that automatically do the calculations when testing contrast and
-      flash.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Es gibt Werkzeuge, welche die Berechnungen automatisch durchführen, wenn Kontrast und Blitz getestet werden.</p>
    
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">A <a href="relative-luminance.xml">MathML version of the relative luminance definition</a> is available.
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Es gibt eine <a href="relative-luminance.xml">MathML-Version der Definition von relativer Luminanz (englisch)</a>.</p>
    
       </definition>
    </term>
@@ -2747,12 +2710,11 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-video-only</id>
-      <name>video-only</name>
+      <id>dfn-reiner-videoinhalt</id>
+      <name>reiner videoinhalt</name>
       <definition>
    
-         <p xmlns="http://www.w3.org/1999/xhtml">a time-based presentation that contains only <a>video</a> (no <a>audio</a> and no interaction)
-   </p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Eine zeitbasierte Präsentation, die nur <a>Video</a> (kein <a>Audio</a> und keine Interaktion) enthält.</p>
    
       </definition>
    </term>
