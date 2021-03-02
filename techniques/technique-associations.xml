@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <associations>
-   <guideline id="text-alternatives">
+   <guideline id="textalternativen">
       <success-criterion id="nicht-text-inhalt"/>
    </guideline>
-   <guideline id="time-based-media">
+   <guideline id="zeitbasierte-medien">
       <success-criterion id="reine-audio--und-videoinhalte-aufgezeichnet"/>
       <success-criterion id="untertitel-aufgezeichnet"/>
       <success-criterion id="audiodeskription-oder-medienalternative-aufgezeichnet"/>
@@ -14,7 +14,7 @@
       <success-criterion id="medienalternative-aufgezeichnet"/>
       <success-criterion id="reiner-audioinhalt-live"/>
    </guideline>
-   <guideline id="adaptable">
+   <guideline id="anpassbar">
       <success-criterion id="info-und-beziehungen"/>
       <success-criterion id="bedeutungstragende-reihenfolge"/>
       <success-criterion id="sensorische-eigenschaften"/>
@@ -74,7 +74,7 @@
          <failure/>
       </success-criterion>
    </guideline>
-   <guideline id="distinguishable">
+   <guideline id="unterscheidbar">
       <success-criterion id="benutzung-von-farbe"/>
       <success-criterion id="audio-steuerelement"/>
       <success-criterion id="kontrast-minimum"/>
@@ -182,7 +182,7 @@
          </failure>
       </success-criterion>
    </guideline>
-   <guideline id="keyboard-accessible">
+   <guideline id="per-tastatur-zugänglich">
       <success-criterion id="tastatur"/>
       <success-criterion id="keine-tastaturfalle"/>
       <success-criterion id="tastatur-keine-ausnahme"/>
@@ -200,7 +200,7 @@
          </failure>
       </success-criterion>
    </guideline>
-   <guideline id="enough-time">
+   <guideline id="ausreichend-zeit">
       <success-criterion id="zeiteinteilung-anpassbar"/>
       <success-criterion id="pausieren-beenden-ausblenden"/>
       <success-criterion id="keine-zeiteinteilung"/>
@@ -224,7 +224,7 @@
          <failure/>
       </success-criterion>
    </guideline>
-   <guideline id="seizures-and-physical-reactions">
+   <guideline id="anfälle">
       <success-criterion id="grenzwert-von-dreimaligem-blitzen-oder-weniger"/>
       <success-criterion id="drei-blitze"/>
       <success-criterion id="animation-from-interactions">
@@ -240,7 +240,7 @@
          <failure/>
       </success-criterion>
    </guideline>
-   <guideline id="navigable">
+   <guideline id="navigierbar">
       <success-criterion id="blöcke-umgehen"/>
       <success-criterion id="seite-mit-titel-versehen"/>
       <success-criterion id="fokus-reihenfolge"/>
@@ -376,7 +376,7 @@
          </failure>
       </success-criterion>
    </guideline>
-   <guideline id="readable">
+   <guideline id="lesbar">
       <success-criterion id="sprache-der-seite"/>
       <success-criterion id="sprache-von-teilen"/>
       <success-criterion id="ungewöhnliche-wörter"/>
@@ -384,14 +384,14 @@
       <success-criterion id="leseniveau"/>
       <success-criterion id="aussprache"/>
    </guideline>
-   <guideline id="predictable">
+   <guideline id="vorhersehbar">
       <success-criterion id="bei-fokus"/>
       <success-criterion id="bei-eingabe"/>
       <success-criterion id="konsistente-navigation"/>
       <success-criterion id="konsistente-erkennung"/>
       <success-criterion id="änderung-auf-anfrage"/>
    </guideline>
-   <guideline id="input-assistance">
+   <guideline id="hilfestellung-bei-der-eingabe">
       <success-criterion id="fehlererkennung"/>
       <success-criterion id="beschriftungen-labels-oder-anweisungen"/>
       <success-criterion id="fehlerempfehlung"/>
@@ -399,7 +399,7 @@
       <success-criterion id="hilfe"/>
       <success-criterion id="fehlervermeidung-alle"/>
    </guideline>
-   <guideline id="compatible">
+   <guideline id="kompatibel">
       <success-criterion id="syntaxanalyse"/>
       <success-criterion id="name-rolle-wert"/>
       <success-criterion id="status-messages">
