@@ -260,27 +260,28 @@
             <level>AA</level>
             <file href="orientation"/>
          </success-criterion>
-         <success-criterion id="identify-input-purpose">
+         <success-criterion id="bestimmung-des-eingabezwecks">
             <num>1.3.5</num>
-            <name>Identify Input Purpose</name>
+            <name>Bestimmung des Eingabezwecks</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">The purpose of each input field collecting information about the user can be <a>programmatically determined</a> when:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Der Zweck jedes Eingabefeldes, das Informationen über den Benutzer sammelt, kann <a>durch Software bestimmt</a> werden, wenn:</p>
                <ul xmlns="http://www.w3.org/1999/xhtml">
-                  <li>The input field serves a purpose identified in the <a href="#input-purposes">Input Purposes for User Interface Components section</a>; and</li>
-                  <li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>
+                  <li>das Eingabefeld einem Zweck dient, der im Abschnitt <a href="#input-purposes">Eingabezwecke für Bestandteile der Benutzerschnittstelle</a> bestimmt ist; und</li>
+                  <li>der Inhalt mit Technologien implementiert wird, die die Bestimmung der erwarteten Bedeutung für Formulareingabedaten unterstützen.</li>
                </ul>
             </content>
             <level>AA</level>
-            <file href="identify-input-purpose"/>
+            <file href="bestimmung-des-eingabezwecks"/>
          </success-criterion>
-         <success-criterion id="identify-purpose">
+         <success-criterion id="bestimmung-des-zwecks">
             <num>1.3.6</num>
-            <name>Identify Purpose</name>
+            <name>Bestimmung des Zwecks</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">In content implemented using markup languages, the purpose of <a>User Interface Components</a>, icons, and <a>regions</a> can be <a>programmatically determined</a>.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">In Inhalten, die mit Auszeichnungssprachen implementiert sind, kann der Zweck von <a>Bestandteilen der Benutzeroberfläche</a>, Symbolen und <a>Regionen</a> 
+                  <a>durch Software bestimmt</a> werden.</p>
             </content>
             <level>AAA</level>
-            <file href="identify-purpose"/>
+            <file href="bestimmung-des-zwecks"/>
          </success-criterion>
       </guideline>
       <guideline id="unterscheidbar">
@@ -507,25 +508,25 @@
             <level>AA</level>
             <file href="reflow"/>
          </success-criterion>
-         <success-criterion id="non-text-contrast">
+         <success-criterion id="nicht-text-kontrast">
             <num>1.4.11</num>
-            <name>Non-text Contrast</name>
+            <name>Nicht-Text-Kontrast</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">The visual <a>presentation</a> of the following have a <a>contrast ratio</a> of at least 3:1 against adjacent color(s):</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Die visuelle <a>Präsentation</a> hat ein <a>Kontrastverhältnis</a> von mindestens 3:1 zu benachbarten Farbe(n) in folgenden Fällen:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-      						
-                  <dt>User Interface Components</dt>
-      						
+
+                  <dt>Bestandteile der Benutzerschnittstelle</dt>
+
                   <dd>Visual information required to identify <a>user interface components</a> and <a>states</a>, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</dd>
-      						
-                  <dt>Graphical Objects</dt>
-      						
+	
+                  <dt>Grafische Objekte</dt>
+					
                   <dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a>essential</a> to the information being conveyed.</dd>
-      						
+
                </dl>
             </content>
             <level>AA</level>
-            <file href="non-text-contrast"/>
+            <file href="nicht-text-kontrast"/>
          </success-criterion>
          <success-criterion id="text-spacing">
             <num>1.4.12</num>
@@ -544,30 +545,30 @@
             <level>AA</level>
             <file href="text-spacing"/>
          </success-criterion>
-         <success-criterion id="content-on-hover-or-focus">
+         <success-criterion id="inhalt-bei-hover-oder-focus">
             <num>1.4.13</num>
-            <name>Content on Hover or Focus</name>
+            <name>Inhalt bei Hover oder Focus</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn das Empfangen und anschließende Entfernen des Zeiger- oder Tastaturfokus dazu führt, dass zusätzlicher Inhalt sichtbar und anschließend ausgeblendet wird, muss Folgendes zutreffen:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
 
-                  <dt>Dismissible</dt>
-                  <dd>A <a>mechanism</a> is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an <a>input error</a> or does not obscure or replace other content;</dd>
+                  <dt>Verwerfbar</dt>
+                  <dd>Es gibt einen <a>Mechanismus</a>, um den zusätzlichen Inhalt zu verwerfen, ohne den Mauszeiger oder den Tastaturfokus zu bewegen, es sei denn, der zusätzliche Inhalt kommuniziert einen <a>Eingabefehler</a> oder verdeckt oder ersetzt andere Inhalte nicht;</dd>
 
-                  <dt>Hoverable</dt>
-                  <dd>If pointer hover can trigger the additional content, then the pointer can be moved  over the additional content without the additional content disappearing;</dd>
+                  <dt>Hoverbar</dt>
+                  <dd>Wenn zusätzlicher Inhalt durch Hovern mit dem Zeiger ausgelöst werden kann, dann kann der Zeiger über den zusätzlichen Inhalt bewegt werden, ohne dass der zusätzliche Inhalt verschwindet;</dd>
 
-                  <dt>Persistent</dt>
-                  <dd>The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</dd>
+                  <dt>Beständig</dt>
+                  <dd>Der zusätzliche Inhalt bleibt sichtbar, bis der Auslöser des Hover oder Fokus entfernt wird, der Benutzer ihn verwirft oder seine Informationen nicht mehr gültig sind.</dd>
 
                </dl>
-               <p xmlns="http://www.w3.org/1999/xhtml">Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Examples of additional content controlled by the user agent include browser tooltips created through use of the HTML <a href="https://www.w3.org/TR/html/dom.html#the-title-attribute">
-                     <code>title</code> attribute</a>.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Ausnahme: Die visuelle Darstellung des zusätzlichen Inhalts wird durch den Benutzeragenten gesteuert und nicht durch den Autoren verändert.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Beispiele für zusätzliche Inhalte, die vom Benutzeragenten gesteuert werden, sind Browser-Tooltips, die durch die Verwendung des HTML-<a href="https://www.w3.org/TR/html/dom.html#the-title-attribute">
+                     <code>title</code>-Attributs</a> erzeugt werden.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Benutzerdefinierte Tooltips, Untermenüs und andere nicht modale Popups, die bei Hover und Fokus angezeigt werden, sind Beispiele für zusätzliche Inhalte, die unter dieses Kriterium fallen.</p>
             </content>
             <level>AA</level>
-            <file href="content-on-hover-or-focus"/>
+            <file href="inhalt-bei-hover-oder-focus"/>
          </success-criterion>
       </guideline>
    </principle>
@@ -615,26 +616,26 @@
             <level>AAA</level>
             <file href="tastatur-keine-ausnahme"/>
          </success-criterion>
-         <success-criterion id="character-key-shortcuts">
+         <success-criterion id="zeichentastenbefehle">
             <num>2.1.4</num>
-            <name>Character Key Shortcuts</name>
+            <name>Zeichentastenbefehle</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">If a <a>keyboard shortcut</a> is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn ein <a>Tastaturbefehl</a> im Inhalt nur mit Buchstaben (einschließlich Groß- und Kleinbuchstaben), Satzzeichen, Zahlen oder Symbolen implementiert ist, dann ist mindestens eine der folgenden Bedingungen erfüllt:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
    
-                  <dt>Turn off</dt>
-                  <dd>A <a>mechanism</a> is available to turn the shortcut off;</dd>
-      						
-                  <dt>Remap</dt>
-                  <dd>A mechanism is available to remap the shortcut to include one or more non-printable keyboard keys (e.g., Ctrl, Alt);</dd>
+                  <dt>Abschaltbar</dt>
+                  <dd>Ein <a>Mechanismus</a> ist verfügbar, um den Befehl abzuschalten;</dd>
 
-                  <dt>Active only on focus</dt>
-                  <dd>The keyboard shortcut for a <a>user interface component</a> is only active when that component has focus.</dd>
-    
+                  <dt>Neu belegbar</dt>
+                  <dd>Ein Mechanismus ist verfügbar, um den Tastaturbefehl so neu zu belegen, dass er eine oder mehrere nicht druckbare Tasten enthält (z.B. Strg, Alt);</dd>
+
+                  <dt>Nur bei Fokus aktiv</dt>
+                  <dd>Der Tastaturbefehl für einen <a>Bestandteil der Benutzerschnittstelle</a> ist nur aktiv, wenn dieser Bestandteil den Fokus hat.</dd>
+
                </dl>
             </content>
             <level>A</level>
-            <file href="character-key-shortcuts"/>
+            <file href="zeichentastenbefehle"/>
          </success-criterion>
       </guideline>
       <guideline id="ausreichend-zeit">
@@ -807,15 +808,14 @@
             <level>AAA</level>
             <file href="drei-blitze"/>
          </success-criterion>
-         <success-criterion id="animation-from-interactions">
+         <success-criterion id="animation-durch-interaktionen">
             <num>2.3.3</num>
-            <name>Animation from Interactions</name>
+            <name>Animation durch Interaktionen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Motion animation</a> triggered by interaction can be disabled, unless the animation is <a>essential</a> to the functionality or the information being conveyed.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>bewegte Animation</a>, die von einer Interaktion ausgelöst wird, kann deaktiviert werden, es sei denn die Animation ist <a>unentbehrlich</a> für die Funktionalität oder die Information, die vermittelt wird.</p>
             </content>
             <level>AAA</level>
-            <file href="animation-from-interactions"/>
+            <file href="animation-durch-interaktionen"/>
          </success-criterion>
       </guideline>
       <guideline id="navigierbar">
@@ -966,34 +966,34 @@
             <level>A</level>
             <file href="pointer-cancellation"/>
          </success-criterion>
-         <success-criterion id="label-in-name">
+         <success-criterion id="beschriftung-label-im-namen">
             <num>2.5.3</num>
-            <name>Label in Name</name>
+            <name>Beschriftung (Label) im Namen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For <a>user interface components</a> with <a>labels</a> that include <a>text</a> or <a>images of text</a>, the <a>name</a> contains the text that is presented visually.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">A best practice is to have  the text of the label at the start of the name.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Bei <a>Bestandteilen der Benutzerschnittstelle</a> mit <a>Beschriftung (Label)</a>, die <a>Text</a> oder <a>Bilder eines Textes</a> enthält, enthält der <a>Name</a> den Text, der visuell angezeigt wird.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine bewährte Praktik ist, den Text der Beschriftung (des Labels) an den Anfang des Namens zu setzen.</p>
             </content>
             <level>A</level>
-            <file href="label-in-name"/>
+            <file href="beschriftung-label-im-namen"/>
          </success-criterion>
-         <success-criterion id="motion-actuation">
+         <success-criterion id="auslösen-von-bewegung">
             <num>2.5.4</num>
-            <name>Motion Actuation</name>
+            <name>Auslösen von Bewegung</name>
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">
-                  <a>Functionality</a> that can be operated by device motion or user motion can also be operated by <a>user interface components</a> and responding to the motion can be disabled to prevent accidental actuation, except when:</p>
+                  <a>Funktionen</a>, die durch Geräte- oder Benutzerbewegungen bedient werden können, können auch durch <a>Bestandteile der Benutzerschnittstelle</a> bedient werden und die Reaktion auf die Bewegung kann deaktiviert werden, um ein versehentliches Auslösen zu verhindern, mit folgenden Ausnahmen:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
    
-                  <dt>Supported Interface</dt>
-                  <dd>The motion is used to operate functionality through an <a>accessibility supported</a> interface;</dd>
+                  <dt>Unterstützte Schnittstelle</dt>
+                  <dd>Die Bewegung wird verwendet, um Funktionen über eine <a>Barrierefreiheit unterstützende</a> Schnittstelle zu bedienen;</dd>
    
-                  <dt>Essential</dt>
-                  <dd>The motion is <a>essential</a> for the function and doing so would invalidate the activity.</dd>
+                  <dt>Unentbehrlich</dt>
+                  <dd>Die Bewegung ist <a>unentbehrlich</a> für die Funktion und die Aktivität würde dadurch ungültig werden.</dd>
    
                </dl>
             </content>
             <level>A</level>
-            <file href="motion-actuation"/>
+            <file href="auslösen-von-bewegung"/>
          </success-criterion>
          <success-criterion id="target-size">
             <num>2.5.5</num>
@@ -1014,14 +1014,14 @@
             <level>AAA</level>
             <file href="target-size"/>
          </success-criterion>
-         <success-criterion id="concurrent-input-mechanisms">
+         <success-criterion id="gleichzeitige-eingabemechanismen">
             <num>2.5.6</num>
-            <name>Concurrent Input Mechanisms</name>
+            <name>Gleichzeitige Eingabemechanismen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Web content does not restrict use of input modalities available on a platform except where the restriction is <a>essential</a>, required to ensure the security of the content, or required to respect user settings.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Webinhalte schränken die Nutzung der auf einer Plattform verfügbaren Eingabemodalitäten nicht ein, es sei denn, die Einschränkung ist <a>unentbehrlich</a>, erforderlich, um die Sicherheit der Inhalte zu gewährleisten, oder erforderlich, um Benutzereinstellungen zu berücksichtigen.</p>
             </content>
             <level>AAA</level>
-            <file href="concurrent-input-mechanisms"/>
+            <file href="gleichzeitige-eingabemechanismen"/>
          </success-criterion>
       </guideline>
    </principle>
@@ -1693,8 +1693,8 @@
       </definition>
    </term>
    <term>
-      <id>dfn-kontrastverhältnis-contrast-ratio</id>
-      <name>kontrastverhältnis (contrast ratio)</name>
+      <id>dfn-kontrastverhältnis</id>
+      <name>kontrastverhältnis</name>
       <definition>
    
          <p xmlns="http://www.w3.org/1999/xhtml">(L1 + 0.05) / (L2 + 0.05), wobei</p>
@@ -1953,12 +1953,12 @@
       </definition>
    </term>
    <term>
-      <id>dfn-keyboard-shortcut</id>
-      <name>keyboard shortcut</name>
+      <id>dfn-tastaturbefehl</id>
+      <name>tastaturbefehl</name>
       <name>keyboard shortcuts</name>
       <definition>
    					
-         <p xmlns="http://www.w3.org/1999/xhtml">alternative means of triggering an action by the pressing of one or more keys</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">alternatives Mittel zum Auslösen einer Aktion durch Drücken einer oder mehrerer Tasten</p>
    				
       </definition>
    </term>
@@ -2068,13 +2068,13 @@
       </definition>
    </term>
    <term>
-      <id>dfn-motion-animation</id>
-      <name>motion animation</name>
+      <id>dfn-bewegte-animation</id>
+      <name>bewegte animation</name>
       <definition>
    					
-         <p xmlns="http://www.w3.org/1999/xhtml">addition of steps between conditions to create the illusion of movement or to give a sense of a smooth transition</p>
-	        <p xmlns="http://www.w3.org/1999/xhtml" class="example">For example, an element which moves into place or changes size while appearing is considered to be animated. An element which appears instantly without transitioning is not using animation. Motion animation does not include changes of color, blurring or opacity.</p>
-   				
+         <p xmlns="http://www.w3.org/1999/xhtml">Zusätzliche Stufen zwischen den Zuständen, um die Illusion von Bewegung zu erzeugen oder das Gefühl eines sanften Übergangs zu vermitteln</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Zum Beispiel wird ein Element, das sich während des Erscheinens an seinen Platz bewegt oder seine Größe ändert, als animiert betrachtet. Ein Element, das sofort ohne Übergang erscheint, verwendet keine Animation. Änderungen von Farbe, Unschärfe oder Deckkraft sind keine bewegten Animationen.</p>
+
       </definition>
    </term>
    <term>
@@ -2273,8 +2273,8 @@
       <name>region</name>
       <name>regions</name>
       <definition>
-         <p xmlns="http://www.w3.org/1999/xhtml">perceivable, programmatically determined section of content</p>
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In HTML, any area designated with a landmark role would be a region.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">wahrnehmbarer, durch Software bestimmter Abschnitt des Inhalts</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">In HTML wäre jeder Bereich, der mit einer landmark-Rolle ausgezeichnet ist, eine Region.</p>
       </definition>
    </term>
    <term>
@@ -2467,12 +2467,12 @@
       </definition>
    </term>
    <term>
-      <id>dfn-status-message</id>
-      <name>status message</name>
+      <id>dfn-statusmeldung</id>
+      <name>statusmeldung</name>
       <name>status messages</name>
       <definition>
-   					
-         <p xmlns="http://www.w3.org/1999/xhtml">change in content that is not a <a>change of context</a>, and that provides information to the user on the success or results of an action, on the waiting state of an application, on the progress of a process, or on the existence of errors</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Änderung des Inhalts, die keine <a>Änderung des Kontexts</a> ist und die dem Benutzer Informationen über den Erfolg oder die Ergebnisse einer Aktion, über den Wartezustand einer Anwendung, über den Fortschritt eines Prozesses oder über das Vorhandensein von Fehlern liefert</p>
    
       </definition>
    </term>
