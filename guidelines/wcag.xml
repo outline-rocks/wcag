@@ -250,15 +250,15 @@
             <level>A</level>
             <file href="sensorische-eigenschaften"/>
          </success-criterion>
-         <success-criterion id="orientation">
+         <success-criterion id="orientierung">
             <num>1.3.4</num>
-            <name>Orientation</name>
+            <name>Orientierung</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is <a>essential</a>.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Examples where a particular display orientation may be essential are a bank check, a piano application, slides for a projector or television, or virtual reality content where content is not necessarily restricted to landscape or portrait display orientation.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Inhalte sind in ihrer Betrachtung und Bedienung nicht auf eine einzige Bildschirmausrichtung beschränkt, wie z. B. Hoch- oder Querformat, es sei denn, eine bestimmte Bildschirmausrichtung ist <a>unentbehrlich</a>.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Beispiele, bei denen eine bestimmte Bildschirmausrichtung unentbehrlich sein kann, sind ein Bankscheck, eine Klavieranwendung, Folien für einen Projektor oder Fernseher oder Virtual-Reality-Inhalte, bei denen der Inhalt nicht unbedingt auf die Bildschirmausrichtung im Hoch- oder Querformat beschränkt ist.</p>
             </content>
             <level>AA</level>
-            <file href="orientation"/>
+            <file href="orientierung"/>
          </success-criterion>
          <success-criterion id="bestimmung-des-eingabezwecks">
             <num>1.3.5</num>
@@ -492,21 +492,24 @@
             <level>AAA</level>
             <file href="bilder-eines-textes-keine-ausnahme"/>
          </success-criterion>
-         <success-criterion id="reflow">
+         <success-criterion id="umfluss-reflow">
             <num>1.4.10</num>
-            <name>Reflow</name>
+            <name>Umfluss (Reflow)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Inhalte können ohne Informations- oder Funktionsverlust dargestellt werden, ohne dass dafür ein Scrollen in zwei Dimensionen erforderlich ist:</p>
                <ul xmlns="http://www.w3.org/1999/xhtml">
-                  <li>Vertical scrolling content at a width equivalent to 320 <a>CSS pixels</a>;</li>
-                  <li>Horizontal scrolling content at a height equivalent to 256 <a>CSS pixels</a>.</li>
+
+                  <li>Vertikal scrollender Inhalt mit einer Breite, die 320 <a>CSS-Pixeln</a> entspricht;</li>
+
+                  <li>Horizontal scrollender Inhalt mit einer Höhe, die 256 <a>CSS-Pixeln</a> entspricht.</li>
+
                </ul>
-               <p xmlns="http://www.w3.org/1999/xhtml">Except for parts of the content which require two-dimensional layout for usage or meaning.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For web content which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine Ausnahme bilden Teile des Inhalts, die für die Verwendung oder Bedeutung ein zweidimensionales Layout erfordern.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">320 CSS-Pixel entsprechen einer anfänglichen Viewport-Breite von 1280 CSS-Pixeln bei 400 % Zoom. Für Webinhalte, die zum horizontalen Scrollen konzipiert sind (z. B. mit vertikalem Text), entsprechen 256 CSS-Pixel einer anfänglichen Viewport-Höhe von 1024 CSS-Pixeln bei einem Zoom von 400 %.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Beispiele für Inhalte, die ein zweidimensionales Layout erfordern, sind Bilder, die zum Verständnis benötigt werden (wie Karten und Diagramme), Videos, Spiele, Präsentationen, Datentabellen (nicht einzelne Zellen) und Benutzeroberflächen, bei denen es notwendig ist, die Werkzeugleisten im Blick zu behalten, während der Inhalt bearbeitet wird. Es ist akzeptabel, für solche Teile des Inhalts ein zweidimensionales Scrollen vorzusehen.</p>
             </content>
             <level>AA</level>
-            <file href="reflow"/>
+            <file href="umfluss-reflow"/>
          </success-criterion>
          <success-criterion id="nicht-text-kontrast">
             <num>1.4.11</num>
@@ -517,33 +520,37 @@
 
                   <dt>Bestandteile der Benutzerschnittstelle</dt>
 
-                  <dd>Visual information required to identify <a>user interface components</a> and <a>states</a>, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</dd>
+                  <dd>Visuelle Informationen, die zur Identifizierung von <a>Bestandteilen der Benutzerschnittstelle</a> und <a>Zuständen</a> benötigt werden, außer bei inaktiven Bestandteilen oder wenn das Aussehen des Bestandteils durch den Benutzeragenten bestimmt und nicht vom Autor geändert wird;</dd>
 	
                   <dt>Grafische Objekte</dt>
 					
-                  <dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a>essential</a> to the information being conveyed.</dd>
+                  <dd>Teile von Grafiken, die zum Verständnis des Inhalts erforderlich sind, es sei denn, eine bestimmte Präsentation von Grafiken ist <a>unentbehrlich</a> für die zu vermittelnde Information.</dd>
 
                </dl>
             </content>
             <level>AA</level>
             <file href="nicht-text-kontrast"/>
          </success-criterion>
-         <success-criterion id="text-spacing">
+         <success-criterion id="textabstand">
             <num>1.4.12</num>
-            <name>Text Spacing</name>
+            <name>Textabstand</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">In content implemented using markup languages that support the following <a>text</a> 
-                  <a>style properties</a>, no loss of content or functionality occurs by setting all of the following and by changing no other style property:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Bei Inhalten, die mit Auszeichnungssprachen implementiert werden, die die folgenden <a>Stileigenschaften</a> für <a>Text</a> unterstützen, kommt es zu keinem Verlust von Inhalt oder Funktionalität, wenn man alle folgenden Einstellungen vornimmt und keine andere Stileigenschaft ändert:</p>
                <ul xmlns="http://www.w3.org/1999/xhtml">
-                  <li>Line height (line spacing) to at least 1.5 times the font size;</li>
-                  <li>Spacing following paragraphs to at least 2 times the font size;</li>
-                  <li>Letter spacing (tracking) to at least 0.12 times the font size;</li>
-                  <li>Word spacing to at least 0.16 times the font size.</li>
+
+                  <li>Zeilenhöhe (Zeilenabstand) auf mindestens das 1,5-fache der Schriftgröße;</li>
+
+                  <li>Abstand nach Absätzen auf mindestens 2-fache Schriftgröße;</li>
+
+                  <li>Buchstabenabstand (Laufweite) auf mindestens das 0,12-fache der Schriftgröße;</li>
+
+                  <li>Wortabstand auf mindestens das 0,16-fache der Schriftgröße.</li>
+
                </ul>
-               <p xmlns="http://www.w3.org/1999/xhtml">Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Ausnahme: Menschliche Sprachen und Schriften, die eine oder mehrere dieser Textstileigenschaften im geschriebenen Text nicht verwenden, müssen nur mit den Eigenschaften konform sein, die für diese Kombination von Sprache und Schrift existieren.</p>
             </content>
             <level>AA</level>
-            <file href="text-spacing"/>
+            <file href="textabstand"/>
          </success-criterion>
          <success-criterion id="inhalt-bei-hover-oder-focus">
             <num>1.4.13</num>
@@ -767,15 +774,15 @@
             <level>AAA</level>
             <file href="erneute-authentifizierung"/>
          </success-criterion>
-         <success-criterion id="timeouts">
+         <success-criterion id="zeitüberschreitung">
             <num>2.2.6</num>
-            <name>Timeouts</name>
+            <name>Zeitüberschreitung</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Users are warned of the duration of any <a>user inactivity</a> that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Privacy regulations may require explicit user consent before user identification has been authenticated and before user data is preserved. In cases where the user is a minor, explicit consent may not be solicited in most jurisdictions, countries or regions. Consultation with privacy professionals and legal counsel is advised when considering data preservation as an approach to satisfy this success criterion.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Benutzer werden vor der Dauer einer <a>Benutzerinaktivität</a> gewarnt, die zu Datenverlust führen könnte, es sei denn, die Daten bleiben länger als 20 Stunden erhalten, wenn der Benutzer keine Aktionen durchführt.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Datenschutzbestimmungen können eine ausdrückliche Zustimmung des Benutzers erfordern, bevor die Benutzeridentifikation authentifiziert wird und bevor Benutzerdaten gespeichert werden. In Fällen, in denen der Benutzer minderjährig ist, kann die ausdrückliche Zustimmung in den meisten Gerichtsbarkeiten, Ländern oder Regionen nicht eingeholt werden. Eine Beratung mit Datenschutzexperten und Rechtsberatern wird empfohlen, wenn Datenspeicherung als Ansatz zur Erfüllung dieses Erfolgskriteriums in Betracht gezogen wird.</p>
             </content>
             <level>AAA</level>
-            <file href="timeouts"/>
+            <file href="zeitüberschreitung"/>
          </success-criterion>
       </guideline>
       <guideline id="anfälle">
@@ -930,41 +937,41 @@
             <p xmlns="http://www.w3.org/1999/xhtml">Make it easier for users to operate functionality through various inputs beyond keyboard.</p>
          </content>
          <file href="input-modalities"/>
-         <success-criterion id="pointer-gestures">
+         <success-criterion id="zeigergesten">
             <num>2.5.1</num>
-            <name>Pointer Gestures</name>
+            <name>Zeigergesten</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">All <a>functionality</a> that uses multipoint or path-based gestures for operation can be operated with a <a>single pointer</a> without a path-based gesture, unless a multipoint or path-based gesture is <a>essential</a>.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">This requirement applies to web content that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Alle <a>Funktionalitäten</a>, die Mehrpunkt- oder pfadbasierte Gesten zur Bedienung verwenden, können mit einem <a>einzelnen Zeiger</a> ohne pfadbasierte Geste bedient werden, es sei denn, eine Mehrpunkt- oder pfadbasierte Geste ist <a>unentbehrlich</a>.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Anforderung gilt für Webinhalte, die Zeigeraktionen interpretieren (d.h. dies gilt nicht für Aktionen, die zur Bedienung des Benutzeragenten oder assistiver Technologien erforderlich sind).</p>
             </content>
             <level>A</level>
-            <file href="pointer-gestures"/>
+            <file href="zeigergesten"/>
          </success-criterion>
-         <success-criterion id="pointer-cancellation">
+         <success-criterion id="zeigeraufhebung">
             <num>2.5.2</num>
-            <name>Pointer Cancellation</name>
+            <name>Zeigeraufhebung</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">For <a>functionality</a> that can be operated using a <a>single pointer</a>, at least one of the following is true:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Für eine <a>Funktionalität</a>, die mit einem <a>einzelnen Zeiger</a> bedient werden kann, ist mindestens eine der folgenden Bedingungen erfüllt:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-   
-                  <dt>No Down-Event</dt>
-                  <dd>The <a>down-event</a> of the pointer is not used to execute any part of the function;</dd>
-      						
-                  <dt>Abort or Undo</dt>
-                  <dd>Completion of the function is on the <a>up-event</a>, and a <a>mechanism</a> is available to abort the function before completion or to undo the function after completion;</dd>
-      						
-                  <dt>Up Reversal</dt>
-                  <dd>The up-event reverses any outcome of the preceding down-event;</dd>
-      						
-                  <dt>Essential</dt>
-                  <dd>Completing the function on the down-event is <a>essential</a>.</dd>
-      						
+
+                  <dt>Kein down-Ereignis</dt>
+                  <dd>Das <a>down-Ereignis</a> des Zeigers wird nicht zur Ausführung eines Teils der Funktion verwendet;</dd>
+
+                  <dt>Abbrechen oder Rückgängig machen</dt>
+                  <dd>Die Funktion wird mit dem <a>up-Ereignis</a> abgeschlossen, und es gibt einen <a>Mechanismus</a>, um die Funktion vor dem Abschluss abzubrechen oder nach dem Abschluss rückgängig zu machen;</dd>
+
+                  <dt>Rückgängig bei up-Ereignis (Up Reversal)</dt>
+                  <dd>Das up-Ereignis macht ein beliebiges Ergebnis des vorangegangenen down-Ereignisses rückgängig;</dd>
+
+                  <dt>Unentbehrlich</dt>
+                  <dd>Das Abschließen der Funktion beim down-Ereignis ist <a>unentbehrlich</a>.</dd>
+
                </dl>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Functions that emulate a keyboard or numeric keypad key press are considered essential.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">This requirement applies to web content that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Funktionen, die den Tastenanschlag einer Tastatur oder eines Ziffernblocks emulieren, gelten als unentbehrlich.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Anforderung gilt für Webinhalte, die Zeigeraktionen interpretieren (d.h. dies gilt nicht für Aktionen, die zur Bedienung des Benutzeragenten oder assistiver Technologien erforderlich sind).</p>
             </content>
             <level>A</level>
-            <file href="pointer-cancellation"/>
+            <file href="zeigeraufhebung"/>
          </success-criterion>
          <success-criterion id="beschriftung-label-im-namen">
             <num>2.5.3</num>
@@ -995,24 +1002,29 @@
             <level>A</level>
             <file href="auslösen-von-bewegung"/>
          </success-criterion>
-         <success-criterion id="target-size">
+         <success-criterion id="zielgröße">
             <num>2.5.5</num>
-            <name>Target Size</name>
+            <name>Zielgröße</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">The size of the <a>target</a> for <a>pointer inputs</a> is at least 44 by 44 <a>CSS pixels</a> except when:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Die Größe des <a>Ziels</a> für <a>Zeigereingaben</a> beträgt mindestens 44 mal 44 <a>CSS-Pixel</a>, außer wenn:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-	                 <dt>Equivalent</dt> 
-                  <dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>
-	                 <dt>Inline</dt> 
-                  <dd>The target is in a sentence or block of text;</dd>
-	                 <dt>User Agent Control</dt> 
-                  <dd>The size of the target is determined by the user agent and is not modified by the author;</dd>
-	                 <dt>Essential</dt> 
-                  <dd>A particular presentation of the target is <a>essential</a> to the information being conveyed.</dd>
+
+                  <dt>Äquivalent</dt>
+                  <dd>Das Ziel ist über einen äquivalenten Link oder ein Steuerelement auf derselben Seite verfügbar, das mindestens 44 mal 44 CSS-Pixel groß ist;</dd>
+
+                  <dt>Inline</dt> 
+                  <dd>Das Ziel befindet sich in einem Satz oder Textblock;</dd>
+
+                  <dt>Steuerung durch den Benutzeragenten</dt> 
+                  <dd>Die Größe des Ziels wird vom Benutzeragenten bestimmt und vom Autor nicht verändert;</dd>
+
+                  <dt>Unentbehrlich</dt> 
+                  <dd>Eine bestimmte Darstellung des Ziels ist <a>unentbehrlich</a> für die zu vermittelnde Information.</dd>
+
                </dl>
             </content>
             <level>AAA</level>
-            <file href="target-size"/>
+            <file href="zielgröße"/>
          </success-criterion>
          <success-criterion id="gleichzeitige-eingabemechanismen">
             <num>2.5.6</num>
@@ -1267,14 +1279,14 @@
             <level>A</level>
             <file href="name-rolle-wert"/>
          </success-criterion>
-         <success-criterion id="status-messages">
+         <success-criterion id="statusmeldungen">
             <num>4.1.3</num>
-            <name>Status Messages</name>
+            <name>Statusmeldungen</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">In content implemented using markup languages, <a>status messages</a> can be <a>programmatically determined</a> through <a>role</a> or properties such that they can be presented to the user by <a>assistive technologies</a> without receiving focus.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">In Inhalten, die mit Auszeichnungssprachen implementiert sind, können <a>Statusmeldungen</a> durch <a>Rollen</a> oder Eigenschaften <a>durch Software bestimmt</a> werden, so dass sie dem Benutzer mittels <a>assistiver Technologien</a> präsentiert werden können, ohne den Fokus zu erhalten.</p>
             </content>
             <level>AA</level>
-            <file href="status-messages"/>
+            <file href="statusmeldungen"/>
          </success-criterion>
       </guideline>
    </principle>
@@ -1732,27 +1744,25 @@
    </term>
    <term>
       <id>dfn-css-pixel</id>
-      <name>css pixel</name>
+      <name>css-pixel</name>
       <name>css pixels</name>
       <definition>
-   					
-         <p xmlns="http://www.w3.org/1999/xhtml">visual angle of about 0.0213 degrees</p>
-   					
-         <p xmlns="http://www.w3.org/1999/xhtml">A CSS pixel is the canonical unit of measure for all lengths and measurements in CSS.
-      This unit is density-independent, and distinct from actual hardware pixels present
-      in a display. User agents and operating systems should ensure that a CSS pixel is
-      set as closely as possible to the <a href="https://www.w3.org/TR/css3-values/#reference-pixel">CSS Values and Units Module Level 3 reference pixel</a> [[!css3-values]], which takes into account the physical dimensions of the display
-      and the assumed viewing distance (factors that cannot be determined by content authors).
-   </p>
-   				
+	
+         <p xmlns="http://www.w3.org/1999/xhtml">Sichtwinkel von etwa 0,0213 Grad</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Ein CSS-Pixel ist die kanonische Maßeinheit für alle Längen und Maße in CSS. Diese Einheit ist dichteunabhängig und unterscheidet sich von den tatsächlichen Hardware-Pixeln eines Bildschirms. Benutzeragenten und Betriebssysteme sollten sicherstellen, dass ein CSS-Pixel möglichst genau dem <a href="https://www.w3.org/TR/css3-values/#reference-pixel">CSS-Werte und -einheiten Modul Level 3 Referenz-Pixel (Englisch)</a> [[!css3-values]] entspricht, welches die physikalischen Abmessungen des Bildschirms und den angenommenen Betrachtungsabstand berücksichtigt (Faktoren, die nicht von den Autoren der Inhalte bestimmt werden können).</p>
+
       </definition>
    </term>
    <term>
-      <id>dfn-down-event</id>
-      <name>down-event</name>
+      <id>dfn-down-ereignis</id>
+      <name>down-ereignis</name>
       <definition>
-         <p xmlns="http://www.w3.org/1999/xhtml">platform event that occurs  when the trigger stimulus of a pointer is depressed</p>
-	        <p xmlns="http://www.w3.org/1999/xhtml">The down-event may have different names on different platforms, such as "touchstart" or "mousedown".</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Plattformereignis, das eintritt, wenn der Auslöseimpuls eines Zeigers gedrückt ist.</p>
+
+	        <p xmlns="http://www.w3.org/1999/xhtml">Das down-Ereignis kann auf verschiedenen Plattformen unterschiedliche Namen haben, z. B. “touchstart” oder “mousedown”.</p>
+
       </definition>
    </term>
    <term>
@@ -2145,18 +2155,15 @@
       </definition>
    </term>
    <term>
-      <id>dfn-pointer-input</id>
-      <name>pointer input</name>
+      <id>dfn-zeigereingabe-pointer-input</id>
+      <name>zeigereingabe (pointer input)</name>
       <name>pointer inputs</name>
-      <definition>
-   					
-         <p xmlns="http://www.w3.org/1999/xhtml">input device that can target a specific coordinate (or set of coordinates) on a screen,
-      such as a mouse, pen, or touch contact
-   </p>
-   					
-         <p xmlns="http://www.w3.org/1999/xhtml">See also <a href="https://www.w3.org/TR/pointerevents/#dfn-pointer">Pointer Events pointer definition</a> [[!pointerevents]].
-   </p>
-   				
+      <definition> 					
+    
+         <p xmlns="http://www.w3.org/1999/xhtml">Eingabegerät, das eine bestimmte Koordinate (oder einen Satz von Koordinaten) auf einem Bildschirm anvisieren kann, wie z. B. eine Maus, ein Stift oder ein Berührungskontakt (touch contact)</p>
+    
+         <p xmlns="http://www.w3.org/1999/xhtml">Siehe auch <a href="https://www.w3.org/TR/pointerevents/#dfn-pointer">Pointer Events Zeigerdefinition (Pointer Events pointer definition)</a> [[!pointerevents]].</p>
+
       </definition>
    </term>
    <term>
@@ -2398,20 +2405,15 @@
       </definition>
    </term>
    <term>
-      <id>dfn-set-of-web-pages</id>
-      <name>set of web pages</name>
+      <id>dfn-satz-von-webseiten</id>
+      <name>satz von webseiten</name>
       <definition>
-   
-         <p xmlns="http://www.w3.org/1999/xhtml">collection of <a>web pages</a> that share a common purpose and that are created by the same author, group or organization
-   </p>
-   
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Examples include a publication which is split across multiple Web pages, where each page contains
-      one chapter or other significant section of the work. The publication is logically
-      a single contiguous unit, and contains navigation features that enable access to the
-      full set of pages.
-   </p>
 
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Different language versions would be considered different sets of Web pages.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Sammlung von <a>Webseiten</a>, die einen gemeinsamen Zweck haben und vom selben Autor, derselben Gruppe oder Organisation erstellt wurden</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Beispiel ist eine Publikation, die auf mehrere Webseiten aufgeteilt ist, wobei jede Seite ein Kapitel oder einen anderen signifikanten Abschnitt des Werks enthält. Die Publikation ist logisch eine einzige zusammenhängende Einheit und enthält Navigationselemente, die den Zugriff auf den gesamten Satz von Seiten ermöglichen.</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Unterschiedliche Sprachversionen werden als verschiedene Sätze von Webseiten betrachtet.</p>
    
       </definition>
    </term>
@@ -2437,12 +2439,12 @@
       </definition>
    </term>
    <term>
-      <id>dfn-single-pointer</id>
-      <name>single pointer</name>
+      <id>dfn-einzelner-zeiger</id>
+      <name>einzelner zeiger</name>
       <definition>
-   	
-         <p xmlns="http://www.w3.org/1999/xhtml">pointer input that operates with one point of contact with the screen, including single taps and clicks, double-taps and clicks, long presses, and path-based gestures</p>
-  				
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Zeigereingabe, die mit einem einzelnen Kontaktpunkt des Bildschirms arbeitet, wie etwa einfaches Tippen und Klicken, doppeltes Tippen und Klicken, langes Drücken und pfadbasierte Gesten</p>
+	
       </definition>
    </term>
    <term>
@@ -2457,13 +2459,14 @@
       </definition>
    </term>
    <term>
-      <id>dfn-state</id>
-      <name>state</name>
+      <id>dfn-zustand</id>
+      <name>zustand</name>
       <name>states</name>
       <definition>
    					
-         <p xmlns="http://www.w3.org/1999/xhtml">dynamic property expressing characteristics of a user interface component that may change in response to user action or automated processes</p>
-	        <p xmlns="http://www.w3.org/1999/xhtml">States do not affect the nature of the component, but represent data associated with the component or user interaction possibilities. Examples include focus, hover, select, press, check, visited/unvisited, and expand/collapse.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">dynamisches Merkmal, das Eigenschaften eines Bestandteils der Benutzerschnittstelle ausdrückt, die sich als Reaktion auf Benutzeraktionen oder automatisierte Prozesse ändern können</p>
+	        <p xmlns="http://www.w3.org/1999/xhtml">Zustände beeinflussen nicht die Beschaffenheit des Bestandteils, sondern stellen Daten dar, die in Verbindung mit dem Bestandteil oder den Interaktionsmöglichkeiten des Benutzers stehen. Zum Beispiel Tastaturfokus, Überfahren mit einem Zeigegerät, Auswählen, Drücken, Anhaken, besucht/unbesucht und ausklappen/zuklappen.</p>
+
       </definition>
    </term>
    <term>
@@ -2473,7 +2476,7 @@
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Änderung des Inhalts, die keine <a>Änderung des Kontexts</a> ist und die dem Benutzer Informationen über den Erfolg oder die Ergebnisse einer Aktion, über den Wartezustand einer Anwendung, über den Fortschritt eines Prozesses oder über das Vorhandensein von Fehlern liefert</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2492,19 +2495,25 @@
       </definition>
    </term>
    <term>
-      <id>dfn-style-property</id>
-      <name>style property</name>
+      <id>dfn-stileigenschaft-style-property</id>
+      <name>stileigenschaft (style property)</name>
       <name>style properties</name>
       <definition>
-         <p xmlns="http://www.w3.org/1999/xhtml">property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of
- content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by user agents</p>
- 	       <p xmlns="http://www.w3.org/1999/xhtml">Style properties can have several origins:</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Eigenschaft, deren Wert die Darstellung (z. B. Schriftart, Farbe, Größe, Position, Innenabstand, Lautstärke, synthetisierte Sprachprosodie) von Inhaltselementen bestimmt, während sie von Benutzeragenten wiedergegeben werden (z. B. auf dem Bildschirm, über Lautsprecher, über Braillezeile)</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Stileigenschaften können verschiedene Ursprünge haben:</p>
+
          <ul xmlns="http://www.w3.org/1999/xhtml">
-            <li>User agent default styles: The default style property values applied in the absence of any author or user styles. Some web content technologies specify a default rendering, others do not;</li>
-            <li>Author styles: Style property values that are set by the author as part of the content (e.g. in-line styles, author style
-sheets);</li>
-            <li>User styles: Style property values that are set by the user (e.g. via user agent interface settings, user style sheets)</li>
+
+            <li>Standardstile des Benutzeragenten: Die standardmäßigen Stileigenschaftswerte, die in Abwesenheit von Autoren- oder Benutzerstilen angewendet werden. Einige Webinhaltstechnologien geben eine standardmäßige Darstellung vor, andere nicht;</li>
+
+            <li>Autorenstile: Stileigenschaftswerte, die vom Autor als Teil des Inhalts festgelegt werden (z. B. Inline-Stile, Autorenstilvorlagen);</li>
+
+            <li>Benutzerstile: Stileigenschaftswerte, die vom Benutzer eingestellt werden (z. B. über die Einstellungen der Schnittstelle des Benutzeragenten, Benutzer-Stylesheets)</li>
+
          </ul>
+
       </definition>
    </term>
    <term>
@@ -2536,12 +2545,12 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-target</id>
-      <name>target</name>
+      <id>dfn-ziel</id>
+      <name>ziel</name>
       <definition>
    					
-         <p xmlns="http://www.w3.org/1999/xhtml">region of the display that will accept a pointer action, such as the interactive area of a user interface component</p> 
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">If two or more touch targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same page.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Bereich des Bildschirms, der eine Zeigeraktion akzeptiert, wie z. B. der interaktive Bereich eines Bestandteils der Benutzerschnittstelle</p> 
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wenn zwei oder mehr Berührungsziele (touch targets) überlappen, sollte der überlappende Bereich nicht in die Messung der Größe des Ziels einbezogen werden, außer wenn die überlappenden Ziele dieselbe Aktion ausführen oder dieselbe Seite öffnen.</p>
   
       </definition>
    </term>
@@ -2589,11 +2598,14 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-up-event</id>
-      <name>up-event</name>
+      <id>dfn-up-ereignis</id>
+      <name>up-ereignis</name>
       <definition>
-         <p xmlns="http://www.w3.org/1999/xhtml">platform event that occurs  when the trigger stimulus of a pointer is released</p>
-	        <p xmlns="http://www.w3.org/1999/xhtml">The up-event may have different names on different platforms, such as "touchend" or "mouseup".</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Plattformereignis, das eintritt, wenn der Auslöseimpuls eines Zeigers losgelassen wird</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Das up-Ereignis kann auf verschiedenen Plattformen unterschiedliche Namen haben, z. B. "touchend" oder "mouseup".</p>
+
       </definition>
    </term>
    <term>
@@ -2651,11 +2663,14 @@ sheets);</li>
       </definition>
    </term>
    <term>
-      <id>dfn-user-inactivity</id>
-      <name>user inactivity</name>
+      <id>dfn-benutzer-inaktivität</id>
+      <name>benutzer-inaktivität</name>
       <definition>
-         <p xmlns="http://www.w3.org/1999/xhtml">any continuous period of time where no user actions occur</p>
-	        <p xmlns="http://www.w3.org/1999/xhtml">The method of tracking will be determined by the web site or application.</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">jede anhaltende Zeitspanne, in der keine Benutzeraktionen stattfinden</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Die Methode der Verfolgung wird von der Website oder Anwendung bestimmt.</p>
+
       </definition>
    </term>
    <term>

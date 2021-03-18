@@ -18,20 +18,7 @@
       <success-criterion id="info-und-beziehungen"/>
       <success-criterion id="bedeutungstragende-reihenfolge"/>
       <success-criterion id="sensorische-eigenschaften"/>
-      <success-criterion id="orientation">
-         <sufficient>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-          			  <technique xmlns="" id="G214"/>
-				        </ul>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-					          <technique xmlns="" id="F97"/>
-					          <technique xmlns="" id="F100"/>
-				        </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="orientierung"/>
       <success-criterion id="bestimmung-des-eingabezwecks"/>
       <success-criterion id="bestimmung-des-zwecks"/>
    </guideline>
@@ -45,62 +32,9 @@
       <success-criterion id="leiser-oder-kein-hintergrund-audioinhalt"/>
       <success-criterion id="visuelle-präsentation"/>
       <success-criterion id="bilder-eines-textes-keine-ausnahme"/>
-      <success-criterion id="reflow">
-         <sufficient>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-               <technique xmlns="" id="C32"/>
-               <technique xmlns="" id="C31"/>
-               <technique xmlns="" id="C33"/>
-               <technique xmlns="" id="C38"/>
-               <technique xmlns="" id="SCR34"/>
-               <technique xmlns="" id="G206"/>
-               <technique xmlns="">
-                  <title>@@ New: Using PDF/UA when creating PDFs.</title>
-               </technique>
-            </ul>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-               <technique xmlns="" id="C34"/>
-               <technique xmlns="" id="C37"/>
-               <technique xmlns="">
-                  <title>@@ CSS, Reflowing simple data tables.</title>
-               </technique>
-               <technique xmlns="">
-                  <title>@@ CSS, Fitting data cells within the width of the viewport.</title>
-               </technique>
-               <technique xmlns="">
-                  <title>@@ Mechanism to allow mobile view at any time</title>
-               </technique>
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-               <technique xmlns="" id="F102"/>
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="umfluss-reflow"/>
       <success-criterion id="nicht-text-kontrast"/>
-      <success-criterion id="text-spacing">
-         <sufficient>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-               <technique xmlns="" id="C36"/>
-            	  <technique xmlns="" id="C35"/>
-            </ul>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-            	  <technique xmlns="" id="C8"/>
-            	  <technique xmlns="" id="C21"/>
-            	  <technique xmlns="" id="C28"/>
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-         		    <technique xmlns="" id="F104"/>
-         	  </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="textabstand"/>
       <success-criterion id="inhalt-bei-hover-oder-focus"/>
    </guideline>
    <guideline id="per-tastatur-zugänglich">
@@ -115,23 +49,7 @@
       <success-criterion id="keine-zeiteinteilung"/>
       <success-criterion id="unterbrechungen"/>
       <success-criterion id="erneute-authentifizierung"/>
-      <success-criterion id="timeouts">
-         <sufficient>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-					          <technique xmlns="">
-                  <title>Setting a session timeout to occur following at least 20 hours of inactivity.</title>
-               </technique>
-					          <technique xmlns="">
-                  <title>Store user data for more than 20 hours.</title>
-               </technique>
-					          <technique xmlns="">
-                  <title>Provide a warning of the duration of user inactivity at the start of a process.</title>
-               </technique>
-				        </ul>
-         </sufficient>
-         <advisory/>
-         <failure/>
-      </success-criterion>
+      <success-criterion id="zeitüberschreitung"/>
    </guideline>
    <guideline id="anfälle">
       <success-criterion id="grenzwert-von-dreimaligem-blitzen-oder-weniger"/>
@@ -151,68 +69,11 @@
       <success-criterion id="abschnittsüberschriften"/>
    </guideline>
    <guideline id="input-modalities">
-      <success-criterion id="pointer-gestures">
-         <sufficient>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-					          <technique xmlns="" id="G215"/>
-					          <technique xmlns="" id="G216"/>
-				        </ul>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-					          <technique xmlns="" id="F105"/>
-				        </ul>
-         </failure>
-      </success-criterion>
-      <success-criterion id="pointer-cancellation">
-         <sufficient>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-						         <technique xmlns="" id="G210"/>
-						         <technique xmlns="" id="G212"/>
-						         <technique xmlns="">
-                  <title>@@ Touch events are only triggered when touch is removed from a control.</title>
-               </technique>		
-					       </ul>
-         </sufficient>
-         <advisory/>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-					          <technique xmlns="" id="F101"/>
-				        </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="zeigergesten"/>
+      <success-criterion id="zeigeraufhebung"/>
       <success-criterion id="beschriftung-label-im-namen"/>
       <success-criterion id="auslösen-von-bewegung"/>
-      <success-criterion id="target-size">
-         <sufficient>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-               <technique xmlns="">
-                  <title> Ensuring that touch targets are at least 44 by 44 CSS pixels. </title>
-               </technique>
-               <technique xmlns="">
-                  <title>Providing a mechanism to change the size of the target independent of magnification.</title>
-               </technique>
-            </ul>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-               <technique xmlns="">
-                  <title>Ensuring inline links provide sufficiently large activation target.</title>
-               </technique>
-            </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-               <technique xmlns="">
-                  <title>Failure of success criterion 2.5.3 due to target size being less than 44 by 44 CSS pixels.</title>
-               </technique>
-               <technique xmlns="">
-                  <title>Failure of success criterion 2.5.3 due to target size of a paragraph that is also a link being less than 44 by 44 CSS pixels.</title>
-               </technique>
-            </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="zielgröße"/>
       <success-criterion id="gleichzeitige-eingabemechanismen"/>
    </guideline>
    <guideline id="lesbar">
@@ -241,77 +102,6 @@
    <guideline id="kompatibel">
       <success-criterion id="syntaxanalyse"/>
       <success-criterion id="name-rolle-wert"/>
-      <success-criterion id="status-messages">
-         <sufficient>
-            <situation>
-               <title>Situation A: If a status message advises on the success or results of an action, or the state of an application:</title>
-               <ul xmlns="http://www.w3.org/1999/xhtml">
-						            <technique xmlns="" id="ARIA22">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-								                   <technique xmlns="" id="G199"/>
-							                 </ul>
-                     </using>
-                  </technique>
-					          </ul>
-            </situation>
-            <situation>
-               <title>Situation B: If a status message conveys a suggestion, or a warning on the existence of an error:</title>
-               <ul xmlns="http://www.w3.org/1999/xhtml">
-						            <technique xmlns="" id="ARIA19">
-                     <using>
-                        <ul xmlns="http://www.w3.org/1999/xhtml">
-								
-								                   <technique xmlns="" id="G83"/>
-								                   <technique xmlns="" id="G84"/>
-								                   <technique xmlns="" id="G85"/>
-								                   <technique xmlns="" id="G177"/>
-								                   <technique xmlns="" id="G194"/>
-								
-							                 </ul>
-                     </using>
-                  </technique>
-					          </ul>
-            </situation>
-            <situation>
-               <title>Situation C: If a status message conveys information on the progress of a process:</title>
-               <ul xmlns="http://www.w3.org/1999/xhtml">
-					
-						            <technique xmlns="" id="ARIA23"/>
-						            <technique xmlns="">
-                     <title>Using <code xmlns="http://www.w3.org/1999/xhtml">role="progressbar"</code> (future link)</title>
-                  </technique>
-						            <and xmlns="">
-                     <technique id="ARIA22"/>
-                     <technique id="G193"/>
-                  </and>
-					          </ul>
-            </situation>
-         </sufficient>
-         <advisory>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-		             <technique xmlns="">
-                  <title>Using aria-live regions with chat clients (future link)</title>
-               </technique>
-		
-		             <technique xmlns="">
-                  <title>Using <code xmlns="http://www.w3.org/1999/xhtml">role="marquee"</code> (future link)</title>
-               </technique>
-		             <technique xmlns="">
-                  <title>Using <code xmlns="http://www.w3.org/1999/xhtml">role="timer"</code> (future link)</title>
-               </technique>
-					          <technique xmlns="" id="ARIA18"/>
-					          <technique xmlns="" id="SCR14"/>	
-	           </ul>
-         </advisory>
-         <failure>
-            <ul xmlns="http://www.w3.org/1999/xhtml">
-						         <technique xmlns="" id="F103"/>
-				           <technique xmlns="">
-                  <title>Using <code xmlns="http://www.w3.org/1999/xhtml">role="alert"</code> or <code xmlns="http://www.w3.org/1999/xhtml">aria-live="assertive"</code> on content which is not important and time-sensitive (future link)</title>
-               </technique>
-			         </ul>
-         </failure>
-      </success-criterion>
+      <success-criterion id="statusmeldungen"/>
    </guideline>
 </associations>
