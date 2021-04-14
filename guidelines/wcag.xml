@@ -930,13 +930,15 @@
             <file href="abschnittsüberschriften"/>
          </success-criterion>
       </guideline>
-      <guideline id="input-modalities">
+      <guideline id="eingabe-modalitäten">
          <num>2.5</num>
-         <name>Input Modalities</name>
+         <name>Eingabe-Modalitäten</name>
          <content>
-            <p xmlns="http://www.w3.org/1999/xhtml">Make it easier for users to operate functionality through various inputs beyond keyboard.</p>
+            <p xmlns="http://www.w3.org/1999/xhtml">Erleichtern Sie den Benutzern die Bedienung der Funktionen durch verschiedene Eingabeverfahren
+               jenseits der Tastatur.
+            </p>
          </content>
-         <file href="input-modalities"/>
+         <file href="eingabe-modalitäten"/>
          <success-criterion id="zeigergesten">
             <num>2.5.1</num>
             <name>Zeigergesten</name>

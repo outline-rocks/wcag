@@ -6,7 +6,7 @@
       <meta charset="UTF-8" />
       
       
-      <title>Richtlinien für barrierefreie Webinhalte (WCAG) 2.0</title>
+      <title>Richtlinien für barrierefreie Webinhalte (WCAG) 2.1</title>
       	<script src="https://www.w3.org/Tools/respec/respec-w3c-common" class="remove"></script>
       	<script src="../script/wcag.js" class="remove"></script>
       	<script src="respec-config.js" class="remove"></script>
@@ -21,26 +21,34 @@
       
       <section id="abstract">
          
-         <p>Die Richtlinien für barrierefreie Webinhalte (WCAG) 2.0 decken einen großen Bereich
+         <p>Die Richtlinien für barrierefreie Webinhalte (WCAG) 2.1 decken einen großen Bereich
             von Empfehlungen ab, um Webinhalte barrierefreier zu machen. Wenn Sie diesen Richtlinien
             folgen, dann werden Inhalte für eine größere Gruppe von Menschen mit Behinderungen
-            barrierefrei sein. Dies beinhaltet Blindheit und Sehbehinderung, Gehörlosigkeit und
-            nachlassendes Hörvermögen, Lernbehinderungen, kognitive Einschränkungen, eingeschränkte
-            Bewegungsfähigkeit, Sprachbehinderungen, Photosensibilität und Kombinationen aus diesen
-            Behinderungen. Darüber hinaus wird das Befolgen dieser Richtlinien Ihre Webinhalte
-            in vielen Fällen für Nutzer im Allgemeinen benutzbarer machen.
+            barrierefreier sein. Dies beinhaltet Vorkehrungen für Blindheit und Sehbehinderung,
+            Gehörlosigkeit und nachlassendes Hörvermögen, eingeschränkte Bewegungsfähigkeit, Sprachbehinderungen,
+            Photosensibilität und Kombinationen aus diesen Behinderungen sowie einige Vorkehrungen
+            für Lernbehinderungen und kognitive Einschränkungen; es werden jedoch nicht alle Benutzeranforderungen
+            für Menschen mit diesen Behinderungen abgedeckt. Diese Richtlinien beziehen sich auf
+            die Barrierefreiheit von Webinhalten auf Desktops, Laptops, Tablets und mobilen Geräten.
+            Darüber hinaus wird das Befolgen dieser Richtlinien Webinhalte in vielen Fällen für
+            Nutzer im Allgemeinen benutzbarer machen.
          </p>
          	
-         <p>Die WCAG 2.0-Erfolgskriterien wurden als testbare Aussagen formuliert, sogenannte
+         <p>Die WCAG 2.1-Erfolgskriterien wurden als testbare Aussagen formuliert, sogenannte
             „Statements“, die nicht technik-spezifisch sind. Sowohl eine Anleitung zur Erfüllung
             der Erfolgskriterien bei bestimmten Techniken als auch allgemeine Informationen zur
-            Interpretation der Erfolgskriterien finden Sie in separaten Dokumenten. Unter <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Übersicht zu den Richtlinien für barrierefreie Webinhalte (WCAG) 2.0 (englisch)</a> finden Sie eine Einführung und Links zu technischem Material und Lehrmaterial.
+            Interpretation der Erfolgskriterien finden Sie in separaten Dokumenten. Unter <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Übersicht zu den Richtlinien für barrierefreie Webinhalte (WCAG) (englisch)</a> finden Sie eine Einführung und Links zu technischem Material und Lehrmaterial.
          </p>
          
-         <p>Die WCAG 2.0 sind der Nachfolger der <a href="https://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines 1.0 (englisch) [WCAG10]</a>, die im Mai 1999 als W3C-Empfehlung veröffentlicht wurden. Obwohl es möglich ist,
-            konform zu WCAG 1.0 oder WCAG 2.0 zu sein (oder zu beiden), empfiehlt das W3C, dass
-            sich neue und aktualisierte Inhalte an die WCAG 2.0 halten. Das W3C empfiehlt weiterhin,
-            dass Regelwerke zur Barrierefreiheit im Web auf die WCAG 2.0 Bezug nehmen.
+         <p>Die WCAG 2.1 erweitern die <a href="https://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines 2.0 (englisch) [WCAG20]</a>, die im Dezember 2008 als W3C-Empfehlung veröffentlicht wurden. Inhalte, die zu WCAG
+            2.1 konform sind, sind auch konform zu WCAG 2.0. Die Arbeitsgruppe beabsichtigt, dass
+            für Richtlinien, die eine Konformität mit WCAG 2.0 erfordern, WCAG 2.1 eine alternative
+            Möglichkeit der Konformität bieten kann. Mit der Veröffentlichung der WCAG 2.1 wird
+            die WCAG 2.0 weder aufgehoben noch ersetzt. Obwohl WCAG 2.0 eine W3C-Empfehlung bleibt,
+            rät das W3C zur Anwendung der WCAG 2.1, um die zukünftige Gültigkeit der Maßnahmen
+            zur Barrierefreiheit zu maximieren. Das W3C empfiehlt außerdem die Anwendung der aktuellsten
+            Version der WCAG bei der Entwicklung oder Aktualisierung von Richtlinien zur Barrierefreiheit
+            im Web.
          </p>
          
       </section>
@@ -64,9 +72,9 @@
          			
          <section>
             				
-            <h3>Background on WCAG 2</h3>
+            <h3>0.1 Background on WCAG 2</h3>
             				
-            <p>Die Richtlinien für barrierefreie Webinhalte (WCAG) 2.0 definieren, wie man Webinhalte
+            <p>Die Richtlinien für barrierefreie Webinhalte (WCAG) 2.1 definieren, wie man Webinhalte
                für Menschen mit Behinderungen barrierefreier gestalten kann. Barrierefreiheit umfasst
                ein weites Feld an Behinderungen, einschließlich visueller, auditiver, motorischer,
                sprachlicher, kognitiver, Sprach-, Lern- und neurologischer Behinderungen. Obwohl
@@ -77,26 +85,26 @@
                für Benutzer im Allgemeinen.
             </p>
             				
-            <p>Die WCAG 2.0 wurden durch das <a href="https://www.w3.org/WAI/standards-guidelines/w3c-process/">W3C-Verfahren (englisch)</a> in Kooperation mit Einzelpersonen und Organisationen auf der ganzen Welt entwickelt.
+            <p>Die WCAG 2.1 wurden durch das <a href="https://www.w3.org/WAI/standards-guidelines/w3c-process/">W3C-Verfahren (englisch)</a> in Kooperation mit Einzelpersonen und Organisationen auf der ganzen Welt entwickelt.
                Das Ziel ist es, einen gemeinsamen Standard für die Barrierefreiheit von Webinhalten
                zur Verfügung zu stellen, der die Bedürfnisse von Einzelpersonen, Organisationen und
-               Regierungen auf internationaler Ebene erfüllt. Die Richtlinien der WCAG 2.0 bauen
-               auf den WCAG 1.0 [[!WCAG20]], which in turn built on WCAG 1.0 [[WAI-WEBCONTENT]] auf
-               und wurden so konzipiert, dass sie sich weitgehend auf verschiedene Webtechniken der
-               Gegenwart und Zukunft anwenden lassen sowie mit einer Kombination aus automatisierten
+               Regierungen auf internationaler Ebene erfüllt. Die Richtlinien der WCAG 2.1 bauen
+               auf den WCAG 2.0 [[!WCAG20]] auf, welche wiederum auf den WCAG 1.0 [[WAI-WEBCONTENT]]
+               aufbauen, und wurden so konzipiert, dass sie sich weitgehend auf verschiedene Webtechniken
+               der Gegenwart und Zukunft anwenden lassen sowie mit einer Kombination aus automatisierten
                Tests und der Evaluation durch Menschen testbar sind. Für eine Einführung in die Richtlinien
                der WCAG lesen Sie die <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Übersicht zu den Richtlinien für barrierefreie Webinhalte (WCAG) (englisch)</a>.
             </p>
             
             				
-            <p>Significant challenges were encountered in defining additional criteria to address
-               cognitive, language, and learning disabilities, including a short timeline for development
-               as well as challenges in reaching consensus on testability, implementability, and
-               international considerations of proposals. Work will carry on in this area in future
-               versions of WCAG. We encourage authors to refer to our supplemental guidance on <a href="https://www.w3.org/WAI/standards-guidelines/wcag/#supplement">improving inclusion for people with disabilities, including learning and cognitive
-                  disabilities, people with low-vision, and more</a>.
+            <p>Besondere Herausforderungen ergaben sich bei der Definition zusätzlicher Kriterien
+               zur Berücksichtigung von kognitiven, sprachlichen und Lernbehinderungen, einschließlich
+               eines engen Zeitrahmens für die Entwicklung sowie Herausforderungen bei der Erzielung
+               eines Konsenses über die Testbarkeit, Implementierbarkeit und internationale Aspekte
+               der Vorschläge. Die Arbeit in diesem Bereich wird in zukünftigen Versionen der WCAG
+               fortgesetzt. Wir empfehlen den Autoren, unsere ergänzende Anleitung zur <a href="https://www.w3.org/WAI/standards-guidelines/wcag/#supplement">Verbesserung der Inklusion von Menschen mit Behinderungen, einschließlich Lern- und
+                  kognitiven Behinderungen, Menschen mit Sehschwäche und mehr</a>, zu Rate zu ziehen.
             </p>
-            
             				
             <p>Barrierefreiheit im Web hängt nicht nur von barrierefreien Inhalten ab, sondern auch
                von barrierefreien Webbrowsern und anderen Benutzeragenten. Autorenwerkzeuge spielen
@@ -122,7 +130,7 @@
          			
          <section>
             				
-            <h3>WCAG 2.0: Ebenen der Anleitung</h3>
+            <h3>0.2 WCAG 2 Ebenen der Anleitung</h3>
             				
             <p>Die Einzelpersonen und Organisationen, welche die Richtlinien der WCAG benutzen, sind
                sehr verschieden und beinhalten Webdesigner und -entwickler, Entscheidungsträger,
@@ -143,7 +151,7 @@
                					
                <li>
                   						
-                  <p><strong>Richtlinien</strong> - Unter den Prinzipien stehen die Richtlinien. Die 12 Richtlinien geben die wesentlichen
+                  <p><strong>Richtlinien</strong> - Unter den Prinzipien stehen die Richtlinien. Die 13 Richtlinien geben die wesentlichen
                      Ziele vor, auf die Autoren hinarbeiten sollten, um Inhalte für Benutzer mit verschiedenen
                      Behinderungen barrierefreier zu gestalten. Die Richtlinien sind nicht testbar, bieten
                      aber den Rahmen und übergreifende Zielvorgaben, um Autoren zu helfen, die Erfolgskriterien
@@ -199,7 +207,7 @@
          			
          <section>
             				
-            <h3>WCAG 2.0: Unterstützende Dokumente</h3>
+            <h3>0.3 WCAG 2.1 Unterstützende Dokumente</h3>
             				
             <p>Das WCAG 2.0-Dokument ist so konzipiert, dass die Bedürfnisse derer erfüllt werden,
                die einen stabilen, referenzierbaren technischen Standard brauchen. Andere Dokumente,
@@ -213,18 +221,19 @@
                					
                <li>
                   						
-                  <p><strong><a href="https://www.w3.org/WAI/WCAG21/quickref/">Wie man die WCAG 2.0 erfüllt (englisch)</a></strong> - Diese anpassbare Schnellreferenz zur WCAG 2.0 beinhaltet alle Richtlinien, Erfolgskriterien
+                  <p><strong><a href="https://www.w3.org/WAI/WCAG21/quickref/">Wie man die WCAG 2.1 erfüllt (englisch)</a></strong> - Diese anpassbare Schnellreferenz zur WCAG 2.1 beinhaltet alle Richtlinien, Erfolgskriterien
                      und Techniken für Autoren zur Benutzung während der Entwicklung und Evaluierung von
-                     Webinhalten. This includes content from WCAG 2.0 and WCAG 2.1 and can be filtered
-                     in many ways to help authors focus on relevant content.
+                     Webinhalten. Dies umfasst Inhalte aus den WCAG 2.0 und WCAG 2.1 und kann auf vielfältige
+                     Weise gefiltert werden, um den Autoren die Konzentration auf relevante Inhalte zu
+                     erleichtern.
                   </p>
                   					
                </li>
                					
                <li>
                   						
-                  <p><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/">WCAG 2.0 verstehen (englisch)</a></strong> - Ein Leitfaden zum Verständnis und zur Implementierung der Richtlinien der WCAG
-                     2.0. Für jede Richtlinie und jedes Erfolgskriterium der WCAG 2.0 sowie für Schlüsselthemen
+                  <p><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/">WCAG 2.1 verstehen (englisch)</a></strong> - Ein Leitfaden zum Verständnis und zur Implementierung der Richtlinien der WCAG
+                     2.1. Für jede Richtlinie und jedes Erfolgskriterium der WCAG 2.1 sowie für Schlüsselthemen
                      gibt es ein kurzes „Verstehen“-Dokument.
                   </p>
                   					
@@ -232,7 +241,7 @@
                					
                <li>
                   						
-                  <p><strong><a href="https://www.w3.org/WAI/WCAG21/Techniques/">Techniken für WCAG 2.0 (englisch)</a></strong> - Eine Sammlung von Techniken und verbreiteten Fehlern, jeweils in getrennten Dokumenten
+                  <p><strong><a href="https://www.w3.org/WAI/WCAG21/Techniques/">Techniken für WCAG 2.1 (englisch)</a></strong> - Eine Sammlung von Techniken und verbreiteten Fehlern, jeweils in getrennten Dokumenten
                      inklusive Beschreibung, Beispielen, Quelltext und Tests.
                   </p>
                   					
@@ -240,7 +249,7 @@
                					
                <li>
                   						
-                  <p><strong><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">Die WCAG 2.0-Dokumente (englisch)</a></strong> - Ein Diagramm und eine Beschreibung, wie die technischen Dokumente zusammenhängen
+                  <p><strong><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">Die WCAG-Dokumente (englisch)</a></strong> - Ein Diagramm und eine Beschreibung, wie die technischen Dokumente zusammenhängen
                      und verlinkt sind.
                   </p>
                   					
@@ -249,7 +258,7 @@
             </ol>
             				
             <p>In der <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Übersicht zu den Richtlinien für barrierefreie Webinhalte (WCAG) (englisch)</a> finden Sie eine Beschreibung des unterstützenden Materials für die WCAG 2.0, inklusive
-               Aus- und Weiterbildungs-Ressourcen in Zusammenhang mit den WCAG 2.0. Weitere Ressourcen,
+               Aus- und Weiterbildungs-Ressourcen in Zusammenhang mit den WCAG 2. Weitere Ressourcen,
                die sich mit Themen wie dem Geschäftsszenario für Barrierefreiheit im Web, Planung
                der Implementierung zur Verbesserung der Barrierefreiheit von Webseiten und Regelwerken
                zur Barrierefreiheit beschäftigen, werden unter <a href="https://www.w3.org/WAI/Resources/Overview">WAI-Ressourcen (englisch)</a> aufgelistet.
@@ -259,145 +268,152 @@
          	
          <section>
             		
-            <h3>Requirements for WCAG 2.1</h3>
+            <h3>0.4 Anforderungen für WCAG 2.1</h3>
             
-            <p>WCAG 2.1 meets a set of <a href="https://w3c.github.io/wcag/requirements/">requirements for WCAG 2.1</a> which, in turn, inherit requirements from WCAG 2.0. Requirements structure the overall
-               framework of guidelines and ensure backwards compatibility. The Working Group also
-               used a less formal set of acceptance criteria for success criteria, to help ensure
-               success criteria are similar in style and quality to those in WCAG 2.0. These requirements
-               constrained what could be included in WCAG 2.1. This constraint was important to preserve
-               its nature as a dot-release of WCAG 2.
+            <p>Die WCAG 2.1 erfüllen eine Reihe von <a href="https://w3c.github.io/wcag/requirements/">Anforderungen der WCAG 2.1</a>, die wiederum Anforderungen der WCAG 2.0 beinhalten. Die Anforderungen strukturieren
+               den gesamten Rahmen der Richtlinien und gewährleisten die Rückwärtskompatibilität.
+               Die Arbeitsgruppe hat zudem einen weniger formalen Satz von Akzeptanzbedingungen für
+               die Erfolgskriterien verwendet, um sicherzustellen, dass die Erfolgskriterien in Stil
+               und Qualität denjenigen der WCAG 2.0 entsprechen. Diese Anforderungen begrenzten,
+               was in die WCAG 2.1 aufgenommen werden konnte. Diese Einschränkung war wichtig, um
+               den Charakter einer Punktversion der WCAG 2 zu erhalten.
             </p>
             	
          </section>
          		
          <section>
             
-            <h3>Comparison with WCAG 2.0</h3>
+            <h3>0.5 Vergleich zur WCAG 2.0</h3>
             
-            <p>WCAG 2.1 was initiated with the goal to improve accessibility guidance for three major
-               groups: users with cognitive or learning disabilities, users with low vision, and
-               users with disabilities on mobile devices. Many ways to meet these needs were proposed
-               and evaluated, and a set of these were refined by the Working Group. Structural requirements
-               inherited from WCAG 2.0, clarity and impact of proposals, and timeline led to the
-               final set of success criteria included in this version. The Working Group considers
-               that WCAG 2.1 incrementally advances web content accessibility guidance for all these
-               areas, but underscores that not all user needs are met by these guidelines.
+            <p>Die WCAG 2.1 wurde mit dem Ziel initiiert, die Richtlinien zur Barrierefreiheit für
+               drei Hauptgruppen zu verbessern: Benutzer mit kognitiven oder Lernbehinderungen, Benutzer
+               mit eingeschränktem Sehvermögen und Benutzer mit Behinderungen auf mobilen Geräten.
+               Es wurden viele Möglichkeiten zur Erfüllung dieser Anforderungen vorgeschlagen und
+               evaluiert, und eine Auswahl davon wurde von der Arbeitsgruppe präzisiert. Strukturelle
+               Anforderungen, die von den WCAG 2.0 übernommen wurden, Klarheit und Auswirkung der
+               Vorschläge sowie der Zeitplan führten zu dem endgültigen Satz von Erfolgskriterien,
+               die in dieser Version enthalten sind. Die Arbeitsgruppe vertritt die Auffassung, dass
+               die WCAG 2.1 die Orientierungshilfen für die Barrierefreiheit von Web-Inhalten in
+               all diesen Bereichen schrittweise verbessern, sie betont jedoch, dass diese Richtlinien
+               nicht alle Bedürfnisse der Benutzer erfüllen.
             </p>
-            
             				
-            <p>WCAG 2.1 builds on and is backwards compatible with WCAG 2.0, meaning web pages that
-               conform to WCAG 2.1 also conform to WCAG 2.0. Authors that are required by policy
-               to conform with WCAG 2.0 will be able to update content to WCAG 2.1 without losing
-               conformance with WCAG 2.0. Authors following both sets of guidelines should be aware
-               of the following differences:
+            <p>Die WCAG 2.1 bauen auf den WCAG 2.0 auf und sind mit diesen rückwärtskompatibel, d.h.
+               Webseiten, die den WCAG 2.1 entsprechen, entsprechen auch den WCAG 2.0. Autoren, die
+               aufgrund von Richtlinien zur Konformität mit WCAG 2.0 verpflichtet sind, können Inhalte
+               auf WCAG 2.1 aktualisieren, ohne die Konformität mit WCAG 2.0 zu verlieren. Autoren,
+               die beide Richtlinien anwenden, sollten sich der folgenden Unterschiede bewusst sein:
             </p>
             				
             <section>
                					
-               <h4>New Features in WCAG 2.1</h4>
+               <h4>0.5.1 Neue Funktionen in WCAG 2.1</h4>
                					
-               <p>WCAG 2.1 extends WCAG 2.0 by adding new success criteria, definitions to support them,
-                  guidelines to organize the additions, and a couple additions to the conformance section.
-                  This additive approach helps to make it clear that sites which conform to WCAG 2.1
-                  also conform to WCAG 2.0, thereby meeting conformance obligations that are specific
-                  to WCAG 2.0. The Accessibility Guidelines Working Group recommends that sites adopt
-                  WCAG 2.1 as their new conformance target, even if formal obligations mention WCAG
-                  2.0, to provide improved accessibility and to anticipate future policy changes.
+               <p>Die WCAG 2.1 erweitern die WCAG 2.0, indem sie neue Erfolgskriterien, Definitionen
+                  zu deren Unterstützung, Richtlinien zur Organisation der Ergänzungen und einige Ergänzungen
+                  im Abschnitt über die Konformität hinzufügen. Dieser additive Ansatz hilft dabei,
+                  deutlich zu machen, dass Websites, die den WCAG 2.1 entsprechen, auch den WCAG 2.0
+                  entsprechen und damit die Konformitätsverpflichtungen erfüllen, die spezifisch für
+                  die WCAG 2.0 sind. Die Arbeitsgruppe für Richtlinien für barrierefreie Webinhalte
+                  empfiehlt, dass Websites die WCAG 2.1 als neues Konformitätsziel übernehmen, auch
+                  wenn die formalen Verpflichtungen die WCAG 2.0 nennen, um eine bessere Barrierefreiheit
+                  zu gewährleisten und zukünftige Änderungen der Richtlinien zu antizipieren.
                </p>
                					
-               <p>The following Success Criteria are new in WCAG 2.1:</p>
+               <p>Die folgenden Erfolgskriterien sind neu in den WCAG 2.1:</p>
                					
                <ul>
                   						
-                  <li>1.3.4 <a href="#orientation">Orientation</a> (AA)
+                  <li>1.3.4 <a href="#orientation">Orientierung</a> (AA)
                   </li>
                   						
-                  <li>1.3.5 <a href="#identify-input-purpose">Identify Input Purpose</a> (AA)
+                  <li>1.3.5 <a href="#identify-input-purpose">Bestimmung des Eingabezwecks</a> (AA)
                   </li>
                   						
-                  <li>1.3.6 <a href="#identify-purpose">Identify Purpose</a> (AAA)
+                  <li>1.3.6 <a href="#identify-purpose">Bestimmung des Zwecks</a> (AAA)
                   </li>
                   						
-                  <li>1.4.10 <a href="#reflow">Reflow</a> (AA)
+                  <li>1.4.10 <a href="#reflow">Umfluss (Reflow)</a> (AA)
                   </li>
                   						
-                  <li>1.4.11 <a href="#non-text-contrast">Non-Text Contrast</a> (AA)
+                  <li>1.4.11 <a href="#non-text-contrast">Nicht-Text-Kontrast</a> (AA)
                   </li>
                   						
-                  <li>1.4.12 <a href="#text-spacing">Text Spacing</a> (AA)
+                  <li>1.4.12 <a href="#text-spacing">Textabstand</a> (AA)
                   </li>
                   						
-                  <li>1.4.13 <a href="#content-on-hover-or-focus">Content on Hover or Focus</a> (AA)
+                  <li>1.4.13 <a href="#content-on-hover-or-focus">Inhalt bei Hover oder Focus</a> (AA)
                   </li>
                   						
-                  <li>2.1.4 <a href="#character-key-shortcuts">Character Key Shortcuts</a> (A)
+                  <li>2.1.4 <a href="#character-key-shortcuts">Zeichentastenbefehle</a> (A)
                   </li>
                   						
-                  <li>2.2.6 <a href="#timeouts">Timeouts</a> (AAA)
+                  <li>2.2.6 <a href="#timeouts">Zeitüberschreitung</a> (AAA)
                   </li>
                   						
-                  <li>2.3.3 <a href="#animation-from-interactions">Animation from Interactions</a> (AAA)
+                  <li>2.3.3 <a href="#animation-from-interactions">Animation durch Interaktionen</a> (AAA)
                   </li>
                   						
-                  <li>2.5.1 <a href="#pointer-gestures">Pointer Gestures</a> (A)
+                  <li>2.5.1 <a href="#pointer-gestures">Zeigergesten</a> (A)
                   </li>
                   						
-                  <li>2.5.2 <a href="#pointer-cancellation">Pointer Cancellation</a> (A)
+                  <li>2.5.2 <a href="#pointer-cancellation">Zeigeraufhebung</a> (A)
                   </li>
                   						
-                  <li>2.5.3 <a href="#label-in-name">Label in Name</a> (A)
+                  <li>2.5.3 <a href="#label-in-name">Beschriftung (Label) im Namen</a> (A)
                   </li>
                   						
-                  <li>2.5.4 <a href="#motion-actuation">Motion Actuation</a> (A)
+                  <li>2.5.4 <a href="#motion-actuation">Auslösen von Bewegung</a> (A)
                   </li>
                   						
-                  <li>2.5.5 <a href="#target-size">Target Size</a> (AAA)
+                  <li>2.5.5 <a href="#target-size">Zielgröße</a> (AAA)
                   </li>
                   						
-                  <li>2.5.6 <a href="#concurrent-input-mechanisms">Concurrent Input Mechanisms</a> (AAA)
+                  <li>2.5.6 <a href="#concurrent-input-mechanisms">Gleichzeitige Eingabemechanismen</a> (AAA)
                   </li>
                   						
-                  <li>4.1.3 <a href="#status-messages">Status Messages</a> (AA)
+                  <li>4.1.3 <a href="#status-messages">Statusmeldungen</a> (AA)
                   </li>
                   					
                </ul>
                					
-               <p>The new success criteria may reference new terms that have also been added to the
-                  glossary and form part of the normative requirements of the success criteria.
+               <p>Viele dieser Erfolgskriterien verweisen auf neue Begriffe, die auch in das Glossar
+                  aufgenommen wurden und Teil der normativen Anforderungen der Erfolgskriterien sind.
                </p>
                					
-               <p>In the Conformance section, a third note about page variants has been added to <a href="#cc2">Full Pages</a>, and an option for machine-readable metadata added to <a href="#conformance-optional">Optional Components of a Conformance Claim</a>.
-               </p>
-               				
-            </section>
-            				
-            <section>
-               					
-               <h4>Numbering in WCAG 2.1</h4>
-               					
-               <p>In order to avoid confusion for implementers for whom backwards compatibility to WCAG
-                  2.0 is important, new success criteria in WCAG 2.1 have been appended to the end of
-                  the set of success criteria within their guideline. This avoids the need to change
-                  the section number of success criteria from WCAG 2.0, which would be caused by inserting
-                  new success criteria between existing success criteria in the guideline, but it means
-                  success criteria in each guideline are no longer grouped by conformance level. The
-                  order of success criteria within each guideline does not imply information about conformance
-                  level; only the conformance level indicator (A / AA / AAA) on the success criterion
-                  itself indicates this. The <a href="https://www.w3.org/WAI/WCAG21/quickref/">WCAG 2.1 Quick Reference</a> provides ways to view success criteria grouped by conformance level, along with many
-                  other filter and sort options.
+               <p>Im Abschnitt „Konformität“ wurde bei „<a href="#cc2">Ganze Seiten</a>“ ein dritter Hinweis auf Seitenvarianten und bei „<a href="#conformance-optional">Optionale Komponenten einer Konformitätserklärung</a>“ eine Option für maschinenlesbare Metadaten hinzugefügt.
                </p>
                				
             </section>
             				
             <section>
                					
-               <h4>Conformance to WCAG 2.1</h4>
+               <h4>0.5.2 Nummerierung in WCAG 2.1</h4>
                					
-               <p>WCAG 2.1 uses the same conformance model as WCAG 2.0 with a couple additions, which
-                  is described in the <a href="#conformance">Conformance</a> section. It is intended that sites that conform to WCAG 2.1 also conform to WCAG
-                  2.0, which means they meet the requirements of any policies that reference WCAG 2.0,
-                  while also better meeting the needs of users on the current Web. 
+               <p>Um Unklarheiten für Anwender zu vermeiden, für die eine Rückwärtskompatibilität zu
+                  WCAG 2.0 wichtig ist, wurden die neuen Erfolgskriterien der WCAG 2.1 an das Ende der
+                  Erfolgskriterien innerhalb ihrer Richtlinie angefügt. Dies umgeht die Notwendigkeit,
+                  die Abschnittsnummer der Erfolgskriterien aus WCAG 2.0 zu ändern, die durch das Einfügen
+                  neuer Erfolgskriterien zwischen bestehenden Erfolgskriterien in der Richtlinie entstehen
+                  würde, aber es bedeutet, dass die Erfolgskriterien in der jeweiligen Richtlinie nicht
+                  mehr nach Konformitätsstufe gruppiert sind. Die Reihenfolge der Erfolgskriterien innerhalb
+                  der einzelnen Richtlinien gibt keine Auskunft über den Konformitätsgrad; lediglich
+                  der Konformitätsgrad-Indikator (A / AA / AAA) am Erfolgskriterium selbst zeigt diesen
+                  an. Die <a href="https://www.w3.org/WAI/WCAG21/quickref/">WCAG 2.1-Schnellreferenz (englisch)</a> bietet neben vielen anderen Filter- und Sortieroptionen die Möglichkeit, Erfolgskriterien
+                  gruppiert nach Konformitätsstufe anzuzeigen.
+               </p>
+               				
+            </section>
+            				
+            <section>
+               					
+               <h4>0.5.3 Konformität zur WCAG 2.1</h4>
+               					
+               <p>Die WCAG 2.1 verwenden das gleiche Konformitätsmodell wie die WCAG 2.0 mit einigen
+                  Ergänzungen, die im Abschnitt <a href="#conformance">Konformität</a> beschrieben werden. Es ist vorgesehen, dass Websites, die WCAG 2.1-konform sind,
+                  auch WCAG 2.0-konform sind, d.h. sie erfüllen die Anforderungen aller Regelwerke,
+                  die auf WCAG 2.0 verweisen, und erfüllen gleichzeitig besser die Bedürfnisse der Benutzer
+                  im modernen Web.
                </p>
                				
             </section>
@@ -406,19 +422,21 @@
          	
          <section>
             		
-            <h3>Later Versions of Accessibility Guidelines</h3>
+            <h3>0.6 Spätere Versionen der Barrierefreiheitsrichtlinien</h3>
             		
-            <p>In parallel with WCAG 2.1, the Accessibility Guidelines Working Group is developing
-               another major version of accessibility guidelines. The result of this work is expected
-               to be a more substantial restructuring of web accessibility guidance than would be
-               realistic for dot-releases of WCAG 2. The work follows a research-focused, user-centered
-               design methodology to produce the most effective and flexible outcome, including the
-               roles of content authoring, user agent support, and authoring tool support. This is
-               a multi-year effort, so WCAG 2.1 is needed as an interim measure to provide updated
-               web accessibility guidance to reflect changes on the web since the publication of
-               WCAG 2.0. The Working Group might also develop additional interim versions, continuing
-               with WCAG 2.2, on a similar short timeline to provide additional support while the
-               major version is completed.
+            <p>Parallel zu den WCAG 2.1 entwickelt die Arbeitsgruppe für Richtlinien für Barrierefreiheit
+               eine neue Hauptversion der Richtlinien für Barrierefreiheit. Es ist zu erwarten, dass
+               das Ergebnis dieser Arbeit eine umfangreichere Umstrukturierung der Richtlinien für
+               die Barrierefreiheit im Web sein wird, als es bei einer Punktversion der WCAG 2 realistisch
+               wäre. Die Arbeit folgt einer forschungsorientierten, benutzerzentrierten Designmethodik,
+               um das effektivste und flexibelste Ergebnis zu erzielen, einschließlich der Rollen
+               der Inhaltserstellung, der Unterstützung von Benutzeragenten und der Unterstützung
+               von Autorentools. Dies ist ein mehrjähriges Unterfangen, so dass die WCAG 2.1 als
+               Übergangslösung benötigt werden, um aktualisierte Richtlinien für die Barrierefreiheit
+               im Web bereitzustellen, die die Veränderungen im Web seit der Veröffentlichung der
+               WCAG 2.0 berücksichtigen. Die Arbeitsgruppe könnte in einem ähnlich kurzen Zeitrahmen
+               beginnend mit den WCAG 2.2 fortlaufend weitere Zwischenversionen entwickeln, um während
+               der Fertigstellung der Hauptversion zusätzliche Unterstützung zu bieten.
             </p>
             	
          </section>
@@ -1429,11 +1447,13 @@
          
          <section class="guideline new">
             
-            <h3>Input Modalities</h3>
+            <h3>Eingabe-Modalitäten</h3>
             
-            <p class="change">New</p>
+            <p class="change">Neu</p>
             
-            <p>Make it easier for users to operate functionality through various inputs beyond keyboard.</p>
+            <p>Erleichtern Sie den Benutzern die Bedienung der Funktionen durch verschiedene Eingabeverfahren
+               jenseits der Tastatur.
+            </p>
             
             <section class="sc">
 
@@ -1833,7 +1853,7 @@
          <h1>Konformität</h1>
          
          
-         <p>In diesem Abschnitt sind die Anforderungen an die <a>Konformität</a> zu den WCAG 2.0 aufgelistet. Hier erhalten Sie außerdem Informationen darüber, wie
+         <p>In diesem Abschnitt sind die Anforderungen an die <a>Konformität</a> zu den WCAG 2.1 aufgelistet. Hier erhalten Sie außerdem Informationen darüber, wie
             man Konformitätserklärungen erstellt, die optional sind. Abschließend wird beschrieben,
             was es bedeutet, <a>Barrierefreiheit unterstützend</a> zu sein, da man sich nur dann, wenn man Techniken auf eine die Barrierefreiheit unterstützende
             Art benutzt, auf die Konformität <a>verlassen</a> kann. <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance">Konformität verstehen (englisch)</a> beinhaltet weitere Erklärungen zu dem Konzept „Barrierefreiheit unterstützend“.
@@ -1842,16 +1862,18 @@
          	
          <section>
             		
-            <h2>Interpreting Normative Requirements</h2>
+            <h2>Normative Anforderungen interpretieren</h2>
             		
             		
-            <p>The main content of WCAG 2.1 is <a>normative</a> and defines requirements that impact conformance claims. Introductory material, appendices,
-               sections marked as "non-normative", diagrams, examples, and notes are <a>informative</a> (non-normative). Non-normative material provides advisory information to help interpret
-               the guidelines but does not create requirements that impact a conformance claim.
+            <p>Der Hauptinhalt der WCAG 2.1 ist <a>normativ</a> und definiert Anforderungen, die sich auf Konformitätserklärungen auswirken. Einführungsmaterial,
+               Anhänge, als „nicht-normativ“ gekennzeichnete Abschnitte, Diagramme, Beispiele und
+               Hinweise sind <a>informativ</a> (nicht-normativ). Nicht-normatives Material liefert Hinweise zur Interpretation der
+               Richtlinien, stellt aber keine Anforderungen, die sich auf eine Konformitätserklärung
+               auswirken.
             </p>
             		
-            <p>The key words MAY, MUST, MUST NOT, NOT RECOMMENDED, RECOMMENDED, SHOULD, and SHOULD
-               NOT are to be interpreted as described in [[RFC2119]].
+            <p>Die Schlüsselwörter KANN, MUSS, MUSS NICHT, NICHT EMPFOHLEN, EMPFOHLEN, SOLL und SOLL
+               NICHT sind wie in [[RFC2119]] beschrieben zu interpretieren.
             </p>
             	
          </section>
@@ -1924,10 +1946,10 @@
                   Autors liegen, nicht konform sein können, können eine <a href="#conformance-partial">Erklärung partieller Konformität</a> in Betracht ziehen.
                </p>
                
-               <p class="note">A full page includes each variation of the page that is automatically presented by
-                  the page for various screen sizes (e.g. variations in a responsive Web page). Each
-                  of these variations needs to conform (or needs to have a conforming alternate version)
-                  in order for the entire page to conform.
+               <p class="note">Zu ganzen Seiten zählen auch alle Variationen einer Seite, die von der Seite automatisch
+                  für verschiedene Bildschirmgrößen dargestellt werden (z. B. Variationen in einer responsiven
+                  Webseite). Jede dieser Varianten muss konform sein (oder eine konforme Alternativversion
+                  haben), damit die gesamte Seite konform ist.
                </p>
                
             </section>
@@ -2105,7 +2127,7 @@
                   
                   <li>Eine Liste mit erfüllten Erfolgskriterien, die über die erklärte Konformitätsstufe
                      hinausgehen. Diese Information sollte auf eine Art und Weise zur Verfügung gestellt
-                     werden, die Benutzer nutzen können, vorzugsweise maschinen-lesbare Metadaten.
+                     werden, die Benutzer nutzen können, vorzugsweise maschinenlesbare Metadaten.
                   </li>
                   
                   <li>Eine Liste mit den speziellen Techniken, die „<em>benutzt werden, auf die man sich aber nicht <a>verlässt</a></em>“.
@@ -2115,19 +2137,19 @@
                      wurden um den Inhalt zu testen.
                   </li>
                   
-                  <li class="new">A list of specific accessibility characteristics of the content, provided in machine-readable
-                     metadata.
+                  <li class="new">Eine Liste spezifischer Barrierefreiheitsmerkmale des Inhalts, die in maschinenlesbaren
+                     Metadaten bereitgestellt wird.
                   </li>
                   
                   <li>Informationen zu allen zusätzlich unternommenen Schritten, die über das Erfolgskriterium
                      hinausgehen, um die Barrierefreiheit zu verbessern.
                   </li>
                   
-                  <li>Eine maschinen-lesbare Metadaten-Version der Liste mit speziellen Techniken, auf die
+                  <li>Eine maschinenlesbare Metadaten-Version der Liste mit speziellen Techniken, auf die
                      man sich <a>verlässt</a>.
                   </li>
                   
-                  <li>Eine maschinen-lesbare Metadaten-Version der Konformitätserklärung.</li>
+                  <li>Eine maschinenlesbare Metadaten-Version der Konformitätserklärung.</li>
                   
                </ul>
                

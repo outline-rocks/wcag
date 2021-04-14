@@ -68,7 +68,7 @@
       <success-criterion id="linkzweck-reiner-link"/>
       <success-criterion id="abschnittsüberschriften"/>
    </guideline>
-   <guideline id="input-modalities">
+   <guideline id="eingabe-modalitäten">
       <success-criterion id="zeigergesten"/>
       <success-criterion id="zeigeraufhebung"/>
       <success-criterion id="beschriftung-label-im-namen"/>
