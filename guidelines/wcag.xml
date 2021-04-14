@@ -37,57 +37,57 @@
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">Alle <a>Nicht-Text-Inhalte</a>, die dem Benutzer präsentiert werden, haben eine <a>Textalternative</a>, die einem äquivalenten Zweck dient, mit Ausnahme der unten aufgelisteten Situationen.</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-      
+
                   <dt>Steuerelemente, Eingabe</dt>
-      
+
                   <dd>
-         
-                     <p>Wenn es sich bei dem Nicht-Text-Inhalt um ein Steuerelement handelt oder Eingaben durch den Benutzer akzeptiert, dann hat dieser einen <a>Namen</a>, der seinen Zweck beschreibt. (Beachten Sie <a href="#name-role-value">Richtlinie 4.1.2</a> für zusätzliche Anforderungen an Steuerelemente und Inhalte, die Eingaben durch den Benutzer akzeptieren.)</p>
-         
+
+                     <p>Wenn es sich bei dem Nicht-Text-Inhalt um ein Steuerelement handelt oder Eingaben durch den Benutzer akzeptiert, dann hat dieser einen <a href="#dfn-name">Namen</a>, der seinen Zweck beschreibt. (Beachten Sie <a href="#name-rolle-wert">Richtlinie 4.1.2</a> für zusätzliche Anforderungen an Steuerelemente und Inhalte, die Eingaben durch den Benutzer akzeptieren.)</p>
+
                   </dd>
-      
+
                   <dt>Zeitbasierte Medien</dt>
-      
+
                   <dd>
-         
-                     <p>Wenn es sich bei den Nicht-Text-Inhalten um zeitbasierte Medien handelt, dann stellen Textalternativen zumindest eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit. (Beachten Sie <a href="#time-based-media">Richtlinie 1.2</a> für zusätzliche Anforderungen an Medien.)</p>
-         
+
+                     <p>Wenn es sich bei den Nicht-Text-Inhalten um zeitbasierte Medien handelt, dann stellen Textalternativen zumindest eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit. (Beachten Sie <a href="#zeitbasierte-medien">Richtlinie 1.2</a> für zusätzliche Anforderungen an Medien.)</p>
+
                   </dd>
-      
+
                   <dt>Test</dt>
-      
+
                   <dd>
-         
+
                      <p>Wenn es sich bei dem Nicht-Text-Inhalt um einen Test oder eine Übung handelt, die nichtig wäre, wenn sie als <a>Text</a> dargestellt würde, dann stellen Textalternativen zumindest eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit.</p>
-         
+
                   </dd>
-      
+
                   <dt>Sensorisch</dt>
-      
+
                   <dd>
-         
+
                      <p>Wenn Nicht-Text-Inhalt hauptsächlich dafür gedacht ist, eine <a>bestimmte Sinneserfahrung</a> zu schaffen, dann stellen Textalternativen zumindest eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit.</p>
-         
+
                   </dd>
-      
+
                   <dt>
                      <a>CAPTCHA</a>
                   </dt>
-      
+
                   <dd>
-         
+
                      <p>Wenn der Zweck des Nicht-Text-Inhalts der ist zu bestätigen, dass eine Person und nicht ein Computer auf den Inhalt zugreift, dann werden Textalternativen bereitgestellt, die den Zweck des Nicht-Text-Inhalts identifizieren. Außerdem werden alternative Formen von CAPTCHAs bereitgestellt, die Ausgabeformen für verschiedene Arten der sensorischen Wahrnehmung nutzen, um verschiedenen Behinderungen Rechnung zu tragen.</p>
-         
+
                   </dd>
-      
+
                   <dt>Dekoration, Formatierung, unsichtbar</dt>
-      
+
                   <dd>
-         
+
                      <p>Wenn der Nicht-Text-Inhalt <a>reine Dekoration</a> ist, nur für visuelle Formatierung benutzt wird oder dem Benutzer gar nicht präsentiert wird, dann wird der Inhalt so implementiert, dass er von <a>assistierender Technik</a> ignoriert werden kann.</p>
-         
+
                   </dd>
-      
+
                </dl>
             </content>
             <level>A</level>
@@ -165,7 +165,7 @@
             <num>1.2.5</num>
             <name>Audiodeskription (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Audiodeskription</a> wird für alle <a>aufgezeichneten</a> 
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Audiodeskription</a> wird für alle <a href="#dfn-aufgezeichnet">aufgezeichneten</a> 
                   <a>Video</a>inhalte in <a>synchronisierten Medien</a> zur Verfügung gestellt.</p>
             </content>
             <level>AA</level>
@@ -1467,35 +1467,34 @@
    <term>
       <id>dfn-assistierende-technik</id>
       <name>assistierende technik</name>
-      <name>assistive technologies</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Hardware und/oder Software, die als <a>Benutzeragent</a> fungiert oder die mit einem gängigen Benutzeragenten zusammenarbeitet, um Funktionalität zur Verfügung zu stellen, damit die Anforderungen von Benutzern mit Behinderungen erfüllt werden, die über jene hinausgehen, die von gängigen Benutzeragenten angeboten werden.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Funktionalitäten, die von assistierenden Techniken bereitgestellt werden, beinhalten alternative Präsentationen (z.B. als synthetische Sprachausgabe oder vergrößerte Inhalte), alternative Eingabemethoden (z.B. Sprache), zusätzliche Navigations- oder Orientierungsmechanismen und Inhaltstransformationen (z.B. um Tabellen barrierefreier zu machen).</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Assistierende Techniken tauschen Daten und Nachrichten mit gängigen Benutzeragenten oft durch die Benutzung und die Beobachtung von <abbr title="Anwendungsprogrammierungsschnittstellen (Application Programming Interfaces)">APIs</abbr> aus.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Abgrenzung zwischen gängigen Benutzeragenten und assistierenden Techniken ist nicht absolut. Viele gängige Benutzeragenten stellen einige Funktionen bereit, um Menschen mit Behinderungen zu unterstützen. Der grundlegende Unterschied besteht darin, dass gängige Benutzeragenten ein breites und verschiedenartiges Publikum als Zielgruppe haben, die normalerweise Menschen mit und ohne Behinderungen beinhaltet. Assistierende Techniken haben als Zielgruppe genau definierte Populationen von Benutzern mit bestimmten Behinderungen. Die Unterstützung, die durch assistierende Techniken bereitgestellt wird, ist spezifischer und entspricht den Bedürfnissen ihrer Zielgruppe. Der gängige Benutzeragent kann den assistierenden Techniken wichtige Funktionalitäten zur Verfügung stellen, wie das Abrufen von Webinhalten aus Programmobjekten oder das Aufgliedern von Markup in identifizierbare Datenstrukturen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Assistierende Techniken, die im Zusammenhang mit diesem Dokument wichtig sind, beinhalten die folgenden:</p>
-   
+
          <ul xmlns="http://www.w3.org/1999/xhtml">
-      
+
             <li>Vergrößerungssoftware und andere visuelle Leseassistenten, die von Menschen mit visuellen, wahrnehmungsbedingten und körperlichen Einschränkungen in Bezug auf die Nutzung gedruckter Medien benutzt werden, um Schriftart, Größe, Abstände, Textfarbe oder die Synchronisierung von Text mit Sprache usw. zu ändern, damit die visuelle Lesbarkeit von gerendertem Text oder Bildern verbessert wird;</li>
-      
+
             <li>Screenreader, die von blinden Menschen benutzt werden, um Informationen in Textform durch synthetische Sprachausgabe oder Braille zu lesen;</li>
-      
+
             <li>Sprachausgabe-Software (<span lang="en">Text-to-Speech-Software</span>), die von manchen Menschen mit kognitiven, Sprach- oder Lernbehinderungen benutzt wird, um Text in synthetische Sprachausgabe zu konvertieren;</li>
-      
+
             <li>Spracherkennungssoftware, die von Menschen mit Körperbehinderungen benutzt werden kann;</li>
-      
+
             <li>Alternative Tastaturen, die von Menschen mit bestimmten Körperbehinderungen benutzt werden, um die Tastatur zu simulieren (einschließlich alternativer Tastaturen, die über Kopfsteuerungen, Einzelschalter, Saug- und Blassteuerungen und andere besondere Eingabegeräte bedient werden);</li>
-      
+
             <li>Alternative Zeigegeräte, die von Menschen mit bestimmten Körperbehinderungen benutzt werden, um das Zeigen mit der Maus und die Aktivierung von Schaltflächen zu simulieren.</li>
-      
+
          </ul>
-   
+
       </definition>
    </term>
    <term>
