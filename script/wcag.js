@@ -1,4 +1,4 @@
-var version="22";
+var version="21";
 
 function titleToPathFrag (title) {
 	return title.toLowerCase().replace(/[\s,]+/g, "-").replace(/[\(\)]/g, "");
@@ -13,7 +13,7 @@ function linkUnderstanding() {
 		var pathFrag = titleToPathFrag(heading);
 		var el = document.createElement("div");
 		el.setAttribute("class", "doclinks");
-		el.innerHTML = "<a href=\"" + understandingBaseURI + pathFrag + ".html\">Understanding " + heading + "</a> <span class=\"screenreader\">|</span> <br /><a href=\"https://www.w3.org/WAI/WCAG" + version + "/quickref/#" + pathFrag + "\">How to Meet " + heading + "</a>";
+		el.innerHTML = "<a href=\"" + understandingBaseURI + pathFrag + ".html\">" + heading + " verstehen</a> <span class=\"screenreader\">|</span> <br /><a href=\"https://www.w3.org/WAI/WCAG" + version + "/quickref/#" + pathFrag + "\">" + heading + " erfüllen</a>";
 		node.insertBefore(el, node.children[1]);
 	})
 }
@@ -32,17 +32,17 @@ function addTextSemantics() {
 	// put principle in principle headings
 	document.querySelectorAll('section.sc h2 bdi.secno').forEach(function(node){
 		var num = node.textContent;
-		node.textContent = "Principle " + num;
+		node.textContent = "Prinzip " + num;
 	})
 	// put guideline in GL headings
 	document.querySelectorAll('section.guideline h3 bdi.secno').forEach(function(node){
 		var num = node.textContent;
-		node.textContent = "Guideline " + num;
+		node.textContent = "Richtlinie " + num;
 	})
 	// put success criterion in SC headings
 	document.querySelectorAll('section.sc h4 bdi.secno').forEach(function(node){
 		var num = node.textContent;
-		node.textContent = "Success Criterion " + num;
+		node.textContent = "Erfolgskriterium " + num;
 	})
 }
 
