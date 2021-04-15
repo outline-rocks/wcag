@@ -785,15 +785,15 @@
             <file href="zeitüberschreitung"/>
          </success-criterion>
       </guideline>
-      <guideline id="anfälle">
+      <guideline id="anfälle-und-physische-reaktionen">
          <num>2.3</num>
-         <name>Anfälle</name>
+         <name>Anfälle und physische Reaktionen</name>
          <content>
             <p xmlns="http://www.w3.org/1999/xhtml">Gestalten Sie Inhalte nicht auf Arten, von denen bekannt ist, dass sie zu Anfällen
-               führen.
+               und physischen Reaktionen führen.
             </p>
          </content>
-         <file href="anfälle"/>
+         <file href="anfälle-und-physische-reaktionen"/>
          <success-criterion id="grenzwert-von-dreimaligem-blitzen-oder-weniger">
             <num>2.3.1</num>
             <name>Grenzwert von dreimaligem Blitzen oder weniger</name>

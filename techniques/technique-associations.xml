@@ -51,7 +51,7 @@
       <success-criterion id="erneute-authentifizierung"/>
       <success-criterion id="zeitüberschreitung"/>
    </guideline>
-   <guideline id="anfälle">
+   <guideline id="anfälle-und-physische-reaktionen">
       <success-criterion id="grenzwert-von-dreimaligem-blitzen-oder-weniger"/>
       <success-criterion id="drei-blitze"/>
       <success-criterion id="animation-durch-interaktionen"/>
