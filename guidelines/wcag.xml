@@ -2718,24 +2718,24 @@
    <term>
       <id>dfn-webseite</id>
       <name>webseite</name>
-      <name>web page(s)</name>
-      <name>web pages</name>
+      <name>webseite</name>
+      <name>webseiten</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Eine nicht-eingebettete Ressource abgerufen von einem einzelnen URI unter der Benutzung von HTTP plus jeder anderen Ressource, die beim Rendern benutzt wird oder die dazu bestimmt ist, mit der Ursprungs-Ressource zusammen durch einen <a>Benutzeragenten</a> gerendert zu werden.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Obwohl jede „andere Ressource“ zusammen mit der ursprünglichen Ressource gerendert würde, würden sie nicht zwangsläufig zeitgleich miteinander gerendert werden.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Zum Zweck der Konformität mit diesen Richtlinien muss eine Ressource „nicht eingebettet“ innerhalb des Geltungsbereichs der Konformität sein, um als Webseite zu gelten.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Web-Ressource, die alle eingebetteten Bilder und Medien beinhaltet.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Web-Mail-Anwendung, die unter der Benutzung von Asynchronem JavaScript und XML (AJAX) entwickelt wurde. Das Programm liegt komplett unter http://example.com/mail, beinhaltet aber einen Posteingang, einen Kontaktbereich und einen Kalender. Es werden Links oder Schaltflächen bereitgestellt, die dazu führen, dass der Posteingang, die Kontakte oder der Kalender angezeigt werden, die aber nicht den URI der Seite als Ganzes verändern.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine anpassbare Portalseite, auf der Benutzer den anzuzeigenden Inhalt aus einer Gruppe verschiedener Inhaltsmodule auswählen können.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Wenn Sie in Ihrem Browser „http://shopping.example.com/“ eingeben, dann kommen Sie zu einer film-ähnlichen, interaktiven Einkaufsumgebung, in der Sie visuell in einem Geschäft herumgehen und Produkte aus den Regalen um Sie herum nehmen und in einen visuellen Einkaufswagen vor Ihnen legen können. Das Klicken auf ein Produkt führt dazu, dass es zusammen mit einem Datenblatt vorgestellt wird, das daneben schwebt. Dies kann eine einseitige Website sein oder einfach nur eine Seite innerhalb einer Website.</p>
-   
+
       </definition>
    </term>
 </guidelines>
