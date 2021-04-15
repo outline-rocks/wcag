@@ -3079,51 +3079,52 @@
    
 </dd>
             
-            <dt><dfn>Relative Luminanz</dfn></dt>
+            <dt><dfn data-lt="relative luminanz|relativer luminanz">Relative Luminanz</dfn></dt>
 <dd>
-   
+
    <p>Die relative Helligkeit irgendeines Punktes in einem Farbraum, normalisiert zu 0 für das dunkelste Schwarz und 1 für das hellste Weiß.</p>
-   
+
   <div class="note">
    <p>ür den sRGB-Farbraum wird die relative Luminanz einer Farbe definiert als L = 0.2126
       * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> wobei <strong>R</strong>, <strong>G</strong> und <strong>B</strong> definiert sind als:</p>
-   
+
    <ul>
-      
+
       <li>wenn RsRGB &lt;= 0.03928 dann <strong>R</strong> = RsRGB/12.92 sonst <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4</li>
-      
+
       <li>wenn GsRGB &lt;= 0.03928 dann <strong>G</strong> = GsRGB/12.92 sonst <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4</li>
-      
+
       <li>wenn BsRGB &lt;= 0.03928 dann <strong>B</strong> = BsRGB/12.92 sonst <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4</li>
-      
+
    </ul>
-   
+
    <p>und RsRGB, GsRGB, und BsRGB definiert sind als:</p>
-   
+
    <ul>
-      
+
       <li>RsRGB = R8bit/255</li>
-      
+
       <li>GsRGB = G8bit/255</li>
-      
+
       <li>BsRGB = B8bit/255</li>
-      
+
    </ul>
-   
+
    <p>Das „^“ Zeichen ist der Potenzierungs-Operator. (Formel aus [[sRGB]] und [[IEC-4WD]]).</p>
 
   </div>
-  
+
    <p class="note">Fast alle Systeme, die heutzutage benutzt werden, um Webinhalte anzusehen, übernehmen die sRGB-Kodierung. Autoren sollten bei der Bewertung den sRGB-Farbraum benutzen, außer es ist bekannt, dass ein anderer Farbraum benutzt werden wird, um den Inhalt zu verarbeiten und anzuzeigen. Wenn Sie andere Farbräume benutzen, sehen Sie dazu auch: <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Erfolgskriterium 1.4.3 verstehen (englisch)</a>.
    </p>
-   
+
    <p class="note">Falls nach der Auslieferung Fehlerdiffusion (Dithering) auftritt, dann wird der Wert der Quellfarbe benutzt. Für Farben, die am Ursprung gedithert werden, sollten die durchschnittlichen Werte der geditherten Farben benutzt werden (durchschnittlich R, durchschnittlich G und durchschnittlich B).</p>
-   
+
    <p class="note">Es gibt Werkzeuge, welche die Berechnungen automatisch durchführen, wenn Kontrast und Blitz getestet werden.</p>
-   
+
    <p class="note">Es gibt eine <a href="relative-luminance.xml">MathML-Version der Definition von relativer Luminanz (englisch)</a>.</p>
-   
+
 </dd>
+
             
             <dt><dfn>Worauf man sich verlässt</dfn> (Techniken)
 </dt>
