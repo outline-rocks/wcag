@@ -1687,10 +1687,12 @@
    <term>
       <id>dfn-inhalt</id>
       <name>inhalt</name>
+      <name>inhalt</name>
+      <name>inhalten</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Information und Sinneserfahrung, die dem Benutzer durch einen <a>Benutzeragenten</a> vermittelt werden soll, einschließlich Code oder Markup, welches <a>Struktur</a>, <a>Präsentation</a> und Interaktion des Inhalts definiert.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -1977,14 +1979,14 @@
       <name>beschriftung / label</name>
       <name>labels</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">
-            <a>Text</a> oder andere Komponente mit einer <a>Textalternative</a> , der oder die dem Benutzer präsentiert wird, um eine Komponente innerhalb von Web<a>inhalten</a> zu identifizieren.</p>
-   
+            <a>Text</a> oder andere Komponente mit einer <a>Textalternative</a> , der oder die dem Benutzer präsentiert wird, um eine Komponente innerhalb von Web<a href="#dfn-inhalt">inhalten</a> zu identifizieren.</p>
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Beschriftung (Label) wird allen Benutzern gezeigt, wobei der <a>Name</a> versteckt sein kann und nur von assistierenden Techniken gezeigt wird. In vielen (aber nicht allen) Fällen sind Name und Beschriftung gleich.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der Begriff Beschriftung (Label) ist nicht beschränkt auf das Label-Element in HTML.</p>
-   
+
       </definition>
    </term>
    <term>
