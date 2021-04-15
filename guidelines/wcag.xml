@@ -165,7 +165,7 @@
             <num>1.2.5</num>
             <name>Audiodeskription (aufgezeichnet)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Audiodeskription</a> wird für alle <a href="#dfn-aufgezeichnet">aufgezeichneten</a> 
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine <a>Audiodeskription</a> wird für alle <a>aufgezeichneten</a> 
                   <a>Video</a>inhalte in <a>synchronisierten Medien</a> zur Verfügung gestellt.</p>
             </content>
             <level>AA</level>
@@ -277,7 +277,7 @@
             <num>1.3.6</num>
             <name>Bestimmung des Zwecks</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">In Inhalten, die mit Auszeichnungssprachen implementiert sind, kann der Zweck von <a>Bestandteilen der Benutzeroberfläche</a>, Symbolen und <a>Regionen</a> 
+               <p xmlns="http://www.w3.org/1999/xhtml">In Inhalten, die mit Auszeichnungssprachen implementiert sind, kann der Zweck von <a>Bestandteilen der Benutzerschnittstelle</a>, Symbolen und <a>Regionen</a> 
                   <a>durch Software bestimmt</a> werden.</p>
             </content>
             <level>AAA</level>
@@ -365,23 +365,23 @@
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">Wenn die benutzten Techniken die visuelle Präsentation bewirken können, dann wird <a>Text</a> statt <a>Bilder eines Textes</a> dazu benutzt, Informationen zu vermitteln mit den folgenden Ausnahmen:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-      
+
                   <dt>Anpassbar</dt>
-      
+
                   <dd>
-         
-                     <p>Das Bild eines Textes kann <a>visuell</a> an die Anforderungen des Benutzers angepasst werden;</p>
-         
+
+                     <p>Das Bild eines Textes kann <a href="#dfn-visuell-angepasst">visuell</a> an die Anforderungen des Benutzers angepasst werden;</p>
+
                   </dd>
-      
+
                   <dt>Unentbehrlich</dt>
-      
+
                   <dd>
-         
+
                      <p>Eine bestimmte Präsentation von Text ist für die vermittelten Informationen <a>unentbehrlich</a>.</p>
-         
+
                   </dd>
-      
+
                </dl>
                <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wortbildmarken (Text, der Teil eines Logos oder Markennamens ist) werden als unentbehrlich betrachtet.</p>
             </content>
@@ -429,35 +429,35 @@
             <num>1.4.7</num>
             <name>Leiser oder kein Hintergrund-Audioinhalt</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Für <a>prerecorded</a>, <a>reinen Audio</a>inhalt, der (1) hauptsächlich Sprache im Vordergrund enthält, (2) kein Audio-<a>CAPTCHA</a> oder ein Audio-Logo ist und (3) bei dem es sich nicht um eine Vokalisierung handelt, die hauptsächlich als musikalischer Ausdruck bestimmt ist wie beispielsweise Singen oder Rappen, gilt mindestens eines der Folgenden:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Für <a>aufgezeichneten</a>, <a>reinen Audio</a>inhalt, der (1) hauptsächlich Sprache im Vordergrund enthält, (2) kein Audio-<a>CAPTCHA</a> oder ein Audio-Logo ist und (3) bei dem es sich nicht um eine Vokalisierung handelt, die hauptsächlich als musikalischer Ausdruck bestimmt ist wie beispielsweise Singen oder Rappen, gilt mindestens eines der Folgenden:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-      
+
                   <dt>Kein Hintergrund</dt>
-      
+
                   <dd>
-         
+
                      <p>Der Audioinhalt enthält keine Hintergrundgeräusche.</p>
-         
+
                   </dd>
-      
+
                   <dt>Abschalten</dt>
-      
+
                   <dd>
-         
+
                      <p>Die Hintergrundgeräusche können abgeschaltet werden.</p>
-         
+
                   </dd>
-      
+
                   <dt>20 dB</dt>
-      
+
                   <dd>
-         
+
                      <p>Die Hintergrundgeräusche sind mindestens 20 Dezibel leiser als der Sprachinhalt im Vordergrund mit der Ausnahme von gelegentlichen Geräuschen, die nur 1 oder 2 Sekunden andauern.</p>
-         
+
                      <p class="note">Gemäß der Definition von „Dezibel“ sind Hintergrundgeräusche, die diese Anforderung erfüllen, ungefähr viermal so leise wie der Sprachinhalt im Vordergrund.</p>
-         
+
                   </dd>
-      
+
                </dl>
             </content>
             <level>AAA</level>
@@ -1311,51 +1311,53 @@
    <term>
       <id>dfn-abkürzung</id>
       <name>abkürzung</name>
-      <name>abbreviations</name>
+      <name>abkürzungen</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Kurzform eines Wortes, einer Phrase oder eines Namens, wobei die Abkürzung nicht Teil der Sprache geworden ist</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dies beinhaltet Initialworte und Akronyme, wobei:</p>
-   
+
          <ol xmlns="http://www.w3.org/1999/xhtml">
-      
+
             <li>
-         
+
                <p>
                   <strong>Initialworte</strong> Kurzformen eines Namens oder eine Phrase sind, gebildet aus den Anfangsbuchstaben oder Silben, die in dem Namen oder der Phrase vorkommen</p>
-         
+
                <p class="note">Nicht in allen Sprachen definiert.</p>
-         
+
                <p class="example">
                   <abbr>SNCF</abbr> ist ein französisches Initialwort, gebildet aus den Anfangsbuchstaben der <span lang="fr">Société Nationale des Chemins de Fer</span>, der französischen nationalen Eisenbahn.</p>
-         
+
                <p class="example">
                   <abbr>ESP</abbr> ist ein Initialwort für <span lang="en">Extrasensory Perception</span> (Übersinnliche Wahrnehmung).</p>
-         
+
             </li>
-      
+
             <li>
-         
+
                <p>
                   <strong>Akronyme</strong> abgekürzte Formen sind, die aus den Anfangsbuchstaben oder Teilen anderer Wörter (in einem Namen oder einer Phrase) gebildet werden und die als Wort ausgesprochen werden können</p>
-         
+
                <p class="example">
                   <abbr>NOAA</abbr> ist ein Akronym, das aus den Anfangsbuchstaben der <span lang="en">National Oceanic and Atmospheric Administration</span> in den Vereinigten Staaten gebildet wird.</p>
-         
+
             </li>
-      
+
          </ol>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Einige Unternehmen haben ein ehemaliges Initialwort als Firmennamen übernommen. In diesen Fällen sind die Buchstaben (z.B. Ecma) der neue Firmenname und das Wort wird nicht länger als Abkürzung betrachtet.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-barrierefreiheit-unterstützend</id>
       <name>barrierefreiheit unterstützend</name>
-      <name>accessibility-supported</name>
-      <name>accessibility support</name>
+      <name>barrierefreiheit unterstützende</name>
+      <name>die barrierefreiheit unterstützende</name>
+      <name>die unterstützung der barrierefreiheit</name>
+      <name>die barrierefreiheit unterstützenden</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Sowohl von den <a href="#dfn-assistierende-technik">assistierenden Techniken</a> der Benutzer als auch von den Barrierefreiheitsfunktionen in <a>Benutzeragenten</a> unterstützt</p>
@@ -1511,48 +1513,52 @@
    <term>
       <id>dfn-audiodeskription</id>
       <name>audiodeskription</name>
-      <name>audio descriptions</name>
+      <name>audiodeskriptionen</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Schilderung, die zur Tonspur hinzugefügt wird, um wichtige visuelle Details zu beschreiben, die durch die Haupt-Tonspur allein nicht verständlich sind.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Audiodeskription eines <a>Videos</a> gibt Informationen zu Handlungen, Charakteren, Szenenwechseln, Bildschirmtexten und anderen visuellen Inhalten.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">In gängigen Audiodeskriptionen wird die Schilderung während bestehender Dialogpausen hinzugefügt. (Siehe dazu auch <a>Erweiterte Audiodeskription</a>.)</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">In Fällen, in denen alle <a>Video</a>-Informationen bereits in bestehendem <a>Audio</a> bereitgestellt werden, ist keine zusätzliche Audiodeskription notwendig.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wird auch „Videodeskription“ und „deskriptive Erzählung“ genannt.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-reiner-audioinhalt</id>
       <name>reiner audioinhalt</name>
+      <name>reine audio</name>
+      <name>reinen audio</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Eine zeitbasierte Präsentation, die nur <a>Audio</a> (kein <a>Video</a> und keine Interaktion) enthält.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-blinkend</id>
       <name>blinkend</name>
+      <name>blinkende</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Das Hin- und Herwechseln zwischen zwei visuellen Zuständen mit der Absicht, Aufmerksamkeit zu erregen</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe auch <a>Blitz</a>. Es ist möglich, dass etwas groß genug ist und hell genug in der richtigen Frequenz blinkt, damit es auch als Blitz klassifiziert wird.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-textblöcke</id>
       <name>textblöcke</name>
+      <name>textblöcken</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Text mit mehr als einem Satz</p>
-   
+
       </definition>
    </term>
    <term>
@@ -1571,64 +1577,66 @@
    <term>
       <id>dfn-untertitel</id>
       <name>untertitel</name>
+      <name>untertiteln</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Synchronisierte visuelle Alternative und/oder <a>Textalternative</a> für sowohl sprachliche als auch nicht-sprachliche Audio-Informationen, die notwendig sind, um Medieninhalte zu verstehen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Untertitel (<span lang="en">Captions</span>) sind reinen Dialog-Untertiteln ähnlich mit der Ausnahme, dass sie nicht nur den Inhalt von gesprochenem Dialog wiedergeben, sondern auch Äquivalente für über den Dialog hinausgehende Audio-Informationen, die zum Verständnis des Programminhalts notwendig sind. Dies schließt Geräuscheffekte, Musik, Lachen, Identifizierung und Position des Sprechers ein.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Geschlossene Untertitel (<span lang="en">Closed Captions</span>) sind Äquivalente, die in manchen Wiedergabeprogrammen an- und ausgeschaltet werden können.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Offene Untertitel sind all jene, die nicht abgeschaltet werden können. Zum Beispiel, wenn es sich um visuell äquivalente <a>Bilder eines Textes</a> handelt, die in ein <a>Video</a> eingebettet sind.
    </p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Untertitel (<span lang="en">Captions</span>) sollten relevante Informationen im Video nicht undeutlich machen oder verdecken.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">In einigen Ländern werden die hier gemeinten „<span lang="en">Captions</span>“ als Untertitel (<span lang="en">Subtitles</span>) bezeichnet.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">
             <a>Audiodeskriptionen</a> können, müssen aber nicht untertitelt sein, da es sich hier um Beschreibungen von Informationen handelt, die bereits visuell dargestellt werden.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-änderungen-des-kontextes</id>
       <name>änderungen des kontextes</name>
-      <name>change of context</name>
+      <name>änderung des kontextes</name>
+      <name>änderung des kontexts</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Wesentliche Änderungen am Inhalt einer <a>Webseite</a>, die, wenn sie vorgenommen werden, ohne dass dies dem Benutzer bewusst ist, zur Desorientierung derjenigen Benutzer führen können, die nicht die gesamte Seite zeitgleich sehen können.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Änderungen des Kontextes beinhalten Änderungen:</p>
-   
+
          <ol xmlns="http://www.w3.org/1999/xhtml">
-      
+
             <li>
                <a>des Benutzeragenten</a>;</li>
-      
+
             <li>
                <a>des Viewports</a>;</li>
-      
+
             <li>des Fokus;</li>
-      
+
             <li>des <a>Inhalts</a>, der zu einer Bedeutungsänderung der <a>Webseite</a> führt.</li>
-      
+
          </ol>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Eine Änderung des Inhalts ist nicht immer eine Änderung des Kontextes. Änderungen am Inhalt, wie zum Beispiel eine expandierende Gliederung (<span lang="en">expanding outline</span>), ein dynamisches Menü oder eine Steuerung über Reiter, ändern nicht zwangsläufig den Kontext, außer sie ändern auch eines der oben genannten (z.B. den Fokus).</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Das Öffnen eines neuen Fensters, das Bewegen des Fokus auf ein anderes Element, das Wechseln zu einer neuen Seite (einschließlich allem, was für den Benutzer so aussieht, als wäre er zu einer neuen Seite gegangen) oder eine signifikante Umordnung von Inhalten auf einer Seite sind Beispiele für Änderungen des Kontextes.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-konformität</id>
       <name>konformität</name>
-      <name>conform</name>
+      <name>konform</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Die Erfüllung aller Anforderungen eines bestehenden Standards, einer bestehenden Richtlinie oder Spezifikation.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -1747,9 +1755,9 @@
    <term>
       <id>dfn-css-pixel</id>
       <name>css-pixel</name>
-      <name>css pixels</name>
+      <name>css-pixeln</name>
       <definition>
-	
+
          <p xmlns="http://www.w3.org/1999/xhtml">Sichtwinkel von etwa 0,0213 Grad</p>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Ein CSS-Pixel ist die kanonische Maßeinheit für alle Längen und Maße in CSS. Diese Einheit ist dichteunabhängig und unterscheidet sich von den tatsächlichen Hardware-Pixeln eines Bildschirms. Benutzeragenten und Betriebssysteme sollten sicherstellen, dass ein CSS-Pixel möglichst genau dem <a href="https://www.w3.org/TR/css3-values/#reference-pixel">CSS-Werte und -einheiten Modul Level 3 Referenz-Pixel (Englisch)</a> [[!css3-values]] entspricht, welches die physikalischen Abmessungen des Bildschirms und den angenommenen Betrachtungsabstand berücksichtigt (Faktoren, die nicht von den Autoren der Inhalte bestimmt werden können).</p>
@@ -1779,10 +1787,11 @@
    <term>
       <id>dfn-unentbehrlich</id>
       <name>unentbehrlich</name>
+      <name>unentbehrlicher</name>
       <definition>
-   					
+
          <p xmlns="http://www.w3.org/1999/xhtml">Wenn dies entfernt würde, würde die Information oder Funktionalität des Inhalts grundlegend verändert, <strong>und</strong> Information und Funktionalität können nicht auf andere konforme Art und Weise erreicht werden.</p>
-   				
+
       </definition>
    </term>
    <term>
@@ -1799,110 +1808,115 @@
    <term>
       <id>dfn-blitz</id>
       <name>blitz</name>
-      <name>flashes</name>
+      <name>blitzt</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Ein Paar von entgegengesetzten Änderungen in <a>relativer Luminanz</a>. Wenn die Änderungen groß genug sind und in der richtigen Frequenz auftreten, können sie bei manchen Menschen Anfälle hervorrufen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe <a>Allgemeine Grenzwerte zu Blitzen und roten Blitzen</a> für Informationen über Arten von Blitzen, die nicht erlaubt sind.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe auch <a>Blinkend</a>.
    </p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-funktionalität</id>
       <name>funktionalität</name>
+      <name>funktionalitäten</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">
             <a>Prozesse</a> und Ergebnisse, die durch Handlungen der Benutzer erreicht werden.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-allgemeine-grenzwerte-zu-blitzen-und-roten-blitzen</id>
       <name>allgemeine grenzwerte zu blitzen und roten blitzen</name>
+      <name>grenzwerte zu blitzen und roten blitzen</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Ein <a>Blitz</a> oder eine schnell wechselnde Sequenz von Bildern ist unterhalb des Grenzwertes (d.h. Inhalt <strong>besteht die Prüfung</strong>), wenn eines der Folgenden zutrifft:</p>
-   
+
          <ol xmlns="http://www.w3.org/1999/xhtml">
-      
+
             <li>Es gibt nicht mehr als drei <strong>allgemeine Blitze</strong> und / oder nicht mehr als drei <strong>rote Blitze</strong> innerhalb von beliebigen Ein-Sekunden-Zeiträumen; oder</li>
-      
+
             <li>Der zusammengenommene Bereich von gleichzeitig auftretenden Blitzen belegt nicht mehr als eine Summe von .006 Steradianten innerhalb jedes beliebigen 10 Grad visuellen Feldes auf dem Bildschirm (25 % jedes beliebigen 10-Grad visuellen Feldes auf dem Bildschirm) bei einer typischen Betrachtungsentfernung.</li>
-      
+
          </ol>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Wobei:</p>
-   
+
          <ul xmlns="http://www.w3.org/1999/xhtml">
-      
+
             <li>Ein <strong>allgemeiner Blitz</strong> als ein Paar von entgegengesetzten Änderungen in <a>relativer Luminanz</a> von 10 % oder mehr der maximalen relativen Luminanz definiert wird, wobei die relative Luminanz des dunkleren Bildes unter 0.80 liegt; und wo „ein Paar von entgegengesetzten Änderungen“ eine Zunahme gefolgt von einer Abnahme ist oder eine Abnahme gefolgt von einer Zunahme. Und</li>
-      
+
             <li>Ein <strong>roter Blitz</strong> als jedes Paar von entgegengesetzten Übergängen, bei denen ein gesättigtes Rot beteiligt ist, definiert wird.</li>
-      
+
          </ul>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">
             <em>Ausnahme:</em> Blitzen, das ein feines, ausgeglichenes Muster wie weißes Rauschen oder ein wechselndes Schachbrettmuster mit „Quadraten“ ist, die auf einer Seite kleiner sind als 0.1 Grad (des visuellen Feldes bei typischem Betrachtungsabstand), verstößt nicht gegen die Grenzwerte.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Benutzung eines 341 x 256 Pixel großen Rechtecks irgendwo in dem gezeigten Bildschirmbereich, wenn der Inhalt bei 1024 x 768 Pixeln betrachtet wird, gibt bei allgemeiner Software oder Webinhalten eine gute Einschätzung eines 10 Grad visuellen Feldes für Standard-Bildschirmgrößen und Betrachtungsentfernungen (z.B. 15-17 Zoll Bildschirm bei 56 - 66 cm). (Bildschirme mit höheren Auflösungen, auf denen das gleiche Rendering des Inhalts gezeigt wird, ergeben kleinere und sicherere Bilder, daher werden die geringeren Auflösungen benutzt, um die Grenzwerte zu definieren.)</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein Übergang ist der Wechsel in relativer Luminanz (oder relativer Luminanz/Farbe für rotes Blitzen) zwischen nebeneinander liegenden Spitzen und Senken in einem Graph von relativer Luminanzmessung (oder relativer Luminanz/Farbe bei rotem Blitzen) in Bezug auf die Zeit. Ein Blitz besteht aus zwei entgegengesetzten Änderungen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die derzeitige Arbeitsdefinition in diesem Fachbereich für ein <strong>„Paar von entgegengesetzten Übergängen, die ein gesättigtes Rot beinhalten“</strong> lautet: Wenn für jeden oder beide Zustände, die in jedem Übergang involviert sind, R/(R+ G + B) &gt;= 0.8 und der Wechsel des Wertes von (R-G-B)x320 &gt; 20 (negative Werte von (R-G-B)x320 werden auf Null gesetzt) für beide Übergänge ist. R, G, B Werte reichen von 0-1 wie in der “relativen Luminanz”-Definition festgelegt. <a href="#HARDING-BINNIE">[<span lang="en">HARDING-BINNIE</span>]</a>
          </p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Es gibt Werkzeuge, welche die Analyse durch die Erfassung des Video-Bildschirms ausführen. Es ist allerdings kein Werkzeug nötig, um diese Bedingung zu evaluieren, wenn das Blitzen weniger oder gleich 3 Blitze pro Sekunde ist. Der Inhalt besteht automatisch die Prüfung (siehe #1 und #2 oben).</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-menschliche-sprache</id>
       <name>menschliche sprache</name>
-      <name>human language(s)</name>
+      <name>menschlichen sprache</name>
+      <name>menschlicher sprache</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Eine Sprache, die gesprochen, geschrieben oder (auf visuelle oder taktile Weise) gebärdet wird, um mit Menschen zu kommunizieren.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Siehe auch <a>Gebärdensprache</a>.
    </p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-idiom</id>
       <name>idiom</name>
-      <name>idioms</name>
+      <name>idiome</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Eine Phrase, deren Bedeutung sich nicht aus den einzelnen Wörtern erschließt und bei der man bestimmte Wörter nicht ändern kann, ohne die Bedeutung zu verlieren.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Idiome können nicht direkt – wörtlich – übersetzt werden, ohne ihre (kulturelle oder sprachabhängige) Bedeutung zu verlieren.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example"> Im Englischen bedeutet „<span lang="en">spilling the beans</span>“ (wörtlich übersetzt: die Bohnen verschütten) „ein Geheimnis ausplaudern“. Dagegen bedeutet „<span lang="en">knocking over the beans</span>“ (wörtlich „die Bohnen umkippen“) oder „<span lang="en">spilling the vegetables</span>“ (wörtlich „das Gemüse verschütten“) nicht das Gleiche.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Im Japanischen lautet die Phrase „<span lang="jp">さじを投げる</span>“ wörtlich übersetzt „er wirft einen Löffel“, aber sie bedeutet, dass es nichts gibt, was er tun kann und er schließlich aufgibt.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Im Niederländischen lautet „<span lang="nl">Hij ging met de kippen op stok</span>“ wörtlich übersetzt „Er ging mit den Hühnern zum Schlafen“, aber es bedeutet, dass er zeitig zu Bett ging.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-bild-eines-textes</id>
       <name>bild eines textes</name>
-      <name>images of text</name>
+      <name>bildern von text</name>
+      <name>bildern eines textes</name>
+      <name>bilder eines textes</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Text, der in einer Nicht-Text-Form (z.B. einem Bild) gerendert wurde, um einen bestimmten visuellen Effekt zu erzielen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dies beinhaltet keinen <a>Text</a> , der Teil eines Bildes ist, das signifikanten anderen visuellen Inhalt enthält.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Der Name einer Person auf einem Namensschild auf einem Foto.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -1978,6 +1992,8 @@
       <id>dfn-beschriftung-/-label</id>
       <name>beschriftung / label</name>
       <name>labels</name>
+      <name>beschriftung (label)</name>
+      <name>beschriftungen (labels)</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">
@@ -1992,42 +2008,43 @@
    <term>
       <id>dfn-großer-text</id>
       <name>großer text</name>
-      <name>large-scale</name>
+      <name>großer</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Mit mindestens 18 Punkt oder 14 Punkt fett oder einer Schriftgröße, die eine äquivalente Größe für chinesische, japanische und koreanische (CJK) Schriftarten ergeben würde.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Schriftarten mit außergewöhnlich dünnen Strichen oder ungewöhnlichen Merkmalen und charakteristischen Eigenschaften, welche die Vertrautheit mit ihren Buchstabenformen reduzieren, sind schwerer zu lesen, insbesondere bei geringeren Kontrasten.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die Schriftgröße ist die Größe zum Zeitpunkt der Auslieferung des Inhalts. Sie beinhaltet keine Größenänderung, die der Benutzer durchführen könnte.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die tatsächliche Größe eines Buchstaben, den der Benutzer sieht, hängt sowohl von der vom Autor definierten Größe als auch von dem Bildschirm des Benutzers oder den Einstellungen des Benutzeragenten ab. Für viele gängige Fließtext-Schriftarten sind 14 und 18 Punkt grob äquivalent zu 1.2 und 1.5 em oder zu 120 % oder 150 % der Standardgröße für Fließtext (unter der Annahme, dass die Fließtext-Schriftart 100 % ist). Autoren müssen dies aber für die tatsächlich genutzte Schriftart prüfen. Wenn Schriftarten in relativen Einheiten definiert sind, dann wird die tatsächliche Punktgröße vom Benutzeragenten für die Darstellung berechnet. Wenn man dieses Erfolgskriterium evaluiert, dann sollte man die Punktgröße vom Benutzeragenten erhalten oder man sollte sie, basierend auf der Metrik der Schriftart, berechnen, wie dies ein Benutzeragent macht. Benutzer mit einer Sehbehinderung sind verantwortlich für die Auswahl geeigneter Einstellungen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wird Text ohne die Angabe einer Schriftgröße benutzt, dann wäre die kleinste von verbreiteten Browsern benutzte Schriftgröße für unspezifizierten Text eine vernünftigerweise anzunehmende Größe für die Schriftart. Wenn eine Überschrift erster Ebene in verbreiteten Browsern in 14 Punkt fett oder größer gerendert wird, dann wäre es vernünftig anzunehmen, dass es sich um großen Text handelt. Die relative Skalierung kann aus der Standardgröße auf eine ähnliche Art berechnet werden.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die 18- und 14-Punkt-Größen für Text im Normalschnitt werden von der minimalen Größe für Großschrift (14 Punkt) und der größeren Standardgröße (18 Punkt) abgeleitet. Für andere Schriftarten, wie zum Beispiel CJK-Sprachen, wären die „äquivalenten“ Größen die minimale Großschriftgröße, die für diese Sprachen benutzt wird, sowie die nächst größere Standard-Großschriftgröße.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-rechtliche-verpflichtungen</id>
       <name>rechtliche verpflichtungen</name>
+      <name>rechtliche verpflichtung</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Transaktionen, bei denen die Person Vereinbarungen eingeht, aus denen sich gesetzlich bindende Rechte und Pflichten ergeben.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Aufgebot, ein Aktienhandel (finanziell und rechtlich), ein Testament, ein Darlehen, eine Adoption, Eintritt in den Militärdienst, ein Vertrag jeglicher Art usw.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-linkzweck</id>
       <name>linkzweck</name>
-      <name>purpose of each link</name>
+      <name>zweck jedes links</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Art des Ergebnisses, das man erhält, wenn man einen Hyperlink aktiviert.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2047,11 +2064,11 @@
       <id>dfn-niedrige-sekundäre-schulbildung</id>
       <name>niedrige sekundäre schulbildung</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">tDie zwei- oder dreijährige Phase der Bildung, die nach der Beendigung der ersten sechs Schuljahre beginnt und neun Jahre nach Beginn der <a>Grundschule</a> endet.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Definition basiert auf der internationalen Standard-Klassifikation von Bildung (International Standard Classification of Education) [[UNESCO]].</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2114,12 +2131,13 @@
    <term>
       <id>dfn-nicht-text-inhalte</id>
       <name>nicht-text-inhalte</name>
+      <name>nicht-text-inhalt</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Jeglicher Inhalt, der keine Buchstabenfolge ist und der <a>durch Software bestimmt</a> werden kann oder bei dem die Abfolge etwas nicht in <a>menschlicher Sprache</a> ausdrückt.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dies beinhaltet <a>ASCII Art</a> (ein Muster von Buchstaben), Emoticons, <span lang="en">Leetspeak</span> (Ersetzung von Buchstaben durch Ziffern oder Sonderzeichen) und Bilder, die Text repräsentieren.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2149,21 +2167,21 @@
    <term>
       <id>dfn-pausiert</id>
       <name>pausiert</name>
-      <name>pause</name>
+      <name>pausieren</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Durch Aufforderung des Benutzers beendet und nicht wieder gestartet, bis der Benutzer dies anfordert.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-zeigereingabe-pointer-input</id>
       <name>zeigereingabe (pointer input)</name>
-      <name>pointer inputs</name>
-      <definition> 					
-    
+      <name>zeigereingaben</name>
+      <definition>
+
          <p xmlns="http://www.w3.org/1999/xhtml">Eingabegerät, das eine bestimmte Koordinate (oder einen Satz von Koordinaten) auf einem Bildschirm anvisieren kann, wie z. B. eine Maus, ein Stift oder ein Berührungskontakt (touch contact)</p>
-    
+
          <p xmlns="http://www.w3.org/1999/xhtml">Siehe auch <a href="https://www.w3.org/TR/pointerevents/#dfn-pointer">Pointer Events Zeigerdefinition (Pointer Events pointer definition)</a> [[!pointerevents]].</p>
 
       </definition>
@@ -2171,45 +2189,48 @@
    <term>
       <id>dfn-aufgezeichnet</id>
       <name>aufgezeichnet</name>
+      <name>aufgezeichnete</name>
+      <name>aufgezeichneten</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Informationen, die nicht <a>live</a> sind.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-präsentation</id>
       <name>präsentation</name>
+      <name>darstellung</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Rendering des <a>Inhalts</a> auf eine Art, dass der Benutzer diesen wahrnehmen kann.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-primäre-schulbildung</id>
       <name>primäre schulbildung</name>
-      <name>primary education</name>
+      <name>grundschule</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Sechsjähriger Zeitraum, der in dem Alter zwischen fünf und sieben beginnt, möglicherweise ohne jegliche vorhergehende Bildung.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Definition basiert auf der internationalen Standard-Klassifikation von Bildung (<span lang="en">International Standard Classification of Education</span>) [[UNESCO]].</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-prozess</id>
       <name>prozess</name>
-      <name>processes</name>
+      <name>prozesse</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Eine Serie von Benutzerhandlungen, bei der jede Handlung erforderlich ist, um eine Aktivität abzuschließen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Die erfolgreiche Benutzung einer Reihe von Webseiten in einem Online-Shop verlangt von dem Benutzer, dass er alternative Produkte, Preise und Angebote ansieht, Produkte auswählt, eine Bestellung aufgibt und Versand- und Zahlungsinformationen angibt.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Seite zur Registrierung eines Kontos verlangt die erfolgreiche Fertigstellung eines Turing-Tests, bevor auf die Registrierung zugegriffen werden kann.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2229,14 +2250,15 @@
    <term>
       <id>dfn-durch-software-bestimmter-link-kontext</id>
       <name>durch software bestimmter link-kontext</name>
+      <name>durch software bestimmten link-kontext</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Zusätzliche Informationen, die durch <a>Beziehungen</a> mit einem Link <a>durch Software bestimmt</a> werden können. Diese Informationen werden mit dem Link-Text kombiniert und dem Benutzer in verschiedenen Modalitäten präsentiert.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">In HTML beinhalten Informationen, die von einem Link in Englisch durch Software bestimmbar sind, Text, der in dem gleichen Absatz, der gleichen Liste oder Tabellenzelle ist wie der Link oder in einer Zelle mit Tabellenüberschrift, die mit der Tabellenzelle verknüpft ist, die den Link enthält.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Da Screenreader die Zeichensetzung interpretieren können, können sie auch den Zusammenhang aus dem aktuellen Satz verfügbar machen, wenn der Fokus auf einem Link in diesem Satz liegt.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2251,36 +2273,37 @@
    <term>
       <id>dfn-reine-dekoration</id>
       <name>reine dekoration</name>
+      <name>rein dekorativ</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Dient nur einem ästhetischen Zweck, stellt keine Informationen bereit und hat keine Funktionalität.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Text ist nur rein dekorativ, wenn die Wörter umgestellt oder ersetzt werden können, ohne dass der Zweck verändert wird.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Auf der Titelseite eines Wörterbuchs stehen beliebige Wörter in einem sehr hellen Text im Hintergrund.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-echtzeit-ereignis</id>
       <name>echtzeit-ereignis</name>
-      <name>real-time events</name>
+      <name>echtzeit-ereignissen</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Ereignis, das a) zur gleichen Zeit wie das Ansehen desselben stattfindet und b) nicht komplett vom Inhalt generiert wird.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein „Webcast“ einer Live-Aufführung (findet zur gleichen Zeit wie das Ansehen derselben statt und ist nicht aufgezeichnet).</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Online-Auktion mit bietenden Personen (findet zur gleichen Zeit statt wie das Ansehen).</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Lebende Menschen, die in einer virtuellen Welt interagieren, indem sie Avatare benutzen (wird nicht komplett durch den Inhalt generiert und findet zur gleichen Zeit statt wie das Ansehen).</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-region</id>
       <name>region</name>
-      <name>regions</name>
+      <name>regionen</name>
       <definition>
          <p xmlns="http://www.w3.org/1999/xhtml">wahrnehmbarer, durch Software bestimmter Abschnitt des Inhalts</p>
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">In HTML wäre jeder Bereich, der mit einer landmark-Rolle ausgezeichnet ist, eine Region.</p>
@@ -2297,7 +2320,6 @@
    </term>
    <term>
       <id>dfn-relative-luminanz</id>
-      <name>relative luminanz</name>
       <name>relative luminanz</name>
       <name>relativer luminanz</name>
       <definition>
@@ -2348,53 +2370,61 @@
    <term>
       <id>dfn-worauf-man-sich-verlässt</id>
       <name>worauf man sich verlässt</name>
+      <name>verlässt</name>
+      <name>verlassen</name>
+      <name>darauf verlassen</name>
+      <name>auf die man sich verlässt</name>
+      <name>verlässt sich darauf</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Der Inhalt wäre nicht <a>konform</a>, wenn diese <a>Technik</a> abgeschaltet oder nicht unterstützt wird.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-rolle</id>
       <name>rolle</name>
+      <name>rollen</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Text oder Zahl, wodurch Software die Funktion einer Komponente innerhalb von Webinhalten identifizieren kann.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Zahl, die angibt, ob ein Bild als Hyperlink, Schaltfläche oder Checkbox funktioniert.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-gleiche-funktionalität</id>
       <name>gleiche funktionalität</name>
+      <name>gleichen funktionalität</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Gleiches Ergebnis bei der Benutzung.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Schaltfläche für „Suche“ absenden auf einer Webseite und eine Schaltfläche „finden“ auf einer anderen Webseite können beide ein Feld haben, um einen Begriff einzugeben und Themen auf der Website aufzulisten, die einen Bezug zum abgeschickten Begriff haben. In diesem Fall hätten sie die gleiche Funktionalität, wären aber nicht konsistent beschriftet.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-gleiche-relative-reihenfolge</id>
       <name>gleiche relative reihenfolge</name>
+      <name>gleichen relativen reihenfolge</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Gleiche Position in Relation zu anderen Elementen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Elemente werden als in der gleichen relativen Reihenfolge betrachtet, auch wenn andere Elemente in die ursprüngliche Reihenfolge eingefügt oder daraus entfernt werden. Zum Beispiel können expandierende Navigationsmenüs eine zusätzliche Detailebene einfügen oder ein sekundärer Navigationsabschnitt kann in die Lesereihenfolge eingefügt werden.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-erfüllt-ein-erfolgskriterium</id>
       <name>erfüllt ein erfolgskriterium</name>
-      <name>satisfies</name>
+      <name>erfüllen</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Das Erfolgskriterium ist nicht mit 'falsch' zu bewerten, wenn es auf die Seite angewendet wird.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2433,22 +2463,24 @@
    <term>
       <id>dfn-übersetzung-in-gebärdensprache</id>
       <name>übersetzung in gebärdensprache</name>
+      <name>übersetzung in die gebärdensprache</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Übersetzung einer Sprache, üblicherweise einer gesprochenen Sprache, in eine <a>Gebärdensprache</a>
          </p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Echte Gebärdensprachen sind unabhängige Sprachen, die nicht mit der oder den gesprochenen Sprache(n) des gleichen Landes oder der Region verwandt sind.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-einzelner-zeiger</id>
       <name>einzelner zeiger</name>
+      <name>einzelnen zeiger</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Zeigereingabe, die mit einem einzelnen Kontaktpunkt des Bildschirms arbeitet, wie etwa einfaches Tippen und Klicken, doppeltes Tippen und Klicken, langes Drücken und pfadbasierte Gesten</p>
-	
+
       </definition>
    </term>
    <term>
@@ -2465,9 +2497,9 @@
    <term>
       <id>dfn-zustand</id>
       <name>zustand</name>
-      <name>states</name>
+      <name>zuständen</name>
       <definition>
-   					
+
          <p xmlns="http://www.w3.org/1999/xhtml">dynamisches Merkmal, das Eigenschaften eines Bestandteils der Benutzerschnittstelle ausdrückt, die sich als Reaktion auf Benutzeraktionen oder automatisierte Prozesse ändern können</p>
 	        <p xmlns="http://www.w3.org/1999/xhtml">Zustände beeinflussen nicht die Beschaffenheit des Bestandteils, sondern stellen Daten dar, die in Verbindung mit dem Bestandteil oder den Interaktionsmöglichkeiten des Benutzers stehen. Zum Beispiel Tastaturfokus, Überfahren mit einem Zeigegerät, Auswählen, Drücken, Anhaken, besucht/unbesucht und ausklappen/zuklappen.</p>
 
@@ -2476,7 +2508,7 @@
    <term>
       <id>dfn-statusmeldung</id>
       <name>statusmeldung</name>
-      <name>status messages</name>
+      <name>statusmeldungen</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Änderung des Inhalts, die keine <a>Änderung des Kontexts</a> ist und die dem Benutzer Informationen über den Erfolg oder die Ergebnisse einer Aktion, über den Wartezustand einer Anwendung, über den Fortschritt eines Prozesses oder über das Vorhandensein von Fehlern liefert</p>
@@ -2501,7 +2533,7 @@
    <term>
       <id>dfn-stileigenschaft-style-property</id>
       <name>stileigenschaft (style property)</name>
-      <name>style properties</name>
+      <name>stileigenschaften</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Eigenschaft, deren Wert die Darstellung (z. B. Schriftart, Farbe, Größe, Position, Innenabstand, Lautstärke, synthetisierte Sprachprosodie) von Inhaltselementen bestimmt, während sie von Benutzeragenten wiedergegeben werden (z. B. auf dem Bildschirm, über Lautsprecher, über Braillezeile)</p>
@@ -2523,29 +2555,31 @@
    <term>
       <id>dfn-ergänzender-inhalt</id>
       <name>ergänzender inhalt</name>
-      <name>supplementary content</name>
+      <name>ergänzenden inhalt</name>
+      <name>ergänzendem inhalt</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Zusätzlicher <a>Inhalt</a>, der den primären Inhalt illustriert oder verdeutlicht.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Audio-Version einer <a>Webseite</a>.
    </p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Eine Illustration eines komplexen <a>Prozesses</a>.
    </p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Absatz, der die wichtigsten Ergebnisse und Empfehlungen einer wissenschaftlichen Studie zusammenfasst.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-synchronisierte-medien</id>
       <name>synchronisierte medien</name>
+      <name>synchronisierten medien</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">
             <a>Audio</a> oder <a>Video</a>, synchronisiert mit einem anderen Format für die Präsentation von Informationen und/oder mit zeitbasierten interaktiven Komponenten, es sei denn, das Medium ist eine <a>Medienalternative für Text</a>, die als solche deutlich gekennzeichnet ist.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2561,21 +2595,21 @@
    <term>
       <id>dfn-technik</id>
       <name>technik</name>
-      <name>technologies</name>
-      <name>web technology</name>
-      <name>web content technology</name>
-      <name>web content technologies</name>
+      <name>techniken</name>
+      <name>webtechnik</name>
+      <name>webinhalts-technik</name>
+      <name>webinhalts-techniken</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">
             <a>Mechanismus</a> zum Kodieren von Anweisungen, die von <a>Benutzeragenten</a> gerendert, abgespielt oder ausgeführt werden sollen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">„<span lang="en">Web</span>technik“ und das Wort „Technik“ (wenn es allein benutzt wird) beziehen sich – gemäß dem Gebrauch der Wörter in diesen Richtlinien – auf Webinhalts-Techniken.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Webinhalts-Techniken können Markup-Sprachen, Datenformate oder Programmiersprachen enthalten, die Autoren alleine oder in Kombination benutzen können, um Endbenutzer-Erlebnisse zu erstellen, die von statischen Webseiten über synchronisierte Medienpräsentationen bis hin zu dynamischen Webanwendungen reichen können.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Einige geläufige Beispiele von Webinhalts-Techniken beinhalten HTML, CSS, SVG, PNG, PDF, Flash und JavaScript.</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2615,18 +2649,20 @@
    <term>
       <id>dfn-benutzung-auf-ungewöhnliche-oder-eingeschränkte-weise</id>
       <name>benutzung auf ungewöhnliche oder eingeschränkte weise</name>
+      <name>die auf ungewöhnliche oder eingeschränkte weise benutzt werden</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Wörter, die so verwendet werden, dass Benutzer genau wissen müssen, welche Definition anzuwenden ist, um den Inhalt korrekt zu verstehen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Wenn der Begriff „gig“ in einer Diskussion über Musikkonzerte auftaucht, bedeutet er etwas anderes, als wenn er in einem Artikel über Computer-Festplattenplatz auftaucht. Die passende Definition kann aber durch den Inhalt bestimmt werden. Im Gegensatz dazu wird das Wort „Text“ in den WCAG 2.0 auf eine sehr spezielle Art benutzt, so dass eine Definition im Glossar zur Verfügung gestellt wird.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-benutzeragent</id>
       <name>benutzeragent</name>
-      <name>user agents</name>
+      <name>benutzeragenten</name>
+      <name>des benutzeragenten</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Jegliche Software, die Webinhalt für den Benutzer abruft und darstellt.</p>
@@ -2638,32 +2674,35 @@
    <term>
       <id>dfn-benutzer-gesteuert</id>
       <name>benutzer-gesteuert</name>
+      <name>benutzer-gesteuerte</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Daten, die dazu gedacht sind, dass der Benutzer auf sie zugreift.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dies bezieht sich nicht auf Dinge wie Internet-Logs und Daten zur Beobachtung und Analyse von Suchmaschinen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Namens- und Adressfelder für ein Benutzerkonto.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-bestandteil-der-benutzerschnittstelle</id>
       <name>bestandteil der benutzerschnittstelle</name>
-      <name>user interface components</name>
+      <name>bestandteilen der benutzerschnittstelle</name>
+      <name>bestandteils der benutzerschnittstelle</name>
+      <name>bestandteile der benutzerschnittstelle</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Ein Teil des Inhalts, der von den Benutzern als einzelnes Steuerelement für eine bestimmte Funktion wahrgenommen wird.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Mehrere Bestandteile der Benutzerschnittstelle können als einzelnes programmtechnisches Element implementiert sein. In dem Zusammenhang ist das Wort „Bestandteil“ nicht an Programmiertechniken gebunden, sondern an das, was Benutzer als unterschiedliche Steuerelemente wahrnehmen.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestandteile der Benutzerschnittstelle beinhalten sowohl Formularelemente und Links als auch Bestandteile, die von Skripten generiert werden.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">What is meant by "component" or "user interface component" here is also sometimes called "user interface element".</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Applet hat ein „Steuerelement“, das dazu benutzt werden kann, sich Zeile für Zeile, Seite für Seite oder zufällig durch Inhalt zu bewegen. Da jede dieser Möglichkeiten einen Namen hat und unabhängig voneinander einzustellen sein müsste, wäre jede einzelne Möglichkeit ein „Bestandteil der Benutzerschnittstelle.“</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2691,23 +2730,26 @@
    <term>
       <id>dfn-reiner-videoinhalt</id>
       <name>reiner videoinhalt</name>
+      <name>reine video</name>
+      <name>reinen video</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Eine zeitbasierte Präsentation, die nur <a>Video</a> (kein <a>Audio</a> und keine Interaktion) enthält.</p>
-   
+
       </definition>
    </term>
    <term>
       <id>dfn-viewport-ansichtsbereich</id>
       <name>viewport, ansichtsbereich</name>
+      <name>des viewports</name>
       <definition>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml">Objekt, in dem der  den Inhalt darstellt.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der <a>Benutzeragent</a> präsentiert Inhalt durch einen oder mehrere Viewports. Viewports beinhalten Fenster, Frames, Lautsprecher und virtuelle Lupen. Ein Viewport kann einen anderen Viewport enthalten (z.B. verschachtelte Frames). Bestandteile der Benutzerschnittstelle, die vom Benutzeragenten erstellt werden, wie z.B. Eingabeaufforderungen, Menüs und Warnmeldungen, sind keine Viewports.</p>
-   
+
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Definition basiert auf dem <a href="https://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0-Glossar (englisch)</a> [[UAAG10]].</p>
-   
+
       </definition>
    </term>
    <term>
@@ -2724,6 +2766,7 @@
       <name>webseite</name>
       <name>webseite</name>
       <name>webseiten</name>
+      <name>webseite(n)</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Eine nicht-eingebettete Ressource abgerufen von einem einzelnen URI unter der Benutzung von HTTP plus jeder anderen Ressource, die beim Rendern benutzt wird oder die dazu bestimmt ist, mit der Ursprungs-Ressource zusammen durch einen <a>Benutzeragenten</a> gerendert zu werden.</p>
