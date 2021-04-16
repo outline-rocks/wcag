@@ -2706,8 +2706,8 @@
       </definition>
    </term>
    <term>
-      <id>dfn-benutzer-inaktivität</id>
-      <name>benutzer-inaktivität</name>
+      <id>dfn-benutzerinaktivität</id>
+      <name>benutzerinaktivität</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">jede anhaltende Zeitspanne, in der keine Benutzeraktionen stattfinden</p>
