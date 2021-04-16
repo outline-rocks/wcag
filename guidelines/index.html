@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
     <head>
-        <meta charset="UTF-8" />
+      <meta charset="UTF-8" />
 
-        <title>Richtlinien für barrierefreie Webinhalte (WCAG) 2.1</title>
-    	<script src="https://www.w3.org/Tools/respec/respec-w3c-common" class="remove"></script>
-    	<script src="../script/wcag.js" class="remove"></script>
-    	<script src="respec-config.js" class="remove"></script>
-    	<script src="../biblio.js" class="remove"></script>
-    	<link rel="stylesheet" type="text/css" href="../css/sources.css" class="remove" />
-        <link rel="stylesheet" type="text/css" href="guidelines.css" />
+      <title>Richtlinien für barrierefreie Webinhalte (WCAG) 2.1</title>
+      <script src="https://www.w3.org/Tools/respec/respec-w3c-common" class="remove"></script>
+      <script src="../script/wcag.js" class="remove"></script>
+      <script src="../biblio.js" class="remove"></script>
+      <script src="../script/translation.js" class="remove"></script>
+      <script src="respec-config.js" class="remove"></script>
+      <link rel="stylesheet" type="text/css" href="../css/sources.css" class="remove" />
+      <style>
+        .transheader {
+          display: block;
+          border: solid #ccccbb;
+          margin-bottom: 2em;
+          padding: 2%;
+          background: #eeeedd;
+        }
+        .transtitle {
+          color: #555555;
+          background: #eeeedd;
+          font-weight: bolder;
+        }
+      </style>
+      <link rel="stylesheet" type="text/css" href="guidelines.css" />
     </head>
     <body>
+        <div data-include="status-translation.html" data-include-replace="true"></div>
+
+        <div data-include="document-header.html" data-include-replace="true"></div>
+
         <section id="abstract">
             <p>Die Richtlinien für barrierefreie Webinhalte (WCAG) 2.1 decken einen großen Bereich von Empfehlungen ab, um Webinhalte barrierefreier zu machen. Wenn Sie diesen Richtlinien folgen, dann werden Inhalte für eine größere Gruppe von Menschen mit Behinderungen barrierefreier sein. Dies beinhaltet Vorkehrungen für Blindheit und Sehbehinderung, Gehörlosigkeit und nachlassendes Hörvermögen, eingeschränkte Bewegungsfähigkeit, Sprachbehinderungen, Photosensibilität und Kombinationen aus diesen Behinderungen sowie einige Vorkehrungen für Lernbehinderungen und kognitive Einschränkungen; es werden jedoch nicht alle Benutzeranforderungen für Menschen mit diesen Behinderungen abgedeckt. Diese Richtlinien beziehen sich auf die Barrierefreiheit von Webinhalten auf Desktops, Laptops, Tablets und mobilen Geräten. Darüber hinaus wird das Befolgen dieser Richtlinien Webinhalte in vielen Fällen für Nutzer im Allgemeinen benutzbarer machen.</p>
         	<p>Die WCAG 2.1-Erfolgskriterien wurden als testbare Aussagen formuliert, sogenannte „Statements“, die nicht technik-spezifisch sind. Sowohl eine Anleitung zur Erfüllung der Erfolgskriterien bei bestimmten Techniken als auch allgemeine Informationen zur Interpretation der Erfolgskriterien finden Sie in separaten Dokumenten. Unter <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Übersicht zu den Richtlinien für barrierefreie Webinhalte (WCAG) (englisch)</a> finden Sie eine Einführung und Links zu technischem Material und Lehrmaterial.</p>
             <p>Die WCAG 2.1 erweitern die <a href="https://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines 2.0 (englisch) [WCAG20]</a>, die im Dezember 2008 als W3C-Empfehlung veröffentlicht wurden. Inhalte, die zu WCAG 2.1 konform sind, sind auch konform zu WCAG 2.0. Die Arbeitsgruppe beabsichtigt, dass für Richtlinien, die eine Konformität mit WCAG 2.0 erfordern, WCAG 2.1 eine alternative Möglichkeit der Konformität bieten kann. Mit der Veröffentlichung der WCAG 2.1 wird die WCAG 2.0 weder aufgehoben noch ersetzt. Obwohl WCAG 2.0 eine W3C-Empfehlung bleibt, rät das W3C zur Anwendung der WCAG 2.1, um die zukünftige Gültigkeit der Maßnahmen zur Barrierefreiheit zu maximieren. Das W3C empfiehlt außerdem die Anwendung der aktuellsten Version der WCAG bei der Entwicklung oder Aktualisierung von Richtlinien zur Barrierefreiheit im Web.</p>
         </section>
-        <section id="sotd">
-        	<p>This is an Editors' Draft of Web Content Accessibility Guidelines (WCAG) 2.1. <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1 is a W3C Recommendation</a>. This draft incorporates <a href="https://www.w3.org/WAI/WCAG21/errata/">errata</a> and are described in the <a href="#changelog">change log</a>. At some point these changes might be incorporated into a <a href="https://www.w3.org/2018/Process-20180201/#revised-rec">Edited or Amended Recommendation</a>.</p>
-            <p>To comment, <a href="https://github.com/w3c/wcag/issues/new">file an issue in the <abbr title="World Wide Web Consortium">W3C</abbr> WCAG GitHub repository</a>. Although the proposed Success Criteria in this document reference issues tracking discussion, the Working Group requests that public comments be filed as new issues, one issue per discrete comment. It is free to create a GitHub account to file issues. If filing issues in GitHub is not feasible, send email to <a href="mailto:public-agwg-comments@w3.org?subject=WCAG%202.1%20public%20comment">public-agwg-comments@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-agwg-comments/">comment archive</a>). </p>
+        <section id="status-of-the-document">
+
         </section>
+        <section id="sotd">
+        </section>
+        <div data-include="status-document.html" data-include-replace="true"></div>
         <section class="informative introductory" id="intro">
 			<h2>Einleitung</h2>
 			<section>

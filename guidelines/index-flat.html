@@ -7,17 +7,253 @@
       
       
       <title>Richtlinien für barrierefreie Webinhalte (WCAG) 2.1</title>
-      	<script src="https://www.w3.org/Tools/respec/respec-w3c-common" class="remove"></script>
-      	<script src="../script/wcag.js" class="remove"></script>
-      	<script src="respec-config.js" class="remove"></script>
-      	<script src="../biblio.js" class="remove"></script>
-      	<link rel="stylesheet" type="text/css" href="../css/sources.css" class="remove" />
-      
+      <script src="https://www.w3.org/Tools/respec/respec-w3c-common" class="remove"></script>
+      <script src="../script/wcag.js" class="remove"></script>
+      <script src="../biblio.js" class="remove"></script>
+      <script src="../script/translation.js" class="remove"></script>
+      <script src="respec-config.js" class="remove"></script>
+      <link rel="stylesheet" type="text/css" href="../css/sources.css" class="remove" />
+      <style>
+        .transheader {
+          display: block;
+          border: solid #ccccbb;
+          margin-bottom: 2em;
+          padding: 2%;
+          background: #eeeedd;
+        }
+        .transtitle {
+          color: #555555;
+          background: #eeeedd;
+          font-weight: bolder;
+        }
+      </style>
       <link rel="stylesheet" type="text/css" href="guidelines.css" />
       
    </head>
    
    <body>
+      <div class="transheader">
+  <h1 class="transtitle" lang="en">Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) 2.0</h1>
+  <dl>
+    <dt>
+      <strong><span lang="en">Lead translating organization</span>:</strong>
+    </dt>
+    <dd>
+      Deutsche Behindertenhilfe Aktion Mensch <abbr>e.V.</abbr>
+      <br />
+      Heinemannstrasse 36
+      <br />
+      D-53175 Bonn
+      <br />
+      Deutschland
+      <br />
+      Website: <a href="http://www.aktion-mensch.de/">http://www.aktion-mensch.de/</a>
+      <br />
+      <span lang="en">Translation coordinators</span>:
+      <ul>
+        <li>Nadja Ullrich, Aktion Mensch e.V.</li>
+        <li>Tomas Caspers, Accenture</li>
+        <li>Eric Eggert, outline</li>
+      </ul>
+    </dd>
+  </dl>
+  <h1 class="transtitle">Autorisierte deutsche Übersetzung</h1>
+  <h2 class="transtitle">Datum der Veröffentlichung: XX. Xxxxxxx XXXX</h2>
+  <dl>
+    <dt>
+      <strong>Diese Version:</strong>
+    </dt>
+    <dd>
+      <a href="http://www.w3.org/Translations/WCAG21-de/XXXXXXXX/">http://www.w3.org/Translations/WCAG21-de/XXXXXX/</a>
+    </dd>
+    <dt>
+      <strong>Aktuellste Version:</strong>
+    </dt>
+    <dd>
+      <a href="http://www.w3.org/Translations/WCAG21-de/">http://www.w3.org/Translations/WCAG21-de/</a>
+    </dd>
+    <dt>
+      <strong>Originalversion (englisch):</strong>
+    </dt>
+    <dd>
+      <a href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/" hreflang="en">https://www.w3.org/TR/2018/REC-WCAG21-20180605/</a>
+    </dd>
+    <dt>
+      <strong>Errata für diese Übersetzung:</strong>
+    </dt>
+    <dd>
+      <a href="http://www.einfach-fuer-alle.de/wcag2.1/errata/">http://www.einfach-fuer-alle.de/wcag2.1/errata</a>
+    </dd>
+    <dt>
+      <strong>Leitung der Übersetzung (<abbr lang="en" title="Lead translating organization">LTO</abbr>):</strong>
+    </dt>
+    <dd>
+      Deutsche Behindertenhilfe Aktion Mensch <abbr>e.V.</abbr>
+      <br />
+      Heinemannstrasse 36
+      <br />
+      D-53175 Bonn
+      <br />
+      Deutschland
+      <br />
+      Website: <a href="http://www.aktion-mensch.de/">http://www.aktion-mensch.de/</a>
+      <br />
+      <span lang="en">Translation coordinators</span>:
+      <ul>
+        <li>Nadja Ullrich, Aktion Mensch e.V.</li>
+        <li>Tomas Caspers, Accenture</li>
+        <li>Eric Eggert, outline</li>
+      </ul>
+      <br />
+      Übersetzung:
+      <ul>
+        <li>Sandra Kallmeyer, outline (WCAG 2.1)</li>
+        <li>Claudia &amp; Tomas Caspers (WCAG 2.0)</li>
+      </ul>
+    </dd>
+    <dt>
+      <strong>Partner im Übersetzungsprozess (<span lang="en">Stakeholder</span>):</strong>
+    </dt>
+    <dd>
+      <a href="http://lists.w3.org/Archives/Public/w3c-translators/XXXXXXXXXX" hreflang="en">http://lists.w3.org/Archives/Public/w3c-translators/XXXXXXXXX</a>
+    </dd>
+    <dt>
+      <strong>Zusammenfassung der öffentlichen Kommentare zum Übersetzungsentwurf (<abbr title="Candidate Authorized Translation" lang="en">CAT</abbr>):</strong>
+    </dt>
+    <dd>
+      <a href="http://lists.w3.org/Archives/Public/public-auth-trans-de/XXXXXXXX">http://lists.w3.org/Archives/Public/public-auth-trans-de/XXXXXXXX</a>
+    </dd>
+    <dt>
+      <strong>Anmerkungen:</strong>
+    </dt>
+    <dd>
+      In dieser Übersetzung wurde durchgängig das Maskulinum in seiner generischen Funktion verwendet. Dieses Dokument spricht somit sowohl das weibliche als auch das männliche Geschlecht an. Auf ein <span lang="en">Gendering</span> wurde zugunsten der Lesbarkeit verzichtet. <a href="anmerkungen.html">Weitere Anmerkungen der Übersetzer.</a>
+    </dd>
+  </dl>
+  <p>
+    Dies ist eine autorisierte Übersetzung eines <abbr>W3C</abbr>-Dokumentes. Bei der Veröffentlichung dieser Übersetzung wurden die in der „<a href="http://www.w3.org/2005/02/TranslationPolicy.html" lang="en" hreflang="en">Policy for <abbr>W3C</abbr> Authorized Translations</a>“ beschriebenen Schritte eingehalten. Im Falle von Streitigkeiten ist das originale, englische Dokument die maßgebende Version der Spezifikation.
+  </p>
+</div>
+
+      
+      <div class="head-translated">
+  <a href="https://www.w3.org/" class="logo">
+    <img alt="W3C" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72" height="48" />
+  </a>
+  <h1 id="title" class="title p-name">
+    Richtlinien für barrierefreie Webinhalte (WCAG) 2.1
+  </h1>
+
+  <h2 id="w3c-recommendation-05-june-2018">
+    <abbr title="World Wide Web Consortium">W3C</abbr> Recommendation
+    <time class="dt-published" datetime="2018-06-05">5. Juni 2018</time>
+  </h2>
+  <dl>
+    <dt>Diese Version (Englisch):</dt>
+    <dd>
+      <a class="u-url" href="https://www.w3.org/TR/2018/REC-WCAG21-20180605/">https://www.w3.org/TR/2018/REC-WCAG21-20180605/</a>
+    </dd>
+    <dt>Neueste Version (Englisch):</dt>
+    <dd>
+      <a href="https://www.w3.org/TR/WCAG21/">https://www.w3.org/TR/WCAG21/</a>
+    </dd>
+    <dt>Neueste Arbeitsversion (Englisch):</dt>
+    <dd>
+      <a href="https://w3c.github.io/wcag/21/guidelines/">https://w3c.github.io/wcag/21/guidelines/</a>
+    </dd>
+
+    <dt>Implementation Report (Englisch):</dt>
+    <dd>
+      <a href="https://www.w3.org/WAI/WCAG21/implementation-report/">https://www.w3.org/WAI/WCAG21/implementation-report/</a>
+    </dd>
+
+    <dt>Vorhergehende Version (Englisch):</dt>
+    <dd>
+      <a href="https://www.w3.org/TR/2018/PR-WCAG21-20180424/">https://www.w3.org/TR/2018/PR-WCAG21-20180424/</a>
+    </dd>
+    <dt>Letzte Empfehlung (Englisch):</dt>
+    <dd>
+      <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/">https://www.w3.org/TR/2008/REC-WCAG20-20081211/</a>
+    </dd>
+    <dt>Editors:</dt>
+    <dd class="p-author h-card vcard" data-editor-id="39770">
+      Andrew Kirkpatrick
+      (Adobe)
+    </dd>
+    <dd class="p-author h-card vcard" data-editor-id="41218">
+      Joshue O Connor
+      (Invited Expert, InterAccess)
+    </dd>
+    <dd class="p-author h-card vcard" data-editor-id="44689">
+      Alastair Campbell
+      (Nomensa)
+    </dd>
+    <dd class="p-author h-card vcard" data-editor-id="34017">
+      Michael Cooper
+      (W3C)
+    </dd>
+    <dt>
+      WCAG 2.0 Editors (until December 2008):
+    </dt>
+    <dd class="p-author h-card vcard" data-editor-id="33602">
+      <span class="p-name fn">Ben Caldwell</span>
+      (Trace R&amp;D Center, University of Wisconsin-Madison)
+    </dd>
+    <dd class="p-author h-card vcard" data-editor-id="35436">
+      <span class="p-name fn">Loretta Guarino Reid</span>
+      (Google, Inc.)
+    </dd>
+    <dd class="p-author h-card vcard" data-editor-id="3442">
+      <span class="p-name fn">Gregg Vanderheiden</span>
+      (Trace R&amp;D Center, University of Wisconsin-Madison)
+    </dd>
+    <dd class="p-author h-card vcard" data-editor-id="4099">
+      <span class="p-name fn">Wendy Chisholm</span>
+      (W3C)
+    </dd>
+    <dd class="p-author h-card vcard" data-editor-id="35537">
+      <span class="p-name fn">John Slatin</span>
+      (Accessibility Institute, University of Texas at Austin)
+    </dd>
+    <dd class="p-author h-card vcard" data-editor-id="74028">
+      <span class="p-name fn">Jason White</span>
+      (University of Melbourne)
+    </dd>
+  </dl>
+
+  <p>
+    Please check the <a href="https://www.w3.org/WAI/WCAG21/errata/"><strong>errata</strong></a> for any errors or issues reported since publication.
+  </p>
+
+  <p>
+    See also <a href="https://www.w3.org/WAI/standards-guidelines/wcag/translations/" hreflang="en">
+      <strong>translations</strong></a>.
+  </p>
+
+  <p>
+    This document is also available in non-normative formats, available from
+    <a href="https://www.w3.org/WAI/WCAG21/versions/" lang="en" hreflang="en">Alternate Versions of Web Content Accessibility Guidelines 2.1</a>.
+  </p>
+
+  <p class="copyright">
+    <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+    © 2017-2018
+
+    <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup>(<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
+    <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
+    <a href="https://ev.buaa.edu.cn/">Beihang</a>).
+
+    Die Regelungen des <abbr title="World Wide Web Consortium">W3C</abbr> zur
+    <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer" hreflang="en">Haftung</a>, zu
+    <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks" hreflang="en">Markenzeichen</a>
+    und zur
+    <a rel="license" href="https://www.w3.org/Consortium/Legal/copyright-documents" hreflang="en">Verwendung von Dokumenten</a>
+    finden Anwendung.
+  </p>
+  <hr />
+</div>
+
+      
       
       <section id="abstract">
          
@@ -53,18 +289,47 @@
          
       </section>
       
-      <section id="sotd">
-         	
-         <p>This is an Editors' Draft of Web Content Accessibility Guidelines (WCAG) 2.1. <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1 is a W3C Recommendation</a>. This draft incorporates <a href="https://www.w3.org/WAI/WCAG21/errata/">errata</a> and are described in the <a href="#changelog">change log</a>. At some point these changes might be incorporated into a <a href="https://www.w3.org/2018/Process-20180201/#revised-rec">Edited or Amended Recommendation</a>.
-         </p>
+      <section id="status-of-the-document">
          
-         <p>To comment, <a href="https://github.com/w3c/wcag/issues/new">file an issue in the <abbr title="World Wide Web Consortium">W3C</abbr> WCAG GitHub repository</a>. Although the proposed Success Criteria in this document reference issues tracking
-            discussion, the Working Group requests that public comments be filed as new issues,
-            one issue per discrete comment. It is free to create a GitHub account to file issues.
-            If filing issues in GitHub is not feasible, send email to <a href="mailto:public-agwg-comments@w3.org?subject=WCAG%202.1%20public%20comment">public-agwg-comments@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-agwg-comments/">comment archive</a>). 
-         </p>
          
       </section>
+      
+      <section id="sotd">
+         
+      </section>
+      <section id="sotd-de" class="introductory notoc">
+  <h2 id="status-of-this-document">Status of This Document</h2>
+  <p>
+    <em>This section describes the status of this document at the time of its publication. Other documents may supersede this document. A list of current <abbr title="World Wide Web Consortium">W3C</abbr> publications and the latest revision of this technical report can be found in the <a href="https://www.w3.org/TR/"><abbr title="World Wide Web Consortium">W3C</abbr> technical reports index</a> at https://www.w3.org/TR/.</em>
+  </p>
+  <p>This is a <a href="https://www.w3.org/2018/Process-20180201/#RecsW3C">Recommendation</a> of WCAG 2.1 by the <a href="https://www.w3.org/WAI/GL/">Accessibility Guidelines Working Group</a>.</p>
+  <p>This document has been reviewed by <abbr title="World Wide Web Consortium">W3C</abbr> Members, by software developers, and by other <abbr title="World Wide Web Consortium">W3C</abbr> groups and interested parties, and is endorsed by the Director as a <abbr title="World Wide Web Consortium">W3C</abbr> Recommendation. It is a stable document and may be used as reference material or cited from another document. <abbr title="World Wide Web Consortium">W3C</abbr>'s role in making the Recommendation is to draw attention to the specification and to promote its widespread deployment. This enhances the functionality and interoperability of the Web.</p>
+  <p>By publishing this Recommendation, <abbr title="World Wide Web Consortium">W3C</abbr> expects the functionality specified in this Recommendation will not be affected by changes to CSS Values and Units Module Level 3 or by Pointer Events Level 2. The Working Group will continue to track these specifications. </p>
+  <p>To comment, <a href="https://github.com/w3c/wcag/issues/new">file an issue in the <abbr title="World Wide Web Consortium">W3C</abbr> WCAG GitHub repository</a>. The Working Group requests that public comments be filed as new issues, one issue per discrete comment. It is free to create a GitHub account to file issues. If filing issues in GitHub is not feasible, send email to <a href="mailto:public-agwg-comments@w3.org?subject=WCAG%202.1%20public%20comment">public-agwg-comments@w3.org</a> (<a href="https://lists.w3.org/Archives/Public/public-agwg-comments/">comment archive</a>). Comments received on the WCAG 2.1 Recommendation cannot result in changes to this version of the guidelines, but may be addressed in errata or future versions of WCAG. The Working Group does not plan to make formal responses to comments. A list of <a href="https://github.com/w3c/wcag/issues/">issues filed</a> as well as <a href="http://lists.w3.org/Archives/Public/w3c-wai-gl/">Archives of the AG WG mailing list discussions</a> are publicly available, and future work undertaken by the Working Group may address comments received on this document.</p>
+  <p>
+    This document was published by the <a href="https://www.w3.org/WAI/GL/">Accessibility Guidelines Working Group</a> as a Recommendation.
+  </p>
+  <p>
+    Please see the Working Group's  <a href="https://www.w3.org/WAI/WCAG21/implementation-report/">implementation
+    report</a>.
+  </p>
+  <p>
+    This document has been reviewed by <abbr title="World Wide Web Consortium">W3C</abbr> Members, by software developers, and by other <abbr title="World Wide Web Consortium">W3C</abbr>
+    groups and interested parties, and is endorsed by the Director as a <abbr title="World Wide Web Consortium">W3C</abbr> Recommendation.
+    It is a stable document and may be used as reference material or cited from another
+    document. <abbr title="World Wide Web Consortium">W3C</abbr>'s role in making the Recommendation is to draw attention to the
+    specification and to promote its widespread deployment. This enhances the functionality
+    and interoperability of the Web.
+  </p>
+  <p>
+    This document was produced by a group operating under the <a href="https://www.w3.org/Consortium/Patent-Policy/"><abbr title="World Wide Web Consortium">W3C</abbr> Patent Policy</a>.
+
+    <abbr title="World Wide Web Consortium">W3C</abbr> maintains a <a rel="disclosure" href="https://www.w3.org/2004/01/pp-impl/35422/status">public list of any patent disclosures</a> made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent. An individual who has actual knowledge of a patent which the individual believes contains <a href="https://www.w3.org/Consortium/Patent-Policy/#def-essential">Essential Claim(s)</a> must disclose the information in accordance with <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Disclosure">section 6 of the <abbr title="World Wide Web Consortium">W3C</abbr> Patent Policy</a>.
+  </p>
+  <p>This document is governed by the <a id="w3c_process_revision" href="https://www.w3.org/2018/Process-20180201/">1 February 2018 <abbr title="World Wide Web Consortium">W3C</abbr> Process Document</a>.
+  </p>
+</section>
+
       
       <section class="informative introductory" id="intro">
          			
