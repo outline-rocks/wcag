@@ -154,6 +154,20 @@ var respecConfig = {
 	wgPatentURI:  "https://www.w3.org/2004/01/pp-impl/35422/status",
 	maxTocLevel: 4,
 
-	postProcess: [addTextSemantics, swapInDefinitions]
+	postProcess: [
+    addTextSemantics,
+    swapInDefinitions,
+
+    // Translation modifications
+    moveTransheaderToTop,
+    replaceHead,
+    replaceSotd,
+    removeRespecReferences,
+    function translateIds() {
+      // translateId('abstract', 'samenvatting');
+      translateId('sotd', 'status-des-dokuments');
+    }
+
+  ]
 
 };
