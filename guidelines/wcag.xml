@@ -1469,6 +1469,7 @@
    <term>
       <id>dfn-assistierende-technik</id>
       <name>assistierende technik</name>
+      <name>assistierender technologien</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Hardware und/oder Software, die als <a>Benutzeragent</a> fungiert oder die mit einem gängigen Benutzeragenten zusammenarbeitet, um Funktionalität zur Verfügung zu stellen, damit die Anforderungen von Benutzern mit Behinderungen erfüllt werden, die über jene hinausgehen, die von gängigen Benutzeragenten angeboten werden.</p>
@@ -2442,6 +2443,7 @@
    <term>
       <id>dfn-satz-von-webseiten</id>
       <name>satz von webseiten</name>
+      <name>satzes von webseiten</name>
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Sammlung von <a>Webseiten</a>, die einen gemeinsamen Zweck haben und vom selben Autor, derselben Gruppe oder Organisation erstellt wurden</p>
@@ -2449,7 +2451,7 @@
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Ein Beispiel ist eine Publikation, die auf mehrere Webseiten aufgeteilt ist, wobei jede Seite ein Kapitel oder einen anderen signifikanten Abschnitt des Werks enthält. Die Publikation ist logisch eine einzige zusammenhängende Einheit und enthält Navigationselemente, die den Zugriff auf den gesamten Satz von Seiten ermöglichen.</p>
 
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Unterschiedliche Sprachversionen werden als verschiedene Sätze von Webseiten betrachtet.</p>
-   
+
       </definition>
    </term>
    <term>
