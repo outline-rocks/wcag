@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<guidelines lang="en">
+<guidelines lang="de">
    <understanding>
       <name>Introduction to Understanding WCAG 2.1</name>
       <file href="intro"/>
@@ -84,7 +84,7 @@
 
                   <dd>
 
-                     <p>Wenn der Nicht-Text-Inhalt <a>reine Dekoration</a> ist, nur für visuelle Formatierung benutzt wird oder dem Benutzer gar nicht präsentiert wird, dann wird der Inhalt so implementiert, dass er von <a href="#dfn-assistierende-technik">assistierender Technik</a> ignoriert werden kann.</p>
+                     <p>Wenn der Nicht-Text-Inhalt <a>reine Dekoration</a> ist, nur für visuelle Formatierung benutzt wird oder dem Benutzer gar nicht präsentiert wird, dann wird der Inhalt so implementiert, dass er von <a>assistierender Technik</a> ignoriert werden kann.</p>
 
                   </dd>
 
@@ -1275,7 +1275,7 @@
             <name>Name, Rolle, Wert</name>
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">Für alle <a>Bestandteile der Benutzerschnittstelle</a> (einschließlich, aber nicht beschränkt auf: Formularelemente, Links und durch Skripte generierte Komponenten) können <a>Name</a> und <a>Rolle</a> 
-                  <a>durch Software bestimmt</a> werden; Zustände, Eigenschaften und Werte, die vom Benutzer festgelegt werden können, können <a>durch Software festgelegt</a> sein; und die Benachrichtigung über Änderungen an diesen Elementen steht den <a>Benutzeragenten</a> zur Verfügung, einschließlich <a href="#dfn-assistierende-technik">assistierender Techniken</a>.</p>
+                  <a>durch Software bestimmt</a> werden; Zustände, Eigenschaften und Werte, die vom Benutzer festgelegt werden können, können <a>durch Software festgelegt</a> sein; und die Benachrichtigung über Änderungen an diesen Elementen steht den <a>Benutzeragenten</a> zur Verfügung, einschließlich <a>assistierender Techniken</a>.</p>
                <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dieses Erfolgskriterium ist hauptsächlich für Webautoren gedacht, die ihre eigenen Bestandteile der Benutzerschnittstelle entwickeln oder skripten. Standard-HTML-Steuerelemente erfüllen zum Beispiel bereits dieses Erfolgskriterium, wenn sie entsprechend der Spezifikation benutzt werden.</p>
             </content>
             <level>A</level>
@@ -1360,7 +1360,7 @@
       <name>die barrierefreiheit unterstützenden</name>
       <definition>
 
-         <p xmlns="http://www.w3.org/1999/xhtml">Sowohl von den <a href="#dfn-assistierende-technik">assistierenden Techniken</a> der Benutzer als auch von den Barrierefreiheitsfunktionen in <a>Benutzeragenten</a> unterstützt</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Sowohl von den <a>assistierenden Techniken</a> der Benutzer als auch von den Barrierefreiheitsfunktionen in <a>Benutzeragenten</a> unterstützt</p>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Sowohl 1. als auch 2. müssen für eine Webinhalts-Technik (oder einen Bestandteil einer Technik) erfüllt werden, damit sich die Anwendung einer Webinhalts-Technik oder eines Bestandteils einer Technik als die Barrierefreiheit unterstützend qualifiziert:</p>
 
@@ -1469,6 +1469,9 @@
    <term>
       <id>dfn-assistierende-technik</id>
       <name>assistierende technik</name>
+      <name>assistierender technik</name>
+      <name>assistierender techniken</name>
+      <name>assistierenden techniken</name>
       <name>assistierender technologien</name>
       <definition>
 
@@ -1761,7 +1764,7 @@
 
          <p xmlns="http://www.w3.org/1999/xhtml">Sichtwinkel von etwa 0,0213 Grad</p>
 
-         <p xmlns="http://www.w3.org/1999/xhtml">Ein CSS-Pixel ist die kanonische Maßeinheit für alle Längen und Maße in CSS. Diese Einheit ist dichteunabhängig und unterscheidet sich von den tatsächlichen Hardware-Pixeln eines Bildschirms. Benutzeragenten und Betriebssysteme sollten sicherstellen, dass ein CSS-Pixel möglichst genau dem <a href="https://www.w3.org/TR/css3-values/#reference-pixel">CSS-Werte und -einheiten Modul Level 3 Referenz-Pixel (Englisch)</a> [[!css3-values]] entspricht, welches die physikalischen Abmessungen des Bildschirms und den angenommenen Betrachtungsabstand berücksichtigt (Faktoren, die nicht von den Autoren der Inhalte bestimmt werden können).</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Ein CSS-Pixel ist die kanonische Maßeinheit für alle Längen und Maße in CSS. Diese Einheit ist dichteunabhängig und unterscheidet sich von den tatsächlichen Hardware-Pixeln eines Bildschirms. Benutzeragenten und Betriebssysteme sollten sicherstellen, dass ein CSS-Pixel möglichst genau dem <a href="https://www.w3.org/TR/css3-values/#reference-pixel">CSS-Werte und -einheiten Modul Level 3 Referenz-Pixel (Englisch)</a> [[css3-values]] entspricht, welches die physikalischen Abmessungen des Bildschirms und den angenommenen Betrachtungsabstand berücksichtigt (Faktoren, die nicht von den Autoren der Inhalte bestimmt werden können).</p>
 
       </definition>
    </term>
@@ -1865,8 +1868,7 @@
 
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Ein Übergang ist der Wechsel in relativer Luminanz (oder relativer Luminanz/Farbe für rotes Blitzen) zwischen nebeneinander liegenden Spitzen und Senken in einem Graph von relativer Luminanzmessung (oder relativer Luminanz/Farbe bei rotem Blitzen) in Bezug auf die Zeit. Ein Blitz besteht aus zwei entgegengesetzten Änderungen.</p>
 
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die derzeitige Arbeitsdefinition in diesem Fachbereich für ein <strong>„Paar von entgegengesetzten Übergängen, die ein gesättigtes Rot beinhalten“</strong> lautet: Wenn für jeden oder beide Zustände, die in jedem Übergang involviert sind, R/(R+ G + B) &gt;= 0.8 und der Wechsel des Wertes von (R-G-B)x320 &gt; 20 (negative Werte von (R-G-B)x320 werden auf Null gesetzt) für beide Übergänge ist. R, G, B Werte reichen von 0-1 wie in der “relativen Luminanz”-Definition festgelegt. <a href="#HARDING-BINNIE">[<span lang="en">HARDING-BINNIE</span>]</a>
-         </p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Die derzeitige Arbeitsdefinition in diesem Fachbereich für ein <strong>„Paar von entgegengesetzten Übergängen, die ein gesättigtes Rot beinhalten“</strong> lautet: Wenn für jeden oder beide Zustände, die in jedem Übergang involviert sind, R/(R+ G + B) &gt;= 0.8 und der Wechsel des Wertes von (R-G-B)x320 &gt; 20 (negative Werte von (R-G-B)x320 werden auf Null gesetzt) für beide Übergänge ist. R, G, B Werte reichen von 0-1 wie in der “relativen Luminanz”-Definition festgelegt. [[HARDING-BINNIE]]</p>
 
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Es gibt Werkzeuge, welche die Analyse durch die Erfassung des Video-Bildschirms ausführen. Es ist allerdings kein Werkzeug nötig, um diese Bedingung zu evaluieren, wenn das Blitzen weniger oder gleich 3 Blitze pro Sekunde ist. Der Inhalt besteht automatisch die Prüfung (siehe #1 und #2 oben).</p>
 
@@ -2081,7 +2083,7 @@
          <p xmlns="http://www.w3.org/1999/xhtml">
             <a>Prozess</a> oder Technik, um ein Ergebnis zu erzielen.</p>
 
-         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der Mechanismus kann explizit im Inhalt bereitgestellt werden oder man <a>verlässt sich darauf</a>, dass er entweder von der Plattform oder dem <a>Benutzeragenten</a> einschließlich <a href="#dfn-assistierende-technik">assistierender Techniken</a> bereitgestellt wird.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der Mechanismus kann explizit im Inhalt bereitgestellt werden oder man <a>verlässt sich darauf</a>, dass er entweder von der Plattform oder dem <a>Benutzeragenten</a> einschließlich <a>assistierender Techniken</a> bereitgestellt wird.</p>
 
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Der Mechanismus muss alle Erfolgskriterien für die angegebene Konformitätsstufe erfüllen.</p>
 
@@ -2184,7 +2186,7 @@
 
          <p xmlns="http://www.w3.org/1999/xhtml">Eingabegerät, das eine bestimmte Koordinate (oder einen Satz von Koordinaten) auf einem Bildschirm anvisieren kann, wie z. B. eine Maus, ein Stift oder ein Berührungskontakt (touch contact)</p>
 
-         <p xmlns="http://www.w3.org/1999/xhtml">Siehe auch <a href="https://www.w3.org/TR/pointerevents/#dfn-pointer">Pointer Events Zeigerdefinition (Pointer Events pointer definition)</a> [[!pointerevents]].</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Siehe auch <a href="https://www.w3.org/TR/pointerevents/#dfn-pointer">Pointer Events Zeigerdefinition (Pointer Events pointer definition)</a> [[pointerevents]].</p>
 
       </definition>
    </term>
@@ -2241,7 +2243,7 @@
       <name>programmatically determinable</name>
       <definition>
 
-         <p xmlns="http://www.w3.org/1999/xhtml">Bestimmt von Software durch vom Autor gelieferte Daten, bereitgestellt auf eine Art und Weise, dass verschiedene <a>Benutzeragenten</a>, einschließlich <a href="#dfn-assistierende-technik">assistierender Techniken</a>, diese Informationen entnehmen und dem Benutzer in verschiedenen Modalitäten präsentieren können.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml">Bestimmt von Software durch vom Autor gelieferte Daten, bereitgestellt auf eine Art und Weise, dass verschiedene <a>Benutzeragenten</a>, einschließlich <a>assistierender Techniken</a>, diese Informationen entnehmen und dem Benutzer in verschiedenen Modalitäten präsentieren können.</p>
 
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Bestimmt in einer Markup-Sprache aus Elementen und Attributen, auf die direkt durch allgemein erhältliche assistierende Techniken zugegriffen wird.</p>
 
@@ -2670,7 +2672,7 @@
 
          <p xmlns="http://www.w3.org/1999/xhtml">Jegliche Software, die Webinhalt für den Benutzer abruft und darstellt.</p>
 
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Webbrowser, Mediaplayer, Plug-Ins und andere Programme — einschließlich <a href="#dfn-assistierende-technik">assistierender Techniken</a> — die dabei helfen, Webinhalt abzurufen, ihn zu rendern und mit ihm zu interagieren.</p>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Webbrowser, Mediaplayer, Plug-Ins und andere Programme — einschließlich <a>assistierender Techniken</a> — die dabei helfen, Webinhalt abzurufen, ihn zu rendern und mit ihm zu interagieren.</p>
 
       </definition>
    </term>
