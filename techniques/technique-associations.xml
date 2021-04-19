@@ -35,7 +35,7 @@
       <success-criterion id="umfluss-reflow"/>
       <success-criterion id="nicht-text-kontrast"/>
       <success-criterion id="textabstand"/>
-      <success-criterion id="inhalt-bei-hover-oder-focus"/>
+      <success-criterion id="inhalt-bei-überfahren-mit-dem-zeiger-oder-tastaturfokus-hover-oder-focus"/>
    </guideline>
    <guideline id="per-tastatur-zugänglich">
       <success-criterion id="tastatur"/>

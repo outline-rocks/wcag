@@ -42,7 +42,7 @@
 
                   <dd>
 
-                     <p>Wenn es sich bei dem Nicht-Text-Inhalt um ein Steuerelement handelt oder Eingaben durch den Benutzer akzeptiert, dann hat dieser einen <a href="#dfn-name">Namen</a>, der seinen Zweck beschreibt. (Beachten Sie <a href="#name-rolle-wert">Richtlinie 4.1.2</a> für zusätzliche Anforderungen an Steuerelemente und Inhalte, die Eingaben durch den Benutzer akzeptieren.)</p>
+                     <p>Wenn es sich bei dem Nicht-Text-Inhalt um ein Steuerelement handelt oder Eingaben durch den Benutzer akzeptiert, dann hat dieser einen <a href="#dfn-name">Namen</a>, der seinen Zweck beschreibt. (Beachten Sie <a href="#name-rolle-wert">Erfolgskriterium 4.1.2</a> für zusätzliche Anforderungen an Steuerelemente und Inhalte, die Eingaben durch den Benutzer akzeptieren.)</p>
 
                   </dd>
 
@@ -244,7 +244,7 @@
             <num>1.3.3</num>
             <name>Sensorische Eigenschaften</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Anweisungen, die für das Verständnis und die Bedienung von Inhalt bereitgestellt werden, stützen sich nicht nur auf sensorische Eigenschaften von Komponenten wie Form, Größe, visuelle Position, Ausrichtung oder Ton.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Anweisungen, die für das Verständnis und die Bedienung von Inhalt bereitgestellt werden, stützen sich nicht nur auf sensorische Eigenschaften von Komponenten wie Form, Farbe, Größe, visuelle Position, Ausrichtung oder Ton.</p>
                <p xmlns="http://www.w3.org/1999/xhtml" class="note">Für Anforderungen in Bezug auf Farbe beachten Sie <a href="#unterscheidbar">Richtlinie 1.4</a>.</p>
             </content>
             <level>A</level>
@@ -254,8 +254,8 @@
             <num>1.3.4</num>
             <name>Orientierung</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Inhalte sind in ihrer Betrachtung und Bedienung nicht auf eine einzige Bildschirmausrichtung beschränkt, wie z. B. Hoch- oder Querformat, es sei denn, eine bestimmte Bildschirmausrichtung ist <a>unentbehrlich</a>.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Beispiele, bei denen eine bestimmte Bildschirmausrichtung unentbehrlich sein kann, sind ein Bankscheck, eine Klavieranwendung, Folien für einen Projektor oder Fernseher oder Virtual-Reality-Inhalte, bei denen der Inhalt nicht unbedingt auf die Bildschirmausrichtung im Hoch- oder Querformat beschränkt ist.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Die Betrachtung und Bedienung von Inhalten ist nicht auf eine einzige Bildschirmausrichtung wie z. B. Hoch- oder Querformat beschränkt, es sei denn, eine bestimmte Bildschirmausrichtung ist <a>unentbehrlich</a>.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Beispiele, für die eine bestimmte Bildschirmausrichtung unentbehrlich sein kann, sind ein Bankscheck, eine Klavieranwendung, Folien für einen Projektor oder Fernseher oder Virtual-Reality-Inhalte, bei denen der Inhalt nicht unbedingt auf die Bildschirmausrichtung im Hoch- oder Querformat beschränkt ist.</p>
             </content>
             <level>AA</level>
             <file href="orientierung"/>
@@ -496,17 +496,17 @@
             <num>1.4.10</num>
             <name>Umfluss (Reflow)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Inhalte können ohne Informations- oder Funktionsverlust dargestellt werden, ohne dass dafür ein Scrollen in zwei Dimensionen erforderlich ist:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Inhalte können ohne Informations- oder Funktionsverlust dargestellt werden, ohne dass dafür ein Scrollen in zwei Dimensionen erforderlich ist. Dies gilt für:</p>
                <ul xmlns="http://www.w3.org/1999/xhtml">
 
-                  <li>Vertikal scrollender Inhalt mit einer Breite, die 320 <a>CSS-Pixeln</a> entspricht;</li>
+                  <li>Vertikal scrollenden Inhalt mit einer Breite, die 320 <a>CSS-Pixeln</a> entspricht;</li>
 
-                  <li>Horizontal scrollender Inhalt mit einer Höhe, die 256 <a>CSS-Pixeln</a> entspricht.</li>
+                  <li>Horizontal scrollenden Inhalt mit einer Höhe, die 256 <a>CSS-Pixeln</a> entspricht.</li>
 
                </ul>
-               <p xmlns="http://www.w3.org/1999/xhtml">Eine Ausnahme bilden Teile des Inhalts, die für die Verwendung oder Bedeutung ein zweidimensionales Layout erfordern.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">320 CSS-Pixel entsprechen einer anfänglichen Viewport-Breite von 1280 CSS-Pixeln bei 400 % Zoom. Für Webinhalte, die zum horizontalen Scrollen konzipiert sind (z. B. mit vertikalem Text), entsprechen 256 CSS-Pixel einer anfänglichen Viewport-Höhe von 1024 CSS-Pixeln bei einem Zoom von 400 %.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Beispiele für Inhalte, die ein zweidimensionales Layout erfordern, sind Bilder, die zum Verständnis benötigt werden (wie Karten und Diagramme), Videos, Spiele, Präsentationen, Datentabellen (nicht einzelne Zellen) und Benutzeroberflächen, bei denen es notwendig ist, die Werkzeugleisten im Blick zu behalten, während der Inhalt bearbeitet wird. Es ist akzeptabel, für solche Teile des Inhalts ein zweidimensionales Scrollen vorzusehen.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Eine Ausnahme bilden Teile des Inhalts, deren Verwendung oder Bedeutung ein zweidimensionales Layout erfordern.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">320 CSS-Pixel entsprechen einer anfänglichen Viewport-Breite von 1280 CSS-Pixeln bei 400% Zoom. Für Webinhalte, die zum horizontalen Scrollen konzipiert sind (z. B. mit vertikalem Text), entsprechen 256 CSS-Pixel einer anfänglichen Viewport-Höhe von 1024 CSS-Pixeln bei einem Zoom von 400%.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Beispiele für Inhalte, die ein zweidimensionales Layout erfordern, sind Bilder, die zum Verständnis benötigt werden (wie Karten und Diagramme), Videos, Spiele, Präsentationen, Datentabellen (nicht einzelne Zellen) und Benutzerschnittstellen, bei denen es notwendig ist, Werkzeugleisten im Blick zu behalten, während der Inhalt bearbeitet wird. Es ist akzeptabel, für solche Teile des Inhalts ein zweidimensionales Scrollen vorzusehen.</p>
             </content>
             <level>AA</level>
             <file href="umfluss-reflow"/>
@@ -515,10 +515,10 @@
             <num>1.4.11</num>
             <name>Nicht-Text-Kontrast</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Die visuelle <a>Präsentation</a> hat ein <a>Kontrastverhältnis</a> von mindestens 3:1 zu benachbarten Farbe(n) in folgenden Fällen:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Ein <a>Kontrastverhältnis</a> von mindestens 3:1 zu benachbarten Farben gilt für die visuelle <a>Präsentation</a> von:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
 
-                  <dt>Bestandteile der Benutzerschnittstelle</dt>
+                  <dt>Bestandteilen der Benutzerschnittstelle</dt>
 
                   <dd>Visuelle Informationen, die zur Identifizierung von <a>Bestandteilen der Benutzerschnittstelle</a> und <a>Zuständen</a> benötigt werden, außer bei inaktiven Bestandteilen oder wenn das Aussehen des Bestandteils durch den Benutzeragenten bestimmt und nicht vom Autor geändert wird;</dd>
 
@@ -535,12 +535,12 @@
             <num>1.4.12</num>
             <name>Textabstand</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Bei Inhalten, die mit Auszeichnungssprachen implementiert werden, die die folgenden <a>Stileigenschaften</a> für <a>Text</a> unterstützen, kommt es zu keinem Verlust von Inhalt oder Funktionalität, wenn man alle folgenden Einstellungen vornimmt und keine andere Stileigenschaft ändert:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Bei Inhalten, die mit Auszeichnungssprachen implementiert werden, die die folgenden <a>Stileigenschaften</a> für <a>Text</a> unterstützen, kommt es zu keinem Verlust von Inhalt oder Funktionalität, wenn man sämtliche folgenden Einstellungen vornimmt und keine andere Stileigenschaft ändert:</p>
                <ul xmlns="http://www.w3.org/1999/xhtml">
 
                   <li>Zeilenhöhe (Zeilenabstand) auf mindestens das 1,5-fache der Schriftgröße;</li>
 
-                  <li>Abstand nach Absätzen auf mindestens 2-fache Schriftgröße;</li>
+                  <li>Abstand nach Absätzen auf mindestens das 2-fache der Schriftgröße;</li>
 
                   <li>Buchstabenabstand (Laufweite) auf mindestens das 0,12-fache der Schriftgröße;</li>
 
@@ -552,30 +552,30 @@
             <level>AA</level>
             <file href="textabstand"/>
          </success-criterion>
-         <success-criterion id="inhalt-bei-hover-oder-focus">
+         <success-criterion id="inhalt-bei-überfahren-mit-dem-zeiger-oder-tastaturfokus-hover-oder-focus">
             <num>1.4.13</num>
-            <name>Inhalt bei Hover oder Focus</name>
+            <name>Inhalt bei Überfahren mit dem Zeiger oder Tastaturfokus (Hover oder Focus)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Wenn das Empfangen und anschließende Entfernen des Zeiger- oder Tastaturfokus dazu führt, dass zusätzlicher Inhalt sichtbar und anschließend ausgeblendet wird, muss Folgendes zutreffen:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn durch das Überfahren mit dem Zeiger oder durch Tastaturfokus zusätzlicher Inhalt sichtbar wird, der anschließend bei Entfernen des Zeigers oder des Tastaturfokus wieder ausgeblendet wird, muss Folgendes zutreffen:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
 
                   <dt>Verwerfbar</dt>
-                  <dd>Es gibt einen <a>Mechanismus</a>, um den zusätzlichen Inhalt zu verwerfen, ohne den Mauszeiger oder den Tastaturfokus zu bewegen, es sei denn, der zusätzliche Inhalt kommuniziert einen <a>Eingabefehler</a> oder verdeckt oder ersetzt andere Inhalte nicht;</dd>
+                  <dd>Es gibt einen <a>Mechanismus</a>, um den zusätzlichen Inhalt zu verwerfen, ohne den Zeiger oder den Tastaturfokus zu bewegen, es sei denn, der zusätzliche Inhalt kommuniziert einen <a>Eingabefehler</a> oder verdeckt oder ersetzt andere Inhalte nicht;</dd>
 
-                  <dt>Hoverbar</dt>
-                  <dd>Wenn zusätzlicher Inhalt durch Hovern mit dem Zeiger ausgelöst werden kann, dann kann der Zeiger über den zusätzlichen Inhalt bewegt werden, ohne dass der zusätzliche Inhalt verschwindet;</dd>
+                  <dt>Überfahrbar</dt>
+                  <dd>Wenn zusätzlicher Inhalt durch Überfahren mit dem Zeiger ausgelöst werden kann, dann kann der Zeiger über den zusätzlichen Inhalt bewegt werden, ohne dass der zusätzliche Inhalt verschwindet;</dd>
 
                   <dt>Beständig</dt>
-                  <dd>Der zusätzliche Inhalt bleibt sichtbar, bis der Auslöser des Hover oder Fokus entfernt wird, der Benutzer ihn verwirft oder seine Informationen nicht mehr gültig sind.</dd>
+                  <dd>Der zusätzliche Inhalt bleibt sichtbar, bis der Auslöser des Hover oder Focus entfernt wird, der Benutzer ihn verwirft oder seine Informationen nicht mehr gültig sind.</dd>
 
                </dl>
                <p xmlns="http://www.w3.org/1999/xhtml">Ausnahme: Die visuelle Darstellung des zusätzlichen Inhalts wird durch den Benutzeragenten gesteuert und nicht durch den Autoren verändert.</p>
                <p xmlns="http://www.w3.org/1999/xhtml" class="note">Beispiele für zusätzliche Inhalte, die vom Benutzeragenten gesteuert werden, sind Browser-Tooltips, die durch die Verwendung des HTML-<a href="https://www.w3.org/TR/html/dom.html#the-title-attribute">
                      <code>title</code>-Attributs</a> erzeugt werden.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Benutzerdefinierte Tooltips, Untermenüs und andere nicht modale Popups, die bei Hover und Fokus angezeigt werden, sind Beispiele für zusätzliche Inhalte, die unter dieses Kriterium fallen.</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Benutzerdefinierte Tooltips, Untermenüs und andere nicht modale Popups, die bei Hover und Focus angezeigt werden, sind Beispiele für zusätzliche Inhalte, die unter dieses Kriterium fallen.</p>
             </content>
             <level>AA</level>
-            <file href="inhalt-bei-hover-oder-focus"/>
+            <file href="inhalt-bei-überfahren-mit-dem-zeiger-oder-tastaturfokus-hover-oder-focus"/>
          </success-criterion>
       </guideline>
    </principle>
@@ -627,7 +627,7 @@
             <num>2.1.4</num>
             <name>Zeichentastenbefehle</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Wenn ein <a>Tastaturbefehl</a> im Inhalt nur mit Buchstaben (einschließlich Groß- und Kleinbuchstaben), Satzzeichen, Zahlen oder Symbolen implementiert ist, dann ist mindestens eine der folgenden Bedingungen erfüllt:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Wenn ein <a>Tastaturbefehl</a> im Inhalt nur mit Buchstaben (sowohl Groß- als auch Kleinbuchstaben), Satzzeichen, Zahlen oder Symbolen implementiert ist, dann ist mindestens eine der folgenden Bedingungen erfüllt:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
 
                   <dt>Abschaltbar</dt>
@@ -790,7 +790,7 @@
          <name>Anfälle und physische Reaktionen</name>
          <content>
             <p xmlns="http://www.w3.org/1999/xhtml">Gestalten Sie Inhalte nicht auf Arten, von denen bekannt ist, dass sie zu Anfällen
-               und physischen Reaktionen führen.
+               oder physischen Reaktionen führen.
             </p>
          </content>
          <file href="anfälle-und-physische-reaktionen"/>
@@ -934,7 +934,7 @@
          <num>2.5</num>
          <name>Eingabe-Modalitäten</name>
          <content>
-            <p xmlns="http://www.w3.org/1999/xhtml">Erleichtern Sie den Benutzern die Bedienung der Funktionen durch verschiedene Eingabeverfahren
+            <p xmlns="http://www.w3.org/1999/xhtml">Erleichtern Sie Benutzern die Bedienung der Funktionen durch verschiedene Eingabeverfahren
                jenseits der Tastatur.
             </p>
          </content>
@@ -944,7 +944,7 @@
             <name>Zeigergesten</name>
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">Alle <a>Funktionalitäten</a>, die Mehrpunkt- oder pfadbasierte Gesten zur Bedienung verwenden, können mit einem <a>einzelnen Zeiger</a> ohne pfadbasierte Geste bedient werden, es sei denn, eine Mehrpunkt- oder pfadbasierte Geste ist <a>unentbehrlich</a>.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Anforderung gilt für Webinhalte, die Zeigeraktionen interpretieren (d.h. dies gilt nicht für Aktionen, die zur Bedienung des Benutzeragenten oder assistiver Technologien erforderlich sind).</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Anforderung gilt für Webinhalte, die Zeigeraktionen interpretieren (d.h. sie bezieht sich nicht auf Aktionen, die zur Bedienung des Benutzeragenten oder assistierender Technologien erforderlich sind).</p>
             </content>
             <level>A</level>
             <file href="zeigergesten"/>
@@ -959,18 +959,18 @@
                   <dt>Kein down-Ereignis</dt>
                   <dd>Das <a>down-Ereignis</a> des Zeigers wird nicht zur Ausführung eines Teils der Funktion verwendet;</dd>
 
-                  <dt>Abbrechen oder Rückgängig machen</dt>
+                  <dt>Abbrechen oder rückgängig machen</dt>
                   <dd>Die Funktion wird mit dem <a>up-Ereignis</a> abgeschlossen, und es gibt einen <a>Mechanismus</a>, um die Funktion vor dem Abschluss abzubrechen oder nach dem Abschluss rückgängig zu machen;</dd>
 
                   <dt>Rückgängig bei up-Ereignis (Up Reversal)</dt>
-                  <dd>Das up-Ereignis macht ein beliebiges Ergebnis des vorangegangenen down-Ereignisses rückgängig;</dd>
+                  <dd>Das up-Ereignis macht jedes Ergebnis des vorangegangenen down-Ereignisses rückgängig;</dd>
 
                   <dt>Unentbehrlich</dt>
                   <dd>Das Abschließen der Funktion beim down-Ereignis ist <a>unentbehrlich</a>.</dd>
 
                </dl>
                <p xmlns="http://www.w3.org/1999/xhtml" class="note">Funktionen, die den Tastenanschlag einer Tastatur oder eines Ziffernblocks emulieren, gelten als unentbehrlich.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Anforderung gilt für Webinhalte, die Zeigeraktionen interpretieren (d.h. dies gilt nicht für Aktionen, die zur Bedienung des Benutzeragenten oder assistiver Technologien erforderlich sind).</p>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="note">Diese Anforderung gilt für Webinhalte, die Zeigeraktionen interpretieren (d.h. sie bezieht sich nicht auf Aktionen, die zur Bedienung des Benutzeragenten oder assistierender Technologien erforderlich sind).</p>
             </content>
             <level>A</level>
             <file href="zeigeraufhebung"/>
@@ -1008,7 +1008,7 @@
             <num>2.5.5</num>
             <name>Zielgröße</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Die Größe des <a>Ziels</a> für <a>Zeigereingaben</a> beträgt mindestens 44 mal 44 <a>CSS-Pixel</a>, außer wenn:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Die Größe des <a>Ziels</a> für <a>Zeigereingaben</a> beträgt mindestens 44 mal 44 <a>CSS-Pixel</a>. Dabei gelten folgende Ausnahmen:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
 
                   <dt>Äquivalent</dt>
