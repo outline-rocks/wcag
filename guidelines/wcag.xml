@@ -521,9 +521,9 @@
                   <dt>Bestandteile der Benutzerschnittstelle</dt>
 
                   <dd>Visuelle Informationen, die zur Identifizierung von <a>Bestandteilen der Benutzerschnittstelle</a> und <a>Zuständen</a> benötigt werden, außer bei inaktiven Bestandteilen oder wenn das Aussehen des Bestandteils durch den Benutzeragenten bestimmt und nicht vom Autor geändert wird;</dd>
-	
+
                   <dt>Grafische Objekte</dt>
-					
+
                   <dd>Teile von Grafiken, die zum Verständnis des Inhalts erforderlich sind, es sei denn, eine bestimmte Präsentation von Grafiken ist <a>unentbehrlich</a> für die zu vermittelnde Information.</dd>
 
                </dl>
@@ -629,7 +629,7 @@
             <content>
                <p xmlns="http://www.w3.org/1999/xhtml">Wenn ein <a>Tastaturbefehl</a> im Inhalt nur mit Buchstaben (einschließlich Groß- und Kleinbuchstaben), Satzzeichen, Zahlen oder Symbolen implementiert ist, dann ist mindestens eine der folgenden Bedingungen erfüllt:</p>
                <dl xmlns="http://www.w3.org/1999/xhtml">
-   
+
                   <dt>Abschaltbar</dt>
                   <dd>Ein <a>Mechanismus</a> ist verfügbar, um den Befehl abzuschalten;</dd>
 
