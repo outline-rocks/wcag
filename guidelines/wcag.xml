@@ -496,7 +496,7 @@
             <num>1.4.10</num>
             <name>Umfluss (Reflow)</name>
             <content>
-               <p xmlns="http://www.w3.org/1999/xhtml">Inhalte können ohne Informations- oder Funktionsverlust dargestellt werden, ohne dass dafür ein Scrollen in zwei Dimensionen erforderlich ist. Dies gilt für:</p>
+               <p xmlns="http://www.w3.org/1999/xhtml">Inhalte können ohne Informations- oder Funktionsverlust dargestellt werden, ohne dass dafür ein Scrollen in zwei Dimensionen erforderlich ist für:</p>
                <ul xmlns="http://www.w3.org/1999/xhtml">
 
                   <li>Vertikal scrollenden Inhalt mit einer Breite, die 320 <a>CSS-Pixeln</a> entspricht;</li>
@@ -934,8 +934,8 @@
          <num>2.5</num>
          <name>Eingabe-Modalitäten</name>
          <content>
-            <p xmlns="http://www.w3.org/1999/xhtml">Erleichtern Sie Benutzern die Bedienung der Funktionen durch verschiedene Eingabeverfahren
-               jenseits der Tastatur.
+            <p xmlns="http://www.w3.org/1999/xhtml">Erleichtern Sie Benutzern die Bedienung von Funktionen durch andere Eingabearten als
+               die Tastatur.
             </p>
          </content>
          <file href="eingabe-modalitäten"/>
@@ -962,7 +962,7 @@
                   <dt>Abbrechen oder rückgängig machen</dt>
                   <dd>Die Funktion wird mit dem <a>up-Ereignis</a> abgeschlossen, und es gibt einen <a>Mechanismus</a>, um die Funktion vor dem Abschluss abzubrechen oder nach dem Abschluss rückgängig zu machen;</dd>
 
-                  <dt>Rückgängig bei up-Ereignis (Up Reversal)</dt>
+                  <dt>Rückgängig bei up-Ereignis (<span lang="en">Up Reversal</span>)</dt>
                   <dd>Das up-Ereignis macht jedes Ergebnis des vorangegangenen down-Ereignisses rückgängig;</dd>
 
                   <dt>Unentbehrlich</dt>
@@ -1614,6 +1614,19 @@
       </definition>
    </term>
    <term>
+      <id>dfn-benutzeragent</id>
+      <name>benutzeragent</name>
+      <name>benutzeragenten</name>
+      <name>des benutzeragenten</name>
+      <definition>
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Jegliche Software, die Webinhalt für den Benutzer abruft und darstellt.</p>
+
+         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Webbrowser, Mediaplayer, Plug-Ins und andere Programme — einschließlich <a>assistierender Techniken</a> — die dabei helfen, Webinhalt abzurufen, ihn zu rendern und mit ihm zu interagieren.</p>
+
+      </definition>
+   </term>
+   <term>
       <id>dfn-benutzer-gesteuert</id>
       <name>benutzer-gesteuert</name>
       <name>benutzer-gesteuerte</name>
@@ -1624,19 +1637,6 @@
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Dies bezieht sich nicht auf Dinge wie Internet-Logs und Daten zur Beobachtung und Analyse von Suchmaschinen.</p>
 
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Namens- und Adressfelder für ein Benutzerkonto.</p>
-
-      </definition>
-   </term>
-   <term>
-      <id>dfn-benutzeragent</id>
-      <name>benutzeragent</name>
-      <name>benutzeragenten</name>
-      <name>des benutzeragenten</name>
-      <definition>
-
-         <p xmlns="http://www.w3.org/1999/xhtml">Jegliche Software, die Webinhalt für den Benutzer abruft und darstellt.</p>
-
-         <p xmlns="http://www.w3.org/1999/xhtml" class="example">Webbrowser, Mediaplayer, Plug-Ins und andere Programme — einschließlich <a>assistierender Techniken</a> — die dabei helfen, Webinhalt abzurufen, ihn zu rendern und mit ihm zu interagieren.</p>
 
       </definition>
    </term>
