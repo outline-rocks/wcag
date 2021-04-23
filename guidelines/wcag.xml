@@ -1458,6 +1458,7 @@
       <name>assistierender technik</name>
       <name>assistierender techniken</name>
       <name>assistierenden techniken</name>
+      <name>assistierenden technologien</name>
       <name>assistierender technologien</name>
       <definition>
 
@@ -1714,8 +1715,9 @@
    <term>
       <id>dfn-bewegungsanimation</id>
       <name>bewegungsanimation</name>
+      <name>bewegte animation</name>
       <definition>
-   					
+
          <p xmlns="http://www.w3.org/1999/xhtml">Zusätzliche Stufen zwischen den Zuständen, um die Illusion von Bewegung zu erzeugen oder das Gefühl eines sanften Übergangs zu vermitteln</p>
          <p xmlns="http://www.w3.org/1999/xhtml" class="example">Zum Beispiel wird ein Element, das sich während des Erscheinens an seinen Platz bewegt oder seine Größe ändert, als animiert betrachtet. Ein Element, das sofort ohne Übergang erscheint, verwendet keine Animation. Änderungen von Farbe, Unschärfe oder Deckkraft sind keine Bewegungsanimationen.</p>
 
