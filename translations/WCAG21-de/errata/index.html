@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+      Errata zur deutschen Übersetzung der WCAG 2.1
+    </title>
+    <meta name="generator" content="ReSpec 25.2.1">
+
+    <style>
+      /* dfn popup panel that list all local references to a dfn */
+      dfn {
+        cursor: pointer;
+      }
+
+      .dfn-panel {
+        position: absolute;
+        left: var(--left); /* set via JS */
+        top: var(--top); /* set via JS */
+        z-index: 35;
+        height: auto;
+        width: max-content;
+        max-width: 300px;
+        max-height: 500px;
+        overflow: auto;
+        padding: 0.5em 0.75em;
+        font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
+        background: #dddddd;
+        color: black;
+        border: outset 0.2em;
+      }
+
+      .dfn-panel * {
+        margin: 0;
+      }
+
+      .dfn-panel > b {
+        display: block;
+      }
+
+      .dfn-panel ul a[href] {
+        color: black;
+      }
+
+      .dfn-panel a:not(:hover) {
+        text-decoration: none !important;
+        border-bottom: none !important;
+      }
+
+      .dfn-panel a[href]:hover {
+        border-bottom-width: 1px;
+      }
+
+      .dfn-panel > b + b {
+        margin-top: 0.25em;
+      }
+
+      .dfn-panel ul {
+        padding: 0;
+      }
+
+      .dfn-panel li {
+        list-style: inside;
+      }
+
+      .dfn-panel.docked {
+        display: inline-block;
+        position: fixed;
+        left: 0.5em;
+        top: unset;
+        bottom: 2em;
+        margin: 0 auto;
+        /* 0.75em from padding (x2), 0.5em from left position, 0.2em border (x2) */
+        max-width: calc(100vw - 0.75em * 2 - 0.5em - 0.2em * 2);
+        max-height: 30vh;
+      }
+    </style>
+
+    <style id="respec-mainstyle">
+      /*****************************************************************
+       * ReSpec specific CSS
+       *****************************************************************/
+      @keyframes pop {
+        0% {
+          transform: scale(1, 1);
+        }
+        25% {
+          transform: scale(1.25, 1.25);
+          opacity: 0.75;
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+
+      /* Override code highlighter background */
+      .hljs {
+        background: transparent !important;
+      }
+
+      /* --- INLINES --- */
+      h1 abbr,
+      h2 abbr,
+      h3 abbr,
+      h4 abbr,
+      h5 abbr,
+      h6 abbr,
+      a abbr {
+        border: none;
+      }
+
+      dfn {
+        font-weight: bold;
+      }
+
+      a.internalDFN {
+        color: inherit;
+        border-bottom: 1px solid #99c;
+        text-decoration: none;
+      }
+
+      a.externalDFN {
+        color: inherit;
+        border-bottom: 1px dotted #ccc;
+        text-decoration: none;
+      }
+
+      a.bibref {
+        text-decoration: none;
+      }
+
+      .respec-offending-element:target {
+        animation: pop 0.25s ease-in-out 0s 1;
+      }
+
+      .respec-offending-element,
+      a[href].respec-offending-element {
+        text-decoration: red wavy underline;
+      }
+      @supports not (text-decoration: red wavy underline) {
+        .respec-offending-element:not(pre) {
+          display: inline-block;
+        }
+        .respec-offending-element {
+          /* Red squiggly line */
+          background: url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=)
+            bottom repeat-x;
+        }
+      }
+
+      #references :target {
+        background: #eaf3ff;
+        animation: pop 0.4s ease-in-out 0s 1;
+      }
+
+      cite .bibref {
+        font-style: normal;
+      }
+
+      code {
+        color: #c83500;
+      }
+
+      th code {
+        color: inherit;
+      }
+
+      a[href].orcid {
+        padding-left: 4px;
+        padding-right: 4px;
+      }
+
+      a[href].orcid > svg {
+        margin-bottom: -2px;
+      }
+
+      /* --- TOC --- */
+
+      .toc a,
+      .tof a {
+        text-decoration: none;
+      }
+
+      a .secno,
+      a .figno {
+        color: #000;
+      }
+
+      ul.tof,
+      ol.tof {
+        list-style: none outside none;
+      }
+
+      .caption {
+        margin-top: 0.5em;
+        font-style: italic;
+      }
+
+      /* --- TABLE --- */
+
+      table.simple {
+        border-spacing: 0;
+        border-collapse: collapse;
+        border-bottom: 3px solid #005a9c;
+      }
+
+      .simple th {
+        background: #005a9c;
+        color: #fff;
+        padding: 3px 5px;
+        text-align: left;
+      }
+
+      .simple th a {
+        color: #fff;
+        padding: 3px 5px;
+        text-align: left;
+      }
+
+      .simple th[scope="row"] {
+        background: inherit;
+        color: inherit;
+        border-top: 1px solid #ddd;
+      }
+
+      .simple td {
+        padding: 3px 10px;
+        border-top: 1px solid #ddd;
+      }
+
+      .simple tr:nth-child(even) {
+        background: #f0f6ff;
+      }
+
+      /* --- DL --- */
+
+      .section dd > p:first-child {
+        margin-top: 0;
+      }
+
+      .section dd > p:last-child {
+        margin-bottom: 0;
+      }
+
+      .section dd {
+        margin-bottom: 1em;
+      }
+
+      .section dl.attrs dd,
+      .section dl.eldef dd {
+        margin-bottom: 0;
+      }
+
+      #issue-summary > ul,
+      .respec-dfn-list {
+        column-count: 2;
+      }
+
+      #issue-summary li,
+      .respec-dfn-list li {
+        list-style: none;
+      }
+
+      details.respec-tests-details {
+        margin-left: 1em;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      details.respec-tests-details > * {
+        padding-right: 2em;
+      }
+
+      details.respec-tests-details[open] {
+        z-index: 999999;
+        position: absolute;
+        border: thin solid #cad3e2;
+        border-radius: 0.3em;
+        background-color: white;
+        padding-bottom: 0.5em;
+      }
+
+      details.respec-tests-details[open] > summary {
+        border-bottom: thin solid #cad3e2;
+        padding-left: 1em;
+        margin-bottom: 1em;
+        line-height: 2em;
+      }
+
+      details.respec-tests-details > ul {
+        width: 100%;
+        margin-top: -0.3em;
+      }
+
+      details.respec-tests-details > li {
+        padding-left: 1em;
+      }
+
+      a[href].self-link:hover {
+        opacity: 1;
+        text-decoration: none;
+        background-color: transparent;
+      }
+
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        position: relative;
+      }
+
+      aside.example .marker > a.self-link {
+        color: inherit;
+      }
+
+      h2 > a.self-link,
+      h3 > a.self-link,
+      h4 > a.self-link,
+      h5 > a.self-link,
+      h6 > a.self-link {
+        border: none;
+        color: inherit;
+        font-size: 83%;
+        height: 2em;
+        left: -1.6em;
+        opacity: 0.5;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        top: 0;
+        transition: opacity 0.2s;
+        width: 2em;
+      }
+
+      h2 > a.self-link::before,
+      h3 > a.self-link::before,
+      h4 > a.self-link::before,
+      h5 > a.self-link::before,
+      h6 > a.self-link::before {
+        content: "§";
+        display: block;
+      }
+
+      @media (max-width: 767px) {
+        dd {
+          margin-left: 0;
+        }
+
+        /* Don't position self-link in headings off-screen */
+        h2 > a.self-link,
+        h3 > a.self-link,
+        h4 > a.self-link,
+        h5 > a.self-link,
+        h6 > a.self-link {
+          left: auto;
+          top: auto;
+        }
+      }
+
+      @media print {
+        .removeOnSave {
+          display: none;
+        }
+      }
+    </style>
+    <meta name="description" content="Dies ist die Dokumentation der Fehler in der deutschen Übersetzung der Web Content Accessibility Guidelines (WCAG) 2.1">
+    <link rel="canonical" href="https://www.w3.org/TR/WCAG21-nl-errata/">
+    <style>
+      var {
+        position: relative;
+        cursor: pointer;
+      }
+
+      var[data-type]::before,
+      var[data-type]::after {
+        position: absolute;
+        left: 50%;
+        top: -6px;
+        opacity: 0;
+        transition: opacity 0.4s;
+        pointer-events: none;
+      }
+
+      /* the triangle or arrow or caret or whatever */
+      var[data-type]::before {
+        content: "";
+        transform: translateX(-50%);
+        border-width: 4px 6px 0 6px;
+        border-style: solid;
+        border-color: transparent;
+        border-top-color: #000;
+      }
+
+      /* actual text */
+      var[data-type]::after {
+        content: attr(data-type);
+        transform: translateX(-50%) translateY(-100%);
+        background: #000;
+        text-align: center;
+        /* additional styling */
+        font-family: "Dank Mono", "Fira Code", monospace;
+        font-style: normal;
+        padding: 6px;
+        border-radius: 3px;
+        color: #daca88;
+        text-indent: 0;
+        font-weight: normal;
+      }
+
+      var[data-type]:hover::after,
+      var[data-type]:hover::before {
+        opacity: 1;
+      }
+    </style>
+    <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css">
+  </head>
+
+  <body class="h-entry informative toc-inline">
+
+    <div class="head">
+      <a class="logo" href="https://www.w3.org/"><img alt="W3C" width="72" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C"></a>
+      <h1 id="title" class="title p-name">
+        Errata zur deutschen Übersetzung der WCAG 2.0
+      </h1>
+
+      <h2>
+        W3C-Dokument
+        <time class="dt-published" datetime="2021-04-26" title="26. April 2021">26. April 2021</time>
+      </h2>
+      <dl>
+        <dt>Redakteure:</dt>
+        <dd class="p-author h-card vcard">
+          <a class="ed_mailto u-email email p-name" href="mailto:eric@outline.rocks">Eric Eggert</a>
+          (outline GbR)
+        </dd>
+      </dl>
+
+      <p class="copyright">
+        <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+        © 2021
+
+        <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup>(<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
+        <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
+        <a href="https://ev.buaa.edu.cn/">Beihang</a>).
+
+        Die Regelungen des <abbr title="World Wide Web Consortium">W3C</abbr> zur
+        <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer" hreflang="en">Haftung</a>, zu <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks" hreflang="en">Markenzeichen</a> und zur <a rel="license" href="https://www.w3.org/Consortium/Legal/copyright-documents" hreflang="en">Verwendung von Dokumenten</a> finden Anwendung.</p>
+      <hr title="Separator for header">
+    </div>
+
+    <section id="abstract" class="introductory">
+      <h2>Zusammenfassung</h2>
+      <p>
+        Dies ist die Dokumentation der Fehler in der deutschen Übersetzung der Web Content Accessibility Guidelines (WCAG) 2.1 nach Veröffentlichung.<br>
+      </p>
+    </section>
+
+    <nav id="toc">
+      <h2 class="introductory" id="inhaltsverzeichnis">Inhaltsverzeichnis</h2>
+      <ol class="toc">
+        <li class="tocline">
+          <a class="tocxref" href="#abstract">Zusammenfassung</a>
+        </li>
+        <li class="tocline">
+          <a class="tocxref" href="#substantiell"><bdi class="secno">1. </bdi>Substantielle Errata</a>
+        </li>
+        <li class="tocline">
+          <a class="tocxref" href="#redaktionell"><bdi class="secno">2. </bdi>Redaktionelle Errata</a>
+        </li>
+      </ol>
+    </nav>
+
+    <section id="substantiell">
+      <h2>Substantielle Errata</h2>
+      <p>Zurzeit sind keine substantiellen Fehler bekannt.</p>
+    </section>
+    <section id="redaktionell">
+      <h2>Redaktionelle Errata</h2>
+      <p>Zurzeit sind keine redaktionellen Fehler bekannt.</p>
+    </section>
+
+    <p role="navigation" id="back-to-top">
+      <a href="#title"><abbr title="Zurück nach oben">↑</abbr></a>
+    </p>
+    <script>
+      /******************************************************************************
+       * NB: THIS IS A MODIFICATION OF:                                             *
+       * JS Extension for the W3C Spec Style Sheet                                  *
+       *                                                                            *
+       * This code handles:                                                         *
+       * - some fixup to improve the table of contents                              *
+       * - the obsolete warning on outdated specs                                   *
+       *
+       * MODIFICATIONS:
+       * - Translated linkcontent to Dutch (nl-NL)
+       ******************************************************************************/
+      (function() {
+        'use strict';
+        var ESCAPEKEY = 27;
+        var collapseSidebarText =
+          '<span aria-hidden="true">←</span> ' + '<span>Seitenleiste einklappen</span>';
+        var expandSidebarText =
+          '<span aria-hidden="true">→</span> ' + '<span>Seitenleiste ausklappen</span>';
+        var tocJumpText =
+          '<span aria-hidden="true">↑</span> ' + '<span>Zum Inhaltsverzeichnis</span>';
+        var sidebarMedia = window.matchMedia('screen and (min-width: 78em)');
+        var autoToggle = function(e) {
+          toggleSidebar(e.matches);
+        };
+        if (sidebarMedia.addListener) {
+          sidebarMedia.addListener(autoToggle);
+        }
+
+        function toggleSidebar(on, skipScroll) {
+          if (on == undefined) {
+            on = !document.body.classList.contains('toc-sidebar');
+          }
+          if (!skipScroll) {
+            /* Don't scroll to compensate for the ToC if we're above it already. */
+            var headY = 0;
+            var head = document.querySelector('.head');
+            if (head) {
+              // terrible approx of "top of ToC"
+              headY += head.offsetTop + head.offsetHeight;
+            }
+            skipScroll = window.scrollY < headY;
+          }
+          var toggle = document.getElementById('toc-toggle');
+          var tocNav = document.getElementById('toc');
+          if (on) {
+            var tocHeight = tocNav.offsetHeight;
+            document.body.classList.add('toc-sidebar');
+            document.body.classList.remove('toc-inline');
+            toggle.innerHTML = collapseSidebarText;
+            if (!skipScroll) {
+              window.scrollBy(0, 0 - tocHeight);
+            }
+            tocNav.focus();
+            sidebarMedia.addListener(autoToggle); // auto-collapse when out of room
+          } else {
+            document.body.classList.add('toc-inline');
+            document.body.classList.remove('toc-sidebar');
+            toggle.innerHTML = expandSidebarText;
+            if (!skipScroll) {
+              window.scrollBy(0, tocNav.offsetHeight);
+            }
+            if (toggle.matches(':hover')) {
+              /* Unfocus button when not using keyboard navigation,
+                 because I don't know where else to send the focus. */
+              toggle.blur();
+            }
+          }
+        }
+
+        function createSidebarToggle() {
+          /* Create the sidebar toggle in JS; it shouldn't exist when JS is off. */
+          var toggle = document.createElement('a');
+          /* This should probably be a button, but appearance isn't standards-track. */
+          toggle.id = 'toc-toggle';
+          toggle.class = 'toc-toggle';
+          toggle.href = '#toc';
+          toggle.innerHTML = collapseSidebarText;
+          sidebarMedia.addListener(autoToggle);
+          var toggler = function(e) {
+            e.preventDefault();
+            sidebarMedia.removeListener(autoToggle); // persist explicit off states
+            toggleSidebar();
+            return false;
+          };
+          toggle.addEventListener('click', toggler, false);
+          /* Get <nav id=toc-nav>, or make it if we don't have one. */
+          var tocNav = document.getElementById('toc-nav');
+          if (!tocNav) {
+            tocNav = document.createElement('p');
+            tocNav.id = 'toc-nav';
+            /* Prepend for better keyboard navigation */
+            document.body.insertBefore(tocNav, document.body.firstChild);
+          }
+          /* While we're at it, make sure we have a Jump to Toc link. */
+          var tocJump = document.getElementById('toc-jump');
+          if (!tocJump) {
+            tocJump = document.createElement('a');
+            tocJump.id = 'toc-jump';
+            tocJump.href = '#toc';
+            tocJump.innerHTML = tocJumpText;
+            tocNav.appendChild(tocJump);
+          }
+          tocNav.appendChild(toggle);
+        }
+        var toc = document.getElementById('toc');
+        if (toc) {
+          if (!document.getElementById('toc-toggle')) {
+            createSidebarToggle();
+          }
+          toggleSidebar(sidebarMedia.matches, true);
+          /* If the sidebar has been manually opened and is currently overlaying the text
+             (window too small for the MQ to add the margin to body),
+             then auto-close the sidebar once you click on something in there. */
+          toc.addEventListener(
+            'click',
+            function(e) {
+              if (
+                document.body.classList.contains('toc-sidebar') &&
+                !sidebarMedia.matches
+              ) {
+                var el = e.target;
+                while (el != toc) {
+                  // find closest <a>
+                  if (el.tagName.toLowerCase() == 'a') {
+                    toggleSidebar(false);
+                    return;
+                  }
+                  el = el.parentElement;
+                }
+              }
+            },
+            false
+          );
+        } else {
+          console.warn(
+            'Can\'t find Table of Contents. Please use <nav id=\'toc\'> around the ToC.'
+          );
+        }
+        /* Wrap tables in case they overflow */
+        var tables = document.querySelectorAll(
+          ':not(.overlarge) > table.data, :not(.overlarge) > table.index'
+        );
+        var numTables = tables.length;
+        for (var i = 0; i < numTables; i++) {
+          var table = tables[i];
+          if (
+            !table.matches('.example *, .note *, .advisement *, .def *, .issue *')
+          ) {
+            /* Overflowing colored boxes looks terrible, and also
+               the kinds of tables inside these boxes
+               are less likely to need extra space. */
+            var wrapper = document.createElement('div');
+            wrapper.className = 'overlarge';
+            table.parentNode.insertBefore(wrapper, table);
+            wrapper.appendChild(table);
+          }
+        }
+      })();
+    </script>
+  </body>
+
+</html>
