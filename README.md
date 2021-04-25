@@ -12,8 +12,10 @@ https://outline-rocks.github.io/wcag/guidelines/index-flat.html
 
 Newest first:
 
-* [Draft CAT-WCAG21-DE-2021-04-XX](###) (To Be Completed)
+* [Latest Version](https://outline-rocks.github.io/wcag/translations/WCAG21-de/)
+
+* [Draft AT-WCAG21-DE-20210426](https://outline-rocks.github.io/wcag/translations/DAT-WCAG21-DE-20210426/) (To Be Completed)
 
 ## Errata
 
-(TBD)
+* [Errata](https://outline-rocks.github.io/wcag/translations/WCAG21-de/errata/) (Will only be updated after the Authorized Translation is published.)
