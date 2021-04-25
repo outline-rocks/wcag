@@ -2496,9 +2496,7 @@
       <name>statusmeldung</name>
       <name>statusmeldungen</name>
       <definition>
-
          <p xmlns="http://www.w3.org/1999/xhtml">Änderung des Inhalts, die keine <a>Änderung des Kontexts</a> ist und die dem Benutzer Informationen über den Erfolg oder die Ergebnisse einer Aktion, über den Wartezustand einer Anwendung, über den Fortschritt eines Prozesses oder über das Vorhandensein von Fehlern liefert</p>
-
       </definition>
    </term>
    <term>
@@ -2508,17 +2506,11 @@
       <definition>
 
          <p xmlns="http://www.w3.org/1999/xhtml">Eigenschaft, deren Wert die Darstellung (z. B. Schriftart, Farbe, Größe, Position, Innenabstand, Lautstärke, synthetisierte Sprachprosodie) von Inhaltselementen bestimmt, während sie von Benutzeragenten wiedergegeben werden (z. B. auf dem Bildschirm, über Lautsprecher, über Braillezeile)</p>
-
          <p xmlns="http://www.w3.org/1999/xhtml">Stileigenschaften können verschiedene Ursprünge haben:</p>
-
          <ul xmlns="http://www.w3.org/1999/xhtml">
-
             <li>Standardstile des Benutzeragenten: Die standardmäßigen Stileigenschaftswerte, die in Abwesenheit von Autoren- oder Benutzerstilen angewendet werden. Einige Webinhaltstechnologien geben eine standardmäßige Darstellung vor, andere nicht;</li>
-
             <li>Autorenstile: Stileigenschaftswerte, die vom Autor als Teil des Inhalts festgelegt werden (z. B. Inline-Stile, Autorenstilvorlagen);</li>
-
             <li>Benutzerstile: Stileigenschaftswerte, die vom Benutzer eingestellt werden (z. B. über die Einstellungen der Schnittstelle des Benutzeragenten, Benutzer-Stylesheets)</li>
-
          </ul>
 
       </definition>
@@ -2554,9 +2546,9 @@
       <name>tastaturbefehl</name>
       <name>keyboard shortcuts</name>
       <definition>
-   					
+
          <p xmlns="http://www.w3.org/1999/xhtml">alternatives Mittel zum Auslösen einer Aktion durch Drücken einer oder mehrerer Tasten</p>
-   				
+
       </definition>
    </term>
    <term>
@@ -2776,8 +2768,8 @@
       <id>dfn-ziel</id>
       <name>ziel</name>
       <definition>
-   					
-         <p xmlns="http://www.w3.org/1999/xhtml">Bereich des Bildschirms, der eine Zeigeraktion akzeptiert, wie z. B. der interaktive Bereich eines Bestandteils der Benutzerschnittstelle</p> 
+
+         <p xmlns="http://www.w3.org/1999/xhtml">Bereich des Bildschirms, der eine Zeigeraktion akzeptiert, wie z. B. der interaktive Bereich eines Bestandteils der Benutzerschnittstelle</p>
          <p xmlns="http://www.w3.org/1999/xhtml" class="note">Wenn zwei oder mehr Berührungsziele überlappen, sollte der überlappende Bereich nicht in die Messung der Größe des Ziels einbezogen werden, außer wenn die überlappenden Ziele dieselbe Aktion ausführen oder dieselbe Seite öffnen.</p>
 
       </definition>
@@ -2787,10 +2779,8 @@
       <name>zustand</name>
       <name>zuständen</name>
       <definition>
-
          <p xmlns="http://www.w3.org/1999/xhtml">dynamisches Merkmal, das Eigenschaften eines Bestandteils der Benutzerschnittstelle ausdrückt, die sich als Reaktion auf Benutzeraktionen oder automatisierte Prozesse ändern können</p>
-	        <p xmlns="http://www.w3.org/1999/xhtml">Zustände beeinflussen nicht die Beschaffenheit des Bestandteils, sondern repräsentieren Daten in Verbindung mit den Möglichkeiten des Bestandteils oder der Interaktionen des Benutzers. Zum Beispiel Tastaturfokus, Überfahren mit einem Zeiger, auswählen, drücken, anhaken, besucht/unbesucht und ausklappen/zuklappen.</p>
-
+         <p xmlns="http://www.w3.org/1999/xhtml">Zustände beeinflussen nicht die Beschaffenheit des Bestandteils, sondern repräsentieren Daten in Verbindung mit den Möglichkeiten des Bestandteils oder der Interaktionen des Benutzers. Zum Beispiel Tastaturfokus, Überfahren mit einem Zeiger, auswählen, drücken, anhaken, besucht/unbesucht und ausklappen/zuklappen.</p>
       </definition>
    </term>
 </guidelines>
