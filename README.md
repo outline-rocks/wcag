@@ -12,7 +12,9 @@ https://outline-rocks.github.io/wcag/guidelines/index-flat.html  (This link will
 
 Newest first:
 
-* [Latest Version](https://outline-rocks.github.io/wcag/translations/WCAG21-de/) (This link will change to reflect the latest document below.)
+* **[Latest Version](https://outline-rocks.github.io/wcag/translations/WCAG21-de/)** (This link will change to reflect the latest document below.)
+
+* [Draft AT-WCAG21-DE-20210616](https://outline-rocks.github.io/wcag/translations/DAT-WCAG21-DE-20210616/) (This document will not change.)
 
 * [Draft AT-WCAG21-DE-20210426](https://outline-rocks.github.io/wcag/translations/DAT-WCAG21-DE-20210426/) (This document will not change.)
 
